@@ -1,0 +1,52 @@
+name: Auto publish trending posts
+
+on:
+  workflow_dispatch:
+    inputs:
+      posts_per_run:
+        description: "How many posts to publish now"
+        required: false
+        default: "2"
+  schedule:
+    - cron: "15 8 * * *"
+      timezone: "Asia/Colombo"
+    - cron: "15 18 * * *"
+      timezone: "Asia/Colombo"
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Generate posts
+        run: node scripts/generate-posts.mjs
+        env:
+          POSTS_PER_RUN: ${{ github.event.inputs.posts_per_run || '2' }}
+          BLOG_REGION: US
+          BLOG_LANGUAGE: en-US
+          BLOG_NAME: TrendPulse Daily
+          SITE_URL: ${{ vars.SITE_URL }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL }}
+
+      - name: Commit new posts
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git config user.name "trend-blog-bot"
+            git config user.email "actions@github.com"
+            git add data/posts.json data/topics.json rss.xml sitemap.xml
+            git commit -m "Publish automated trending posts"
+            git push
+          else
+            echo "No new posts to publish."
+          fi
