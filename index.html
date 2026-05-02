@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A self-updating blog that turns current internet trends into sourced daily posts.">
+  <title>TrendPulse Daily</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="hero">
+    <nav class="topbar" aria-label="Primary">
+      <a class="brand" href="./">TrendPulse Daily</a>
+      <div class="nav-actions">
+        <a href="rss.xml">RSS</a>
+        <a href="#archive">Archive</a>
+      </div>
+    </nav>
+    <div class="hero-grid">
+      <section class="hero-copy">
+        <p class="eyebrow">Automated trend briefings</p>
+        <h1>Fresh posts from what people are searching today.</h1>
+        <p class="lede">Built to publish one or many posts per day from current internet trend feeds, with source links and a clean reading experience.</p>
+        <form class="searchbar" role="search">
+          <input id="searchInput" type="search" placeholder="Search posts, topics, sources" aria-label="Search posts">
+          <button type="submit">Search</button>
+        </form>
+      </section>
+      <aside class="signal-panel" aria-label="Site signals">
+        <div>
+          <span id="postCount">0</span>
+          <small>published posts</small>
+        </div>
+        <div>
+          <span id="latestDate">Waiting</span>
+          <small>latest update</small>
+        </div>
+        <div>
+          <span>2x</span>
+          <small>daily automation</small>
+        </div>
+      </aside>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-head" aria-labelledby="featuredTitle">
+      <div>
+        <p class="eyebrow">Latest</p>
+        <h2 id="featuredTitle">Today in motion</h2>
+      </div>
+      <div id="topicFilters" class="filters" aria-label="Topic filters"></div>
+    </section>
+
+    <section id="featuredPost" class="featured"></section>
+
+    <section id="archive" class="post-grid" aria-label="Post archive"></section>
+
+    <p id="emptyState" class="empty" hidden>No posts match this search yet.</p>
+  </main>
+
+  <footer class="footer">
+    <p>Automated posts are generated from public trend and news RSS feeds. Always verify fast-moving stories from the linked sources.</p>
+  </footer>
+
+  <template id="postCardTemplate">
+    <article class="post-card">
+      <a class="card-link" href="#">
+        <span class="category"></span>
+        <h3></h3>
+        <p></p>
+        <time></time>
+      </a>
+    </article>
+  </template>
+
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>
