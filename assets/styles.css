@@ -75,15 +75,12 @@ p {
   text-decoration: none;
 }
 
-.brand-mark {
-  width: 44px;
-  height: 44px;
-  display: grid;
-  place-items: center;
-  border: 1px solid rgba(255, 255, 255, 0.28);
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.12);
-  font-weight: 900;
+.brand-logo {
+  width: 48px;
+  height: 48px;
+  flex: 0 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.26);
 }
 
 .brand strong,
@@ -486,15 +483,26 @@ h2 {
   color: rgba(255, 255, 255, 0.72);
 }
 
-.footer div {
+.footer > div {
   width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
   padding: 34px 0 42px;
 }
 
+.footer-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0 0 12px;
+}
+
+.footer-brand img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
 .footer strong {
-  display: block;
-  margin-bottom: 8px;
   color: #fff;
 }
 

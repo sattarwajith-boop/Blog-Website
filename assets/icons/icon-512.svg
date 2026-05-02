@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="54" y1="48" x2="458" y2="464" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="0.6" stop-color="#12323d"/>
+      <stop offset="1" stop-color="#101820"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#f7f8f5"/>
+  <rect x="48" y="48" width="416" height="416" rx="96" fill="url(#bg)"/>
+  <path d="M112 325c55 0 59-110 109-110 49 0 45 70 88 70 42 0 49-91 101-91" fill="none" stroke="#f2c14e" stroke-width="32" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="256" y="286" text-anchor="middle" font-family="Arial, sans-serif" font-size="154" font-weight="900" fill="#fff">TP</text>
+</svg>
