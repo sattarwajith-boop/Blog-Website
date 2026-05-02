@@ -198,7 +198,7 @@ async function generateWithOpenAI(trend, sources) {
               image: {
                 url: "use the supplied image.url exactly",
                 alt: "descriptive alt text using the trend title",
-                credit: "Unsplash"
+                credit: "use the supplied image.credit exactly"
               },
               content: [
                 "10 to 14 paragraphs totaling 900 to 1200 words",
@@ -264,7 +264,7 @@ async function backfillExistingPosts() {
       ...post,
       title: post.title || headlineFor(trend.title),
       excerpt: post.excerpt && post.excerpt.length > 100 ? post.excerpt : professionalExcerpt(trend),
-      image: normalizeImage(post.image, trend),
+      image: imageForPost(trend),
       content: !force && Array.isArray(post.content) && wordCount(post.content) >= 750 ? post.content : fallbackContent(trend, post.sources || []),
       generatedBy: post.generatedBy || "template"
     };
@@ -296,21 +296,23 @@ function imageForPost(trend) {
   const library = imageLibrary();
   const image = library.find((item) => item.match.test(topic)) || library.find((item) => item.category === category) || library.find((item) => item.category === "Trends");
 
+  const isRemote = /^https?:\/\//i.test(image.url);
+
   return {
-    url: `${image.url}?auto=format&fit=crop&w=1400&q=82`,
+    url: isRemote ? `${image.url}?auto=format&fit=crop&w=1400&q=82` : image.url,
     alt: `${titleCase(trend.title || "Trending topic")} related editorial image`,
-    credit: "Unsplash"
+    credit: image.credit || "AI-generated"
   };
 }
 
 function imageLibrary() {
   return [
-    { category: "Sports", match: /(cricket|csk|mi|nba|nfl|ufc|fight|soccer|league|match|game|makhachev)/, url: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211" },
-    { category: "Technology", match: /(ai|tech|iphone|google|microsoft|software|cyber|app)/, url: "https://images.unsplash.com/photo-1518770660439-4636190af475" },
-    { category: "Business", match: /(stock|market|business|bank|crypto|bitcoin|earnings|inflation)/, url: "https://images.unsplash.com/photo-1460925895917-afdab827c52f" },
-    { category: "Culture", match: /(movie|music|album|tv|trailer|festival|celebrity|review|sheep)/, url: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba" },
-    { category: "News", match: /(election|court|president|minister|policy|senate|socialism|law)/, url: "https://images.unsplash.com/photo-1504711434969-e33886168f5c" },
-    { category: "Trends", match: /(trend|search|viral|internet|news)/, url: "https://images.unsplash.com/photo-1495020689067-958852a7765e" }
+    { category: "Sports", match: /(cricket|csk|mi|nba|nfl|ufc|fight|soccer|league|match|game|makhachev|bayern|psg|lorient|munich)/, url: "assets/generated/ai-sports-arena.png", credit: "AI-generated" },
+    { category: "Technology", match: /(ai|tech|iphone|google|microsoft|software|cyber|app)/, url: "assets/generated/ai-trending-editorial.png", credit: "AI-generated" },
+    { category: "Business", match: /(stock|market|business|bank|crypto|bitcoin|earnings|inflation)/, url: "assets/generated/ai-trending-editorial.png", credit: "AI-generated" },
+    { category: "Culture", match: /(movie|music|album|tv|trailer|festival|celebrity|review|sheep|book|novel|detective)/, url: "assets/generated/ai-culture-books.png", credit: "AI-generated" },
+    { category: "News", match: /(election|court|president|minister|policy|senate|socialism|law|politics)/, url: "assets/generated/ai-civic-analysis.png", credit: "AI-generated" },
+    { category: "Trends", match: /(trend|search|viral|internet|news)/, url: "assets/generated/ai-trending-editorial.png", credit: "AI-generated" }
   ];
 }
 
@@ -330,7 +332,7 @@ function titleCase(value) {
     .trim()
     .split(" ")
     .map((word, index) => {
-      if (["csk", "mi", "ufc", "ipl", "nba", "nfl", "mlb"].includes(word.toLowerCase())) return word.toUpperCase();
+      if (["csk", "mi", "ufc", "ipl", "nba", "nfl", "mlb", "psg"].includes(word.toLowerCase())) return word.toUpperCase();
       if (index > 0 && smallWords.has(word.toLowerCase())) return word.toLowerCase();
       return word.charAt(0).toUpperCase() + word.slice(1);
     })
