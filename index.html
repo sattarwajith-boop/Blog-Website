@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="TrendPulse Daily is an automated editorial desk publishing source-linked briefings from current search and news momentum.">
+  <meta property="og:title" content="TrendPulse Daily">
+  <meta property="og:description" content="Premium automated trend briefings with source links, RSS, and daily publishing.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1200&q=80">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>TrendPulse Daily | Automated Trend Briefings</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Newsreader:opsz,wght@6..72,500;6..72,650;6..72,750&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Blog",
+      "name": "TrendPulse Daily",
+      "description": "Automated trend briefings from current search and news momentum.",
+      "url": "."
+    }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="topbar" aria-label="Primary">
+      <a class="brand" href="./">
+        <span class="brand-mark">TP</span>
+        <span>
+          <strong>TrendPulse</strong>
+          <small>Daily intelligence</small>
+        </span>
+      </a>
+      <div class="nav-actions">
+        <a href="#archive">Archive</a>
+        <a href="rss.xml">RSS</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <section class="hero-copy">
+        <p class="eyebrow">Autonomous trend desk</p>
+        <h1>Briefings from the internet's fastest moving conversations.</h1>
+        <p class="lede">A premium automated publication that turns live search demand and current news sources into concise, source-linked daily posts.</p>
+        <form class="searchbar" role="search">
+          <label class="sr-only" for="searchInput">Search posts, topics, and sources</label>
+          <input id="searchInput" type="search" placeholder="Search posts, topics, sources">
+          <button type="submit">Search</button>
+        </form>
+      </section>
+
+      <aside class="hero-card" aria-label="Publication status">
+        <p class="card-label">Live desk status</p>
+        <div>
+          <span id="postCount">0</span>
+          <small>posts published</small>
+        </div>
+        <div>
+          <span id="latestDate">Waiting</span>
+          <small>latest dispatch</small>
+        </div>
+        <div>
+          <span id="sourceCount">0</span>
+          <small>source links tracked</small>
+        </div>
+      </aside>
+    </section>
+  </header>
+
+  <main>
+    <section class="ticker" aria-label="Latest trend signal">
+      <span>Latest signal</span>
+      <p id="latestHeadline">Loading trend desk...</p>
+    </section>
+
+    <section class="section-head" aria-labelledby="featuredTitle">
+      <div>
+        <p class="eyebrow">Latest</p>
+        <h2 id="featuredTitle">Lead briefing</h2>
+      </div>
+      <div id="topicFilters" class="filters" aria-label="Topic filters"></div>
+    </section>
+
+    <section id="featuredPost" class="featured"></section>
+    <section id="archive" class="post-grid" aria-label="Post archive"></section>
+    <p id="emptyState" class="empty" hidden>No posts match this search yet.</p>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>TrendPulse Daily</strong>
+      <p>Automated posts are generated from public trend and news RSS feeds. Verify fast-moving stories from the linked sources before acting on them.</p>
+    </div>
+  </footer>
+
+  <template id="postCardTemplate">
+    <article class="post-card">
+      <a class="card-link" href="#">
+        <span class="category"></span>
+        <h3></h3>
+        <p></p>
+        <div class="card-meta">
+          <time></time>
+          <span class="reading-time"></span>
+        </div>
+      </a>
+    </article>
+  </template>
+
+  <script type="module" src="assets/app.js"></script>
+</body>
+</html>
