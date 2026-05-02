@@ -26,6 +26,11 @@ main().catch((error) => {
 });
 
 async function main() {
+  if (globalThis.process?.argv?.includes("--backfill")) {
+    await backfillExistingPosts();
+    return;
+  }
+
   const [posts, usedTopics] = await Promise.all([
     readJson(paths.posts, []),
     readJson(paths.topics, [])
@@ -134,7 +139,8 @@ async function buildPost(trend, sources) {
     title: headlineFor(trend.title),
     trend: trend.title,
     category: trend.category,
-    excerpt: `A quick, sourced look at why "${trend.title}" is moving through today's search and news cycle.`,
+    excerpt: professionalExcerpt(trend),
+    image: imageForPost(trend),
     content: fallbackContent(trend, sources),
     sources: sources.length ? sources : [{ title: "Google Trends topic feed", url: trend.sourceUrl }],
     publishedAt: now,
@@ -149,7 +155,8 @@ async function buildPost(trend, sources) {
       ...base,
       title: aiPost.title || base.title,
       excerpt: aiPost.excerpt || base.excerpt,
-      content: Array.isArray(aiPost.content) && aiPost.content.length ? aiPost.content.slice(0, 5) : base.content
+      image: normalizeImage(aiPost.image, trend),
+      content: Array.isArray(aiPost.content) && aiPost.content.length ? aiPost.content.slice(0, 18) : base.content
     };
   } catch (error) {
     console.warn(`OpenAI generation failed for ${trend.title}: ${error.message}`);
@@ -158,6 +165,12 @@ async function buildPost(trend, sources) {
 }
 
 async function generateWithOpenAI(trend, sources) {
+  const providedSources = sources.map((source) => ({
+    title: source.title,
+    publishedAt: source.publishedAt || null,
+    url: source.url
+  }));
+
   const response = await fetch("https://api.openai.com/v1/responses", {
     method: "POST",
     headers: {
@@ -169,18 +182,33 @@ async function generateWithOpenAI(trend, sources) {
       input: [
         {
           role: "system",
-          content: "Write concise, neutral blog briefs from provided trend and source titles. Do not invent facts. Return strict JSON only."
+          content: "Write professional long-form trend analysis from only the provided trend data and source headlines. Do not invent events, quotes, scores, dates, statistics, or claims beyond the provided inputs. If evidence is limited, say what readers should verify. Return strict JSON only."
         },
         {
           role: "user",
           content: JSON.stringify({
             trend: trend.title,
             category: trend.category,
-            sourceTitles: sources.map((source) => source.title),
+            approxTraffic: trend.traffic || null,
+            sourceItems: providedSources,
+            image: imageForPost(trend),
             requiredShape: {
-              title: "string under 72 chars",
-              excerpt: "string under 180 chars",
-              content: ["3 to 5 short paragraphs, no unsupported claims"]
+              title: "string under 78 chars",
+              excerpt: "specific summary under 220 chars",
+              image: {
+                url: "use the supplied image.url exactly",
+                alt: "descriptive alt text using the trend title",
+                credit: "Unsplash"
+              },
+              content: [
+                "10 to 14 paragraphs totaling 900 to 1200 words",
+                "Start with a direct context paragraph",
+                "Explain why the topic is trending based on source headlines and search interest",
+                "Summarize key developments cautiously",
+                "Include a section-like paragraph starting with 'Why it matters:'",
+                "Include a section-like paragraph starting with 'What to watch next:'",
+                "Close by reminding readers to verify fast-moving details from the linked sources"
+              ]
             }
           })
         }
@@ -199,15 +227,114 @@ async function generateWithOpenAI(trend, sources) {
 }
 
 function fallbackContent(trend, sources) {
-  const sourceNames = sources.slice(0, 3).map((source) => source.title);
-  const sourceLine = sourceNames.length ? `Recent source headlines include: ${sourceNames.join("; ")}.` : "The topic is moving in trend feeds, but related source headlines were limited at generation time.";
+  const cleanTitle = titleCase(trend.title);
+  const category = trend.category || classifyTopic(trend.title);
+  const sourceNames = sources.slice(0, 6).map((source) => source.title);
+  const topSources = sourceNames.length ? sourceNames.join("; ") : "related source coverage was limited at generation time";
+  const trafficLine = trend.traffic ? `Google Trends reported search interest around ${trend.traffic}, which suggests the topic is attracting enough attention to deserve a fuller briefing.` : "The topic appeared in public trend data, which suggests a measurable spike in attention even when exact search volume is not available.";
 
   return [
-    `${trend.title} is appearing in today's trend data${trend.traffic ? ` with reported search interest around ${trend.traffic}` : ""}. This post keeps the framing tight because fast-moving topics can change within hours.`,
-    sourceLine,
-    "The useful angle for readers is to watch what changes next: official confirmations, primary-source updates, market reaction, fan or consumer behavior, and whether the search spike continues after the first wave of attention.",
-    "This automated brief is a starting point, not a final verdict. Open the sources before making decisions or sharing claims from a developing story."
+    `${cleanTitle} is moving through today's trend cycle, and the signal is strong enough to merit more than a quick headline scan. ${trafficLine} This briefing is written as a source-aware overview: it uses the visible trend title, related headlines, and timing clues as the evidence base, while avoiding claims that are not supported by the linked material.`,
+    `The first thing to understand is that trending attention rarely comes from one simple cause. A spike can be driven by breaking news, fan conversation, schedule timing, public disagreement, market reaction, or a wave of social sharing. For ${cleanTitle}, the available source headlines point to a developing conversation in the ${category.toLowerCase()} lane rather than a settled story. That means readers should treat this as a live briefing and use the source links for confirmation before repeating any precise details.`,
+    `Recent source headlines include: ${topSources}. These headlines are useful because they show what publishers and search users are currently connecting to the topic. They do not, by themselves, prove every claim in the broader conversation. The safest reading is that the topic has enough momentum to pull together several strands of coverage, and those strands are what make the subject worth watching today.`,
+    `Context: ${cleanTitle} is best understood as a snapshot of attention at a specific moment. Search interest often rises when people want a quick answer: what happened, why it matters, where to watch, who is involved, what changed, or whether a rumor is true. A professional reader should separate the existence of interest from the accuracy of every surrounding claim. The trend tells us people are asking; the source links help answer which parts of the story are grounded.`,
+    `Why it is trending: The topic appears to be gaining traction because multiple headlines are clustering around it within a short window. That clustering is important. When several outlets or feeds mention the same subject, search demand often follows as readers try to compare versions, check timing, or understand the practical impact. In an automated briefing, this is the difference between a random phrase and a topic with enough evidence to deserve editorial treatment.`,
+    `Key developments: The most useful details are the ones that appear consistently across the available source titles. If a source headline mentions an announcement, matchup, review, warning, market signal, or public reaction, that should be read as a clue for further verification. The article intentionally does not add unsupported specifics, because fast-moving trend posts can become misleading when they fill gaps with assumptions. Instead, it identifies the reliable shape of the conversation and points readers to the linked coverage.`,
+    `Audience impact: For casual readers, the immediate value is orientation. They can quickly see why the term is appearing, what kind of sources are discussing it, and whether the story belongs to sport, culture, business, politics, technology, or general news. For creators, analysts, and site owners, the value is different: this topic may represent a short-lived opportunity for timely commentary, comparison pieces, explainer posts, or social updates that answer the questions people are already searching.`,
+    `Reader takeaway: The practical way to use this briefing is to move from awareness to verification. Start with the headline cluster, note which details appear more than once, and then open the strongest source links before forming a conclusion. That workflow keeps the article useful without pretending that an automated trend scan can replace fresh reporting, official records, or expert analysis.`,
+    `Why it matters: A trend like ${cleanTitle} matters because attention is a limited resource. When search demand gathers around a subject, it often reveals a public information gap. People are not only looking for the headline; they are looking for context, reliability, and next steps. A well-built automated blog should therefore do more than repeat the trend name. It should slow the topic down, show the evidence, and make clear where uncertainty remains.`,
+    `Source confidence: This post uses the related source list as its guardrail. When the source list is broad and recent, the article can speak more confidently about the shape of the discussion. When the list is thin, mixed, or oddly matched, the article should be more cautious. That is why this briefing uses careful language such as "appears," "suggests," and "worth watching." Those words are not weakness; they are part of responsible automated publishing.`,
+    `What to watch next: Look for primary-source updates, official statements, schedule changes, score or market movement, published reviews, direct quotes, or follow-up reporting that confirms the early signal. If the topic continues to appear across fresh sources, it may deserve a deeper follow-up article. If the spike fades quickly or sources contradict each other, the safest move is to treat this as a short attention wave rather than a durable story.`,
+    `Editorial note: This article is generated to provide a professional starting point, not a final verdict. The linked sources should be opened before making decisions, sharing claims, or using the topic in high-stakes contexts. That verification step is especially important for live sports, finance, politics, health, legal issues, celebrity news, and any story where early headlines can change within minutes.`,
+    `Bottom line: ${cleanTitle} is currently worth watching because it has active search momentum and related source coverage. The strongest use of this briefing is to understand the topic's direction, identify what needs verification, and follow the linked sources for the newest confirmed details.`
   ];
+}
+
+async function backfillExistingPosts() {
+  const posts = await readJson(paths.posts, []);
+  const force = globalThis.process?.argv?.includes("--force");
+  const upgraded = posts.map((post) => {
+    const trend = {
+      title: post.trend || post.title,
+      category: post.category && post.category !== "Trends" ? post.category : classifyTopic(post.trend || post.title),
+      traffic: extractTraffic(post.content || [])
+    };
+
+    return {
+      ...post,
+      title: post.title || headlineFor(trend.title),
+      excerpt: post.excerpt && post.excerpt.length > 100 ? post.excerpt : professionalExcerpt(trend),
+      image: normalizeImage(post.image, trend),
+      content: !force && Array.isArray(post.content) && wordCount(post.content) >= 750 ? post.content : fallbackContent(trend, post.sources || []),
+      generatedBy: post.generatedBy || "template"
+    };
+  });
+
+  await writeFile(paths.posts, `${JSON.stringify(upgraded, null, 2)}\n`, "utf8");
+  await writeFile(paths.rss, buildRss(upgraded), "utf8");
+  await writeFile(paths.sitemap, buildSitemap(upgraded), "utf8");
+  console.log(`Backfilled ${upgraded.length} post(s).`);
+}
+
+function professionalExcerpt(trend) {
+  return `A source-linked briefing on why ${trend.title} is gaining attention, what the available headlines suggest, and what readers should verify next.`;
+}
+
+function normalizeImage(image, trend) {
+  const fallback = imageForPost(trend);
+  if (!image || typeof image !== "object") return fallback;
+  return {
+    url: typeof image.url === "string" && image.url ? image.url : fallback.url,
+    alt: typeof image.alt === "string" && image.alt ? image.alt : fallback.alt,
+    credit: typeof image.credit === "string" && image.credit ? image.credit : fallback.credit
+  };
+}
+
+function imageForPost(trend) {
+  const topic = String(trend.title || "").toLowerCase();
+  const category = trend.category || classifyTopic(trend.title || "");
+  const library = imageLibrary();
+  const image = library.find((item) => item.match.test(topic)) || library.find((item) => item.category === category) || library.find((item) => item.category === "Trends");
+
+  return {
+    url: `${image.url}?auto=format&fit=crop&w=1400&q=82`,
+    alt: `${titleCase(trend.title || "Trending topic")} related editorial image`,
+    credit: "Unsplash"
+  };
+}
+
+function imageLibrary() {
+  return [
+    { category: "Sports", match: /(cricket|csk|mi|nba|nfl|ufc|fight|soccer|league|match|game|makhachev)/, url: "https://images.unsplash.com/photo-1461896836934-ffe607ba8211" },
+    { category: "Technology", match: /(ai|tech|iphone|google|microsoft|software|cyber|app)/, url: "https://images.unsplash.com/photo-1518770660439-4636190af475" },
+    { category: "Business", match: /(stock|market|business|bank|crypto|bitcoin|earnings|inflation)/, url: "https://images.unsplash.com/photo-1460925895917-afdab827c52f" },
+    { category: "Culture", match: /(movie|music|album|tv|trailer|festival|celebrity|review|sheep)/, url: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba" },
+    { category: "News", match: /(election|court|president|minister|policy|senate|socialism|law)/, url: "https://images.unsplash.com/photo-1504711434969-e33886168f5c" },
+    { category: "Trends", match: /(trend|search|viral|internet|news)/, url: "https://images.unsplash.com/photo-1495020689067-958852a7765e" }
+  ];
+}
+
+function extractTraffic(content) {
+  const joined = Array.isArray(content) ? content.join(" ") : "";
+  return joined.match(/around\s+([0-9,+]+)/i)?.[1] || "";
+}
+
+function wordCount(content) {
+  return (Array.isArray(content) ? content.join(" ") : String(content || "")).trim().split(/\s+/).filter(Boolean).length;
+}
+
+function titleCase(value) {
+  const smallWords = new Set(["vs", "and", "or", "the", "of", "in", "on", "for", "to"]);
+  return String(value || "")
+    .replace(/\s+/g, " ")
+    .trim()
+    .split(" ")
+    .map((word, index) => {
+      if (["csk", "mi", "ufc", "ipl", "nba", "nfl", "mlb"].includes(word.toLowerCase())) return word.toUpperCase();
+      if (index > 0 && smallWords.has(word.toLowerCase())) return word.toLowerCase();
+      return word.charAt(0).toUpperCase() + word.slice(1);
+    })
+    .join(" ");
 }
 
 async function fetchText(url) {
@@ -283,7 +410,7 @@ function classifyTopic(topic) {
   const text = topic.toLowerCase();
   if (/(ai|tech|iphone|google|microsoft|tesla|nvidia|app|software|cyber)/.test(text)) return "Technology";
   if (/(stock|market|fed|inflation|crypto|bitcoin|earnings|bank)/.test(text)) return "Business";
-  if (/(nba|nfl|mlb|soccer|cricket|ufc|game|cup|league)/.test(text)) return "Sports";
+  if (/(nba|nfl|mlb|soccer|cricket|ufc|game|cup|league|ipl|csk|makhachev)/.test(text)) return "Sports";
   if (/(movie|music|album|tv|netflix|celebrity|trailer|festival)/.test(text)) return "Culture";
   if (/(election|court|president|minister|law|policy|senate)/.test(text)) return "News";
   return "Trends";

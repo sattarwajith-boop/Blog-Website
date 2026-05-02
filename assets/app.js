@@ -75,6 +75,12 @@ function renderFeatured(post) {
   article.className = "feature-article";
   article.innerHTML = `
     <div class="post-body">
+      ${post.image?.url ? `
+        <figure class="feature-image">
+          <img src="${escapeAttribute(post.image.url)}" alt="${escapeAttribute(post.image.alt || `${post.title} image`)}" loading="eager">
+          <figcaption>${escapeHtml(post.image.credit || "Editorial image")}</figcaption>
+        </figure>
+      ` : ""}
       <p class="category">${escapeHtml(post.category || "Trend")}</p>
       <h2>${escapeHtml(post.title)}</h2>
       <div class="feature-meta">
@@ -98,6 +104,14 @@ function renderFeatured(post) {
 
 function createCard(post) {
   const node = template.content.firstElementChild.cloneNode(true);
+  if (post.image?.url) {
+    const image = document.createElement("img");
+    image.className = "card-image";
+    image.src = post.image.url;
+    image.alt = post.image.alt || `${post.title} image`;
+    image.loading = "lazy";
+    node.querySelector(".card-link").prepend(image);
+  }
   node.querySelector(".category").textContent = post.category || "Trend";
   node.querySelector("h3").textContent = post.title;
   node.querySelector("p").textContent = post.excerpt || "";
