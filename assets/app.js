@@ -28,6 +28,8 @@ async function init() {
   posts.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   document.querySelector("#postCount").textContent = posts.length;
   document.querySelector("#latestDate").textContent = posts[0] ? formatter.format(new Date(posts[0].publishedAt)) : "Waiting";
+  document.querySelector("#sourceCount").textContent = posts.reduce((total, post) => total + (post.sources?.length || 0), 0);
+  document.querySelector("#latestHeadline").textContent = posts[0] ? posts[0].title : "The trend desk is waiting for its first automated dispatch.";
 
   renderFilters();
   render();
@@ -75,11 +77,17 @@ function renderFeatured(post) {
     <div class="post-body">
       <p class="category">${escapeHtml(post.category || "Trend")}</p>
       <h2>${escapeHtml(post.title)}</h2>
+      <div class="feature-meta">
+        <time datetime="${escapeAttribute(post.publishedAt)}">${formatter.format(new Date(post.publishedAt))}</time>
+        <span>${readingTime(post)} read</span>
+        <span>${(post.sources || []).length} sources</span>
+      </div>
       <p>${escapeHtml(post.excerpt || "")}</p>
       ${(post.content || []).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
     </div>
-    <aside>
+    <aside class="source-panel">
       <p class="category">Sources</p>
+      <p>Primary links gathered by the automation for quick verification.</p>
       <ul class="source-list">
         ${(post.sources || []).slice(0, 5).map((source) => `<li><a href="${escapeAttribute(source.url)}" target="_blank" rel="noopener">${escapeHtml(source.title)}</a></li>`).join("")}
       </ul>
@@ -95,6 +103,7 @@ function createCard(post) {
   node.querySelector("p").textContent = post.excerpt || "";
   node.querySelector("time").dateTime = post.publishedAt;
   node.querySelector("time").textContent = formatter.format(new Date(post.publishedAt));
+  node.querySelector(".reading-time").textContent = readingTime(post);
   node.querySelector("a").href = `#${post.slug}`;
   node.querySelector("a").addEventListener("click", (event) => {
     event.preventDefault();
@@ -116,6 +125,11 @@ function escapeHtml(value) {
 
 function escapeAttribute(value) {
   return escapeHtml(value).replace(/`/g, "&#96;");
+}
+
+function readingTime(post) {
+  const words = [post.title, post.excerpt, ...(post.content || [])].join(" ").trim().split(/\s+/).filter(Boolean).length;
+  return `${Math.max(1, Math.ceil(words / 190))} min`;
 }
 
 document.querySelector(".searchbar").addEventListener("submit", (event) => {
