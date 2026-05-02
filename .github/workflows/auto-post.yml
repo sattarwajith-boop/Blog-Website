@@ -1,6 +1,9 @@
 name: Auto publish trending posts
 
 on:
+  push:
+    paths:
+      - ".github/workflows/auto-post.yml"
   workflow_dispatch:
     inputs:
       posts_per_run:
@@ -8,10 +11,9 @@ on:
         required: false
         default: "2"
   schedule:
-    - cron: "15 8 * * *"
-      timezone: "Asia/Colombo"
-    - cron: "15 18 * * *"
-      timezone: "Asia/Colombo"
+    # 8:15 AM and 6:15 PM Asia/Colombo, expressed in UTC.
+    - cron: "45 2 * * *"
+    - cron: "45 12 * * *"
 
 permissions:
   contents: write
