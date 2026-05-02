@@ -1,5 +1,6 @@
 name: Auto publish trending posts
 
+# This push trigger lets the first workflow setup be activated by a small workflow-file update.
 on:
   push:
     paths:
