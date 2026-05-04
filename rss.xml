@@ -5,6 +5,20 @@
     <link>.</link>
     <description>Automated trending-topic briefings with source links.</description>
     <item>
+      <title>nbc: what to watch today</title>
+      <link>./#nbc</link>
+      <guid>91ed4416be39951c</guid>
+      <pubDate>Mon, 04 May 2026 05:51:33 GMT</pubDate>
+      <description>A source-linked briefing on why nbc is gaining attention, what the available headlines suggest, and what readers should verify next.</description>
+    </item>
+    <item>
+      <title>suvendu adhikari: what to watch today</title>
+      <link>./#suvendu-adhikari</link>
+      <guid>647d4a07d0da4396</guid>
+      <pubDate>Mon, 04 May 2026 05:51:34 GMT</pubDate>
+      <description>A source-linked briefing on why suvendu adhikari is gaining attention, what the available headlines suggest, and what readers should verify next.</description>
+    </item>
+    <item>
       <title>sinner: what to watch today</title>
       <link>./#sinner</link>
       <guid>32e83478f80a0831</guid>
