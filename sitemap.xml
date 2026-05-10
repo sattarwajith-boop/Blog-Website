@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>./</loc></url>
+  <url><loc>./#images</loc></url>
+  <url><loc>./#edward-r-murrow</loc></url>
   <url><loc>./#ufc-post-fight-press-conference</loc></url>
   <url><loc>./#apac</loc></url>
   <url><loc>./#ufc-card-tonight</loc></url>
