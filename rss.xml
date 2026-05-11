@@ -5,6 +5,20 @@
     <link>.</link>
     <description>Automated trending-topic briefings with source links.</description>
     <item>
+      <title>daniil medvedev: what to watch today</title>
+      <link>./#daniil-medvedev</link>
+      <guid>b2ffc190b31433dc</guid>
+      <pubDate>Mon, 11 May 2026 15:46:50 GMT</pubDate>
+      <description>A source-linked briefing on why daniil medvedev is gaining attention, what the available headlines suggest, and what readers should verify next.</description>
+    </item>
+    <item>
+      <title>ameer abdullah: what to watch today</title>
+      <link>./#ameer-abdullah</link>
+      <guid>836709d6c70a402f</guid>
+      <pubDate>Mon, 11 May 2026 15:46:50 GMT</pubDate>
+      <description>A source-linked briefing on why ameer abdullah is gaining attention, what the available headlines suggest, and what readers should verify next.</description>
+    </item>
+    <item>
       <title>dram stock: what to watch today</title>
       <link>./#dram-stock</link>
       <guid>5c2dfc0a6c131a8b</guid>
@@ -269,20 +283,6 @@
       <guid>40d41875aa590dd5</guid>
       <pubDate>Sat, 02 May 2026 14:14:23 GMT</pubDate>
       <description>A source-linked briefing on why csk vs mi is gaining attention, what the available headlines suggest, and what readers should verify next.</description>
-    </item>
-    <item>
-      <title>the sheep detectives: what to watch today</title>
-      <link>./#the-sheep-detectives</link>
-      <guid>e1ed54bc1be07af3</guid>
-      <pubDate>Sat, 02 May 2026 13:16:52 GMT</pubDate>
-      <description>A source-linked briefing on why the sheep detectives is gaining attention, what the available headlines suggest, and what readers should verify next.</description>
-    </item>
-    <item>
-      <title>socialism: what to watch today</title>
-      <link>./#socialism</link>
-      <guid>ab856371dc76f4b4</guid>
-      <pubDate>Sat, 02 May 2026 13:16:52 GMT</pubDate>
-      <description>A source-linked briefing on why socialism is gaining attention, what the available headlines suggest, and what readers should verify next.</description>
     </item>
   </channel>
 </rss>
