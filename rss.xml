@@ -5,6 +5,20 @@
     <link>.</link>
     <description>Automated trending-topic briefings with source links.</description>
     <item>
+      <title>alek thomas: what to watch today</title>
+      <link>./#alek-thomas</link>
+      <guid>05be1c37a2814f56</guid>
+      <pubDate>Tue, 12 May 2026 15:31:38 GMT</pubDate>
+      <description>A source-linked briefing on why alek thomas is gaining attention, what the available headlines suggest, and what readers should verify next.</description>
+    </item>
+    <item>
+      <title>madison keys: what to watch today</title>
+      <link>./#madison-keys</link>
+      <guid>064fcd324197da04</guid>
+      <pubDate>Tue, 12 May 2026 15:31:38 GMT</pubDate>
+      <description>A source-linked briefing on why madison keys is gaining attention, what the available headlines suggest, and what readers should verify next.</description>
+    </item>
+    <item>
       <title>nba playoffs bracket: what to watch today</title>
       <link>./#nba-playoffs-bracket</link>
       <guid>4710908248eb1a32</guid>
@@ -269,20 +283,6 @@
       <guid>4cbb2f3736aff1d3</guid>
       <pubDate>Sun, 03 May 2026 05:46:14 GMT</pubDate>
       <description>A source-linked briefing on why wsl is gaining attention, what the available headlines suggest, and what readers should verify next.</description>
-    </item>
-    <item>
-      <title>bayern munich: what to watch today</title>
-      <link>./#bayern-munich</link>
-      <guid>58d103da49ab0ba9</guid>
-      <pubDate>Sat, 02 May 2026 14:25:47 GMT</pubDate>
-      <description>A source-linked briefing on why bayern munich is gaining attention, what the available headlines suggest, and what readers should verify next.</description>
-    </item>
-    <item>
-      <title>psg vs lorient: what to watch today</title>
-      <link>./#psg-vs-lorient</link>
-      <guid>c36e74b817343bc9</guid>
-      <pubDate>Sat, 02 May 2026 14:25:47 GMT</pubDate>
-      <description>A source-linked briefing on why psg vs lorient is gaining attention, what the available headlines suggest, and what readers should verify next.</description>
     </item>
   </channel>
 </rss>
