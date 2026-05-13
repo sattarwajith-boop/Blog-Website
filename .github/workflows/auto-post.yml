@@ -47,7 +47,7 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             git config user.name "trend-blog-bot"
             git config user.email "actions@github.com"
-            git add data/posts.json data/topics.json rss.xml sitemap.xml
+            git add data/posts.json data/index.json data/posts/ data/topics.json posts/ rss.xml sitemap.xml
             git commit -m "Publish automated trending posts"
             git push
           else

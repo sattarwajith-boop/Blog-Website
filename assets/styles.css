@@ -23,8 +23,12 @@ html {
 body {
   margin: 0;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
   color: var(--ink);
   background: var(--paper);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 a {
@@ -145,8 +149,8 @@ h1 {
   max-width: 930px;
   margin: 0;
   font-family: Newsreader, Georgia, serif;
-  font-size: clamp(2.7rem, 5.8rem, 6.25rem);
-  line-height: 0.94;
+  font-size: clamp(2.25rem, 7vw, 6.25rem);
+  line-height: 1;
   letter-spacing: 0;
 }
 
@@ -339,6 +343,7 @@ h2 {
   aspect-ratio: 16 / 9;
   display: block;
   object-fit: cover;
+  transition: transform 220ms ease, opacity 220ms ease;
 }
 
 .feature-image figcaption {
@@ -393,6 +398,32 @@ h2 {
   line-height: 1.4;
 }
 
+.source-list a::after {
+  content: " ->";
+  color: var(--gold);
+}
+
+.read-more-link,
+.load-more {
+  min-height: 46px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--accent-ink);
+  border-radius: 8px;
+  padding: 0 18px;
+  color: #fff;
+  background: var(--accent-ink);
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.results-summary {
+  margin: 0 0 18px;
+  color: var(--muted);
+  font-weight: 800;
+}
+
 .post-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -413,6 +444,10 @@ h2 {
   box-shadow: var(--shadow);
 }
 
+.post-card:hover .card-image {
+  transform: scale(1.035);
+}
+
 .card-link {
   min-height: 260px;
   padding: 0;
@@ -428,6 +463,7 @@ h2 {
   border-radius: 8px 8px 0 0;
   object-fit: cover;
   background: #d8e0e2;
+  transition: transform 220ms ease;
 }
 
 .post-card .category,
@@ -489,6 +525,89 @@ h2 {
   padding: 34px 0 42px;
 }
 
+.load-more {
+  margin: 28px auto 0;
+  cursor: pointer;
+}
+
+.load-more:not([hidden]) {
+  display: flex;
+}
+
+.skeleton-card {
+  padding: 24px;
+}
+
+.skeleton-card span,
+.skeleton-card strong,
+.skeleton-card p {
+  display: block;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #eef3f3 0%, #dfe8e8 48%, #eef3f3 100%);
+  background-size: 220% 100%;
+  animation: skeletonPulse 1.35s ease-in-out infinite;
+}
+
+.skeleton-card span {
+  width: 36%;
+  height: 14px;
+}
+
+.skeleton-card strong {
+  width: 82%;
+  height: 34px;
+  margin-top: 24px;
+}
+
+.skeleton-card p {
+  width: 100%;
+  height: 84px;
+  margin-top: 22px;
+}
+
+.post-header {
+  color: #fff;
+  background:
+    linear-gradient(90deg, rgba(7, 18, 28, 0.94) 0%, rgba(7, 18, 28, 0.78) 100%),
+    url("generated/ai-trending-editorial.png") center/cover;
+}
+
+.post-hero {
+  width: min(1040px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 72px 0 84px;
+}
+
+.post-main {
+  padding-top: 44px;
+}
+
+.post-detail {
+  margin-bottom: 54px;
+}
+
+.related-posts {
+  margin-top: 52px;
+}
+
+.reading-progress {
+  position: fixed;
+  z-index: 30;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--gold);
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+@keyframes skeletonPulse {
+  to {
+    background-position: -220% 0;
+  }
+}
+
 .footer-brand {
   display: inline-flex;
   align-items: center;
@@ -519,6 +638,12 @@ h2 {
 
   .post-card {
     transition: none;
+  }
+
+  .skeleton-card span,
+  .skeleton-card strong,
+  .skeleton-card p {
+    animation: none;
   }
 }
 
@@ -602,5 +727,10 @@ h2 {
 
   .card-meta {
     flex-direction: column;
+  }
+
+  h1 {
+    font-size: clamp(2.15rem, 12vw, 3.55rem);
+    line-height: 1.02;
   }
 }

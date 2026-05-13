@@ -1,5 +1,5 @@
 import { createHash } from "node:crypto";
-import { readFile, writeFile } from "node:fs/promises";
+import { mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 
 const root = new URL("../", import.meta.url);
 const config = {
@@ -8,13 +8,16 @@ const config = {
   language: process.env.BLOG_LANGUAGE || "en-US",
   postsPerRun: clampNumber(process.env.POSTS_PER_RUN, 1, 10, 2),
   maxPosts: clampNumber(process.env.MAX_POSTS, 20, 500, 160),
-  siteUrl: trimSlash(process.env.SITE_URL || ""),
+  siteUrl: trimSlash(process.env.SITE_URL || "https://sattarwajith-boop.github.io/Blog-Website"),
   openAiKey: process.env.OPENAI_API_KEY || "",
   openAiModel: process.env.OPENAI_MODEL || "gpt-4.1-mini"
 };
 
 const paths = {
   posts: new URL("data/posts.json", root),
+  index: new URL("data/index.json", root),
+  postDataDir: new URL("data/posts/", root),
+  postPagesDir: new URL("posts/", root),
   topics: new URL("data/topics.json", root),
   rss: new URL("rss.xml", root),
   sitemap: new URL("sitemap.xml", root)
@@ -65,8 +68,7 @@ async function main() {
 
   await writeFile(paths.posts, `${JSON.stringify(nextPosts, null, 2)}\n`, "utf8");
   await writeFile(paths.topics, `${JSON.stringify(nextTopics, null, 2)}\n`, "utf8");
-  await writeFile(paths.rss, buildRss(nextPosts), "utf8");
-  await writeFile(paths.sitemap, buildSitemap(nextPosts), "utf8");
+  await writeDerivedSiteFiles(nextPosts);
 
   console.log(`Published ${generated.length} post(s):`);
   for (const post of generated) console.log(`- ${post.title}`);
@@ -262,7 +264,8 @@ async function backfillExistingPosts() {
 
     return {
       ...post,
-      title: post.title || headlineFor(trend.title),
+      title: shouldRefreshTitle(post, trend) ? headlineFor(trend.title) : post.title,
+      category: trend.category,
       excerpt: post.excerpt && post.excerpt.length > 100 ? post.excerpt : professionalExcerpt(trend),
       image: imageForPost(trend),
       content: !force && Array.isArray(post.content) && wordCount(post.content) >= 750 ? post.content : fallbackContent(trend, post.sources || []),
@@ -271,9 +274,56 @@ async function backfillExistingPosts() {
   });
 
   await writeFile(paths.posts, `${JSON.stringify(upgraded, null, 2)}\n`, "utf8");
-  await writeFile(paths.rss, buildRss(upgraded), "utf8");
-  await writeFile(paths.sitemap, buildSitemap(upgraded), "utf8");
+  await writeDerivedSiteFiles(upgraded);
   console.log(`Backfilled ${upgraded.length} post(s).`);
+}
+
+async function writeDerivedSiteFiles(posts) {
+  const sorted = [...posts].sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+  await mkdir(paths.postDataDir, { recursive: true });
+  await mkdir(paths.postPagesDir, { recursive: true });
+  await cleanGeneratedDirectory(paths.postDataDir, ".json");
+  await cleanGeneratedDirectory(paths.postPagesDir, ".html");
+
+  const metadata = sorted.map(postMetadata);
+  await writeFile(paths.index, `${JSON.stringify(metadata, null, 2)}\n`, "utf8");
+
+  for (const post of sorted) {
+    await writeFile(new URL(`${post.slug}.json`, paths.postDataDir), `${JSON.stringify(post, null, 2)}\n`, "utf8");
+    await writeFile(new URL(`${post.slug}.html`, paths.postPagesDir), buildPostPage(post, sorted), "utf8");
+  }
+
+  await writeFile(paths.rss, buildRss(sorted), "utf8");
+  await writeFile(paths.sitemap, buildSitemap(sorted), "utf8");
+}
+
+async function cleanGeneratedDirectory(directory, extension) {
+  let entries = [];
+  try {
+    entries = await readdir(directory, { withFileTypes: true });
+  } catch {
+    return;
+  }
+
+  await Promise.all(entries
+    .filter((entry) => entry.isFile() && entry.name.endsWith(extension))
+    .map((entry) => rm(new URL(entry.name, directory), { force: true })));
+}
+
+function postMetadata(post) {
+  return {
+    id: post.id,
+    slug: post.slug,
+    title: post.title,
+    trend: post.trend,
+    category: post.category,
+    excerpt: post.excerpt,
+    image: post.image,
+    sourceCount: (post.sources || []).length,
+    publishedAt: post.publishedAt,
+    url: postUrl(post),
+    readingTime: readingTime(post)
+  };
 }
 
 function professionalExcerpt(trend) {
@@ -405,16 +455,31 @@ function stripPublisher(title) {
 }
 
 function headlineFor(topic) {
-  return `${topic}: what to watch today`;
+  const clean = titleCase(topic);
+  const patterns = [
+    `${clean}: What to Watch Today`,
+    `Why ${clean} Is Trending Right Now`,
+    `${clean} Explained: Key Takeaways`,
+    `Breaking Down ${clean}`,
+    `${clean}: The Source-Linked Briefing`
+  ];
+  const index = createHash("sha256").update(slugify(topic)).digest()[0] % patterns.length;
+  return patterns[index];
+}
+
+function shouldRefreshTitle(post, trend) {
+  if (!post.title) return true;
+  const stale = String(post.title).toLowerCase() === `${String(trend.title).toLowerCase()}: what to watch today`;
+  return stale || post.title === post.title.toLowerCase();
 }
 
 function classifyTopic(topic) {
   const text = topic.toLowerCase();
   if (/(ai|tech|iphone|google|microsoft|tesla|nvidia|app|software|cyber)/.test(text)) return "Technology";
   if (/(stock|market|fed|inflation|crypto|bitcoin|earnings|bank)/.test(text)) return "Business";
-  if (/(nba|nfl|mlb|soccer|cricket|ufc|game|cup|league|ipl|csk|makhachev)/.test(text)) return "Sports";
-  if (/(movie|music|album|tv|netflix|celebrity|trailer|festival)/.test(text)) return "Culture";
-  if (/(election|court|president|minister|law|policy|senate)/.test(text)) return "News";
+  if (/(nba|nfl|mlb|soccer|cricket|ufc|game|cup|league|ipl|csk|makhachev|bayern|munich|psg|lorient)/.test(text)) return "Sports";
+  if (/(movie|music|album|tv|netflix|celebrity|trailer|festival|book|novel|detective|sheep)/.test(text)) return "Culture";
+  if (/(election|court|president|minister|law|policy|senate|socialism|politics)/.test(text)) return "News";
   return "Trends";
 }
 
@@ -454,7 +519,7 @@ function buildRss(posts) {
     <item>
       <title>${xmlEscape(post.title)}</title>
       <link>${xmlEscape(postUrl(post))}</link>
-      <guid>${xmlEscape(post.id)}</guid>
+      <guid>${xmlEscape(postUrl(post))}</guid>
       <pubDate>${new Date(post.publishedAt).toUTCString()}</pubDate>
       <description>${xmlEscape(post.excerpt)}</description>
     </item>`).join("");
@@ -463,7 +528,7 @@ function buildRss(posts) {
 <rss version="2.0">
   <channel>
     <title>${xmlEscape(config.blogName)}</title>
-    <link>${xmlEscape(config.siteUrl || ".")}</link>
+    <link>${xmlEscape(config.siteUrl)}</link>
     <description>Automated trending-topic briefings with source links.</description>${items}
   </channel>
 </rss>
@@ -472,18 +537,144 @@ function buildRss(posts) {
 
 function buildSitemap(posts) {
   const urls = [
-    `${config.siteUrl || "."}/`,
-    ...posts.slice(0, 80).map((post) => postUrl(post))
+    { loc: `${config.siteUrl}/`, lastmod: new Date().toISOString() },
+    ...posts.slice(0, 80).map((post) => ({ loc: postUrl(post), lastmod: post.publishedAt }))
   ];
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${urls.map((url) => `  <url><loc>${xmlEscape(url)}</loc></url>`).join("\n")}
+${urls.map((item) => `  <url><loc>${xmlEscape(item.loc)}</loc><lastmod>${xmlEscape(new Date(item.lastmod).toISOString().slice(0, 10))}</lastmod><changefreq>daily</changefreq></url>`).join("\n")}
 </urlset>
 `;
 }
 
 function postUrl(post) {
-  return config.siteUrl ? `${config.siteUrl}/#${post.slug}` : `./#${post.slug}`;
+  return `${config.siteUrl}/posts/${post.slug}.html`;
+}
+
+function buildPostPage(post, posts) {
+  const related = posts
+    .filter((item) => item.slug !== post.slug && item.category === post.category)
+    .slice(0, 3);
+  const description = post.excerpt || `${post.title} from ${config.blogName}.`;
+  const canonical = postUrl(post);
+  const imageUrl = absoluteAssetUrl(post.image?.url);
+  const published = new Date(post.publishedAt).toISOString();
+
+  return `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="${escapeAttribute(description)}">
+  <meta name="theme-color" content="#0f766e">
+  <link rel="canonical" href="${escapeAttribute(canonical)}">
+  <meta property="og:title" content="${escapeAttribute(post.title)}">
+  <meta property="og:description" content="${escapeAttribute(description)}">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="${escapeAttribute(canonical)}">
+  <meta property="og:image" content="${escapeAttribute(imageUrl)}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${escapeAttribute(post.title)}">
+  <meta name="twitter:description" content="${escapeAttribute(description)}">
+  <meta name="twitter:image" content="${escapeAttribute(imageUrl)}">
+  <title>${escapeHtml(post.title)} | ${escapeHtml(config.blogName)}</title>
+  <link rel="icon" href="../assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="../assets/icons/icon-192.svg">
+  <link rel="manifest" href="../site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Newsreader:opsz,wght@6..72,500;6..72,650;6..72,750&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <script type="application/ld+json">${JSON.stringify(articleSchema(post, canonical, imageUrl))}</script>
+</head>
+<body class="post-page">
+  <div class="reading-progress" aria-hidden="true"></div>
+  <header class="post-header">
+    <nav class="topbar" aria-label="Primary">
+      <a class="brand" href="../">
+        <img class="brand-logo" src="../assets/icons/site-logo.svg" alt="" width="48" height="48" aria-hidden="true">
+        <span><strong>TrendPulse</strong><small>Daily intelligence</small></span>
+      </a>
+      <div class="nav-actions">
+        <a href="../#archive">Archive</a>
+        <a href="../rss.xml">RSS</a>
+      </div>
+    </nav>
+    <section class="post-hero">
+      <p class="eyebrow">${escapeHtml(post.category || "Trend")}</p>
+      <h1>${escapeHtml(post.title)}</h1>
+      <p class="lede">${escapeHtml(description)}</p>
+      <div class="feature-meta">
+        <time datetime="${escapeAttribute(published)}">${escapeHtml(new Date(post.publishedAt).toUTCString())}</time>
+        <span>${escapeHtml(readingTime(post))} read</span>
+        <span>${(post.sources || []).length} sources</span>
+      </div>
+    </section>
+  </header>
+  <main class="post-main">
+    <article class="feature-article post-detail">
+      <div class="post-body">
+        ${post.image?.url ? `<figure class="feature-image"><img src="${escapeAttribute(pageAssetUrl(post.image.url))}" alt="${escapeAttribute(post.image.alt || `${post.title} image`)}" width="1400" height="788" fetchpriority="high"><figcaption>${escapeHtml(post.image.credit || "Editorial image")}</figcaption></figure>` : ""}
+        ${(post.content || []).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("\n        ")}
+      </div>
+      <aside class="source-panel">
+        <p class="category">Sources</p>
+        <p>Primary links gathered by the automation for quick verification.</p>
+        <ul class="source-list">
+          ${(post.sources || []).slice(0, 8).map((source) => `<li><a href="${escapeAttribute(source.url)}" target="_blank" rel="noopener">${escapeHtml(source.title)}</a></li>`).join("\n          ")}
+        </ul>
+      </aside>
+    </article>
+    ${related.length ? `<section class="related-posts" aria-labelledby="relatedTitle"><div class="section-head"><div><p class="eyebrow">Next reads</p><h2 id="relatedTitle">Related briefings</h2></div></div><div class="post-grid">${related.map(relatedCard).join("")}</div></section>` : ""}
+  </main>
+  <footer class="footer">
+    <div>
+      <p class="footer-brand"><img src="../assets/icons/site-logo.svg" alt="" width="40" height="40" aria-hidden="true"><strong>TrendPulse Daily</strong></p>
+      <p>Automated posts are generated from public trend and news RSS feeds. Verify fast-moving stories from the linked sources before acting on them.</p>
+    </div>
+  </footer>
+  <script src="../assets/post.js" defer></script>
+</body>
+</html>
+`;
+}
+
+function relatedCard(post) {
+  return `<article class="post-card"><a class="card-link" href="${escapeAttribute(`${post.slug}.html`)}">${post.image?.url ? `<img class="card-image" src="${escapeAttribute(pageAssetUrl(post.image.url))}" alt="${escapeAttribute(post.image.alt || `${post.title} image`)}" loading="lazy" width="640" height="400">` : ""}<span class="category">${escapeHtml(post.category || "Trend")}</span><h3>${escapeHtml(post.title)}</h3><p>${escapeHtml(post.excerpt || "")}</p><div class="card-meta"><time datetime="${escapeAttribute(post.publishedAt)}">${escapeHtml(new Date(post.publishedAt).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }))}</time><span>${escapeHtml(readingTime(post))}</span></div></a></article>`;
+}
+
+function articleSchema(post, canonical, imageUrl) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "NewsArticle",
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: new Date(post.publishedAt).toISOString(),
+    dateModified: new Date(post.publishedAt).toISOString(),
+    mainEntityOfPage: canonical,
+    image: imageUrl,
+    author: { "@type": "Organization", name: config.blogName },
+    publisher: {
+      "@type": "Organization",
+      name: config.blogName,
+      logo: { "@type": "ImageObject", url: `${config.siteUrl}/assets/icons/icon-512.svg` }
+    }
+  };
+}
+
+function pageAssetUrl(url) {
+  if (/^https?:\/\//i.test(url || "")) return url;
+  return `../${String(url || "").replace(/^\.?\//, "")}`;
+}
+
+function absoluteAssetUrl(url) {
+  if (/^https?:\/\//i.test(url || "")) return url;
+  return `${config.siteUrl}/${String(url || "").replace(/^\.?\//, "")}`;
+}
+
+function readingTime(post) {
+  const words = [post.title, post.excerpt, ...(post.content || [])].join(" ").trim().split(/\s+/).filter(Boolean).length;
+  return `${Math.max(1, Math.ceil(words / 190))} min`;
 }
 
 function xmlEscape(value) {
@@ -494,6 +685,20 @@ function xmlEscape(value) {
     "'": "&apos;",
     '"': "&quot;"
   }[char]));
+}
+
+function escapeHtml(value) {
+  return String(value || "").replace(/[&<>"']/g, (char) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;"
+  }[char]));
+}
+
+function escapeAttribute(value) {
+  return escapeHtml(value).replace(/`/g, "&#96;");
 }
 
 function trimSlash(value) {

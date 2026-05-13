@@ -3,11 +3,16 @@ const featuredPost = document.querySelector("#featuredPost");
 const topicFilters = document.querySelector("#topicFilters");
 const searchInput = document.querySelector("#searchInput");
 const emptyState = document.querySelector("#emptyState");
+const loadMoreButton = document.querySelector("#loadMore");
+const resultsSummary = document.querySelector("#resultsSummary");
 const template = document.querySelector("#postCardTemplate");
 
+const pageSize = 6;
 let posts = [];
 let activeTopic = "All";
 let query = "";
+let visibleCount = pageSize;
+let featuredSlug = "";
 
 const formatter = new Intl.DateTimeFormat(undefined, {
   year: "numeric",
@@ -18,8 +23,10 @@ const formatter = new Intl.DateTimeFormat(undefined, {
 });
 
 async function init() {
+  showSkeleton();
+
   try {
-    const response = await fetch("data/posts.json", { cache: "no-store" });
+    const response = await fetch("data/index.json", { cache: "no-store" });
     posts = response.ok ? await response.json() : [];
   } catch {
     posts = [];
@@ -28,11 +35,20 @@ async function init() {
   posts.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   document.querySelector("#postCount").textContent = posts.length;
   document.querySelector("#latestDate").textContent = posts[0] ? formatter.format(new Date(posts[0].publishedAt)) : "Waiting";
-  document.querySelector("#sourceCount").textContent = posts.reduce((total, post) => total + (post.sources?.length || 0), 0);
+  document.querySelector("#sourceCount").textContent = posts.reduce((total, post) => total + (post.sourceCount || 0), 0);
   document.querySelector("#latestHeadline").textContent = posts[0] ? posts[0].title : "The trend desk is waiting for its first automated dispatch.";
 
   renderFilters();
-  render();
+  await render();
+}
+
+function showSkeleton() {
+  postGrid.replaceChildren(...Array.from({ length: 6 }, () => {
+    const card = document.createElement("article");
+    card.className = "post-card skeleton-card";
+    card.innerHTML = "<span></span><strong></strong><p></p>";
+    return card;
+  }));
 }
 
 function renderFilters() {
@@ -44,32 +60,55 @@ function renderFilters() {
     button.type = "button";
     button.textContent = topic;
     button.setAttribute("aria-pressed", String(topic === activeTopic));
-    button.addEventListener("click", () => {
+    button.addEventListener("click", async () => {
       activeTopic = topic;
+      visibleCount = pageSize;
       renderFilters();
-      render();
+      await render();
     });
     topicFilters.append(button);
   }
 }
 
-function render() {
-  const filtered = posts.filter((post) => {
-    const matchesTopic = activeTopic === "All" || post.category === activeTopic;
-    const haystack = [post.title, post.excerpt, post.category, ...(post.sources || []).map((source) => source.title)].join(" ").toLowerCase();
-    return matchesTopic && haystack.includes(query.toLowerCase());
-  });
+async function render() {
+  const filtered = filteredPosts();
+  const lead = filtered[0];
+  const cards = filtered.slice(1, visibleCount + 1);
 
-  renderFeatured(filtered[0]);
-  postGrid.replaceChildren(...filtered.slice(1).map(createCard));
+  await renderFeatured(lead);
+  postGrid.replaceChildren(...cards.map(createCard));
   emptyState.hidden = filtered.length > 0;
+  loadMoreButton.hidden = filtered.length <= visibleCount + 1;
+  resultsSummary.textContent = resultText(filtered.length);
 }
 
-function renderFeatured(post) {
-  if (!post) {
+function filteredPosts() {
+  const needle = query.toLowerCase();
+  return posts.filter((post) => {
+    const matchesTopic = activeTopic === "All" || post.category === activeTopic;
+    const haystack = [post.title, post.excerpt, post.category, post.trend].join(" ").toLowerCase();
+    return matchesTopic && haystack.includes(needle);
+  });
+}
+
+function resultText(count) {
+  if (!query && activeTopic === "All") return `${count} latest briefings`;
+  const topic = activeTopic === "All" ? "all topics" : activeTopic;
+  return `${count} result${count === 1 ? "" : "s"} for ${query ? `"${query}"` : topic}`;
+}
+
+async function renderFeatured(meta) {
+  if (!meta) {
+    featuredSlug = "";
     featuredPost.replaceChildren();
     return;
   }
+
+  featuredSlug = meta.slug;
+  featuredPost.innerHTML = `<article class="feature-article loading-panel"><div class="post-body"><p class="category">Loading</p><h2>${escapeHtml(meta.title)}</h2><p>Opening the full briefing...</p></div></article>`;
+
+  const post = await fetchPost(meta.slug);
+  if (featuredSlug !== meta.slug) return;
 
   const article = document.createElement("article");
   article.className = "feature-article";
@@ -77,7 +116,7 @@ function renderFeatured(post) {
     <div class="post-body">
       ${post.image?.url ? `
         <figure class="feature-image">
-          <img src="${escapeAttribute(post.image.url)}" alt="${escapeAttribute(post.image.alt || `${post.title} image`)}" loading="eager">
+          <img src="${escapeAttribute(post.image.url)}" alt="${escapeAttribute(post.image.alt || `${post.title} image`)}" width="1400" height="788" loading="eager" fetchpriority="high">
           <figcaption>${escapeHtml(post.image.credit || "Editorial image")}</figcaption>
         </figure>
       ` : ""}
@@ -89,7 +128,8 @@ function renderFeatured(post) {
         <span>${(post.sources || []).length} sources</span>
       </div>
       <p>${escapeHtml(post.excerpt || "")}</p>
-      ${(post.content || []).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+      ${(post.content || []).slice(0, 3).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
+      <p><a class="read-more-link" href="posts/${escapeAttribute(post.slug)}.html">Read the full article</a></p>
     </div>
     <aside class="source-panel">
       <p class="category">Sources</p>
@@ -102,6 +142,16 @@ function renderFeatured(post) {
   featuredPost.replaceChildren(article);
 }
 
+async function fetchPost(slug) {
+  try {
+    const response = await fetch(`data/posts/${slug}.json`, { cache: "no-store" });
+    if (response.ok) return await response.json();
+  } catch {
+    // Fall back to metadata below.
+  }
+  return posts.find((post) => post.slug === slug) || {};
+}
+
 function createCard(post) {
   const node = template.content.firstElementChild.cloneNode(true);
   if (post.image?.url) {
@@ -110,6 +160,8 @@ function createCard(post) {
     image.src = post.image.url;
     image.alt = post.image.alt || `${post.title} image`;
     image.loading = "lazy";
+    image.width = 640;
+    image.height = 400;
     node.querySelector(".card-link").prepend(image);
   }
   node.querySelector(".category").textContent = post.category || "Trend";
@@ -117,13 +169,8 @@ function createCard(post) {
   node.querySelector("p").textContent = post.excerpt || "";
   node.querySelector("time").dateTime = post.publishedAt;
   node.querySelector("time").textContent = formatter.format(new Date(post.publishedAt));
-  node.querySelector(".reading-time").textContent = readingTime(post);
-  node.querySelector("a").href = `#${post.slug}`;
-  node.querySelector("a").addEventListener("click", (event) => {
-    event.preventDefault();
-    renderFeatured(post);
-    featuredPost.scrollIntoView({ behavior: "smooth", block: "start" });
-  });
+  node.querySelector(".reading-time").textContent = post.readingTime || "5 min";
+  node.querySelector("a").href = `posts/${post.slug}.html`;
   return node;
 }
 
@@ -146,15 +193,30 @@ function readingTime(post) {
   return `${Math.max(1, Math.ceil(words / 190))} min`;
 }
 
-document.querySelector(".searchbar").addEventListener("submit", (event) => {
+function debounce(fn, wait = 160) {
+  let timeout;
+  return (...args) => {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => fn(...args), wait);
+  };
+}
+
+document.querySelector(".searchbar").addEventListener("submit", async (event) => {
   event.preventDefault();
   query = searchInput.value.trim();
-  render();
+  visibleCount = pageSize;
+  await render();
 });
 
-searchInput.addEventListener("input", () => {
+searchInput.addEventListener("input", debounce(async () => {
   query = searchInput.value.trim();
-  render();
+  visibleCount = pageSize;
+  await render();
+}));
+
+loadMoreButton.addEventListener("click", async () => {
+  visibleCount += pageSize;
+  await render();
 });
 
 init();
