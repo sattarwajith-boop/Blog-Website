@@ -5,6 +5,20 @@
     <link>.</link>
     <description>Automated trending-topic briefings with source links.</description>
     <item>
+      <title>jg quintel: what to watch today</title>
+      <link>./#jg-quintel</link>
+      <guid>15484c65071d939f</guid>
+      <pubDate>Wed, 13 May 2026 06:04:34 GMT</pubDate>
+      <description>A source-linked briefing on why jg quintel is gaining attention, what the available headlines suggest, and what readers should verify next.</description>
+    </item>
+    <item>
+      <title>michael rapaport: what to watch today</title>
+      <link>./#michael-rapaport</link>
+      <guid>2beaffb5206552ba</guid>
+      <pubDate>Wed, 13 May 2026 06:04:35 GMT</pubDate>
+      <description>A source-linked briefing on why michael rapaport is gaining attention, what the available headlines suggest, and what readers should verify next.</description>
+    </item>
+    <item>
       <title>alek thomas: what to watch today</title>
       <link>./#alek-thomas</link>
       <guid>05be1c37a2814f56</guid>
@@ -269,20 +283,6 @@
       <guid>3cc971bea229e246</guid>
       <pubDate>Sun, 03 May 2026 13:57:31 GMT</pubDate>
       <description>A source-linked briefing on why ipl standings is gaining attention, what the available headlines suggest, and what readers should verify next.</description>
-    </item>
-    <item>
-      <title>floyd mayweather: what to watch today</title>
-      <link>./#floyd-mayweather</link>
-      <guid>ddd64245c2719f41</guid>
-      <pubDate>Sun, 03 May 2026 05:46:13 GMT</pubDate>
-      <description>A source-linked briefing on why floyd mayweather is gaining attention, what the available headlines suggest, and what readers should verify next.</description>
-    </item>
-    <item>
-      <title>wsl: what to watch today</title>
-      <link>./#wsl</link>
-      <guid>4cbb2f3736aff1d3</guid>
-      <pubDate>Sun, 03 May 2026 05:46:14 GMT</pubDate>
-      <description>A source-linked briefing on why wsl is gaining attention, what the available headlines suggest, and what readers should verify next.</description>
     </item>
   </channel>
 </rss>
