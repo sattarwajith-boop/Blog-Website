@@ -41,9 +41,9 @@
     "category": "Business",
     "excerpt": "A source-linked briefing on why ford stock is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
       "alt": "Ford Stock related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-13T15:33:45.301Z",
@@ -75,7 +75,7 @@
     "category": "Trends",
     "excerpt": "A source-linked briefing on why michael rapaport is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-sports-arena.png",
+      "url": "assets/generated/ai-trending-editorial.png",
       "alt": "Michael Rapaport related editorial image",
       "credit": "AI-generated"
     },
@@ -89,10 +89,10 @@
     "slug": "jg-quintel",
     "title": "Jg Quintel: What to Watch Today",
     "trend": "jg quintel",
-    "category": "Trends",
+    "category": "Culture",
     "excerpt": "A source-linked briefing on why jg quintel is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "assets/generated/ai-culture-books.png",
       "alt": "Jg Quintel related editorial image",
       "credit": "AI-generated"
     },
@@ -106,12 +106,12 @@
     "slug": "madison-keys",
     "title": "Breaking Down Madison Keys",
     "trend": "madison keys",
-    "category": "Trends",
+    "category": "Sports",
     "excerpt": "A source-linked briefing on why madison keys is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1400&q=82",
       "alt": "Madison Keys related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-12T15:31:38.383Z",
@@ -123,12 +123,12 @@
     "slug": "alek-thomas",
     "title": "Alek Thomas: What to Watch Today",
     "trend": "alek thomas",
-    "category": "Trends",
+    "category": "Sports",
     "excerpt": "A source-linked briefing on why alek thomas is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1508344928928-7165b67de128?auto=format&fit=crop&w=1400&q=82",
       "alt": "Alek Thomas related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-12T15:31:38.166Z",
@@ -140,12 +140,12 @@
     "slug": "warriors",
     "title": "Warriors: The Source-Linked Briefing",
     "trend": "warriors",
-    "category": "Trends",
+    "category": "Sports",
     "excerpt": "A source-linked briefing on why warriors is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1400&q=82",
       "alt": "Warriors related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-12T05:54:26.200Z",
@@ -160,9 +160,9 @@
     "category": "Sports",
     "excerpt": "A source-linked briefing on why nba playoffs bracket is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-sports-arena.png",
+      "url": "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1400&q=82",
       "alt": "NBA Playoffs Bracket related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-12T05:54:25.769Z",
@@ -174,12 +174,12 @@
     "slug": "ameer-abdullah",
     "title": "Why Ameer Abdullah Is Trending Right Now",
     "trend": "ameer abdullah",
-    "category": "Trends",
+    "category": "Sports",
     "excerpt": "A source-linked briefing on why ameer abdullah is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1566577739112-5180d4bf9390?auto=format&fit=crop&w=1400&q=82",
       "alt": "Ameer Abdullah related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-11T15:46:50.439Z",
@@ -191,12 +191,12 @@
     "slug": "daniil-medvedev",
     "title": "Daniil Medvedev: What to Watch Today",
     "trend": "daniil medvedev",
-    "category": "Trends",
+    "category": "Sports",
     "excerpt": "A source-linked briefing on why daniil medvedev is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1400&q=82",
       "alt": "Daniil Medvedev related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-11T15:46:50.243Z",
@@ -208,12 +208,12 @@
     "slug": "the-boys-season-5-episode-7",
     "title": "Breaking Down The Boys Season 5 Episode 7",
     "trend": "the boys season 5 episode 7",
-    "category": "Trends",
+    "category": "Culture",
     "excerpt": "A source-linked briefing on why the boys season 5 episode 7 is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
       "alt": "The Boys Season 5 Episode 7 related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-11T06:23:42.738Z",
@@ -228,9 +228,9 @@
     "category": "Business",
     "excerpt": "A source-linked briefing on why dram stock is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
       "alt": "Dram Stock related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 1,
     "publishedAt": "2026-05-11T06:23:42.545Z",
@@ -242,12 +242,12 @@
     "slug": "edward-r-murrow",
     "title": "Edward R Murrow: What to Watch Today",
     "trend": "edward r murrow",
-    "category": "Trends",
+    "category": "Business",
     "excerpt": "A source-linked briefing on why edward r murrow is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1400&q=82",
       "alt": "Edward R Murrow related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-10T14:04:37.855Z",
@@ -259,12 +259,12 @@
     "slug": "images",
     "title": "Breaking Down Images",
     "trend": "images",
-    "category": "Trends",
+    "category": "Technology",
     "excerpt": "A source-linked briefing on why images is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=82",
       "alt": "Images related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-10T14:04:37.623Z",
@@ -276,12 +276,12 @@
     "slug": "apac",
     "title": "Breaking Down Apac",
     "trend": "apac",
-    "category": "Trends",
+    "category": "Business",
     "excerpt": "A source-linked briefing on why apac is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1400&q=82",
       "alt": "Apac related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-10T05:51:58.972Z",
@@ -296,9 +296,9 @@
     "category": "Sports",
     "excerpt": "A source-linked briefing on why ufc post fight press conference is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-sports-arena.png",
+      "url": "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?auto=format&fit=crop&w=1400&q=82",
       "alt": "UFC Post Fight Press Conference related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 1,
     "publishedAt": "2026-05-10T05:51:58.555Z",
@@ -310,12 +310,12 @@
     "slug": "qinwen-zheng",
     "title": "Qinwen Zheng Explained: Key Takeaways",
     "trend": "qinwen zheng",
-    "category": "Trends",
+    "category": "Sports",
     "excerpt": "A source-linked briefing on why qinwen zheng is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1400&q=82",
       "alt": "Qinwen Zheng related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-09T14:03:03.929Z",
@@ -330,9 +330,9 @@
     "category": "Sports",
     "excerpt": "A source-linked briefing on why ufc card tonight is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-sports-arena.png",
+      "url": "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?auto=format&fit=crop&w=1400&q=82",
       "alt": "UFC Card Tonight related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 1,
     "publishedAt": "2026-05-09T14:03:03.753Z",
@@ -344,12 +344,12 @@
     "slug": "tanner-scott",
     "title": "Tanner Scott Explained: Key Takeaways",
     "trend": "tanner scott",
-    "category": "Trends",
+    "category": "Sports",
     "excerpt": "A source-linked briefing on why tanner scott is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1508344928928-7165b67de128?auto=format&fit=crop&w=1400&q=82",
       "alt": "Tanner Scott related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-09T05:36:41.566Z",
@@ -361,12 +361,12 @@
     "slug": "ben-affleck",
     "title": "Breaking Down Ben Affleck",
     "trend": "ben affleck",
-    "category": "Trends",
+    "category": "Culture",
     "excerpt": "A source-linked briefing on why ben affleck is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
       "alt": "Ben Affleck related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-09T05:36:41.299Z",
@@ -381,9 +381,9 @@
     "category": "Technology",
     "excerpt": "A source-linked briefing on why ryan seacrest appearance changes is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
       "alt": "Ryan Seacrest Appearance Changes related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 1,
     "publishedAt": "2026-05-08T14:25:30.233Z",
@@ -398,9 +398,9 @@
     "category": "Business",
     "excerpt": "A source-linked briefing on why mu stock is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
       "alt": "Mu Stock related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-08T14:25:30.024Z",
@@ -412,12 +412,12 @@
     "slug": "alexander-volkov",
     "title": "Alexander Volkov: What to Watch Today",
     "trend": "alexander volkov",
-    "category": "Trends",
+    "category": "Sports",
     "excerpt": "A source-linked briefing on why alexander volkov is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?auto=format&fit=crop&w=1400&q=82",
       "alt": "Alexander Volkov related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-08T05:18:12.065Z",
@@ -429,12 +429,12 @@
     "slug": "jennifer-meyer",
     "title": "Breaking Down Jennifer Meyer",
     "trend": "jennifer meyer",
-    "category": "Trends",
+    "category": "Culture",
     "excerpt": "A source-linked briefing on why jennifer meyer is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1400&q=82",
       "alt": "Jennifer Meyer related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-08T05:18:11.852Z",
@@ -446,12 +446,12 @@
     "slug": "jonathan-pollard",
     "title": "Jonathan Pollard: The Source-Linked Briefing",
     "trend": "jonathan pollard",
-    "category": "Trends",
+    "category": "News",
     "excerpt": "A source-linked briefing on why jonathan pollard is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1400&q=82",
       "alt": "Jonathan Pollard related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-07T15:17:03.844Z",
@@ -463,12 +463,12 @@
     "slug": "rory-mcilroy",
     "title": "Why Rory Mcilroy Is Trending Right Now",
     "trend": "rory mcilroy",
-    "category": "Trends",
+    "category": "Sports",
     "excerpt": "A source-linked briefing on why rory mcilroy is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1400&q=82",
       "alt": "Rory Mcilroy related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-07T15:17:03.518Z",
@@ -480,12 +480,12 @@
     "slug": "bruno-mars",
     "title": "Bruno Mars Explained: Key Takeaways",
     "trend": "bruno mars",
-    "category": "Trends",
+    "category": "Culture",
     "excerpt": "A source-linked briefing on why bruno mars is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1400&q=82",
       "alt": "Bruno Mars related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-07T05:48:54.923Z",
@@ -497,12 +497,12 @@
     "slug": "michael-gandolfini",
     "title": "Michael Gandolfini Explained: Key Takeaways",
     "trend": "michael gandolfini",
-    "category": "Trends",
+    "category": "Culture",
     "excerpt": "A source-linked briefing on why michael gandolfini is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-sports-arena.png",
+      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
       "alt": "Michael Gandolfini related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-07T05:48:54.612Z",
@@ -514,12 +514,12 @@
     "slug": "hayden-panettiere",
     "title": "Hayden Panettiere: The Source-Linked Briefing",
     "trend": "hayden panettiere",
-    "category": "Trends",
+    "category": "Culture",
     "excerpt": "A source-linked briefing on why hayden panettiere is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
       "alt": "Hayden Panettiere related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-06T15:14:23.905Z",
@@ -531,12 +531,12 @@
     "slug": "firehouse-subs",
     "title": "Firehouse Subs: The Source-Linked Briefing",
     "trend": "firehouse subs",
-    "category": "Trends",
+    "category": "Culture",
     "excerpt": "A source-linked briefing on why firehouse subs is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1400&q=82",
       "alt": "Firehouse Subs related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-06T15:14:23.710Z",
@@ -548,12 +548,12 @@
     "slug": "oregon-state-baseball",
     "title": "Breaking Down Oregon State Baseball",
     "trend": "oregon state baseball",
-    "category": "Trends",
+    "category": "Sports",
     "excerpt": "A source-linked briefing on why oregon state baseball is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1508344928928-7165b67de128?auto=format&fit=crop&w=1400&q=82",
       "alt": "Oregon State Baseball related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-06T05:45:11.801Z",
@@ -568,9 +568,9 @@
     "category": "Technology",
     "excerpt": "A source-linked briefing on why caro claire burke is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=82",
       "alt": "Caro Claire Burke related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 5,
     "publishedAt": "2026-05-06T05:45:11.533Z",
@@ -582,12 +582,12 @@
     "slug": "nasdaq-composite",
     "title": "Why Nasdaq Composite Is Trending Right Now",
     "trend": "nasdaq composite",
-    "category": "Trends",
+    "category": "Business",
     "excerpt": "A source-linked briefing on why nasdaq composite is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
       "alt": "Nasdaq Composite related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-05T14:34:21.396Z",
@@ -599,12 +599,12 @@
     "slug": "white-house-state-ballroom",
     "title": "White House State Ballroom: The Source-Linked Briefing",
     "trend": "white house state ballroom",
-    "category": "Trends",
+    "category": "News",
     "excerpt": "A source-linked briefing on why white house state ballroom is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1400&q=82",
       "alt": "White House State Ballroom related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 4,
     "publishedAt": "2026-05-05T14:34:20.850Z",
@@ -616,12 +616,12 @@
     "slug": "jaafar-jackson-met-gala-2026",
     "title": "Jaafar Jackson Met Gala 2026 Explained: Key Takeaways",
     "trend": "jaafar jackson met gala 2026",
-    "category": "Trends",
+    "category": "Culture",
     "excerpt": "A source-linked briefing on why jaafar jackson met gala 2026 is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
       "alt": "Jaafar Jackson Met Gala 2026 related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 4,
     "publishedAt": "2026-05-05T05:31:12.315Z",
@@ -633,12 +633,12 @@
     "slug": "rachel-zegler",
     "title": "Rachel Zegler: The Source-Linked Briefing",
     "trend": "rachel zegler",
-    "category": "Trends",
+    "category": "Culture",
     "excerpt": "A source-linked briefing on why rachel zegler is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
       "alt": "Rachel Zegler related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-05T05:31:12.088Z",
@@ -650,12 +650,12 @@
     "slug": "chelsea-vs-nottm-forest",
     "title": "Chelsea vs Nottm Forest: The Source-Linked Briefing",
     "trend": "chelsea vs nottm forest",
-    "category": "Trends",
+    "category": "Sports",
     "excerpt": "A source-linked briefing on why chelsea vs nottm forest is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1400&q=82",
       "alt": "Chelsea vs Nottm Forest related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-04T14:55:32.232Z",
@@ -670,9 +670,9 @@
     "category": "Business",
     "excerpt": "A source-linked briefing on why smci stock is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
       "alt": "Smci Stock related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-04T14:55:32.012Z",
@@ -684,12 +684,12 @@
     "slug": "suvendu-adhikari",
     "title": "Why Suvendu Adhikari Is Trending Right Now",
     "trend": "suvendu adhikari",
-    "category": "Trends",
+    "category": "News",
     "excerpt": "A source-linked briefing on why suvendu adhikari is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1400&q=82",
       "alt": "Suvendu Adhikari related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-04T05:51:34.334Z",
@@ -701,12 +701,12 @@
     "slug": "nbc",
     "title": "Nbc: What to Watch Today",
     "trend": "nbc",
-    "category": "Trends",
+    "category": "Culture",
     "excerpt": "A source-linked briefing on why nbc is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
       "alt": "Nbc related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-04T05:51:33.879Z",
@@ -721,9 +721,9 @@
     "category": "Sports",
     "excerpt": "A source-linked briefing on why ipl standings is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-sports-arena.png",
+      "url": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=1400&q=82",
       "alt": "IPL Standings related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 5,
     "publishedAt": "2026-05-03T13:57:31.971Z",
@@ -735,12 +735,12 @@
     "slug": "sinner",
     "title": "Sinner: The Source-Linked Briefing",
     "trend": "sinner",
-    "category": "Trends",
+    "category": "Sports",
     "excerpt": "A source-linked briefing on why sinner is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1400&q=82",
       "alt": "Sinner related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-03T13:57:31.726Z",
@@ -752,12 +752,12 @@
     "slug": "wsl",
     "title": "Why Wsl Is Trending Right Now",
     "trend": "wsl",
-    "category": "Trends",
+    "category": "Sports",
     "excerpt": "A source-linked briefing on why wsl is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1400&q=82",
       "alt": "Wsl related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-03T05:46:14.137Z",
@@ -769,12 +769,12 @@
     "slug": "floyd-mayweather",
     "title": "Breaking Down Floyd Mayweather",
     "trend": "floyd mayweather",
-    "category": "Trends",
+    "category": "Sports",
     "excerpt": "A source-linked briefing on why floyd mayweather is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
+      "url": "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?auto=format&fit=crop&w=1400&q=82",
       "alt": "Floyd Mayweather related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-03T05:46:13.829Z",
@@ -789,9 +789,9 @@
     "category": "Sports",
     "excerpt": "A source-linked briefing on why psg vs lorient is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-sports-arena.png",
+      "url": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1400&q=82",
       "alt": "PSG vs Lorient related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-02T14:25:47.510Z",
@@ -806,9 +806,9 @@
     "category": "Sports",
     "excerpt": "A source-linked briefing on why bayern munich is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-sports-arena.png",
+      "url": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1400&q=82",
       "alt": "Bayern Munich related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-02T14:25:47.263Z",
@@ -823,9 +823,9 @@
     "category": "Sports",
     "excerpt": "A source-linked briefing on why csk vs mi is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-sports-arena.png",
+      "url": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=1400&q=82",
       "alt": "CSK vs MI related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-02T14:14:23.188Z",
@@ -840,9 +840,9 @@
     "category": "Sports",
     "excerpt": "A source-linked briefing on why islam makhachev is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-sports-arena.png",
+      "url": "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?auto=format&fit=crop&w=1400&q=82",
       "alt": "Islam Makhachev related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-02T14:14:22.745Z",
@@ -857,9 +857,9 @@
     "category": "News",
     "excerpt": "A source-linked briefing on why socialism is gaining attention, what the available headlines suggest, and what readers should verify next.",
     "image": {
-      "url": "assets/generated/ai-civic-analysis.png",
+      "url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1400&q=82",
       "alt": "Socialism related editorial image",
-      "credit": "AI-generated"
+      "credit": "Unsplash"
     },
     "sourceCount": 6,
     "publishedAt": "2026-05-02T13:16:52.129Z",

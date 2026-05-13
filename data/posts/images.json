@@ -3,12 +3,12 @@
   "slug": "images",
   "title": "Breaking Down Images",
   "trend": "images",
-  "category": "Trends",
+  "category": "Technology",
   "excerpt": "A source-linked briefing on why images is gaining attention, what the available headlines suggest, and what readers should verify next.",
   "image": {
-    "url": "assets/generated/ai-trending-editorial.png",
+    "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=82",
     "alt": "Images related editorial image",
-    "credit": "AI-generated"
+    "credit": "Unsplash"
   },
   "content": [
     "Images is moving through today's trend cycle, and the signal is strong enough to merit more than a quick headline scan. Google Trends reported search interest around 200+, which suggests the topic is attracting enough attention to deserve a fuller briefing. This briefing is written as a source-aware overview: it uses the visible trend title, related headlines, and timing clues as the evidence base, while avoiding claims that are not supported by the linked material.",

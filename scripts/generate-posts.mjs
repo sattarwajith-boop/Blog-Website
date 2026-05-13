@@ -357,12 +357,30 @@ function imageForPost(trend) {
 
 function imageLibrary() {
   return [
-    { category: "Sports", match: /(cricket|csk|mi|nba|nfl|ufc|fight|soccer|league|match|game|makhachev|bayern|psg|lorient|munich)/, url: "assets/generated/ai-sports-arena.png", credit: "AI-generated" },
-    { category: "Technology", match: /(ai|tech|iphone|google|microsoft|software|cyber|app)/, url: "assets/generated/ai-trending-editorial.png", credit: "AI-generated" },
-    { category: "Business", match: /(stock|market|business|bank|crypto|bitcoin|earnings|inflation)/, url: "assets/generated/ai-trending-editorial.png", credit: "AI-generated" },
-    { category: "Culture", match: /(movie|music|album|tv|trailer|festival|celebrity|review|sheep|book|novel|detective)/, url: "assets/generated/ai-culture-books.png", credit: "AI-generated" },
-    { category: "News", match: /(election|court|president|minister|policy|senate|socialism|law|politics)/, url: "assets/generated/ai-civic-analysis.png", credit: "AI-generated" },
-    { category: "Trends", match: /(trend|search|viral|internet|news)/, url: "assets/generated/ai-trending-editorial.png", credit: "AI-generated" }
+    { category: "Business", match: /(ford|\bstock\b|market|nasdaq|smci|dram|\bmu\b|earnings|shares|trading|finance|bank|crypto|bitcoin|inflation)/, url: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3", credit: "Unsplash" },
+    { category: "Sports", match: /(nba|warriors|basketball|playoffs|bracket)/, url: "https://images.unsplash.com/photo-1546519638-68e109498ffc", credit: "Unsplash" },
+    { category: "Sports", match: /(tennis|sinner|medvedev|madison|keys|qinwen|zheng)/, url: "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6", credit: "Unsplash" },
+    { category: "Sports", match: /(golf|rory|mcilroy)/, url: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b", credit: "Unsplash" },
+    { category: "Sports", match: /(baseball|alek|thomas|tanner|scott|oregon state)/, url: "https://images.unsplash.com/photo-1508344928928-7165b67de128", credit: "Unsplash" },
+    { category: "Sports", match: /(ufc|fight|floyd|mayweather|boxing|makhachev|volkov|press conference)/, url: "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed", credit: "Unsplash" },
+    { category: "Sports", match: /(soccer|chelsea|forest|nottm|bayern|munich|psg|lorient|wsl|league|match|cup)/, url: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55", credit: "Unsplash" },
+    { category: "Sports", match: /(cricket|ipl|csk|standings)/, url: "https://images.unsplash.com/photo-1531415074968-036ba1b575da", credit: "Unsplash" },
+    { category: "Sports", match: /(nfl|football|ameer|abdullah)/, url: "https://images.unsplash.com/photo-1566577739112-5180d4bf9390", credit: "Unsplash" },
+    { category: "Culture", match: /(bruno|mars|music|album|concert|singer)/, url: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4", credit: "Unsplash" },
+    { category: "Culture", match: /(movie|tv|series|episode|trailer|netflix|nbc|actor|actress|ben affleck|rachel|zegler|gandolfini|panettiere|seacrest|jaafar|jackson|boys)/, url: "https://images.unsplash.com/photo-1485846234645-a62644f84728", credit: "Unsplash" },
+    { category: "Culture", match: /(met gala|celebrity|red carpet|appearance|jewelry|meyer)/, url: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30", credit: "Unsplash" },
+    { category: "Culture", match: /(book|novel|detective|sheep|quintel|animation|cartoon)/, url: "assets/generated/ai-culture-books.png", credit: "AI-generated" },
+    { category: "News", match: /(white house|ballroom|election|president|minister|senate|policy|politics|government|adhikari|pollard|socialism)/, url: "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620", credit: "Unsplash" },
+    { category: "News", match: /(murrow|journalism|news|media|press)/, url: "https://images.unsplash.com/photo-1504711434969-e33886168f5c", credit: "Unsplash" },
+    { category: "Technology", match: /(\bai\b|tech|iphone|google|microsoft|software|cyber|\bapp\b|images|caro|claire|burke)/, url: "https://images.unsplash.com/photo-1518770660439-4636190af475", credit: "Unsplash" },
+    { category: "Business", match: /(apac|global|business|economy|company)/, url: "https://images.unsplash.com/photo-1460925895917-afdab827c52f", credit: "Unsplash" },
+    { category: "Culture", match: /(firehouse|subs|food|restaurant)/, url: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5", credit: "Unsplash" },
+    { category: "Sports", match: /(sports|athlete|game|tournament)/, url: "assets/generated/ai-sports-arena.png", credit: "AI-generated" },
+    { category: "Technology", match: /(technology|digital|internet)/, url: "assets/generated/ai-trending-editorial.png", credit: "AI-generated" },
+    { category: "Business", match: /(business|finance)/, url: "https://images.unsplash.com/photo-1460925895917-afdab827c52f", credit: "Unsplash" },
+    { category: "Culture", match: /(culture|entertainment|review)/, url: "https://images.unsplash.com/photo-1485846234645-a62644f84728", credit: "Unsplash" },
+    { category: "News", match: /(court|law|public|civic)/, url: "assets/generated/ai-civic-analysis.png", credit: "AI-generated" },
+    { category: "Trends", match: /(trend|search|viral|internet|topic)/, url: "assets/generated/ai-trending-editorial.png", credit: "AI-generated" }
   ];
 }
 
@@ -475,11 +493,11 @@ function shouldRefreshTitle(post, trend) {
 
 function classifyTopic(topic) {
   const text = topic.toLowerCase();
-  if (/(ai|tech|iphone|google|microsoft|tesla|nvidia|app|software|cyber)/.test(text)) return "Technology";
-  if (/(stock|market|fed|inflation|crypto|bitcoin|earnings|bank)/.test(text)) return "Business";
-  if (/(nba|nfl|mlb|soccer|cricket|ufc|game|cup|league|ipl|csk|makhachev|bayern|munich|psg|lorient)/.test(text)) return "Sports";
-  if (/(movie|music|album|tv|netflix|celebrity|trailer|festival|book|novel|detective|sheep)/.test(text)) return "Culture";
-  if (/(election|court|president|minister|law|policy|senate|socialism|politics)/.test(text)) return "News";
+  if (/(\bai\b|tech|iphone|google|microsoft|tesla|nvidia|\bapp\b|software|cyber|images|caro|claire|burke)/.test(text)) return "Technology";
+  if (/(\bstock\b|market|nasdaq|fed|inflation|crypto|bitcoin|earnings|bank|finance|dram|smci|ford|\bmu\b|apac)/.test(text)) return "Business";
+  if (/(nba|nfl|mlb|soccer|cricket|ufc|game|cup|league|ipl|csk|makhachev|bayern|munich|psg|lorient|warriors|playoffs|tennis|sinner|medvedev|keys|zheng|golf|mcilroy|baseball|mayweather|volkov|wsl|chelsea|forest|abdullah|scott|thomas)/.test(text)) return "Sports";
+  if (/(movie|music|album|tv|netflix|celebrity|trailer|festival|book|novel|detective|sheep|bruno|mars|affleck|zegler|gandolfini|panettiere|seacrest|met gala|jackson|nbc|boys|quintel|meyer|firehouse|subs)/.test(text)) return "Culture";
+  if (/(election|court|president|minister|law|policy|senate|socialism|politics|white house|ballroom|murrow|pollard|adhikari)/.test(text)) return "News";
   return "Trends";
 }
 
@@ -538,6 +556,7 @@ function buildRss(posts) {
 function buildSitemap(posts) {
   const urls = [
     { loc: `${config.siteUrl}/`, lastmod: new Date().toISOString() },
+    { loc: `${config.siteUrl}/terms.html`, lastmod: new Date().toISOString() },
     ...posts.slice(0, 80).map((post) => ({ loc: postUrl(post), lastmod: post.publishedAt }))
   ];
   return `<?xml version="1.0" encoding="UTF-8"?>
@@ -598,6 +617,7 @@ function buildPostPage(post, posts) {
       <div class="nav-actions">
         <a href="../#archive">Archive</a>
         <a href="../rss.xml">RSS</a>
+        <a href="../terms.html">Terms</a>
       </div>
     </nav>
     <section class="post-hero">
@@ -631,6 +651,7 @@ function buildPostPage(post, posts) {
     <div>
       <p class="footer-brand"><img src="../assets/icons/site-logo.svg" alt="" width="40" height="40" aria-hidden="true"><strong>TrendPulse Daily</strong></p>
       <p>Automated posts are generated from public trend and news RSS feeds. Verify fast-moving stories from the linked sources before acting on them.</p>
+      <p><a href="../terms.html">Image use, credits, and permissions</a></p>
     </div>
   </footer>
   <script src="../assets/post.js" defer></script>
