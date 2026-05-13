@@ -15,6 +15,7 @@
   <link rel="apple-touch-icon" href="assets/icons/icon-192.svg">
   <link rel="mask-icon" href="assets/icons/mask-icon.svg" color="#0f766e">
   <link rel="manifest" href="site.webmanifest">
+  <link rel="preload" as="image" href="https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=2100&q=82">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Newsreader:opsz,wght@6..72,500;6..72,650;6..72,750&display=swap" rel="stylesheet">
@@ -100,14 +101,40 @@
 
   <footer class="footer">
     <div>
-      <p class="footer-brand">
-        <img src="assets/icons/site-logo.svg" alt="" width="40" height="40" aria-hidden="true">
-        <strong>TrendPulse Daily</strong>
-      </p>
-      <p>Automated posts are generated from public trend and news RSS feeds. Verify fast-moving stories from the linked sources before acting on them.</p>
-      <p><a href="terms.html">Image use, credits, and permissions</a></p>
+      <div class="footer-grid">
+        <div>
+          <p class="footer-brand">
+            <img src="assets/icons/site-logo.svg" alt="" width="40" height="40" aria-hidden="true">
+            <strong>TrendPulse Daily</strong>
+          </p>
+          <p>Automated trend briefings verified from public source links, refreshed by GitHub Actions.</p>
+        </div>
+        <nav aria-label="Footer quick links">
+          <strong>Quick Links</strong>
+          <ul>
+            <li><a href="#archive">Archive</a></li>
+            <li><a href="rss.xml">RSS Feed</a></li>
+            <li><a href="terms.html">Terms & Credits</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Footer categories">
+          <strong>Categories</strong>
+          <ul>
+            <li><a href="#archive">Sports</a></li>
+            <li><a href="#archive">Business</a></li>
+            <li><a href="#archive">Technology</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-cta">
+        <strong>Get Daily Trend Briefings</strong>
+        <p>Subscribe through RSS for automated updates as new source-linked posts publish.</p>
+        <a class="read-more-link" href="rss.xml">Subscribe via RSS</a>
+      </div>
+      <p class="footer-note">© 2026 TrendPulse Daily. Automated posts are generated from public trend and news RSS feeds.</p>
     </div>
   </footer>
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
 
   <template id="postCardTemplate">
     <article class="post-card">

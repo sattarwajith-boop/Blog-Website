@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sattarwajith-boop.github.io/Blog-Website/sitemap.xml

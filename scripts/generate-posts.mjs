@@ -258,15 +258,15 @@ async function backfillExistingPosts() {
   const upgraded = posts.map((post) => {
     const trend = {
       title: post.trend || post.title,
-      category: post.category && post.category !== "Trends" ? post.category : classifyTopic(post.trend || post.title),
+      category: classifyTopic(post.trend || post.title),
       traffic: extractTraffic(post.content || [])
     };
 
     return {
       ...post,
-      title: shouldRefreshTitle(post, trend) ? headlineFor(trend.title) : post.title,
+      title: headlineFor(trend.title),
       category: trend.category,
-      excerpt: post.excerpt && post.excerpt.length > 100 ? post.excerpt : professionalExcerpt(trend),
+      excerpt: professionalExcerpt(trend),
       image: imageForPost(trend),
       content: !force && Array.isArray(post.content) && wordCount(post.content) >= 750 ? post.content : fallbackContent(trend, post.sources || []),
       generatedBy: post.generatedBy || "template"
@@ -327,7 +327,16 @@ function postMetadata(post) {
 }
 
 function professionalExcerpt(trend) {
-  return `A source-linked briefing on why ${trend.title} is gaining attention, what the available headlines suggest, and what readers should verify next.`;
+  const clean = titleCase(trend.title);
+  const templates = [
+    `${clean} is making headlines. Here is what verified sources are saying and what readers should watch for next.`,
+    `Why is ${clean} trending? This briefing separates the current source signal from noise and speculation.`,
+    `A verified briefing on ${clean}: what the headlines reveal, where the story stands, and what comes next.`,
+    `${clean} is drawing attention across multiple sources. Here is the current picture with linked verification.`,
+    `The ${clean} conversation is moving quickly. This source-led summary explains the context, signals, and open questions.`,
+    `What changed around ${clean}? We review the visible coverage and highlight the details readers should confirm.`
+  ];
+  return templates[hashIndex(clean, templates.length)];
 }
 
 function normalizeImage(image, trend) {
@@ -361,16 +370,16 @@ function imageLibrary() {
     { category: "Sports", match: /(nba|warriors|basketball|playoffs|bracket)/, url: "https://images.unsplash.com/photo-1546519638-68e109498ffc", credit: "Unsplash" },
     { category: "Sports", match: /(tennis|sinner|medvedev|madison|keys|qinwen|zheng)/, url: "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6", credit: "Unsplash" },
     { category: "Sports", match: /(golf|rory|mcilroy)/, url: "https://images.unsplash.com/photo-1535131749006-b7f58c99034b", credit: "Unsplash" },
-    { category: "Sports", match: /(baseball|alek|thomas|tanner|scott|oregon state)/, url: "https://images.unsplash.com/photo-1508344928928-7165b67de128", credit: "Unsplash" },
+    { category: "Sports", match: /(baseball|alek|adley|rutschman|thomas|tanner|scott|oregon state)/, url: "https://images.unsplash.com/photo-1508344928928-7165b67de128", credit: "Unsplash" },
     { category: "Sports", match: /(ufc|fight|floyd|mayweather|boxing|makhachev|volkov|press conference)/, url: "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed", credit: "Unsplash" },
     { category: "Sports", match: /(soccer|chelsea|forest|nottm|bayern|munich|psg|lorient|wsl|league|match|cup)/, url: "https://images.unsplash.com/photo-1579952363873-27f3bade9f55", credit: "Unsplash" },
     { category: "Sports", match: /(cricket|ipl|csk|standings)/, url: "https://images.unsplash.com/photo-1531415074968-036ba1b575da", credit: "Unsplash" },
     { category: "Sports", match: /(nfl|football|ameer|abdullah)/, url: "https://images.unsplash.com/photo-1566577739112-5180d4bf9390", credit: "Unsplash" },
     { category: "Culture", match: /(bruno|mars|music|album|concert|singer)/, url: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4", credit: "Unsplash" },
-    { category: "Culture", match: /(movie|tv|series|episode|trailer|netflix|nbc|actor|actress|ben affleck|rachel|zegler|gandolfini|panettiere|seacrest|jaafar|jackson|boys)/, url: "https://images.unsplash.com/photo-1485846234645-a62644f84728", credit: "Unsplash" },
+    { category: "Culture", match: /(movie|tv|series|episode|trailer|netflix|nbc|actor|actress|ben affleck|rachel|zegler|gandolfini|panettiere|seacrest|rapaport|jaafar|jackson|boys)/, url: "https://images.unsplash.com/photo-1485846234645-a62644f84728", credit: "Unsplash" },
     { category: "Culture", match: /(met gala|celebrity|red carpet|appearance|jewelry|meyer)/, url: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30", credit: "Unsplash" },
     { category: "Culture", match: /(book|novel|detective|sheep|quintel|animation|cartoon)/, url: "assets/generated/ai-culture-books.png", credit: "AI-generated" },
-    { category: "News", match: /(white house|ballroom|election|president|minister|senate|policy|politics|government|adhikari|pollard|socialism)/, url: "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620", credit: "Unsplash" },
+    { category: "News", match: /(white house|ballroom|election|president|minister|senate|policy|politics|government|medicare|health|adhikari|pollard|socialism)/, url: "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620", credit: "Unsplash" },
     { category: "News", match: /(murrow|journalism|news|media|press)/, url: "https://images.unsplash.com/photo-1504711434969-e33886168f5c", credit: "Unsplash" },
     { category: "Technology", match: /(\bai\b|tech|iphone|google|microsoft|software|cyber|\bapp\b|images|caro|claire|burke)/, url: "https://images.unsplash.com/photo-1518770660439-4636190af475", credit: "Unsplash" },
     { category: "Business", match: /(apac|global|business|economy|company)/, url: "https://images.unsplash.com/photo-1460925895917-afdab827c52f", credit: "Unsplash" },
@@ -400,7 +409,7 @@ function titleCase(value) {
     .trim()
     .split(" ")
     .map((word, index) => {
-      if (["csk", "mi", "ufc", "ipl", "nba", "nfl", "mlb", "psg"].includes(word.toLowerCase())) return word.toUpperCase();
+      if (["csk", "mi", "ufc", "ipl", "nba", "nfl", "mlb", "psg", "nbc", "wsl", "apac", "smci", "dram", "jg", "ai"].includes(word.toLowerCase())) return word.toUpperCase();
       if (index > 0 && smallWords.has(word.toLowerCase())) return word.toLowerCase();
       return word.charAt(0).toUpperCase() + word.slice(1);
     })
@@ -475,14 +484,16 @@ function stripPublisher(title) {
 function headlineFor(topic) {
   const clean = titleCase(topic);
   const patterns = [
-    `${clean}: What to Watch Today`,
-    `Why ${clean} Is Trending Right Now`,
-    `${clean} Explained: Key Takeaways`,
-    `Breaking Down ${clean}`,
-    `${clean}: The Source-Linked Briefing`
+    `${clean}: What's Happening Right Now`,
+    `Why ${clean} Is Trending Today`,
+    `${clean}: Full Briefing With Sources`,
+    `Breaking Down ${clean}: Key Context`,
+    `The ${clean} Story: Sources and Analysis`,
+    `${clean}: What You Need to Know`,
+    `Today's ${clean} Update: Verified Sources`,
+    `${clean} Explained: Trending Context`
   ];
-  const index = createHash("sha256").update(slugify(topic)).digest()[0] % patterns.length;
-  return patterns[index];
+  return patterns[hashIndex(clean, patterns.length)];
 }
 
 function shouldRefreshTitle(post, trend) {
@@ -491,13 +502,17 @@ function shouldRefreshTitle(post, trend) {
   return stale || post.title === post.title.toLowerCase();
 }
 
+function hashIndex(value, length) {
+  return createHash("sha256").update(slugify(value)).digest()[0] % length;
+}
+
 function classifyTopic(topic) {
   const text = topic.toLowerCase();
   if (/(\bai\b|tech|iphone|google|microsoft|tesla|nvidia|\bapp\b|software|cyber|images|caro|claire|burke)/.test(text)) return "Technology";
   if (/(\bstock\b|market|nasdaq|fed|inflation|crypto|bitcoin|earnings|bank|finance|dram|smci|ford|\bmu\b|apac)/.test(text)) return "Business";
-  if (/(nba|nfl|mlb|soccer|cricket|ufc|game|cup|league|ipl|csk|makhachev|bayern|munich|psg|lorient|warriors|playoffs|tennis|sinner|medvedev|keys|zheng|golf|mcilroy|baseball|mayweather|volkov|wsl|chelsea|forest|abdullah|scott|thomas)/.test(text)) return "Sports";
-  if (/(movie|music|album|tv|netflix|celebrity|trailer|festival|book|novel|detective|sheep|bruno|mars|affleck|zegler|gandolfini|panettiere|seacrest|met gala|jackson|nbc|boys|quintel|meyer|firehouse|subs)/.test(text)) return "Culture";
-  if (/(election|court|president|minister|law|policy|senate|socialism|politics|white house|ballroom|murrow|pollard|adhikari)/.test(text)) return "News";
+  if (/(nba|nfl|mlb|soccer|cricket|ufc|game|cup|league|ipl|csk|makhachev|bayern|munich|psg|lorient|warriors|playoffs|tennis|sinner|medvedev|keys|zheng|golf|mcilroy|baseball|mayweather|volkov|wsl|chelsea|forest|abdullah|scott|thomas|rutschman|adley)/.test(text)) return "Sports";
+  if (/(movie|music|album|tv|netflix|celebrity|trailer|festival|book|novel|detective|sheep|bruno|mars|affleck|zegler|gandolfini|panettiere|seacrest|rapaport|met gala|jackson|nbc|boys|quintel|meyer|firehouse|subs)/.test(text)) return "Culture";
+  if (/(election|court|president|minister|law|policy|senate|socialism|politics|white house|ballroom|murrow|pollard|adhikari|medicare|health)/.test(text)) return "News";
   return "Trends";
 }
 
@@ -578,6 +593,7 @@ function buildPostPage(post, posts) {
   const canonical = postUrl(post);
   const imageUrl = absoluteAssetUrl(post.image?.url);
   const published = new Date(post.publishedAt).toISOString();
+  const category = post.category || "Trend";
 
   return `<!doctype html>
 <html lang="en">
@@ -621,7 +637,7 @@ function buildPostPage(post, posts) {
       </div>
     </nav>
     <section class="post-hero">
-      <p class="eyebrow">${escapeHtml(post.category || "Trend")}</p>
+      <p class="eyebrow category" data-cat="${escapeAttribute(category)}">${escapeHtml(category)}</p>
       <h1>${escapeHtml(post.title)}</h1>
       <p class="lede">${escapeHtml(description)}</p>
       <div class="feature-meta">
@@ -634,11 +650,15 @@ function buildPostPage(post, posts) {
   <main class="post-main">
     <article class="feature-article post-detail">
       <div class="post-body">
-        ${post.image?.url ? `<figure class="feature-image"><img src="${escapeAttribute(pageAssetUrl(post.image.url))}" alt="${escapeAttribute(post.image.alt || `${post.title} image`)}" width="1400" height="788" fetchpriority="high"><figcaption>${escapeHtml(post.image.credit || "Editorial image")}</figcaption></figure>` : ""}
+        ${post.image?.url ? `<figure class="feature-image"><img src="${escapeAttribute(pageAssetUrl(post.image.url))}" alt="${escapeAttribute(post.image.alt || `${post.title} image`)}" width="1400" height="788" loading="eager" decoding="async" fetchpriority="high"><figcaption>${escapeHtml(post.image.credit || "Editorial image")}</figcaption></figure>` : ""}
         ${(post.content || []).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("\n        ")}
+        <div class="share-buttons" aria-label="Share this article">
+          <a class="read-more-link" href="https://twitter.com/intent/tweet?url=${encodeURIComponent(canonical)}&text=${encodeURIComponent(post.title)}" target="_blank" rel="noopener">Share on X</a>
+          <button class="read-more-link copy-link" type="button">Copy link</button>
+        </div>
       </div>
       <aside class="source-panel">
-        <p class="category">Sources</p>
+        <p class="category" data-cat="${escapeAttribute(category)}">Sources</p>
         <p>Primary links gathered by the automation for quick verification.</p>
         <ul class="source-list">
           ${(post.sources || []).slice(0, 8).map((source) => `<li><a href="${escapeAttribute(source.url)}" target="_blank" rel="noopener">${escapeHtml(source.title)}</a></li>`).join("\n          ")}
@@ -649,11 +669,10 @@ function buildPostPage(post, posts) {
   </main>
   <footer class="footer">
     <div>
-      <p class="footer-brand"><img src="../assets/icons/site-logo.svg" alt="" width="40" height="40" aria-hidden="true"><strong>TrendPulse Daily</strong></p>
-      <p>Automated posts are generated from public trend and news RSS feeds. Verify fast-moving stories from the linked sources before acting on them.</p>
-      <p><a href="../terms.html">Image use, credits, and permissions</a></p>
+      ${footerMarkup("../")}
     </div>
   </footer>
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
   <script src="../assets/post.js" defer></script>
 </body>
 </html>
@@ -661,7 +680,40 @@ function buildPostPage(post, posts) {
 }
 
 function relatedCard(post) {
-  return `<article class="post-card"><a class="card-link" href="${escapeAttribute(`${post.slug}.html`)}">${post.image?.url ? `<img class="card-image" src="${escapeAttribute(pageAssetUrl(post.image.url))}" alt="${escapeAttribute(post.image.alt || `${post.title} image`)}" loading="lazy" width="640" height="400">` : ""}<span class="category">${escapeHtml(post.category || "Trend")}</span><h3>${escapeHtml(post.title)}</h3><p>${escapeHtml(post.excerpt || "")}</p><div class="card-meta"><time datetime="${escapeAttribute(post.publishedAt)}">${escapeHtml(new Date(post.publishedAt).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }))}</time><span>${escapeHtml(readingTime(post))}</span></div></a></article>`;
+  const category = post.category || "Trend";
+  return `<article class="post-card"><a class="card-link" href="${escapeAttribute(`${post.slug}.html`)}">${post.image?.url ? `<img class="card-image" src="${escapeAttribute(pageAssetUrl(post.image.url))}" alt="${escapeAttribute(post.image.alt || `${post.title} image`)}" loading="lazy" decoding="async" width="640" height="400">` : ""}<span class="category" data-cat="${escapeAttribute(category)}">${escapeHtml(category)}</span><h3>${escapeHtml(post.title)}</h3><p>${escapeHtml(post.excerpt || "")}</p><div class="card-meta"><time datetime="${escapeAttribute(post.publishedAt)}">${escapeHtml(new Date(post.publishedAt).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }))}</time><span>${escapeHtml(readingTime(post))}</span></div></a></article>`;
+}
+
+function footerMarkup(prefix = "") {
+  return `
+      <div class="footer-grid">
+        <div>
+          <p class="footer-brand"><img src="${prefix}assets/icons/site-logo.svg" alt="" width="40" height="40" aria-hidden="true"><strong>TrendPulse Daily</strong></p>
+          <p>Automated trend briefings verified from public source links, refreshed by GitHub Actions.</p>
+        </div>
+        <nav aria-label="Footer quick links">
+          <strong>Quick Links</strong>
+          <ul>
+            <li><a href="${prefix}#archive">Archive</a></li>
+            <li><a href="${prefix}rss.xml">RSS Feed</a></li>
+            <li><a href="${prefix}terms.html">Terms & Credits</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Footer categories">
+          <strong>Categories</strong>
+          <ul>
+            <li><a href="${prefix}#archive">Sports</a></li>
+            <li><a href="${prefix}#archive">Business</a></li>
+            <li><a href="${prefix}#archive">Technology</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer-cta">
+        <strong>Get Daily Trend Briefings</strong>
+        <p>Subscribe through RSS for automated updates as new source-linked posts publish.</p>
+        <a class="read-more-link" href="${prefix}rss.xml">Subscribe via RSS</a>
+      </div>
+      <p class="footer-note">© ${new Date().getFullYear()} TrendPulse Daily. Automated posts are generated from public trend and news RSS feeds.</p>`;
 }
 
 function articleSchema(post, canonical, imageUrl) {

@@ -1,14 +1,14 @@
 {
   "id": "03f46f003af30322",
   "slug": "medicare",
-  "title": "Medicare: The Source-Linked Briefing",
+  "title": "Medicare: What You Need to Know",
   "trend": "medicare",
-  "category": "Trends",
-  "excerpt": "A source-linked briefing on why medicare is gaining attention, what the available headlines suggest, and what readers should verify next.",
+  "category": "News",
+  "excerpt": "Why is Medicare trending? This briefing separates the current source signal from noise and speculation.",
   "image": {
-    "url": "assets/generated/ai-trending-editorial.png",
+    "url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1400&q=82",
     "alt": "Medicare related editorial image",
-    "credit": "AI-generated"
+    "credit": "Unsplash"
   },
   "content": [
     "Medicare is moving through today's trend cycle, and the signal is strong enough to merit more than a quick headline scan. Google Trends reported search interest around 1000+, which suggests the topic is attracting enough attention to deserve a fuller briefing. This briefing is written as a source-aware overview: it uses the visible trend title, related headlines, and timing clues as the evidence base, while avoiding claims that are not supported by the linked material.",

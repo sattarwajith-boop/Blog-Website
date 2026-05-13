@@ -6,6 +6,7 @@ const emptyState = document.querySelector("#emptyState");
 const loadMoreButton = document.querySelector("#loadMore");
 const resultsSummary = document.querySelector("#resultsSummary");
 const template = document.querySelector("#postCardTemplate");
+const backToTop = document.querySelector(".back-to-top");
 
 const pageSize = 6;
 let posts = [];
@@ -13,6 +14,7 @@ let activeTopic = "All";
 let query = "";
 let visibleCount = pageSize;
 let featuredSlug = "";
+let cardObserver;
 
 const formatter = new Intl.DateTimeFormat(undefined, {
   year: "numeric",
@@ -77,6 +79,7 @@ async function render() {
 
   await renderFeatured(lead);
   postGrid.replaceChildren(...cards.map(createCard));
+  observeCards();
   emptyState.hidden = filtered.length > 0;
   loadMoreButton.hidden = filtered.length <= visibleCount + 1;
   resultsSummary.textContent = resultText(filtered.length);
@@ -116,11 +119,11 @@ async function renderFeatured(meta) {
     <div class="post-body">
       ${post.image?.url ? `
         <figure class="feature-image">
-          <img src="${escapeAttribute(post.image.url)}" alt="${escapeAttribute(post.image.alt || `${post.title} image`)}" width="1400" height="788" loading="eager" fetchpriority="high">
+          <img src="${escapeAttribute(post.image.url)}" alt="${escapeAttribute(post.image.alt || `${post.title} image`)}" width="1400" height="788" loading="eager" decoding="async" fetchpriority="high">
           <figcaption>${escapeHtml(post.image.credit || "Editorial image")}</figcaption>
         </figure>
       ` : ""}
-      <p class="category">${escapeHtml(post.category || "Trend")}</p>
+      <p class="category" data-cat="${escapeAttribute(post.category || "Trend")}">${escapeHtml(post.category || "Trend")}</p>
       <h2>${escapeHtml(post.title)}</h2>
       <div class="feature-meta">
         <time datetime="${escapeAttribute(post.publishedAt)}">${formatter.format(new Date(post.publishedAt))}</time>
@@ -132,7 +135,7 @@ async function renderFeatured(meta) {
       <p><a class="read-more-link" href="posts/${escapeAttribute(post.slug)}.html">Read the full article</a></p>
     </div>
     <aside class="source-panel">
-      <p class="category">Sources</p>
+      <p class="category" data-cat="${escapeAttribute(post.category || "Trend")}">Sources</p>
       <p>Primary links gathered by the automation for quick verification.</p>
       <ul class="source-list">
         ${(post.sources || []).slice(0, 5).map((source) => `<li><a href="${escapeAttribute(source.url)}" target="_blank" rel="noopener">${escapeHtml(source.title)}</a></li>`).join("")}
@@ -160,11 +163,14 @@ function createCard(post) {
     image.src = post.image.url;
     image.alt = post.image.alt || `${post.title} image`;
     image.loading = "lazy";
+    image.decoding = "async";
     image.width = 640;
     image.height = 400;
     node.querySelector(".card-link").prepend(image);
   }
-  node.querySelector(".category").textContent = post.category || "Trend";
+  const category = node.querySelector(".category");
+  category.textContent = post.category || "Trend";
+  category.dataset.cat = post.category || "Trend";
   node.querySelector("h3").textContent = post.title;
   node.querySelector("p").textContent = post.excerpt || "";
   node.querySelector("time").dateTime = post.publishedAt;
@@ -172,6 +178,27 @@ function createCard(post) {
   node.querySelector(".reading-time").textContent = post.readingTime || "5 min";
   node.querySelector("a").href = `posts/${post.slug}.html`;
   return node;
+}
+
+function observeCards() {
+  if (!("IntersectionObserver" in window)) {
+    document.querySelectorAll(".post-card").forEach((card) => card.classList.add("visible"));
+    return;
+  }
+
+  cardObserver?.disconnect();
+  cardObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add("visible");
+      cardObserver.unobserve(entry.target);
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll(".post-card").forEach((card, index) => {
+    card.style.transitionDelay = `${Math.min(index, 6) * 45}ms`;
+    cardObserver.observe(card);
+  });
 }
 
 function escapeHtml(value) {
@@ -217,6 +244,15 @@ searchInput.addEventListener("input", debounce(async () => {
 loadMoreButton.addEventListener("click", async () => {
   visibleCount += pageSize;
   await render();
+});
+
+window.addEventListener("scroll", () => {
+  if (!backToTop) return;
+  backToTop.classList.toggle("visible", window.scrollY > 720);
+}, { passive: true });
+
+backToTop?.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
 });
 
 init();
