@@ -184,7 +184,7 @@ async function generateWithOpenAI(trend, sources) {
       input: [
         {
           role: "system",
-          content: "Write professional long-form trend analysis from only the provided trend data and source headlines. Do not invent events, quotes, scores, dates, statistics, or claims beyond the provided inputs. If evidence is limited, say what readers should verify. Return strict JSON only."
+          content: "Write professional long-form trend analysis from only the provided trend data and headline context. Do not invent events, quotes, scores, dates, statistics, or claims beyond the provided inputs. If evidence is limited, say what readers should verify. Return strict JSON only."
         },
         {
           role: "user",
@@ -192,7 +192,7 @@ async function generateWithOpenAI(trend, sources) {
             trend: trend.title,
             category: trend.category,
             approxTraffic: trend.traffic || null,
-            sourceItems: providedSources,
+            headlineContext: providedSources,
             image: imageForPost(trend),
             requiredShape: {
               title: "string under 78 chars",
@@ -205,11 +205,11 @@ async function generateWithOpenAI(trend, sources) {
               content: [
                 "10 to 14 paragraphs totaling 900 to 1200 words",
                 "Start with a direct context paragraph",
-                "Explain why the topic is trending based on source headlines and search interest",
+                "Explain why the topic is trending based on headline context and search interest",
                 "Summarize key developments cautiously",
                 "Include a section-like paragraph starting with 'Why it matters:'",
                 "Include a section-like paragraph starting with 'What to watch next:'",
-                "Close by reminding readers to verify fast-moving details from the linked sources"
+                "Close by reminding readers to verify fast-moving details through trusted public coverage"
               ]
             }
           })
@@ -231,24 +231,24 @@ async function generateWithOpenAI(trend, sources) {
 function fallbackContent(trend, sources) {
   const cleanTitle = titleCase(trend.title);
   const category = trend.category || classifyTopic(trend.title);
-  const sourceNames = sources.slice(0, 6).map((source) => source.title);
-  const topSources = sourceNames.length ? sourceNames.join("; ") : "related source coverage was limited at generation time";
+  const headlineNames = sources.slice(0, 6).map((source) => source.title);
+  const headlineSummary = headlineNames.length ? headlineNames.join("; ") : "public coverage was limited at generation time";
   const trafficLine = trend.traffic ? `Google Trends reported search interest around ${trend.traffic}, which suggests the topic is attracting enough attention to deserve a fuller briefing.` : "The topic appeared in public trend data, which suggests a measurable spike in attention even when exact search volume is not available.";
 
   return [
-    `${cleanTitle} is moving through today's trend cycle, and the signal is strong enough to merit more than a quick headline scan. ${trafficLine} This briefing is written as a source-aware overview: it uses the visible trend title, related headlines, and timing clues as the evidence base, while avoiding claims that are not supported by the linked material.`,
-    `The first thing to understand is that trending attention rarely comes from one simple cause. A spike can be driven by breaking news, fan conversation, schedule timing, public disagreement, market reaction, or a wave of social sharing. For ${cleanTitle}, the available source headlines point to a developing conversation in the ${category.toLowerCase()} lane rather than a settled story. That means readers should treat this as a live briefing and use the source links for confirmation before repeating any precise details.`,
-    `Recent source headlines include: ${topSources}. These headlines are useful because they show what publishers and search users are currently connecting to the topic. They do not, by themselves, prove every claim in the broader conversation. The safest reading is that the topic has enough momentum to pull together several strands of coverage, and those strands are what make the subject worth watching today.`,
-    `Context: ${cleanTitle} is best understood as a snapshot of attention at a specific moment. Search interest often rises when people want a quick answer: what happened, why it matters, where to watch, who is involved, what changed, or whether a rumor is true. A professional reader should separate the existence of interest from the accuracy of every surrounding claim. The trend tells us people are asking; the source links help answer which parts of the story are grounded.`,
-    `Why it is trending: The topic appears to be gaining traction because multiple headlines are clustering around it within a short window. That clustering is important. When several outlets or feeds mention the same subject, search demand often follows as readers try to compare versions, check timing, or understand the practical impact. In an automated briefing, this is the difference between a random phrase and a topic with enough evidence to deserve editorial treatment.`,
-    `Key developments: The most useful details are the ones that appear consistently across the available source titles. If a source headline mentions an announcement, matchup, review, warning, market signal, or public reaction, that should be read as a clue for further verification. The article intentionally does not add unsupported specifics, because fast-moving trend posts can become misleading when they fill gaps with assumptions. Instead, it identifies the reliable shape of the conversation and points readers to the linked coverage.`,
-    `Audience impact: For casual readers, the immediate value is orientation. They can quickly see why the term is appearing, what kind of sources are discussing it, and whether the story belongs to sport, culture, business, politics, technology, or general news. For creators, analysts, and site owners, the value is different: this topic may represent a short-lived opportunity for timely commentary, comparison pieces, explainer posts, or social updates that answer the questions people are already searching.`,
-    `Reader takeaway: The practical way to use this briefing is to move from awareness to verification. Start with the headline cluster, note which details appear more than once, and then open the strongest source links before forming a conclusion. That workflow keeps the article useful without pretending that an automated trend scan can replace fresh reporting, official records, or expert analysis.`,
-    `Why it matters: A trend like ${cleanTitle} matters because attention is a limited resource. When search demand gathers around a subject, it often reveals a public information gap. People are not only looking for the headline; they are looking for context, reliability, and next steps. A well-built automated blog should therefore do more than repeat the trend name. It should slow the topic down, show the evidence, and make clear where uncertainty remains.`,
-    `Source confidence: This post uses the related source list as its guardrail. When the source list is broad and recent, the article can speak more confidently about the shape of the discussion. When the list is thin, mixed, or oddly matched, the article should be more cautious. That is why this briefing uses careful language such as "appears," "suggests," and "worth watching." Those words are not weakness; they are part of responsible automated publishing.`,
-    `What to watch next: Look for primary-source updates, official statements, schedule changes, score or market movement, published reviews, direct quotes, or follow-up reporting that confirms the early signal. If the topic continues to appear across fresh sources, it may deserve a deeper follow-up article. If the spike fades quickly or sources contradict each other, the safest move is to treat this as a short attention wave rather than a durable story.`,
-    `Editorial note: This article is generated to provide a professional starting point, not a final verdict. The linked sources should be opened before making decisions, sharing claims, or using the topic in high-stakes contexts. That verification step is especially important for live sports, finance, politics, health, legal issues, celebrity news, and any story where early headlines can change within minutes.`,
-    `Bottom line: ${cleanTitle} is currently worth watching because it has active search momentum and related source coverage. The strongest use of this briefing is to understand the topic's direction, identify what needs verification, and follow the linked sources for the newest confirmed details.`
+    `${cleanTitle} is moving through today's trend cycle, and the signal is strong enough to merit more than a quick headline scan. ${trafficLine} This briefing uses the visible trend title, related headline context, and timing clues as its evidence base, while avoiding claims that are not supported by the available coverage.`,
+    `The first thing to understand is that trending attention rarely comes from one simple cause. A spike can be driven by breaking coverage, fan conversation, schedule timing, public disagreement, market reaction, or a wave of social sharing. For ${cleanTitle}, the available headlines point to a developing conversation in the ${category.toLowerCase()} lane rather than a settled story. That means readers should treat this as a live briefing and verify precise details before repeating them.`,
+    `Recent headline context includes: ${headlineSummary}. These headlines are useful because they show what publishers and search users are currently connecting to the topic. They do not, by themselves, prove every claim in the broader conversation. The safest reading is that the topic has enough momentum to pull together several strands of coverage, and those strands are what make the subject worth watching today.`,
+    `Context: ${cleanTitle} is best understood as a snapshot of attention at a specific moment. Search interest often rises when people want a quick answer: what happened, why it matters, where to watch, who is involved, what changed, or whether a rumor is true. A professional reader should separate the existence of interest from the accuracy of every surrounding claim. The trend tells us people are asking; careful verification answers which parts of the story are grounded.`,
+    `Why it is trending: The topic appears to be gaining traction because multiple headlines are clustering around it within a short window. That clustering is important. When several outlets or feeds mention the same subject, search demand often follows as readers try to compare versions, check timing, or understand the practical impact. In a modern trend briefing, this is the difference between a random phrase and a topic with enough evidence to deserve editorial treatment.`,
+    `Key developments: The most useful details are the ones that appear consistently across the available headline titles. If a headline mentions an announcement, matchup, review, warning, market signal, or public reaction, that should be read as a clue for further verification. The article intentionally does not add unsupported specifics, because fast-moving trend posts can become misleading when they fill gaps with assumptions. Instead, it identifies the reliable shape of the conversation and points readers toward careful follow-up.`,
+    `Audience impact: For casual readers, the immediate value is orientation. They can quickly see why the term is appearing, what kind of coverage is discussing it, and whether the story belongs to sport, culture, business, politics, technology, or general interest. For creators, analysts, and site owners, the value is different: this topic may represent a short-lived opportunity for timely commentary, comparison pieces, explainer posts, or social updates that answer the questions people are already searching.`,
+    `Reader takeaway: The practical way to use this briefing is to move from awareness to verification. Start with the headline cluster, note which details appear more than once, and then check the most trustworthy coverage before forming a conclusion. That workflow keeps the article useful without pretending that a trend scan can replace fresh reporting, official records, or expert analysis.`,
+    `Why it matters: A trend like ${cleanTitle} matters because attention is a limited resource. When search demand gathers around a subject, it often reveals a public information gap. People are not only looking for the headline; they are looking for context, reliability, and next steps. A well-built publication should therefore do more than repeat the trend name. It should slow the topic down, show the evidence, and make clear where uncertainty remains.`,
+    `Confidence note: This post uses the related headline list as its guardrail. When the coverage list is broad and recent, the article can speak more confidently about the shape of the discussion. When the list is thin, mixed, or oddly matched, the article should be more cautious. That is why this briefing uses careful language such as "appears," "suggests," and "worth watching." Those words are not weakness; they are part of responsible trend publishing.`,
+    `What to watch next: Look for official updates, direct statements, schedule changes, score or market movement, published reviews, direct quotes, or follow-up reporting that confirms the early signal. If the topic continues to appear across fresh coverage, it may deserve a deeper follow-up article. If the spike fades quickly or coverage contradicts itself, the safest move is to treat this as a short attention wave rather than a durable story.`,
+    `Editorial note: This article is generated to provide a professional starting point, not a final verdict. Trusted coverage should be checked before making decisions, sharing claims, or using the topic in high-stakes contexts. That verification step is especially important for live sports, finance, politics, health, legal issues, celebrity coverage, and any story where early headlines can change within minutes.`,
+    `Bottom line: ${cleanTitle} is currently worth watching because it has active search momentum and related public coverage. The strongest use of this briefing is to understand the topic's direction, identify what needs verification, and follow reliable updates for the newest confirmed details.`
   ];
 }
 
@@ -329,11 +329,11 @@ function postMetadata(post) {
 function professionalExcerpt(trend) {
   const clean = titleCase(trend.title);
   const templates = [
-    `${clean} is making headlines. Here is what verified sources are saying and what readers should watch for next.`,
-    `Why is ${clean} trending? This briefing separates the current source signal from noise and speculation.`,
-    `A verified briefing on ${clean}: what the headlines reveal, where the story stands, and what comes next.`,
-    `${clean} is drawing attention across multiple sources. Here is the current picture with linked verification.`,
-    `The ${clean} conversation is moving quickly. This source-led summary explains the context, signals, and open questions.`,
+    `${clean} is making headlines. Here is the current picture and what readers should watch for next.`,
+    `Why is ${clean} trending? This briefing separates the strongest signals from noise and speculation.`,
+    `A focused briefing on ${clean}: what the headlines reveal, where the story stands, and what comes next.`,
+    `${clean} is drawing attention across multiple channels. Here is the current picture with useful context.`,
+    `The ${clean} conversation is moving quickly. This summary explains the context, signals, and open questions.`,
     `What changed around ${clean}? We review the visible coverage and highlight the details readers should confirm.`
   ];
   return templates[hashIndex(clean, templates.length)];
@@ -486,11 +486,11 @@ function headlineFor(topic) {
   const patterns = [
     `${clean}: What's Happening Right Now`,
     `Why ${clean} Is Trending Today`,
-    `${clean}: Full Briefing With Sources`,
+    `${clean}: Full Briefing`,
     `Breaking Down ${clean}: Key Context`,
-    `The ${clean} Story: Sources and Analysis`,
+    `The ${clean} Story: Context and Analysis`,
     `${clean}: What You Need to Know`,
-    `Today's ${clean} Update: Verified Sources`,
+    `Today's ${clean} Update: Key Context`,
     `${clean} Explained: Trending Context`
   ];
   return patterns[hashIndex(clean, patterns.length)];
@@ -562,7 +562,7 @@ function buildRss(posts) {
   <channel>
     <title>${xmlEscape(config.blogName)}</title>
     <link>${xmlEscape(config.siteUrl)}</link>
-    <description>Automated trending-topic briefings with source links.</description>${items}
+    <description>Trend briefings with concise context and daily updates.</description>${items}
   </channel>
 </rss>
 `;
@@ -632,7 +632,6 @@ function buildPostPage(post, posts) {
       </a>
       <div class="nav-actions">
         <a href="../#archive">Archive</a>
-        <a href="../rss.xml">RSS</a>
         <a href="../terms.html">Terms</a>
       </div>
     </nav>
@@ -643,12 +642,12 @@ function buildPostPage(post, posts) {
       <div class="feature-meta">
         <time datetime="${escapeAttribute(published)}">${escapeHtml(new Date(post.publishedAt).toUTCString())}</time>
         <span>${escapeHtml(readingTime(post))} read</span>
-        <span>${(post.sources || []).length} sources</span>
+        <span>${escapeHtml(category)}</span>
       </div>
     </section>
   </header>
   <main class="post-main">
-    <article class="feature-article post-detail">
+    <article class="feature-article post-detail reading-layout">
       <div class="post-body">
         ${post.image?.url ? `<figure class="feature-image"><img src="${escapeAttribute(pageAssetUrl(post.image.url))}" alt="${escapeAttribute(post.image.alt || `${post.title} image`)}" width="1400" height="788" loading="eager" decoding="async" fetchpriority="high"><figcaption>${escapeHtml(post.image.credit || "Editorial image")}</figcaption></figure>` : ""}
         ${(post.content || []).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("\n        ")}
@@ -657,13 +656,6 @@ function buildPostPage(post, posts) {
           <button class="read-more-link copy-link" type="button">Copy link</button>
         </div>
       </div>
-      <aside class="source-panel">
-        <p class="category" data-cat="${escapeAttribute(category)}">Sources</p>
-        <p>Primary links gathered by the automation for quick verification.</p>
-        <ul class="source-list">
-          ${(post.sources || []).slice(0, 8).map((source) => `<li><a href="${escapeAttribute(source.url)}" target="_blank" rel="noopener">${escapeHtml(source.title)}</a></li>`).join("\n          ")}
-        </ul>
-      </aside>
     </article>
     ${related.length ? `<section class="related-posts" aria-labelledby="relatedTitle"><div class="section-head"><div><p class="eyebrow">Next reads</p><h2 id="relatedTitle">Related briefings</h2></div></div><div class="post-grid">${related.map(relatedCard).join("")}</div></section>` : ""}
   </main>
@@ -672,7 +664,7 @@ function buildPostPage(post, posts) {
       ${footerMarkup("../")}
     </div>
   </footer>
-  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+  <button class="back-to-top" type="button" aria-label="Back to top">&uarr;</button>
   <script src="../assets/post.js" defer></script>
 </body>
 </html>
@@ -689,13 +681,12 @@ function footerMarkup(prefix = "") {
       <div class="footer-grid">
         <div>
           <p class="footer-brand"><img src="${prefix}assets/icons/site-logo.svg" alt="" width="40" height="40" aria-hidden="true"><strong>TrendPulse Daily</strong></p>
-          <p>Automated trend briefings verified from public source links, refreshed by GitHub Actions.</p>
+          <p>Sharp trend briefings for readers who want context quickly, without the noise.</p>
         </div>
         <nav aria-label="Footer quick links">
           <strong>Quick Links</strong>
           <ul>
             <li><a href="${prefix}#archive">Archive</a></li>
-            <li><a href="${prefix}rss.xml">RSS Feed</a></li>
             <li><a href="${prefix}terms.html">Terms & Credits</a></li>
           </ul>
         </nav>
@@ -709,17 +700,17 @@ function footerMarkup(prefix = "") {
         </nav>
       </div>
       <div class="footer-cta">
-        <strong>Get Daily Trend Briefings</strong>
-        <p>Subscribe through RSS for automated updates as new source-linked posts publish.</p>
-        <a class="read-more-link" href="${prefix}rss.xml">Subscribe via RSS</a>
+        <strong>Read the Latest Briefings</strong>
+        <p>Browse fresh context across sports, business, technology, culture, and public affairs.</p>
+        <a class="read-more-link" href="${prefix}#archive">Open Archive</a>
       </div>
-      <p class="footer-note">© ${new Date().getFullYear()} TrendPulse Daily. Automated posts are generated from public trend and news RSS feeds.</p>`;
+      <p class="footer-note">&copy; ${new Date().getFullYear()} TrendPulse Daily. Built for concise trend context and fast topic discovery.</p>`;
 }
 
 function articleSchema(post, canonical, imageUrl) {
   return {
     "@context": "https://schema.org",
-    "@type": "NewsArticle",
+    "@type": "BlogPosting",
     headline: post.title,
     description: post.excerpt,
     datePublished: new Date(post.publishedAt).toISOString(),

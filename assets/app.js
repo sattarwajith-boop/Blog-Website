@@ -37,8 +37,8 @@ async function init() {
   posts.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   document.querySelector("#postCount").textContent = posts.length;
   document.querySelector("#latestDate").textContent = posts[0] ? formatter.format(new Date(posts[0].publishedAt)) : "Waiting";
-  document.querySelector("#sourceCount").textContent = posts.reduce((total, post) => total + (post.sourceCount || 0), 0);
-  document.querySelector("#latestHeadline").textContent = posts[0] ? posts[0].title : "The trend desk is waiting for its first automated dispatch.";
+  document.querySelector("#topicCount").textContent = new Set(posts.map((post) => post.category).filter(Boolean)).size;
+  document.querySelector("#latestHeadline").textContent = posts[0] ? posts[0].title : "The desk is preparing its first briefing.";
 
   renderFilters();
   await render();
@@ -128,19 +128,12 @@ async function renderFeatured(meta) {
       <div class="feature-meta">
         <time datetime="${escapeAttribute(post.publishedAt)}">${formatter.format(new Date(post.publishedAt))}</time>
         <span>${readingTime(post)} read</span>
-        <span>${(post.sources || []).length} sources</span>
+        <span>${escapeHtml(post.category || "Trend")}</span>
       </div>
       <p>${escapeHtml(post.excerpt || "")}</p>
       ${(post.content || []).slice(0, 3).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("")}
       <p><a class="read-more-link" href="posts/${escapeAttribute(post.slug)}.html">Read the full article</a></p>
     </div>
-    <aside class="source-panel">
-      <p class="category" data-cat="${escapeAttribute(post.category || "Trend")}">Sources</p>
-      <p>Primary links gathered by the automation for quick verification.</p>
-      <ul class="source-list">
-        ${(post.sources || []).slice(0, 5).map((source) => `<li><a href="${escapeAttribute(source.url)}" target="_blank" rel="noopener">${escapeHtml(source.title)}</a></li>`).join("")}
-      </ul>
-    </aside>
   `;
   featuredPost.replaceChildren(article);
 }
