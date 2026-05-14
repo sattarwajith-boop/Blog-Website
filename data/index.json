@@ -1,5 +1,39 @@
 [
   {
+    "id": "7495aebbd88d7aac",
+    "slug": "jill-kargman",
+    "title": "The Jill Kargman Story: Context and Analysis",
+    "trend": "jill kargman",
+    "category": "Trends",
+    "excerpt": "A focused briefing on Jill Kargman: what the headlines reveal, where the story stands, and what comes next.",
+    "image": {
+      "url": "assets/generated/ai-trending-editorial.png",
+      "alt": "Jill Kargman related editorial image",
+      "credit": "AI-generated"
+    },
+    "sourceCount": 6,
+    "publishedAt": "2026-05-14T06:03:51.360Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/jill-kargman.html",
+    "readingTime": "6 min"
+  },
+  {
+    "id": "c20fa9cbe92b5191",
+    "slug": "super-mario-galaxy-movie-boxoffice",
+    "title": "Today's Super Mario Galaxy Movie Boxoffice Update: Key Context",
+    "trend": "super mario galaxy movie boxoffice",
+    "category": "Culture",
+    "excerpt": "A focused briefing on Super Mario Galaxy Movie Boxoffice: what the headlines reveal, where the story stands, and what comes next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Super Mario Galaxy Movie Boxoffice related editorial image",
+      "credit": "Unsplash"
+    },
+    "sourceCount": 5,
+    "publishedAt": "2026-05-14T06:03:51.084Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/super-mario-galaxy-movie-boxoffice.html",
+    "readingTime": "6 min"
+  },
+  {
     "id": "b23226ffe666a6b6",
     "slug": "adley-rutschman",
     "title": "Adley Rutschman: Full Briefing",
