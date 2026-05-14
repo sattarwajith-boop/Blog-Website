@@ -18,10 +18,31 @@ const paths = {
   index: new URL("data/index.json", root),
   postDataDir: new URL("data/posts/", root),
   postPagesDir: new URL("posts/", root),
+  ogDir: new URL("assets/og/", root),
   topics: new URL("data/topics.json", root),
   rss: new URL("rss.xml", root),
   sitemap: new URL("sitemap.xml", root)
 };
+
+const bannedPhrases = [
+  /delve into/gi,
+  /it is worth noting that/gi,
+  /it is worth noting/gi,
+  /in today'?s fast-paced world/gi,
+  /in the ever-evolving landscape/gi,
+  /as we can see/gi,
+  /this article explores/gi
+];
+
+const requiredSections = [
+  "Context:",
+  "Why it is trending:",
+  "Key developments:",
+  "Reader impact:",
+  "What to verify:",
+  "What to watch next:",
+  "Bottom line:"
+];
 
 main().catch((error) => {
   console.error(error);
@@ -60,7 +81,7 @@ async function main() {
     generated.push(post);
   }
 
-  const nextPosts = [...generated, ...posts].slice(0, config.maxPosts);
+  const nextPosts = preparePostCollection([...generated, ...posts].slice(0, config.maxPosts));
   const nextTopics = [
     ...freshTrends.map((trend) => ({ key: trend.key, title: trend.title, usedAt: new Date().toISOString() })),
     ...usedTopics
@@ -149,20 +170,20 @@ async function buildPost(trend, sources) {
     generatedBy: config.openAiKey ? "openai-assisted" : "template"
   };
 
-  if (!config.openAiKey) return base;
+  if (!config.openAiKey) return finalizePost(base, trend, sources);
 
   try {
     const aiPost = await generateWithOpenAI(trend, sources);
-    return {
+    return finalizePost({
       ...base,
       title: aiPost.title || base.title,
       excerpt: aiPost.excerpt || base.excerpt,
       image: normalizeImage(aiPost.image, trend),
       content: Array.isArray(aiPost.content) && aiPost.content.length ? aiPost.content.slice(0, 18) : base.content
-    };
+    }, trend, sources);
   } catch (error) {
     console.warn(`OpenAI generation failed for ${trend.title}: ${error.message}`);
-    return base;
+    return finalizePost(base, trend, sources);
   }
 }
 
@@ -184,7 +205,7 @@ async function generateWithOpenAI(trend, sources) {
       input: [
         {
           role: "system",
-          content: "Write professional long-form trend analysis from only the provided trend data and headline context. Do not invent events, quotes, scores, dates, statistics, or claims beyond the provided inputs. If evidence is limited, say what readers should verify. Return strict JSON only."
+          content: "Write professional long-form trend briefings from only the provided trend data and headline context. Lead with the trend signal, explain why attention is rising, and use careful language when evidence is limited. Do not invent events, quotes, scores, dates, statistics, or claims beyond the provided inputs. Remove generic AI filler. Return strict JSON only."
         },
         {
           role: "user",
@@ -204,11 +225,10 @@ async function generateWithOpenAI(trend, sources) {
               },
               content: [
                 "10 to 14 paragraphs totaling 900 to 1200 words",
-                "Start with a direct context paragraph",
+                "Start with a direct trend-signal paragraph that mentions search interest or public attention",
+                "Include paragraphs starting exactly with: Context:, Why it is trending:, Key developments:, Reader impact:, What to verify:, What to watch next:, Bottom line:",
                 "Explain why the topic is trending based on headline context and search interest",
                 "Summarize key developments cautiously",
-                "Include a section-like paragraph starting with 'Why it matters:'",
-                "Include a section-like paragraph starting with 'What to watch next:'",
                 "Close by reminding readers to verify fast-moving details through trusted public coverage"
               ]
             }
@@ -233,36 +253,184 @@ function fallbackContent(trend, sources) {
   const category = trend.category || classifyTopic(trend.title);
   const headlineNames = sources.slice(0, 6).map((source) => source.title);
   const headlineSummary = headlineNames.length ? headlineNames.join("; ") : "public coverage was limited at generation time";
-  const trafficLine = trend.traffic ? `Google Trends reported search interest around ${trend.traffic}, which suggests the topic is attracting enough attention to deserve a fuller briefing.` : "The topic appeared in public trend data, which suggests a measurable spike in attention even when exact search volume is not available.";
+  const trafficLine = trend.traffic ? `Google Trends reported search interest around ${formatTraffic(trend.traffic)}, which makes the topic visible enough to deserve more than a headline scan.` : "The topic appeared in public trend data, which signals a measurable rise in attention even when exact search volume is not available.";
+  const caution = categoryCaution(category, cleanTitle);
 
   return [
-    `${cleanTitle} is moving through today's trend cycle, and the signal is strong enough to merit more than a quick headline scan. ${trafficLine} This briefing uses the visible trend title, related headline context, and timing clues as its evidence base, while avoiding claims that are not supported by the available coverage.`,
-    `The first thing to understand is that trending attention rarely comes from one simple cause. A spike can be driven by breaking coverage, fan conversation, schedule timing, public disagreement, market reaction, or a wave of social sharing. For ${cleanTitle}, the available headlines point to a developing conversation in the ${category.toLowerCase()} lane rather than a settled story. That means readers should treat this as a live briefing and verify precise details before repeating them.`,
-    `Recent headline context includes: ${headlineSummary}. These headlines are useful because they show what publishers and search users are currently connecting to the topic. They do not, by themselves, prove every claim in the broader conversation. The safest reading is that the topic has enough momentum to pull together several strands of coverage, and those strands are what make the subject worth watching today.`,
-    `Context: ${cleanTitle} is best understood as a snapshot of attention at a specific moment. Search interest often rises when people want a quick answer: what happened, why it matters, where to watch, who is involved, what changed, or whether a rumor is true. A professional reader should separate the existence of interest from the accuracy of every surrounding claim. The trend tells us people are asking; careful verification answers which parts of the story are grounded.`,
-    `Why it is trending: The topic appears to be gaining traction because multiple headlines are clustering around it within a short window. That clustering is important. When several outlets or feeds mention the same subject, search demand often follows as readers try to compare versions, check timing, or understand the practical impact. In a modern trend briefing, this is the difference between a random phrase and a topic with enough evidence to deserve editorial treatment.`,
-    `Key developments: The most useful details are the ones that appear consistently across the available headline titles. If a headline mentions an announcement, matchup, review, warning, market signal, or public reaction, that should be read as a clue for further verification. The article intentionally does not add unsupported specifics, because fast-moving trend posts can become misleading when they fill gaps with assumptions. Instead, it identifies the reliable shape of the conversation and points readers toward careful follow-up.`,
-    `Audience impact: For casual readers, the immediate value is orientation. They can quickly see why the term is appearing, what kind of coverage is discussing it, and whether the story belongs to sport, culture, business, politics, technology, or general interest. For creators, analysts, and site owners, the value is different: this topic may represent a short-lived opportunity for timely commentary, comparison pieces, explainer posts, or social updates that answer the questions people are already searching.`,
-    `Reader takeaway: The practical way to use this briefing is to move from awareness to verification. Start with the headline cluster, note which details appear more than once, and then check the most trustworthy coverage before forming a conclusion. That workflow keeps the article useful without pretending that a trend scan can replace fresh reporting, official records, or expert analysis.`,
-    `Why it matters: A trend like ${cleanTitle} matters because attention is a limited resource. When search demand gathers around a subject, it often reveals a public information gap. People are not only looking for the headline; they are looking for context, reliability, and next steps. A well-built publication should therefore do more than repeat the trend name. It should slow the topic down, show the evidence, and make clear where uncertainty remains.`,
-    `Confidence note: This post uses the related headline list as its guardrail. When the coverage list is broad and recent, the article can speak more confidently about the shape of the discussion. When the list is thin, mixed, or oddly matched, the article should be more cautious. That is why this briefing uses careful language such as "appears," "suggests," and "worth watching." Those words are not weakness; they are part of responsible trend publishing.`,
-    `What to watch next: Look for official updates, direct statements, schedule changes, score or market movement, published reviews, direct quotes, or follow-up reporting that confirms the early signal. If the topic continues to appear across fresh coverage, it may deserve a deeper follow-up article. If the spike fades quickly or coverage contradicts itself, the safest move is to treat this as a short attention wave rather than a durable story.`,
-    `Editorial note: This article is generated to provide a professional starting point, not a final verdict. Trusted coverage should be checked before making decisions, sharing claims, or using the topic in high-stakes contexts. That verification step is especially important for live sports, finance, politics, health, legal issues, celebrity coverage, and any story where early headlines can change within minutes.`,
-    `Bottom line: ${cleanTitle} is currently worth watching because it has active search momentum and related public coverage. The strongest use of this briefing is to understand the topic's direction, identify what needs verification, and follow reliable updates for the newest confirmed details.`
+    `${cleanTitle} is drawing active public attention, and the signal is strong enough to merit a careful briefing. ${trafficLine} The key question is not only what happened around ${cleanTitle}, but why readers are searching now and which details still need confirmation.`,
+    `Context: ${cleanTitle} should be read as a live attention signal, not a final verdict. Search interest often rises when people need quick orientation: what changed, who is involved, where the story is unfolding, how it affects them, and whether early claims are reliable. This article uses the trend title, timing, category, and related headline context as its guardrails.`,
+    `Why it is trending: The topic appears to be gaining traction because several public signals are clustering around it in a short window. Recent headline context includes: ${headlineSummary}. That cluster matters because search demand usually follows when readers compare versions, check timing, or look for practical consequences beyond the headline itself.`,
+    `Key developments: The strongest available signal is that ${cleanTitle} has moved beyond a single isolated mention. If the related headline context points to an announcement, outage, matchup, market move, public decision, review, or policy change, readers should treat that as a prompt for closer verification. The briefing avoids unsupported specifics and focuses on the shape of the conversation.`,
+    `Signal read: A trend like ${cleanTitle} usually grows when people encounter partial information and need a faster route to context. The search spike does not prove the most dramatic version of the story, but it does show that enough people are asking similar questions at roughly the same time. That is the editorial signal this site uses: attention first, then cautious explanation.`,
+    `Reader impact: For a general reader, the value is fast orientation. The topic belongs primarily in the ${category.toLowerCase()} lane, which affects what readers should look for next: official updates for public affairs, direct figures for business stories, confirmed scores or schedules for sports, release information for culture stories, and product or platform details for technology coverage.`,
+    `Why it matters: Public attention is limited, so a sudden rise around ${cleanTitle} often reveals an information gap. People may be looking for a decision, a result, a deadline, a price, a quote, a status update, or a simple explanation of why the term is everywhere. A useful briefing should make that gap easier to understand without overstating what is known.`,
+    `Editorial lens: The most useful way to cover ${cleanTitle} is to keep the reader's question at the center of the article. A strong briefing should explain the known context, make uncertainty visible, and avoid turning a fast search spike into a claim that sounds more settled than it is. That is especially important when a topic crosses from social discussion into business, politics, health, sports, or public safety.`,
+    `What to verify: Readers should confirm the most time-sensitive claims before sharing or acting on them. Check whether the headline context is recent, whether more than one reputable outlet or official channel supports the same detail, and whether the key fact is an observation, a rumor, a projection, or a confirmed update. ${caution}`,
+    `Decision frame: The practical way to read this story is to separate the durable signal from the temporary noise. Durable signals include repeated references to the same event, named organizations, published dates, official channels, and details that remain consistent across fresh coverage. Temporary noise includes vague claims, recycled headlines, mismatched topics, and details that appear only once.`,
+    `Practical takeaway: If a reader only has a minute, the safest conclusion is that ${cleanTitle} is currently a topic to monitor rather than a topic to treat as fully settled. Save the headline, compare it with later updates, and watch whether the same core facts remain stable. When the topic involves money, health, legal issues, elections, public policy, or personal reputations, that extra pause is part of responsible reading.`,
+    `What to watch next: The next useful signals are official statements, corrected timelines, updated search interest, follow-up reporting, and direct documents or records where relevant. If ${cleanTitle} continues appearing in fresh coverage, it may deserve a deeper follow-up. If attention fades quickly, the topic may be a short-lived search wave rather than a durable story.`,
+    `Coverage outlook: A trend can move in several directions after the first search spike. It may produce a confirmed update, a correction, a broader explainer, a response from a named organization, or a quiet fade as attention moves elsewhere. The next version of this story should be judged by the quality of new evidence, not only by how loudly the topic continues to circulate.`,
+    `Quality note: This briefing intentionally avoids filling gaps with speculation. When the public record is still moving, careful wording is more useful than false certainty. Readers should treat this as a structured starting point: enough context to understand the trend, enough caution to avoid repeating weak claims, and enough direction to know what to check next.`,
+    `Bottom line: ${cleanTitle} is worth watching because search demand suggests an active information gap. The best use of this briefing is to understand why the topic is visible, identify what still needs verification, and follow reliable updates before forming a firm conclusion. Treat the article as a map for smarter reading, not as a substitute for fresh primary confirmation.`
   ];
+}
+
+function finalizePost(post, trend, sources = []) {
+  const title = trimTitle(cleanGeneratedText(post.title || headlineFor(trend.title)), 78);
+  const category = post.category || trend.category || classifyTopic(trend.title || title);
+  const normalized = {
+    ...post,
+    title,
+    category,
+    excerpt: normalizeExcerpt(post.excerpt || professionalExcerpt(trend), trend),
+    image: normalizeImage(post.image, trend),
+    content: normalizeContent(post.content, trend, sources),
+    tags: tagsForPost({ ...post, title, category, trend: trend.title }),
+    ogImage: `assets/og/${post.slug}.svg`
+  };
+
+  normalized.quality = qualityForPost(normalized);
+  return normalized;
+}
+
+function preparePostCollection(posts) {
+  const titleSeen = new Map();
+  const slugSeen = new Map();
+
+  return posts.map((post) => {
+    const normalized = { ...post };
+    const titleKey = slugify(normalized.title || normalized.trend || "trend");
+    const titleCount = titleSeen.get(titleKey) || 0;
+    titleSeen.set(titleKey, titleCount + 1);
+
+    if (titleCount > 0) {
+      normalized.title = trimTitle(`${normalized.title} (${titleCount + 1})`, 78);
+    }
+
+    const baseSlug = normalized.slug || slugify(normalized.title || normalized.trend || "trend");
+    const slugCount = slugSeen.get(baseSlug) || 0;
+    slugSeen.set(baseSlug, slugCount + 1);
+    normalized.slug = slugCount > 0 ? `${baseSlug}-${normalized.id?.slice(0, 6) || slugCount + 1}` : baseSlug;
+    normalized.ogImage = `assets/og/${normalized.slug}.svg`;
+
+    const warnings = new Set(normalized.quality?.warnings || []);
+    if (titleCount > 0) warnings.add("duplicate-title-adjusted");
+    if (slugCount > 0) warnings.add("duplicate-slug-adjusted");
+
+    normalized.quality = qualityForPost(normalized);
+    normalized.quality.warnings = [...new Set([...normalized.quality.warnings, ...warnings])];
+    return normalized;
+  });
+}
+
+function normalizeContent(content, trend, sources) {
+  const base = Array.isArray(content) && content.length ? content : fallbackContent(trend, sources);
+  const cleaned = base
+    .map((paragraph) => cleanGeneratedText(paragraph))
+    .filter(Boolean);
+  const sectionText = cleaned.join("\n");
+  const missing = requiredSections.filter((section) => !sectionText.includes(section));
+  const hasEnoughWords = wordCount(cleaned) >= 900;
+
+  if (missing.length === 0 && hasEnoughWords) return cleaned;
+
+  const fallback = fallbackContent(trend, sources).map((paragraph) => cleanGeneratedText(paragraph));
+  return fallback;
+}
+
+function normalizeExcerpt(excerpt, trend) {
+  const clean = titleCase(trend.title);
+  const traffic = trend.traffic ? ` Search interest is around ${formatTraffic(trend.traffic)}.` : "";
+  const text = cleanGeneratedText(excerpt || "");
+  const words = text.split(/\s+/).filter(Boolean);
+  if (words.length >= 20 && words.length <= 35) return text;
+  return cleanGeneratedText(`${clean} is gaining attention in current trend data.${traffic} This briefing explains the context, verification points, and what to watch next.`);
+}
+
+function cleanGeneratedText(value) {
+  let text = repairMojibake(String(value || "")).replace(/\s+/g, " ").trim();
+  for (const phrase of bannedPhrases) text = text.replace(phrase, "");
+  return text.replace(/\s{2,}/g, " ").replace(/\s+([,.;:!?])/g, "$1").trim();
+}
+
+function trimTitle(title, maxLength) {
+  const clean = cleanGeneratedText(title);
+  if (clean.length <= maxLength) return clean;
+  const trimmed = clean.slice(0, maxLength - 1).replace(/\s+\S*$/, "").trim();
+  return trimmed || clean.slice(0, maxLength);
+}
+
+function tagsForPost(post) {
+  const parts = [
+    post.category,
+    ...(String(post.trend || post.title || "").split(/\s+/).filter((word) => word.length > 3).slice(0, 5))
+  ];
+  return [...new Set(parts.map((part) => titleCase(part)).filter(Boolean))].slice(0, 8);
+}
+
+function qualityForPost(post) {
+  const sections = requiredSections.filter((section) => (post.content || []).join("\n").includes(section));
+  const warnings = [];
+  const count = wordCount(post.content || []);
+
+  if (count < 900) warnings.push("below-900-words");
+  if (sections.length < requiredSections.length) warnings.push("missing-required-sections");
+  if (!post.title || post.title.length > 78) warnings.push("title-quality");
+  if (!post.excerpt || post.excerpt.split(/\s+/).length < 20) warnings.push("excerpt-too-short");
+  if (!post.image?.alt || !post.image?.credit) warnings.push("image-metadata");
+  if (containsBannedPhrase([post.title, post.excerpt, ...(post.content || [])].join(" "))) warnings.push("banned-phrase");
+  warnings.push(...categoryWarnings(post));
+
+  return {
+    wordCount: count,
+    sections,
+    warnings: [...new Set(warnings)]
+  };
+}
+
+function containsBannedPhrase(value) {
+  return bannedPhrases.some((phrase) => {
+    phrase.lastIndex = 0;
+    return phrase.test(value);
+  });
+}
+
+function categoryWarnings(post) {
+  const text = [post.title, post.excerpt, ...(post.content || [])].join(" ").toLowerCase();
+  const warnings = [];
+  if ((post.category === "News" || /politics|court|law|legal|health|medicare|stock|market|finance/.test(text)) && !/verify|official|confirm|caution|trusted/i.test(text)) {
+    warnings.push("needs-verification-language");
+  }
+  if (post.category === "Sports" && /score|wins|defeats|beats/.test(text) && !/confirm|official|schedule|result/i.test(text)) {
+    warnings.push("sports-result-caution");
+  }
+  return warnings;
+}
+
+function categoryCaution(category, title) {
+  if (category === "Business") return "For market or company topics, verify figures through current filings, exchange data, or trusted financial reporting.";
+  if (category === "Sports") return "For sports topics, verify scores, schedules, injuries, and standings through official league or team channels.";
+  if (category === "News") return "For civic, legal, health, or political topics, check official statements and primary records before relying on any claim.";
+  if (category === "Technology") return "For technology topics, check official product pages, status pages, documentation, or release notes before acting.";
+  if (category === "Culture") return "For entertainment and celebrity topics, separate confirmed reporting from speculation, fan discussion, and promotional material.";
+  return `For ${title}, prioritize recent updates and named public records over repeated summaries.`;
+}
+
+function formatTraffic(value) {
+  return String(value || "").replace(/,+/g, ",").replace(/,$/, "").trim() || "elevated";
 }
 
 async function backfillExistingPosts() {
   const posts = await readJson(paths.posts, []);
   const force = globalThis.process?.argv?.includes("--force");
-  const upgraded = posts.map((post) => {
+  const upgraded = preparePostCollection(posts.map((post) => {
     const trend = {
       title: post.trend || post.title,
       category: classifyTopic(post.trend || post.title),
       traffic: extractTraffic(post.content || [])
     };
 
-    return {
+    return finalizePost({
       ...post,
       title: headlineFor(trend.title),
       category: trend.category,
@@ -270,8 +438,8 @@ async function backfillExistingPosts() {
       image: imageForPost(trend),
       content: !force && Array.isArray(post.content) && wordCount(post.content) >= 750 ? post.content : fallbackContent(trend, post.sources || []),
       generatedBy: post.generatedBy || "template"
-    };
-  });
+    }, trend, post.sources || []);
+  }));
 
   await writeFile(paths.posts, `${JSON.stringify(upgraded, null, 2)}\n`, "utf8");
   await writeDerivedSiteFiles(upgraded);
@@ -282,13 +450,16 @@ async function writeDerivedSiteFiles(posts) {
   const sorted = [...posts].sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   await mkdir(paths.postDataDir, { recursive: true });
   await mkdir(paths.postPagesDir, { recursive: true });
+  await mkdir(paths.ogDir, { recursive: true });
   await cleanGeneratedDirectory(paths.postDataDir, ".json");
   await cleanGeneratedDirectory(paths.postPagesDir, ".html");
+  await cleanGeneratedDirectory(paths.ogDir, ".svg");
 
   const metadata = sorted.map(postMetadata);
   await writeFile(paths.index, `${JSON.stringify(metadata, null, 2)}\n`, "utf8");
 
   for (const post of sorted) {
+    await writeFile(new URL(`${post.slug}.svg`, paths.ogDir), generateOgSvg(post), "utf8");
     await writeFile(new URL(`${post.slug}.json`, paths.postDataDir), `${JSON.stringify(post, null, 2)}\n`, "utf8");
     await writeFile(new URL(`${post.slug}.html`, paths.postPagesDir), buildPostPage(post, sorted), "utf8");
   }
@@ -319,6 +490,9 @@ function postMetadata(post) {
     category: post.category,
     excerpt: post.excerpt,
     image: post.image,
+    tags: post.tags || [],
+    quality: post.quality || null,
+    ogImage: post.ogImage || null,
     sourceCount: (post.sources || []).length,
     publishedAt: post.publishedAt,
     url: postUrl(post),
@@ -602,7 +776,7 @@ function buildPostPage(post, posts) {
     .slice(0, 3);
   const description = post.excerpt || `${post.title} from ${config.blogName}.`;
   const canonical = postUrl(post);
-  const imageUrl = absoluteAssetUrl(post.image?.url);
+  const imageUrl = absoluteAssetUrl(post.ogImage || post.image?.url);
   const published = new Date(post.publishedAt).toISOString();
   const category = post.category || "Trend";
 
@@ -761,6 +935,88 @@ function articleSchema(post, canonical, imageUrl) {
       logo: { "@type": "ImageObject", url: `${config.siteUrl}/assets/icons/icon-512.svg` }
     }
   };
+}
+
+function generateOgSvg(post) {
+  const category = post.category || "Trend";
+  const palette = categoryPalette(category);
+  const titleLines = wrapSvgLines(post.title || "Trend briefing", 32, 4);
+  const date = post.publishedAt
+    ? new Date(post.publishedAt).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })
+    : "Latest briefing";
+  const yStart = titleLines.length === 1 ? 310 : titleLines.length === 2 ? 276 : titleLines.length === 3 ? 242 : 214;
+  const titleMarkup = titleLines
+    .map((line, index) => `<text x="72" y="${yStart + index * 66}" font-family="Georgia, 'Times New Roman', serif" font-size="60" font-weight="700" fill="#ffffff">${escapeSvg(line)}</text>`)
+    .join("\n  ");
+  const number = String(hashIndex(post.slug || post.title || category, 90) + 1).padStart(2, "0");
+
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="${escapeSvg(post.title || "TrendPulse briefing")}">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="${palette.start}"/>
+      <stop offset="1" stop-color="${palette.end}"/>
+    </linearGradient>
+    <pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse">
+      <path d="M56 0H0v56" fill="none" stroke="#ffffff" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#grid)" opacity=".65"/>
+  <rect x="44" y="44" width="1112" height="542" rx="22" fill="#07111f" fill-opacity=".42" stroke="#ffffff" stroke-opacity=".2"/>
+  <text x="72" y="96" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="800" fill="${palette.accent}" letter-spacing="2">${escapeSvg(category.toUpperCase())}</text>
+  <text x="72" y="136" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#cbd5e1">TREND BRIEFING</text>
+  ${titleMarkup}
+  <text x="72" y="552" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800" fill="#ffffff">TRENDPULSE DAILY</text>
+  <text x="1128" y="552" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#dbeafe">${escapeSvg(date)}</text>
+  <text x="1010" y="292" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="176" font-weight="700" fill="#ffffff" opacity=".08">${number}</text>
+</svg>
+`;
+}
+
+function categoryPalette(category) {
+  const palettes = {
+    Business: { start: "#10233f", end: "#075985", accent: "#facc15" },
+    Sports: { start: "#052e16", end: "#0f766e", accent: "#22c55e" },
+    Technology: { start: "#111827", end: "#155e75", accent: "#38bdf8" },
+    Culture: { start: "#3b1238", end: "#be185d", accent: "#fb7185" },
+    News: { start: "#1e293b", end: "#7f1d1d", accent: "#f97316" },
+    Trends: { start: "#101827", end: "#3730a3", accent: "#2dd4bf" }
+  };
+  return palettes[category] || palettes.Trends;
+}
+
+function wrapSvgLines(value, maxChars, maxLines) {
+  const words = String(value || "").split(/\s+/).filter(Boolean);
+  const lines = [];
+  let line = "";
+
+  for (const word of words) {
+    const next = line ? `${line} ${word}` : word;
+    if (next.length > maxChars && line) {
+      lines.push(line);
+      line = word;
+    } else {
+      line = next;
+    }
+    if (lines.length === maxLines) break;
+  }
+
+  if (line && lines.length < maxLines) lines.push(line);
+  if (lines.length > maxLines) lines.length = maxLines;
+  if (words.join(" ").length > lines.join(" ").length && lines.length) {
+    lines[lines.length - 1] = `${lines[lines.length - 1].replace(/[.,:;!?]$/, "")}...`;
+  }
+  return lines.length ? lines : ["Trend briefing"];
+}
+
+function escapeSvg(value) {
+  return String(value || "").replace(/[&<>"']/g, (char) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#39;"
+  }[char]));
 }
 
 function pageAssetUrl(url) {
