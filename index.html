@@ -42,13 +42,25 @@
         </span>
       </a>
       <div class="nav-actions">
-        <a href="#archive">Archive</a>
+        <a href="archive.html">Archive</a>
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
         <a href="privacy.html">Privacy</a>
         <a href="terms.html">Terms</a>
       </div>
     </nav>
+
+    <section class="masthead" aria-label="Publication masthead">
+      <div>
+        <p id="mastDate" class="mast-date">Daily briefing edition</p>
+        <p class="mast-title">Trend<span>Pulse</span></p>
+      </div>
+      <div class="mast-stats" aria-label="Site stats">
+        <div><strong id="mastPostCount">0</strong><span>Briefings</span></div>
+        <div><strong id="mastTopicCount">0</strong><span>Topics</span></div>
+        <div><strong id="mastLatestAge">New</strong><span>Latest</span></div>
+      </div>
+    </section>
 
     <section class="hero">
       <section class="hero-copy">
@@ -62,19 +74,25 @@
         </form>
       </section>
 
-      <aside class="hero-card" aria-label="Publication status">
-        <p class="card-label">Publication snapshot</p>
-        <div>
-          <span id="postCount">0</span>
-          <small>posts published</small>
+      <aside class="hero-panel" aria-label="Publication status and trending briefings">
+        <div class="hero-card">
+          <p class="card-label">Publication snapshot</p>
+          <div>
+            <span id="postCount">0</span>
+            <small>posts published</small>
+          </div>
+          <div>
+            <span id="latestDate">Waiting</span>
+            <small>latest briefing</small>
+          </div>
+          <div>
+            <span id="topicCount">0</span>
+            <small>topic categories</small>
+          </div>
         </div>
-        <div>
-          <span id="latestDate">Waiting</span>
-          <small>latest briefing</small>
-        </div>
-        <div>
-          <span id="topicCount">0</span>
-          <small>topic categories</small>
+        <div class="trending-panel">
+          <p class="card-label">Trending now</p>
+          <ol id="trendingNow"></ol>
         </div>
       </aside>
     </section>
@@ -128,7 +146,7 @@
         <nav aria-label="Footer quick links">
           <strong>Quick Links</strong>
           <ul>
-            <li><a href="#archive">Archive</a></li>
+            <li><a href="archive.html">Archive</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="privacy.html">Privacy</a></li>
@@ -138,16 +156,16 @@
         <nav aria-label="Footer categories">
           <strong>Categories</strong>
           <ul>
-            <li><a href="#archive">Sports</a></li>
-            <li><a href="#archive">Business</a></li>
-            <li><a href="#archive">Technology</a></li>
+            <li><a href="archive.html">Sports</a></li>
+            <li><a href="archive.html">Business</a></li>
+            <li><a href="archive.html">Technology</a></li>
           </ul>
         </nav>
       </div>
       <div class="footer-cta">
         <strong>Read the Latest Briefings</strong>
         <p>Browse fresh context across sports, business, technology, culture, and public affairs.</p>
-        <a class="read-more-link" href="#archive">Open Archive</a>
+        <a class="read-more-link" href="archive.html">Open Archive</a>
       </div>
       <p class="footer-note">&copy; 2026 TrendPulse Daily. Built for concise trend context and fast topic discovery.</p>
     </div>

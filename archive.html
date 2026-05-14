@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Browse the full TrendPulse Daily archive by topic, date, and search term.">
+  <meta property="og:title" content="Archive | TrendPulse Daily">
+  <meta property="og:description" content="Browse all TrendPulse Daily briefings in one searchable archive.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0f766e">
+  <title>Archive | TrendPulse Daily</title>
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.svg">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Newsreader:opsz,wght@6..72,500;6..72,650;6..72,750&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class="archive-page">
+  <header class="post-header archive-header">
+    <nav class="topbar" aria-label="Primary">
+      <a class="brand" href="./">
+        <img class="brand-logo" src="assets/icons/site-logo.svg" alt="" width="48" height="48" aria-hidden="true">
+        <span><strong>TrendPulse</strong><small>Daily intelligence</small></span>
+      </a>
+      <div class="nav-actions">
+        <a href="./">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </div>
+    </nav>
+    <section class="post-hero archive-hero">
+      <p class="eyebrow">Full archive</p>
+      <h1>All briefings in one searchable index.</h1>
+      <p class="lede">Use the archive to scan recent topics, filter by category, and open any briefing directly.</p>
+      <form class="searchbar archive-search" role="search">
+        <label class="sr-only" for="archiveSearch">Search archive</label>
+        <input id="archiveSearch" type="search" placeholder="Search titles, topics, and summaries">
+        <button type="submit">Search</button>
+      </form>
+    </section>
+  </header>
+
+  <main class="archive-main">
+    <section class="archive-tools" aria-label="Archive controls">
+      <div>
+        <p class="eyebrow">Browse by topic</p>
+        <div id="archiveFilters" class="filters"></div>
+      </div>
+      <div class="archive-stats" aria-label="Archive stats">
+        <div><strong id="archiveTotal">0</strong><span>Briefings</span></div>
+        <div><strong id="archiveTopics">0</strong><span>Topics</span></div>
+        <div><strong id="archiveLatest">New</strong><span>Latest</span></div>
+      </div>
+    </section>
+
+    <p id="archiveSummary" class="results-summary" aria-live="polite">Loading briefings...</p>
+    <section id="archiveList" class="archive-list" aria-label="All briefings"></section>
+    <button id="archiveLoadMore" class="load-more" type="button" hidden>Load more briefings</button>
+    <p id="archiveEmpty" class="empty" hidden>No briefings match this search.</p>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <div class="footer-grid">
+        <div>
+          <p class="footer-brand"><img src="assets/icons/site-logo.svg" alt="" width="40" height="40" aria-hidden="true"><strong>TrendPulse Daily</strong></p>
+          <p>Sharp trend briefings for readers who want context quickly, without the noise.</p>
+        </div>
+        <nav aria-label="Footer quick links">
+          <strong>Quick Links</strong>
+          <ul>
+            <li><a href="./">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="terms.html">Terms & Credits</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Footer categories">
+          <strong>Categories</strong>
+          <ul>
+            <li><a href="archive.html">Sports</a></li>
+            <li><a href="archive.html">Business</a></li>
+            <li><a href="archive.html">Technology</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="footer-note">&copy; 2026 TrendPulse Daily. Built for concise trend context and fast topic discovery.</p>
+    </div>
+  </footer>
+
+  <script type="module" src="assets/archive.js"></script>
+</body>
+</html>

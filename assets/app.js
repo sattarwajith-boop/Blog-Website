@@ -7,6 +7,7 @@ const loadMoreButton = document.querySelector("#loadMore");
 const resultsSummary = document.querySelector("#resultsSummary");
 const template = document.querySelector("#postCardTemplate");
 const backToTop = document.querySelector(".back-to-top");
+const trendingNow = document.querySelector("#trendingNow");
 
 const pageSize = 6;
 let posts = [];
@@ -37,8 +38,14 @@ async function init() {
   posts.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   document.querySelector("#postCount").textContent = posts.length;
   document.querySelector("#latestDate").textContent = posts[0] ? formatter.format(new Date(posts[0].publishedAt)) : "Waiting";
-  document.querySelector("#topicCount").textContent = new Set(posts.map((post) => post.category).filter(Boolean)).size;
+  const topicCount = new Set(posts.map((post) => post.category).filter(Boolean)).size;
+  document.querySelector("#topicCount").textContent = topicCount;
   document.querySelector("#latestHeadline").textContent = posts[0] ? posts[0].title : "The desk is preparing its first briefing.";
+  document.querySelector("#mastPostCount").textContent = posts.length;
+  document.querySelector("#mastTopicCount").textContent = topicCount;
+  document.querySelector("#mastDate").textContent = mastheadDate();
+  document.querySelector("#mastLatestAge").textContent = posts[0] ? relativeAge(posts[0].publishedAt) : "New";
+  renderTrendingNow();
 
   renderFilters();
   await render();
@@ -173,6 +180,21 @@ function createCard(post) {
   return node;
 }
 
+function renderTrendingNow() {
+  if (!trendingNow) return;
+  trendingNow.replaceChildren(...posts.slice(0, 4).map((post, index) => {
+    const item = document.createElement("li");
+    item.innerHTML = `
+      <a href="posts/${escapeAttribute(post.slug)}.html">
+        <span>${String(index + 1).padStart(2, "0")}</span>
+        <strong>${escapeHtml(post.title)}</strong>
+        <small>${escapeHtml(post.category || "Trend")} - ${escapeHtml(post.readingTime || "5 min")}</small>
+      </a>
+    `;
+    return item;
+  }));
+}
+
 function observeCards() {
   if (!("IntersectionObserver" in window)) {
     document.querySelectorAll(".post-card").forEach((card) => card.classList.add("visible"));
@@ -211,6 +233,26 @@ function escapeAttribute(value) {
 function readingTime(post) {
   const words = [post.title, post.excerpt, ...(post.content || [])].join(" ").trim().split(/\s+/).filter(Boolean).length;
   return `${Math.max(1, Math.ceil(words / 190))} min`;
+}
+
+function mastheadDate() {
+  const now = new Date();
+  return now.toLocaleDateString(undefined, {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric"
+  });
+}
+
+function relativeAge(value) {
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return "New";
+  const minutes = Math.max(0, Math.round((Date.now() - date.getTime()) / 60000));
+  if (minutes < 60) return `${Math.max(1, minutes)}m`;
+  const hours = Math.round(minutes / 60);
+  if (hours < 48) return `${hours}h`;
+  return `${Math.round(hours / 24)}d`;
 }
 
 function debounce(fn, wait = 160) {

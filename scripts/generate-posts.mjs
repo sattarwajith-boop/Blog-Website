@@ -578,6 +578,7 @@ function buildRss(posts) {
 function buildSitemap(posts) {
   const urls = [
     { loc: `${config.siteUrl}/`, lastmod: new Date().toISOString() },
+    { loc: `${config.siteUrl}/archive.html`, lastmod: new Date().toISOString() },
     { loc: `${config.siteUrl}/about.html`, lastmod: new Date().toISOString() },
     { loc: `${config.siteUrl}/contact.html`, lastmod: new Date().toISOString() },
     { loc: `${config.siteUrl}/privacy.html`, lastmod: new Date().toISOString() },
@@ -641,13 +642,20 @@ function buildPostPage(post, posts) {
         <span><strong>TrendPulse</strong><small>Daily intelligence</small></span>
       </a>
       <div class="nav-actions">
-        <a href="../#archive">Archive</a>
+        <a href="../archive.html">Archive</a>
         <a href="../about.html">About</a>
         <a href="../contact.html">Contact</a>
         <a href="../privacy.html">Privacy</a>
         <a href="../terms.html">Terms</a>
       </div>
     </nav>
+    <div class="breadcrumb">
+      <a href="../">Home</a>
+      <span>/</span>
+      <a href="../archive.html">Archive</a>
+      <span>/</span>
+      <strong>${escapeHtml(category)}</strong>
+    </div>
     <section class="post-hero">
       <p class="eyebrow category" data-cat="${escapeAttribute(category)}">${escapeHtml(category)}</p>
       <h1>${escapeHtml(post.title)}</h1>
@@ -659,7 +667,8 @@ function buildPostPage(post, posts) {
       </div>
     </section>
   </header>
-  <main class="post-main">
+  <main class="post-main article-main">
+    <div class="article-wrap">
     <article class="feature-article post-detail reading-layout">
       <div class="post-body">
         ${post.image?.url ? `<figure class="feature-image"><img src="${escapeAttribute(pageAssetUrl(post.image.url))}" alt="${escapeAttribute(post.image.alt || `${post.title} image`)}" width="1400" height="788" loading="eager" decoding="async" fetchpriority="high"><figcaption>${escapeHtml(post.image.credit || "Editorial image")}</figcaption></figure>` : ""}
@@ -670,6 +679,18 @@ function buildPostPage(post, posts) {
         </div>
       </div>
     </article>
+    <aside class="article-sidebar" aria-label="Briefing details">
+      <div class="sidebar-block">
+        <p class="card-label">Briefing details</p>
+        <dl>
+          <div><dt>Topic</dt><dd>${escapeHtml(category)}</dd></div>
+          <div><dt>Published</dt><dd>${escapeHtml(new Date(post.publishedAt).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" }))}</dd></div>
+          <div><dt>Read time</dt><dd>${escapeHtml(readingTime(post))}</dd></div>
+        </dl>
+      </div>
+      ${related.length ? `<div class="sidebar-block"><p class="card-label">Related reads</p><ol class="sidebar-related">${related.map((item) => `<li><a href="${escapeAttribute(`${item.slug}.html`)}">${escapeHtml(item.title)}</a></li>`).join("")}</ol></div>` : ""}
+    </aside>
+    </div>
     ${related.length ? `<section class="related-posts" aria-labelledby="relatedTitle"><div class="section-head"><div><p class="eyebrow">Next reads</p><h2 id="relatedTitle">Related briefings</h2></div></div><div class="post-grid">${related.map(relatedCard).join("")}</div></section>` : ""}
   </main>
   <footer class="footer">
@@ -699,7 +720,7 @@ function footerMarkup(prefix = "") {
         <nav aria-label="Footer quick links">
           <strong>Quick Links</strong>
           <ul>
-            <li><a href="${prefix}#archive">Archive</a></li>
+            <li><a href="${prefix}archive.html">Archive</a></li>
             <li><a href="${prefix}about.html">About</a></li>
             <li><a href="${prefix}contact.html">Contact</a></li>
             <li><a href="${prefix}privacy.html">Privacy</a></li>
@@ -709,16 +730,16 @@ function footerMarkup(prefix = "") {
         <nav aria-label="Footer categories">
           <strong>Categories</strong>
           <ul>
-            <li><a href="${prefix}#archive">Sports</a></li>
-            <li><a href="${prefix}#archive">Business</a></li>
-            <li><a href="${prefix}#archive">Technology</a></li>
+            <li><a href="${prefix}archive.html">Sports</a></li>
+            <li><a href="${prefix}archive.html">Business</a></li>
+            <li><a href="${prefix}archive.html">Technology</a></li>
           </ul>
         </nav>
       </div>
       <div class="footer-cta">
         <strong>Read the Latest Briefings</strong>
         <p>Browse fresh context across sports, business, technology, culture, and public affairs.</p>
-        <a class="read-more-link" href="${prefix}#archive">Open Archive</a>
+        <a class="read-more-link" href="${prefix}archive.html">Open Archive</a>
       </div>
       <p class="footer-note">&copy; ${new Date().getFullYear()} TrendPulse Daily. Built for concise trend context and fast topic discovery.</p>`;
 }
