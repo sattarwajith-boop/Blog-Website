@@ -353,7 +353,11 @@ function imageForPost(trend) {
   const topic = String(trend.title || "").toLowerCase();
   const category = trend.category || classifyTopic(trend.title || "");
   const library = imageLibrary();
-  const image = library.find((item) => item.match.test(topic)) || library.find((item) => item.category === category) || library.find((item) => item.category === "Trends");
+  const matched = library.find((item) => item.match.test(topic));
+  const categoryPool = library.filter((item) => item.category === category);
+  const trendPool = library.filter((item) => item.category === "Trends");
+  const pool = categoryPool.length ? categoryPool : trendPool;
+  const image = matched || pool[hashIndex(topic || category, pool.length)] || library[0];
 
   const isRemote = /^https?:\/\//i.test(image.url);
 
@@ -386,6 +390,9 @@ function imageLibrary() {
     { category: "Culture", match: /(firehouse|subs|food|restaurant)/, url: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5", credit: "Unsplash" },
     { category: "Sports", match: /(sports|athlete|game|tournament)/, url: "assets/generated/ai-sports-arena.png", credit: "AI-generated" },
     { category: "Technology", match: /(technology|digital|internet)/, url: "assets/generated/ai-trending-editorial.png", credit: "AI-generated" },
+    { category: "Trends", match: /(slack|platform|online|web|social|search)/, url: "https://images.unsplash.com/photo-1497366754035-f200968a6e72", credit: "Unsplash" },
+    { category: "Trends", match: /(daily|update|briefing|public|conversation)/, url: "https://images.unsplash.com/photo-1495020689067-958852a7765e", credit: "Unsplash" },
+    { category: "Trends", match: /(trend|viral|attention|topic)/, url: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173", credit: "Unsplash" },
     { category: "Business", match: /(business|finance)/, url: "https://images.unsplash.com/photo-1460925895917-afdab827c52f", credit: "Unsplash" },
     { category: "Culture", match: /(culture|entertainment|review)/, url: "https://images.unsplash.com/photo-1485846234645-a62644f84728", credit: "Unsplash" },
     { category: "News", match: /(court|law|public|civic)/, url: "assets/generated/ai-civic-analysis.png", credit: "AI-generated" },
@@ -571,6 +578,9 @@ function buildRss(posts) {
 function buildSitemap(posts) {
   const urls = [
     { loc: `${config.siteUrl}/`, lastmod: new Date().toISOString() },
+    { loc: `${config.siteUrl}/about.html`, lastmod: new Date().toISOString() },
+    { loc: `${config.siteUrl}/contact.html`, lastmod: new Date().toISOString() },
+    { loc: `${config.siteUrl}/privacy.html`, lastmod: new Date().toISOString() },
     { loc: `${config.siteUrl}/terms.html`, lastmod: new Date().toISOString() },
     ...posts.slice(0, 80).map((post) => ({ loc: postUrl(post), lastmod: post.publishedAt }))
   ];
@@ -632,6 +642,9 @@ function buildPostPage(post, posts) {
       </a>
       <div class="nav-actions">
         <a href="../#archive">Archive</a>
+        <a href="../about.html">About</a>
+        <a href="../contact.html">Contact</a>
+        <a href="../privacy.html">Privacy</a>
         <a href="../terms.html">Terms</a>
       </div>
     </nav>
@@ -687,6 +700,9 @@ function footerMarkup(prefix = "") {
           <strong>Quick Links</strong>
           <ul>
             <li><a href="${prefix}#archive">Archive</a></li>
+            <li><a href="${prefix}about.html">About</a></li>
+            <li><a href="${prefix}contact.html">Contact</a></li>
+            <li><a href="${prefix}privacy.html">Privacy</a></li>
             <li><a href="${prefix}terms.html">Terms & Credits</a></li>
           </ul>
         </nav>

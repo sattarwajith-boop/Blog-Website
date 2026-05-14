@@ -43,15 +43,18 @@
       </a>
       <div class="nav-actions">
         <a href="#archive">Archive</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy</a>
         <a href="terms.html">Terms</a>
       </div>
     </nav>
 
     <section class="hero">
       <section class="hero-copy">
-        <p class="eyebrow">Daily intelligence</p>
-        <h1>Briefings from the internet's fastest moving conversations.</h1>
-        <p class="lede">A premium publication that turns live search momentum into concise, context-rich briefings for fast-moving topics.</p>
+        <p class="eyebrow">Independent trend briefings</p>
+        <h1>Clear context for the topics people are searching right now.</h1>
+        <p class="lede">TrendPulse Daily turns fast-moving public interest into readable briefings with practical context, cautious analysis, and clean topic organization.</p>
         <form class="searchbar" role="search">
           <label class="sr-only" for="searchInput">Search posts and topics</label>
           <input id="searchInput" type="search" placeholder="Search posts and topics">
@@ -60,24 +63,31 @@
       </section>
 
       <aside class="hero-card" aria-label="Publication status">
-        <p class="card-label">Live desk status</p>
+        <p class="card-label">Publication snapshot</p>
         <div>
           <span id="postCount">0</span>
           <small>posts published</small>
         </div>
         <div>
           <span id="latestDate">Waiting</span>
-          <small>latest dispatch</small>
+          <small>latest briefing</small>
         </div>
         <div>
           <span id="topicCount">0</span>
-          <small>topic lanes tracked</small>
+          <small>topic categories</small>
         </div>
       </aside>
     </section>
   </header>
 
   <main>
+    <section class="trust-strip" aria-label="Editorial standards">
+      <span>Readable summaries</span>
+      <span>Topic-first navigation</span>
+      <span>Mobile-friendly pages</span>
+      <span>Image credits and policies</span>
+    </section>
+
     <section class="ticker" aria-label="Latest trend signal">
       <span>Latest signal</span>
       <p id="latestHeadline">Loading trend desk...</p>
@@ -92,6 +102,13 @@
     </section>
 
     <section id="featuredPost" class="featured"></section>
+    <section class="editorial-note" aria-labelledby="editorialNoteTitle">
+      <div>
+        <p class="eyebrow">Reader promise</p>
+        <h2 id="editorialNoteTitle">Built for useful reading, not clickbait.</h2>
+      </div>
+      <p>Every briefing is structured to explain what the topic is, why attention is rising, what readers should verify, and what to watch next. The site is designed for simple navigation, accessible reading, and transparent image credits.</p>
+    </section>
     <p id="resultsSummary" class="results-summary" aria-live="polite">Loading briefings...</p>
     <section id="archive" class="post-grid" aria-label="Post archive"></section>
     <button id="loadMore" class="load-more" type="button" hidden>Load more briefings</button>
@@ -112,6 +129,9 @@
           <strong>Quick Links</strong>
           <ul>
             <li><a href="#archive">Archive</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
             <li><a href="terms.html">Terms & Credits</a></li>
           </ul>
         </nav>
@@ -129,10 +149,10 @@
         <p>Browse fresh context across sports, business, technology, culture, and public affairs.</p>
         <a class="read-more-link" href="#archive">Open Archive</a>
       </div>
-      <p class="footer-note">© 2026 TrendPulse Daily. Built for concise trend context and fast topic discovery.</p>
+      <p class="footer-note">&copy; 2026 TrendPulse Daily. Built for concise trend context and fast topic discovery.</p>
     </div>
   </footer>
-  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+  <button class="back-to-top" type="button" aria-label="Back to top">&uarr;</button>
 
   <template id="postCardTemplate">
     <article class="post-card">
