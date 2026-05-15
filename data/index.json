@@ -1,5 +1,78 @@
 [
   {
+    "id": "49a64b552ecad356",
+    "slug": "famous-basketball-players",
+    "title": "Famous Basketball Players Explained: Trending Context",
+    "trend": "famous basketball players",
+    "category": "Trends",
+    "excerpt": "Famous Basketball Players is gaining attention in current trend data. Search interest is around 200+. This briefing explains the context, verification points, and what to watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Famous Basketball Players related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Famous",
+      "Basketball",
+      "Players"
+    ],
+    "quality": {
+      "wordCount": 985,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "What to watch next:",
+        "Bottom line:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/famous-basketball-players.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-15T06:19:59.827Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/famous-basketball-players.html",
+    "readingTime": "6 min"
+  },
+  {
+    "id": "046475a0830616ba",
+    "slug": "idris-elba",
+    "title": "The Idris Elba Story: Context and Analysis",
+    "trend": "idris elba",
+    "category": "Trends",
+    "excerpt": "Idris Elba is gaining attention in current trend data. Search interest is around 200+. This briefing explains the context, verification points, and what to watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Idris Elba related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Idris",
+      "Elba"
+    ],
+    "quality": {
+      "wordCount": 985,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "What to watch next:",
+        "Bottom line:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/idris-elba.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-15T06:19:59.600Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/idris-elba.html",
+    "readingTime": "6 min"
+  },
+  {
     "id": "b563803551266581",
     "slug": "is-slack-down",
     "title": "Today's Is Slack Down Update: Key Context",
