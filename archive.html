@@ -48,17 +48,31 @@
     <section class="archive-tools" aria-label="Archive controls">
       <div>
         <p class="eyebrow">Browse by topic</p>
-        <div id="archiveFilters" class="filters"></div>
+        <div id="archiveFilters" class="filters">
+          <button type="button" aria-pressed="true">All</button>
+          <button type="button" aria-pressed="false">Culture</button>
+          <button type="button" aria-pressed="false">Sports</button>
+          <button type="button" aria-pressed="false">Technology</button>
+          <button type="button" aria-pressed="false">Business</button>
+          <button type="button" aria-pressed="false">Trends</button>
+        </div>
       </div>
       <div class="archive-stats" aria-label="Archive stats">
-        <div><strong id="archiveTotal">0</strong><span>Briefings</span></div>
-        <div><strong id="archiveTopics">0</strong><span>Topics</span></div>
+        <div><strong id="archiveTotal">70+</strong><span>Briefings</span></div>
+        <div><strong id="archiveTopics">6</strong><span>Topics</span></div>
         <div><strong id="archiveLatest">New</strong><span>Latest</span></div>
       </div>
     </section>
 
-    <p id="archiveSummary" class="results-summary" aria-live="polite">Loading briefings...</p>
-    <section id="archiveList" class="archive-list" aria-label="All briefings"></section>
+    <p id="archiveSummary" class="results-summary" aria-live="polite">Latest briefings</p>
+    <section id="archiveList" class="archive-list" aria-label="All briefings">
+      <article class="archive-row"><a href="posts/bruno-mars-chicago.html"><time datetime="2026-05-16">May 16</time><div><p class="category" data-cat="Culture">Culture</p><h2>Bruno Mars Chicago Tickets: How to Check Dates, Prices, and Safe Buying Options</h2><p>A practical guide for checking official concert details, comparing ticket information, and avoiding fake resale links.</p></div><span class="archive-read">6 min</span></a></article>
+      <article class="archive-row"><a href="posts/bundesliga.html"><time datetime="2026-05-16">May 16</time><div><p class="category">Trends</p><h2>The Bundesliga Story: Context and Analysis</h2><p>A briefing for readers checking why Bundesliga-related searches are rising and what details deserve verification.</p></div><span class="archive-read">6 min</span></a></article>
+      <article class="archive-row"><a href="posts/terry-stotts-warriors-departure.html"><time datetime="2026-05-16">May 16</time><div><p class="category" data-cat="Sports">Sports</p><h2>Terry Stotts Warriors Departure: What You Need to Know</h2><p>Context for basketball fans following coaching updates, team changes, and official reporting signals.</p></div><span class="archive-read">6 min</span></a></article>
+      <article class="archive-row"><a href="posts/new-york-times.html"><time datetime="2026-05-16">May 16</time><div><p class="category">Trends</p><h2>Breaking Down New York Times: Key Context</h2><p>A careful overview for readers checking media-related search interest and public discussion.</p></div><span class="archive-read">6 min</span></a></article>
+      <article class="archive-row"><a href="posts/doral-golf-course-trump-monument.html"><time datetime="2026-05-15">May 15</time><div><p class="category" data-cat="Sports">Sports</p><h2>Doral Golf Course Trump Monument: What You Need to Know</h2><p>A reader-first explainer on the claims, context, and details that need verification.</p></div><span class="archive-read">6 min</span></a></article>
+      <article class="archive-row"><a href="posts/abc-world-news-tonight-ratings.html"><time datetime="2026-05-15">May 15</time><div><p class="category">Trends</p><h2>ABC World News Tonight Ratings: What's Happening Right Now</h2><p>Context for readers comparing ratings headlines, audience claims, and source reliability.</p></div><span class="archive-read">6 min</span></a></article>
+    </section>
     <button id="archiveLoadMore" class="load-more" type="button" hidden>Load more briefings</button>
     <p id="archiveEmpty" class="empty" hidden>No briefings match this search.</p>
   </main>
