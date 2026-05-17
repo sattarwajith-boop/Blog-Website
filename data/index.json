@@ -1,5 +1,76 @@
 [
   {
+    "id": "222a62ce015fe3bf",
+    "slug": "titanic",
+    "title": "The Titanic Story: Context and Analysis",
+    "trend": "titanic",
+    "category": "Trends",
+    "excerpt": "Titanic is gaining attention in current trend data. Search interest is around 200+. This briefing explains the context, verification points, and what to watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Titanic related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Titanic"
+    ],
+    "quality": {
+      "wordCount": 955,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "What to watch next:",
+        "Bottom line:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/titanic.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-17T06:03:16.075Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/titanic.html",
+    "readingTime": "6 min"
+  },
+  {
+    "id": "8b54a014ea488131",
+    "slug": "navy-federal",
+    "title": "Navy Federal: Full Briefing",
+    "trend": "navy federal",
+    "category": "Business",
+    "excerpt": "Navy Federal is gaining attention in current trend data. Search interest is around 1000+. This briefing explains the context, verification points, and what to watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Navy Federal related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Business",
+      "Navy",
+      "Federal"
+    ],
+    "quality": {
+      "wordCount": 985,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "What to watch next:",
+        "Bottom line:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/navy-federal.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-17T06:03:15.776Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/navy-federal.html",
+    "readingTime": "6 min"
+  },
+  {
     "id": "f5d8e33559828cb3",
     "slug": "bruno-mars-chicago",
     "title": "Breaking Down Bruno Mars Chicago: Key Context",
