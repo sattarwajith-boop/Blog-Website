@@ -1,5 +1,74 @@
 [
   {
+    "id": "4e9473470d1ccb7e",
+    "slug": "amy-grant",
+    "title": "The Amy Grant Story: Context and Analysis",
+    "trend": "amy grant",
+    "category": "Trends",
+    "excerpt": "Amy Grant is gaining attention in current trend data. Search interest is around 1000+. This briefing explains the context, verification points, and what to watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Amy Grant related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Grant"
+    ],
+    "quality": {
+      "wordCount": 985,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "What to watch next:",
+        "Bottom line:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/amy-grant.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-17T14:08:25.162Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/amy-grant.html",
+    "readingTime": "6 min"
+  },
+  {
+    "id": "ebf8f8e9afc8193d",
+    "slug": "nba-mvp",
+    "title": "Today's NBA Mvp Update: Key Context",
+    "trend": "nba mvp",
+    "category": "Sports",
+    "excerpt": "NBA Mvp is gaining attention in current trend data. Search interest is around 1000+. This briefing explains the context, verification points, and what to watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1400&q=82",
+      "alt": "NBA Mvp related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Sports"
+    ],
+    "quality": {
+      "wordCount": 980,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "What to watch next:",
+        "Bottom line:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/nba-mvp.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-17T14:08:24.938Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/nba-mvp.html",
+    "readingTime": "6 min"
+  },
+  {
     "id": "222a62ce015fe3bf",
     "slug": "titanic",
     "title": "The Titanic Story: Context and Analysis",
