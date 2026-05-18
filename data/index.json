@@ -1,5 +1,76 @@
 [
   {
+    "id": "a6ee0fef57738ce8",
+    "slug": "lanterns",
+    "title": "Today's Lanterns Update: Key Context",
+    "trend": "lanterns",
+    "category": "Trends",
+    "excerpt": "Lanterns is gaining attention in current trend data. Search interest is around 500+. This briefing explains the context, verification points, and what to watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Lanterns related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Lanterns"
+    ],
+    "quality": {
+      "wordCount": 965,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "What to watch next:",
+        "Bottom line:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/lanterns.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-18T16:05:40.655Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/lanterns.html",
+    "readingTime": "6 min"
+  },
+  {
+    "id": "2a6faa8003021419",
+    "slug": "weather-chicago",
+    "title": "Breaking Down Weather Chicago: Key Context",
+    "trend": "weather chicago",
+    "category": "Trends",
+    "excerpt": "Weather Chicago is gaining attention in current trend data. Search interest is around 1000+. This briefing explains the context, verification points, and what to watch next.",
+    "image": {
+      "url": "assets/generated/ai-trending-editorial.png",
+      "alt": "Weather Chicago related editorial image",
+      "credit": "AI-generated"
+    },
+    "tags": [
+      "Trends",
+      "Weather",
+      "Chicago"
+    ],
+    "quality": {
+      "wordCount": 961,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "What to watch next:",
+        "Bottom line:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/weather-chicago.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-05-18T16:05:40.251Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/weather-chicago.html",
+    "readingTime": "6 min"
+  },
+  {
     "id": "86c0c9a5c268cdfe",
     "slug": "the-boys-finale",
     "title": "Today's The Boys Finale Update: Key Context",
