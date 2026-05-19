@@ -1,0 +1,40 @@
+.source-box,
+.review-box {
+  margin: 34px 0;
+  border: 1px solid rgba(15, 118, 110, 0.22);
+  border-radius: 18px;
+  padding: 22px;
+  background: linear-gradient(180deg, rgba(15, 118, 110, 0.08), rgba(255, 255, 255, 0.72));
+}
+
+.source-box ol {
+  margin: 14px 0 0;
+  padding-left: 22px;
+}
+
+.source-box li + li {
+  margin-top: 10px;
+}
+
+.source-box a {
+  color: #0f766e;
+  font-weight: 800;
+}
+
+.source-box span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.review-box strong,
+.quality-score-block strong {
+  display: block;
+  margin-bottom: 8px;
+  font-family: Newsreader, Georgia, serif;
+  font-size: 1.55rem;
+}
+
+.quality-score-block strong {
+  color: #0f766e;
+}
