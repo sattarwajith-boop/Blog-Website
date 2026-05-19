@@ -1,23 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
-  <title id="title">TrendPulse Daily logo</title>
-  <desc id="desc">A premium TP monogram with a gold trend pulse line.</desc>
+  <title id="title">ContextWire logo</title>
+  <desc id="desc">A CW editorial wire mark with source lines and a gold verification arrow.</desc>
   <defs>
     <linearGradient id="mark-bg" x1="22" y1="20" x2="138" y2="140" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#0f766e"/>
-      <stop offset="0.58" stop-color="#12323d"/>
-      <stop offset="1" stop-color="#101820"/>
+      <stop offset="0.55" stop-color="#164e63"/>
+      <stop offset="1" stop-color="#111827"/>
     </linearGradient>
-    <linearGradient id="pulse" x1="30" y1="98" x2="132" y2="60" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#f2c14e"/>
-      <stop offset="1" stop-color="#c9972b"/>
+    <linearGradient id="wire" x1="35" y1="48" x2="130" y2="102" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e2e8f0"/>
+      <stop offset="1" stop-color="#ffffff"/>
     </linearGradient>
     <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#07121c" flood-opacity="0.28"/>
     </filter>
   </defs>
   <rect width="160" height="160" rx="34" fill="#f7f8f5"/>
-  <rect x="16" y="16" width="128" height="128" rx="28" fill="url(#mark-bg)" filter="url(#soft-shadow)"/>
-  <path d="M35 103c17 0 18-34 34-34 14 0 13 22 27 22 13 0 15-28 31-28" fill="none" stroke="url(#pulse)" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="127" cy="63" r="6" fill="#f2c14e"/>
-  <text x="80" y="89" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="48" font-weight="900" letter-spacing="-2" fill="#ffffff">TP</text>
+  <rect x="16" y="16" width="128" height="128" rx="30" fill="url(#mark-bg)" filter="url(#soft-shadow)"/>
+  <path d="M42 48h76M42 72h52M42 96h76" fill="none" stroke="url(#wire)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M111 45l18 15-18 15" fill="none" stroke="#facc15" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="42" cy="48" r="5" fill="#facc15"/>
+  <circle cx="42" cy="72" r="5" fill="#facc15"/>
+  <circle cx="42" cy="96" r="5" fill="#facc15"/>
+  <text x="80" y="126" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="900" letter-spacing="-1" fill="#ffffff">CW</text>
 </svg>
