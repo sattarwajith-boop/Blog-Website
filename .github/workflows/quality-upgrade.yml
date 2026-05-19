@@ -1,0 +1,38 @@
+name: Quality upgrade posts
+
+on:
+  workflow_dispatch:
+    inputs:
+      site_url:
+        description: "Full website URL, for example https://yourdomain.com"
+        required: false
+        default: "https://sattarwajith-boop.github.io/Blog-Website"
+
+permissions:
+  contents: write
+
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Check scripts
+        run: node --check scripts/generate-posts.mjs && node --check scripts/upgrade-quality.mjs
+
+      - name: Upgrade existing posts
+        env:
+          SITE_URL: ${{ github.event.inputs.site_url }}
+        run: node scripts/upgrade-quality.mjs
+
+      - name: Commit upgraded files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Apply article quality upgrades"
+          file_pattern: "data/posts.json data/index.json data/posts/*.json posts/*.html assets/quality-upgrades.css robots.txt ADSENSE_READY_CHECKLIST.md"
