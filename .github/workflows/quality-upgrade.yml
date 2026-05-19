@@ -24,13 +24,16 @@ jobs:
           node-version: "20"
 
       - name: Check scripts
-        run: node --check scripts/generate-posts.mjs && node --check scripts/upgrade-quality.mjs && node --check scripts/check-brand.mjs
+        run: node --check scripts/generate-posts.mjs && node --check scripts/upgrade-quality.mjs && node --check scripts/remove-quality-score.mjs && node --check scripts/check-brand.mjs
 
       - name: Upgrade existing posts
         env:
           SITE_URL: ${{ github.event.inputs.site_url }}
           BLOG_NAME: ContextWire
         run: node scripts/upgrade-quality.mjs
+
+      - name: Remove visible quality score cards
+        run: node scripts/remove-quality-score.mjs
 
       - name: Check old brand text
         run: node scripts/check-brand.mjs
