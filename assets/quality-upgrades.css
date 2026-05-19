@@ -27,14 +27,10 @@
   font-size: 0.9rem;
 }
 
-.review-box strong,
-.quality-score-block strong {
+.review-box strong {
   display: block;
   margin-bottom: 8px;
   font-family: Newsreader, Georgia, serif;
   font-size: 1.55rem;
 }
 
-.quality-score-block strong {
-  color: #0f766e;
-}
