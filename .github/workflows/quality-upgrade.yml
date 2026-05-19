@@ -24,15 +24,19 @@ jobs:
           node-version: "20"
 
       - name: Check scripts
-        run: node --check scripts/generate-posts.mjs && node --check scripts/upgrade-quality.mjs
+        run: node --check scripts/generate-posts.mjs && node --check scripts/upgrade-quality.mjs && node --check scripts/check-brand.mjs
 
       - name: Upgrade existing posts
         env:
           SITE_URL: ${{ github.event.inputs.site_url }}
+          BLOG_NAME: ContextWire
         run: node scripts/upgrade-quality.mjs
+
+      - name: Check old brand text
+        run: node scripts/check-brand.mjs
 
       - name: Commit upgraded files
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Apply article quality upgrades"
+          commit_message: "Apply ContextWire article quality upgrades"
           file_pattern: "data/posts.json data/index.json data/posts/*.json posts/*.html assets/quality-upgrades.css robots.txt ADSENSE_READY_CHECKLIST.md"
