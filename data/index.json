@@ -1,5 +1,74 @@
 [
   {
+    "id": "011407832c94c5e5",
+    "slug": "ameren",
+    "title": "Ameren Explained: Trending Context",
+    "trend": "ameren",
+    "category": "Trends",
+    "excerpt": "Ameren is gaining attention in current trend data. Search interest is around 100+. This briefing explains the context, verification points, and what to watch next.",
+    "image": {
+      "url": "assets/generated/ai-trending-editorial.png",
+      "alt": "Ameren related editorial image",
+      "credit": "AI-generated"
+    },
+    "tags": [
+      "Trends",
+      "Ameren"
+    ],
+    "quality": {
+      "wordCount": 957,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "What to watch next:",
+        "Bottom line:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/ameren.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-19T06:35:40.689Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/ameren.html",
+    "readingTime": "6 min"
+  },
+  {
+    "id": "d1def730bca99160",
+    "slug": "pak-vs-ban",
+    "title": "Pak vs Ban: Full Briefing",
+    "trend": "pak vs ban",
+    "category": "Trends",
+    "excerpt": "Pak vs Ban is gaining attention in current trend data. Search interest is around 200+. This briefing explains the context, verification points, and what to watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Pak vs Ban related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends"
+    ],
+    "quality": {
+      "wordCount": 1027,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "What to watch next:",
+        "Bottom line:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/pak-vs-ban.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-19T06:35:40.498Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/pak-vs-ban.html",
+    "readingTime": "6 min"
+  },
+  {
     "id": "a6ee0fef57738ce8",
     "slug": "lanterns",
     "title": "Today's Lanterns Update: Key Context",
