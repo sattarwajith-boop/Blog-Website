@@ -2,12 +2,13 @@
   <defs>
     <linearGradient id="bg" x1="20" y1="18" x2="172" y2="174" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#0f766e"/>
-      <stop offset="0.6" stop-color="#12323d"/>
-      <stop offset="1" stop-color="#101820"/>
+      <stop offset="0.55" stop-color="#164e63"/>
+      <stop offset="1" stop-color="#111827"/>
     </linearGradient>
   </defs>
   <rect width="192" height="192" rx="42" fill="#f7f8f5"/>
-  <rect x="18" y="18" width="156" height="156" rx="36" fill="url(#bg)"/>
-  <path d="M42 122c21 0 22-41 41-41 18 0 17 26 33 26 16 0 18-34 38-34" fill="none" stroke="#f2c14e" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="96" y="107" text-anchor="middle" font-family="Arial, sans-serif" font-size="58" font-weight="900" fill="#fff">TP</text>
+  <rect x="18" y="18" width="156" height="156" rx="38" fill="url(#bg)"/>
+  <path d="M52 62h88M52 96h62M52 130h88" fill="none" stroke="#e2e8f0" stroke-width="13" stroke-linecap="round"/>
+  <path d="M132 59l22 18-22 18" fill="none" stroke="#facc15" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="96" y="164" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="900" fill="#facc15">CW</text>
 </svg>
