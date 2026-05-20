@@ -1,40 +1,73 @@
 [
   {
-    "id": "4decd0b7f70fea94",
-    "slug": "royce-lewis",
-    "title": "Royce Lewis: What Readers Should Know and Verify",
-    "trend": "royce lewis",
+    "id": "f40c16db41803830",
+    "slug": "carls-jr",
+    "title": "Carls Jr Explained: Trending Context",
+    "trend": "carls jr",
     "category": "Trends",
-    "excerpt": "Royce Lewis explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "excerpt": "Carls Jr is gaining attention in current trend data. Search interest is around 200+. This briefing explains the context, verification points, and what to watch next.",
     "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Royce Lewis related editorial image",
+      "url": "assets/generated/ai-trending-editorial.png",
+      "alt": "Carls Jr related editorial image",
+      "credit": "AI-generated"
+    },
+    "tags": [
+      "Trends",
+      "Carls"
+    ],
+    "quality": {
+      "wordCount": 938,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "What to watch next:",
+        "Bottom line:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/carls-jr.svg",
+    "sourceCount": 2,
+    "publishedAt": "2026-05-20T06:35:27.755Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/carls-jr.html",
+    "readingTime": "6 min"
+  },
+  {
+    "id": "ab845f7ed55c7388",
+    "slug": "bts-members",
+    "title": "Bts Members: Full Briefing",
+    "trend": "bts members",
+    "category": "Trends",
+    "excerpt": "Bts Members is gaining attention in current trend data. Search interest is around 100+. This briefing explains the context, verification points, and what to watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Bts Members related editorial image",
       "credit": "Unsplash"
     },
     "tags": [
       "Trends",
-      "Royce",
-      "Lewis"
+      "Members"
     ],
     "quality": {
-      "wordCount": 402,
-      "score": 80,
+      "wordCount": 982,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "What to watch next:",
+        "Bottom line:"
       ],
-      "warnings": [
-        "needs-more-depth"
-      ]
+      "warnings": []
     },
-    "ogImage": "assets/og/royce-lewis.svg",
+    "ogImage": "assets/og/bts-members.svg",
     "sourceCount": 6,
-    "publishedAt": "2026-05-19T16:01:36.159Z",
-    "url": "https://contextwire.online/posts/royce-lewis.html",
-    "readingTime": "3 min"
+    "publishedAt": "2026-05-20T06:35:27.565Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/bts-members.html",
+    "readingTime": "6 min"
   },
   {
     "id": "78bb6b100ccd16d7",
@@ -57,57 +90,57 @@
     ],
     "quality": {
       "wordCount": 396,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/south-park-season-29-premiere.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-19T16:01:36.399Z",
-    "url": "https://contextwire.online/posts/south-park-season-29-premiere.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/south-park-season-29-premiere.html",
     "readingTime": "3 min"
   },
   {
-    "id": "d1def730bca99160",
-    "slug": "pak-vs-ban",
-    "title": "Pak vs Ban: Clear Context and Source Check",
-    "trend": "pak vs ban",
+    "id": "4decd0b7f70fea94",
+    "slug": "royce-lewis",
+    "title": "Royce Lewis: What Readers Should Know and Verify",
+    "trend": "royce lewis",
     "category": "Trends",
-    "excerpt": "Pak vs Ban explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "excerpt": "Royce Lewis explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
     "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Pak vs Ban related editorial image",
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Royce Lewis related editorial image",
       "credit": "Unsplash"
     },
     "tags": [
-      "Trends"
+      "Trends",
+      "Royce",
+      "Lewis"
     ],
     "quality": {
-      "wordCount": 418,
-      "score": 80,
+      "wordCount": 402,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
-    "ogImage": "assets/og/pak-vs-ban.svg",
+    "ogImage": "assets/og/royce-lewis.svg",
     "sourceCount": 6,
-    "publishedAt": "2026-05-19T06:35:40.498Z",
-    "url": "https://contextwire.online/posts/pak-vs-ban.html",
+    "publishedAt": "2026-05-19T16:01:36.159Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/royce-lewis.html",
     "readingTime": "3 min"
   },
   {
@@ -128,22 +161,90 @@
     ],
     "quality": {
       "wordCount": 378,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/ameren.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-19T06:35:40.689Z",
-    "url": "https://contextwire.online/posts/ameren.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/ameren.html",
+    "readingTime": "3 min"
+  },
+  {
+    "id": "d1def730bca99160",
+    "slug": "pak-vs-ban",
+    "title": "Pak vs Ban: Clear Context and Source Check",
+    "trend": "pak vs ban",
+    "category": "Trends",
+    "excerpt": "Pak vs Ban explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Pak vs Ban related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends"
+    ],
+    "quality": {
+      "wordCount": 418,
+      "sections": [
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
+      ],
+      "warnings": [
+        "below-900-words",
+        "missing-required-sections",
+        "needs-more-depth"
+      ]
+    },
+    "ogImage": "assets/og/pak-vs-ban.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-19T06:35:40.498Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/pak-vs-ban.html",
+    "readingTime": "3 min"
+  },
+  {
+    "id": "a6ee0fef57738ce8",
+    "slug": "lanterns",
+    "title": "Lanterns: Clear Context and Source Check",
+    "trend": "lanterns",
+    "category": "Trends",
+    "excerpt": "Lanterns explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Lanterns related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Lanterns"
+    ],
+    "quality": {
+      "wordCount": 379,
+      "sections": [
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
+      ],
+      "warnings": [
+        "below-900-words",
+        "missing-required-sections",
+        "needs-more-depth"
+      ]
+    },
+    "ogImage": "assets/og/lanterns.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-18T16:05:40.655Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/lanterns.html",
     "readingTime": "3 min"
   },
   {
@@ -165,96 +266,23 @@
     ],
     "quality": {
       "wordCount": 383,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Context:",
+        "Why it is trending:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/weather-chicago.svg",
     "sourceCount": 5,
     "publishedAt": "2026-05-18T16:05:40.251Z",
-    "url": "https://contextwire.online/posts/weather-chicago.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/weather-chicago.html",
     "readingTime": "3 min"
-  },
-  {
-    "id": "a6ee0fef57738ce8",
-    "slug": "lanterns",
-    "title": "Lanterns: Clear Context and Source Check",
-    "trend": "lanterns",
-    "category": "Trends",
-    "excerpt": "Lanterns explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Lanterns related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Lanterns"
-    ],
-    "quality": {
-      "wordCount": 379,
-      "score": 80,
-      "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
-      ],
-      "warnings": [
-        "needs-more-depth"
-      ]
-    },
-    "ogImage": "assets/og/lanterns.svg",
-    "sourceCount": 6,
-    "publishedAt": "2026-05-18T16:05:40.655Z",
-    "url": "https://contextwire.online/posts/lanterns.html",
-    "readingTime": "3 min"
-  },
-  {
-    "id": "0fc56116ca6538be",
-    "slug": "houses",
-    "title": "Houses: What Readers Should Know and Verify",
-    "trend": "houses",
-    "category": "Trends",
-    "excerpt": "Houses explained with reader-first context, trends verification points, and the available source trail so the page is useful beyond a simple trend summary.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Houses related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Houses"
-    ],
-    "quality": {
-      "wordCount": 334,
-      "score": 63,
-      "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
-      ],
-      "warnings": [
-        "needs-more-depth",
-        "add-more-sources-before-publishing"
-      ]
-    },
-    "ogImage": "assets/og/houses.svg",
-    "sourceCount": 1,
-    "publishedAt": "2026-05-18T06:40:07.633Z",
-    "url": "https://contextwire.online/posts/houses.html",
-    "readingTime": "2 min"
   },
   {
     "id": "86c0c9a5c268cdfe",
@@ -275,15 +303,14 @@
     ],
     "quality": {
       "wordCount": 359,
-      "score": 63,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth",
         "add-more-sources-before-publishing"
       ]
@@ -291,43 +318,43 @@
     "ogImage": "assets/og/the-boys-finale.svg",
     "sourceCount": 1,
     "publishedAt": "2026-05-18T06:40:12.901Z",
-    "url": "https://contextwire.online/posts/the-boys-finale.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/the-boys-finale.html",
     "readingTime": "3 min"
   },
   {
-    "id": "ebf8f8e9afc8193d",
-    "slug": "nba-mvp",
-    "title": "NBA Mvp: Schedule, Result, and Context Checks",
-    "trend": "nba mvp",
-    "category": "Sports",
-    "excerpt": "NBA Mvp explained with reader-first context, sports verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "id": "0fc56116ca6538be",
+    "slug": "houses",
+    "title": "Houses: What Readers Should Know and Verify",
+    "trend": "houses",
+    "category": "Trends",
+    "excerpt": "Houses explained with reader-first context, trends verification points, and the available source trail so the page is useful beyond a simple trend summary.",
     "image": {
-      "url": "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1400&q=82",
-      "alt": "NBA Mvp related editorial image",
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Houses related editorial image",
       "credit": "Unsplash"
     },
     "tags": [
-      "Sports"
+      "Trends",
+      "Houses"
     ],
     "quality": {
-      "wordCount": 381,
-      "score": 80,
+      "wordCount": 334,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
-        "needs-more-depth"
+        "below-900-words",
+        "missing-required-sections",
+        "needs-more-depth",
+        "add-more-sources-before-publishing"
       ]
     },
-    "ogImage": "assets/og/nba-mvp.svg",
-    "sourceCount": 6,
-    "publishedAt": "2026-05-17T14:08:24.938Z",
-    "url": "https://contextwire.online/posts/nba-mvp.html",
-    "readingTime": "3 min"
+    "ogImage": "assets/og/houses.svg",
+    "sourceCount": 1,
+    "publishedAt": "2026-05-18T06:40:07.633Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/houses.html",
+    "readingTime": "2 min"
   },
   {
     "id": "4e9473470d1ccb7e",
@@ -347,22 +374,90 @@
     ],
     "quality": {
       "wordCount": 448,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Context:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/amy-grant.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-17T14:08:25.162Z",
-    "url": "https://contextwire.online/posts/amy-grant.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/amy-grant.html",
+    "readingTime": "3 min"
+  },
+  {
+    "id": "ebf8f8e9afc8193d",
+    "slug": "nba-mvp",
+    "title": "NBA Mvp: Schedule, Result, and Context Checks",
+    "trend": "nba mvp",
+    "category": "Sports",
+    "excerpt": "NBA Mvp explained with reader-first context, sports verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1400&q=82",
+      "alt": "NBA Mvp related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Sports"
+    ],
+    "quality": {
+      "wordCount": 381,
+      "sections": [
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
+      ],
+      "warnings": [
+        "below-900-words",
+        "missing-required-sections",
+        "needs-more-depth"
+      ]
+    },
+    "ogImage": "assets/og/nba-mvp.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-17T14:08:24.938Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/nba-mvp.html",
+    "readingTime": "3 min"
+  },
+  {
+    "id": "222a62ce015fe3bf",
+    "slug": "titanic",
+    "title": "The Titanic Story: Context and Analysis",
+    "trend": "titanic",
+    "category": "Trends",
+    "excerpt": "Titanic explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Titanic related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Titanic"
+    ],
+    "quality": {
+      "wordCount": 426,
+      "sections": [
+        "Context:",
+        "What to verify:",
+        "Bottom line:"
+      ],
+      "warnings": [
+        "below-900-words",
+        "missing-required-sections",
+        "needs-more-depth"
+      ]
+    },
+    "ogImage": "assets/og/titanic.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-17T06:03:16.075Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/titanic.html",
     "readingTime": "3 min"
   },
   {
@@ -384,94 +479,20 @@
     ],
     "quality": {
       "wordCount": 384,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/navy-federal.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-17T06:03:15.776Z",
-    "url": "https://contextwire.online/posts/navy-federal.html",
-    "readingTime": "3 min"
-  },
-  {
-    "id": "222a62ce015fe3bf",
-    "slug": "titanic",
-    "title": "The Titanic Story: Context and Analysis",
-    "trend": "titanic",
-    "category": "Trends",
-    "excerpt": "Titanic explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Titanic related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Titanic"
-    ],
-    "quality": {
-      "wordCount": 426,
-      "score": 80,
-      "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
-      ],
-      "warnings": [
-        "needs-more-depth"
-      ]
-    },
-    "ogImage": "assets/og/titanic.svg",
-    "sourceCount": 6,
-    "publishedAt": "2026-05-17T06:03:16.075Z",
-    "url": "https://contextwire.online/posts/titanic.html",
-    "readingTime": "3 min"
-  },
-  {
-    "id": "fc0de28f92be4853",
-    "slug": "bundesliga",
-    "title": "The Bundesliga Story: Context and Analysis",
-    "trend": "bundesliga",
-    "category": "Trends",
-    "excerpt": "Bundesliga explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Bundesliga related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Bundesliga"
-    ],
-    "quality": {
-      "wordCount": 418,
-      "score": 80,
-      "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
-      ],
-      "warnings": [
-        "needs-more-depth"
-      ]
-    },
-    "ogImage": "assets/og/bundesliga.svg",
-    "sourceCount": 6,
-    "publishedAt": "2026-05-16T14:07:23.886Z",
-    "url": "https://contextwire.online/posts/bundesliga.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/navy-federal.html",
     "readingTime": "3 min"
   },
   {
@@ -494,15 +515,14 @@
     ],
     "quality": {
       "wordCount": 343,
-      "score": 63,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth",
         "add-more-sources-before-publishing"
       ]
@@ -510,44 +530,42 @@
     "ogImage": "assets/og/bruno-mars-chicago.svg",
     "sourceCount": 1,
     "publishedAt": "2026-05-16T14:07:24.118Z",
-    "url": "https://contextwire.online/posts/bruno-mars-chicago.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/bruno-mars-chicago.html",
     "readingTime": "2 min"
   },
   {
-    "id": "204905a69fd6716c",
-    "slug": "new-york-times",
-    "title": "New York Times: What Readers Should Know and Verify",
-    "trend": "new york times",
+    "id": "fc0de28f92be4853",
+    "slug": "bundesliga",
+    "title": "The Bundesliga Story: Context and Analysis",
+    "trend": "bundesliga",
     "category": "Trends",
-    "excerpt": "New York Times explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "excerpt": "Bundesliga explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
-      "alt": "New York Times related editorial image",
-      "credit": "AI-generated"
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Bundesliga related editorial image",
+      "credit": "Unsplash"
     },
     "tags": [
       "Trends",
-      "York",
-      "Times"
+      "Bundesliga"
     ],
     "quality": {
-      "wordCount": 385,
-      "score": 80,
+      "wordCount": 418,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Context:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
-    "ogImage": "assets/og/new-york-times.svg",
+    "ogImage": "assets/og/bundesliga.svg",
     "sourceCount": 6,
-    "publishedAt": "2026-05-16T05:42:04.539Z",
-    "url": "https://contextwire.online/posts/new-york-times.html",
+    "publishedAt": "2026-05-16T14:07:23.886Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/bundesliga.html",
     "readingTime": "3 min"
   },
   {
@@ -571,61 +589,57 @@
     ],
     "quality": {
       "wordCount": 386,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/terry-stotts-warriors-departure.svg",
     "sourceCount": 5,
     "publishedAt": "2026-05-16T05:42:04.725Z",
-    "url": "https://contextwire.online/posts/terry-stotts-warriors-departure.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/terry-stotts-warriors-departure.html",
     "readingTime": "3 min"
   },
   {
-    "id": "a7a3bc8da40bed08",
-    "slug": "abc-world-news-tonight-ratings",
-    "title": "Abc World News Tonight Ratings: What Readers Should Know and Verify",
-    "trend": "abc world news tonight ratings",
+    "id": "204905a69fd6716c",
+    "slug": "new-york-times",
+    "title": "New York Times: What Readers Should Know and Verify",
+    "trend": "new york times",
     "category": "Trends",
-    "excerpt": "Abc World News Tonight Ratings explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "excerpt": "New York Times explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
     "image": {
-      "url": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Abc World News Tonight Ratings related editorial image",
-      "credit": "Unsplash"
+      "url": "assets/generated/ai-trending-editorial.png",
+      "alt": "New York Times related editorial image",
+      "credit": "AI-generated"
     },
     "tags": [
       "Trends",
-      "World",
-      "News",
-      "Tonight",
-      "Ratings"
+      "York",
+      "Times"
     ],
     "quality": {
-      "wordCount": 425,
-      "score": 80,
+      "wordCount": 385,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
-    "ogImage": "assets/og/abc-world-news-tonight-ratings.svg",
+    "ogImage": "assets/og/new-york-times.svg",
     "sourceCount": 6,
-    "publishedAt": "2026-05-15T15:04:29.046Z",
-    "url": "https://contextwire.online/posts/abc-world-news-tonight-ratings.html",
+    "publishedAt": "2026-05-16T05:42:04.539Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/new-york-times.html",
     "readingTime": "3 min"
   },
   {
@@ -650,59 +664,59 @@
     ],
     "quality": {
       "wordCount": 393,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/doral-golf-course-trump-monument.svg",
     "sourceCount": 5,
     "publishedAt": "2026-05-15T15:04:29.311Z",
-    "url": "https://contextwire.online/posts/doral-golf-course-trump-monument.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/doral-golf-course-trump-monument.html",
     "readingTime": "3 min"
   },
   {
-    "id": "046475a0830616ba",
-    "slug": "idris-elba",
-    "title": "The Idris Elba Story: Context and Analysis",
-    "trend": "idris elba",
+    "id": "a7a3bc8da40bed08",
+    "slug": "abc-world-news-tonight-ratings",
+    "title": "Abc World News Tonight Ratings: What Readers Should Know and Verify",
+    "trend": "abc world news tonight ratings",
     "category": "Trends",
-    "excerpt": "Idris Elba explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "excerpt": "Abc World News Tonight Ratings explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
     "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Idris Elba related editorial image",
+      "url": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Abc World News Tonight Ratings related editorial image",
       "credit": "Unsplash"
     },
     "tags": [
       "Trends",
-      "Idris",
-      "Elba"
+      "World",
+      "News",
+      "Tonight",
+      "Ratings"
     ],
     "quality": {
-      "wordCount": 453,
-      "score": 80,
+      "wordCount": 425,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
-    "ogImage": "assets/og/idris-elba.svg",
+    "ogImage": "assets/og/abc-world-news-tonight-ratings.svg",
     "sourceCount": 6,
-    "publishedAt": "2026-05-15T06:19:59.600Z",
-    "url": "https://contextwire.online/posts/idris-elba.html",
+    "publishedAt": "2026-05-15T15:04:29.046Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/abc-world-news-tonight-ratings.html",
     "readingTime": "3 min"
   },
   {
@@ -725,22 +739,92 @@
     ],
     "quality": {
       "wordCount": 390,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/famous-basketball-players.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-15T06:19:59.827Z",
-    "url": "https://contextwire.online/posts/famous-basketball-players.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/famous-basketball-players.html",
+    "readingTime": "3 min"
+  },
+  {
+    "id": "046475a0830616ba",
+    "slug": "idris-elba",
+    "title": "The Idris Elba Story: Context and Analysis",
+    "trend": "idris elba",
+    "category": "Trends",
+    "excerpt": "Idris Elba explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Idris Elba related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Idris",
+      "Elba"
+    ],
+    "quality": {
+      "wordCount": 453,
+      "sections": [
+        "Context:",
+        "What to verify:",
+        "Bottom line:"
+      ],
+      "warnings": [
+        "below-900-words",
+        "missing-required-sections",
+        "needs-more-depth"
+      ]
+    },
+    "ogImage": "assets/og/idris-elba.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-15T06:19:59.600Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/idris-elba.html",
+    "readingTime": "3 min"
+  },
+  {
+    "id": "b563803551266581",
+    "slug": "is-slack-down",
+    "title": "Is Slack Down: What Readers Should Know and Verify",
+    "trend": "is slack down",
+    "category": "Trends",
+    "excerpt": "Is Slack Down explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Is Slack Down related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Slack",
+      "Down"
+    ],
+    "quality": {
+      "wordCount": 385,
+      "sections": [
+        "What to verify:",
+        "Bottom line:"
+      ],
+      "warnings": [
+        "below-900-words",
+        "missing-required-sections",
+        "needs-more-depth"
+      ]
+    },
+    "ogImage": "assets/og/is-slack-down.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-14T15:09:20.766Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/is-slack-down.html",
     "readingTime": "3 min"
   },
   {
@@ -765,59 +849,58 @@
     ],
     "quality": {
       "wordCount": 410,
-      "score": 75,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/mississippi-redistricting-special-session-cancelled.svg",
     "sourceCount": 3,
     "publishedAt": "2026-05-14T15:09:20.539Z",
-    "url": "https://contextwire.online/posts/mississippi-redistricting-special-session-cancelled.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/mississippi-redistricting-special-session-cancelled.html",
     "readingTime": "3 min"
   },
   {
-    "id": "b563803551266581",
-    "slug": "is-slack-down",
-    "title": "Is Slack Down: What Readers Should Know and Verify",
-    "trend": "is slack down",
+    "id": "7495aebbd88d7aac",
+    "slug": "jill-kargman",
+    "title": "The Jill Kargman Story: Context and Analysis",
+    "trend": "jill kargman",
     "category": "Trends",
-    "excerpt": "Is Slack Down explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "excerpt": "Jill Kargman explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
     "image": {
       "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Is Slack Down related editorial image",
+      "alt": "Jill Kargman related editorial image",
       "credit": "Unsplash"
     },
     "tags": [
       "Trends",
-      "Slack",
-      "Down"
+      "Jill",
+      "Kargman"
     ],
     "quality": {
-      "wordCount": 385,
-      "score": 80,
+      "wordCount": 381,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Context:",
+        "Why it is trending:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
-    "ogImage": "assets/og/is-slack-down.svg",
+    "ogImage": "assets/og/jill-kargman.svg",
     "sourceCount": 6,
-    "publishedAt": "2026-05-14T15:09:20.766Z",
-    "url": "https://contextwire.online/posts/is-slack-down.html",
+    "publishedAt": "2026-05-14T06:03:51.360Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/jill-kargman.html",
     "readingTime": "3 min"
   },
   {
@@ -842,95 +925,20 @@
     ],
     "quality": {
       "wordCount": 387,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/super-mario-galaxy-movie-boxoffice.svg",
     "sourceCount": 5,
     "publishedAt": "2026-05-14T06:03:51.084Z",
-    "url": "https://contextwire.online/posts/super-mario-galaxy-movie-boxoffice.html",
-    "readingTime": "3 min"
-  },
-  {
-    "id": "7495aebbd88d7aac",
-    "slug": "jill-kargman",
-    "title": "The Jill Kargman Story: Context and Analysis",
-    "trend": "jill kargman",
-    "category": "Trends",
-    "excerpt": "Jill Kargman explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Jill Kargman related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Jill",
-      "Kargman"
-    ],
-    "quality": {
-      "wordCount": 381,
-      "score": 80,
-      "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
-      ],
-      "warnings": [
-        "needs-more-depth"
-      ]
-    },
-    "ogImage": "assets/og/jill-kargman.svg",
-    "sourceCount": 6,
-    "publishedAt": "2026-05-14T06:03:51.360Z",
-    "url": "https://contextwire.online/posts/jill-kargman.html",
-    "readingTime": "3 min"
-  },
-  {
-    "id": "03f46f003af30322",
-    "slug": "medicare",
-    "title": "Medicare: What You Need to Know",
-    "trend": "medicare",
-    "category": "News",
-    "excerpt": "Medicare explained with reader-first context, news verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Medicare related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "News",
-      "Medicare"
-    ],
-    "quality": {
-      "wordCount": 394,
-      "score": 80,
-      "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
-      ],
-      "warnings": [
-        "needs-more-depth"
-      ]
-    },
-    "ogImage": "assets/og/medicare.svg",
-    "sourceCount": 6,
-    "publishedAt": "2026-05-13T19:27:54.825Z",
-    "url": "https://contextwire.online/posts/medicare.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/super-mario-galaxy-movie-boxoffice.html",
     "readingTime": "3 min"
   },
   {
@@ -952,59 +960,57 @@
     ],
     "quality": {
       "wordCount": 369,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Context:",
+        "Why it is trending:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/adley-rutschman.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-13T19:27:55.089Z",
-    "url": "https://contextwire.online/posts/adley-rutschman.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/adley-rutschman.html",
     "readingTime": "3 min"
   },
   {
-    "id": "c98aef61ce58655c",
-    "slug": "quintayvious-hutchins",
-    "title": "Quintayvious Hutchins: What Readers Should Know and Verify",
-    "trend": "quintayvious hutchins",
-    "category": "Trends",
-    "excerpt": "Quintayvious Hutchins explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "id": "03f46f003af30322",
+    "slug": "medicare",
+    "title": "Medicare: What You Need to Know",
+    "trend": "medicare",
+    "category": "News",
+    "excerpt": "Medicare explained with reader-first context, news verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
     "image": {
-      "url": "assets/generated/ai-trending-editorial.png",
-      "alt": "Quintayvious Hutchins related editorial image",
-      "credit": "AI-generated"
+      "url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Medicare related editorial image",
+      "credit": "Unsplash"
     },
     "tags": [
-      "Trends",
-      "Quintayvious",
-      "Hutchins"
+      "News",
+      "Medicare"
     ],
     "quality": {
-      "wordCount": 405,
-      "score": 80,
+      "wordCount": 394,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
-    "ogImage": "assets/og/quintayvious-hutchins.svg",
+    "ogImage": "assets/og/medicare.svg",
     "sourceCount": 6,
-    "publishedAt": "2026-05-13T15:33:45.020Z",
-    "url": "https://contextwire.online/posts/quintayvious-hutchins.html",
+    "publishedAt": "2026-05-13T19:27:54.825Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/medicare.html",
     "readingTime": "3 min"
   },
   {
@@ -1026,58 +1032,57 @@
     ],
     "quality": {
       "wordCount": 388,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/ford-stock.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-13T15:33:45.301Z",
-    "url": "https://contextwire.online/posts/ford-stock.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/ford-stock.html",
     "readingTime": "3 min"
   },
   {
-    "id": "15484c65071d939f",
-    "slug": "jg-quintel",
-    "title": "Why JG Quintel Is Trending Today",
-    "trend": "jg quintel",
-    "category": "Culture",
-    "excerpt": "JG Quintel explained with reader-first context, culture verification points, and 5 public sources so the page is useful beyond a simple trend summary.",
+    "id": "c98aef61ce58655c",
+    "slug": "quintayvious-hutchins",
+    "title": "Quintayvious Hutchins: What Readers Should Know and Verify",
+    "trend": "quintayvious hutchins",
+    "category": "Trends",
+    "excerpt": "Quintayvious Hutchins explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
     "image": {
-      "url": "assets/generated/ai-culture-books.png",
-      "alt": "JG Quintel related editorial image",
+      "url": "assets/generated/ai-trending-editorial.png",
+      "alt": "Quintayvious Hutchins related editorial image",
       "credit": "AI-generated"
     },
     "tags": [
-      "Culture",
-      "Quintel"
+      "Trends",
+      "Quintayvious",
+      "Hutchins"
     ],
     "quality": {
-      "wordCount": 435,
-      "score": 80,
+      "wordCount": 405,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
-    "ogImage": "assets/og/jg-quintel.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-13T06:04:34.836Z",
-    "url": "https://contextwire.online/posts/jg-quintel.html",
+    "ogImage": "assets/og/quintayvious-hutchins.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-13T15:33:45.020Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/quintayvious-hutchins.html",
     "readingTime": "3 min"
   },
   {
@@ -1099,59 +1104,56 @@
     ],
     "quality": {
       "wordCount": 388,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/michael-rapaport.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-13T06:04:35.041Z",
-    "url": "https://contextwire.online/posts/michael-rapaport.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/michael-rapaport.html",
     "readingTime": "3 min"
   },
   {
-    "id": "05be1c37a2814f56",
-    "slug": "alek-thomas",
-    "title": "Alek Thomas: What You Need to Know",
-    "trend": "alek thomas",
-    "category": "Sports",
-    "excerpt": "Alek Thomas explained with reader-first context, sports verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "id": "15484c65071d939f",
+    "slug": "jg-quintel",
+    "title": "Why JG Quintel Is Trending Today",
+    "trend": "jg quintel",
+    "category": "Culture",
+    "excerpt": "JG Quintel explained with reader-first context, culture verification points, and 5 public sources so the page is useful beyond a simple trend summary.",
     "image": {
-      "url": "https://images.unsplash.com/photo-1508344928928-7165b67de128?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Alek Thomas related editorial image",
-      "credit": "Unsplash"
+      "url": "assets/generated/ai-culture-books.png",
+      "alt": "JG Quintel related editorial image",
+      "credit": "AI-generated"
     },
     "tags": [
-      "Sports",
-      "Alek",
-      "Thomas"
+      "Culture",
+      "Quintel"
     ],
     "quality": {
-      "wordCount": 387,
-      "score": 80,
+      "wordCount": 435,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Context:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
-    "ogImage": "assets/og/alek-thomas.svg",
-    "sourceCount": 6,
-    "publishedAt": "2026-05-12T15:31:38.166Z",
-    "url": "https://contextwire.online/posts/alek-thomas.html",
+    "ogImage": "assets/og/jg-quintel.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-05-13T06:04:34.836Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/jg-quintel.html",
     "readingTime": "3 min"
   },
   {
@@ -1173,22 +1175,93 @@
     ],
     "quality": {
       "wordCount": 374,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Context:",
+        "Why it is trending:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/madison-keys.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-12T15:31:38.383Z",
-    "url": "https://contextwire.online/posts/madison-keys.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/madison-keys.html",
+    "readingTime": "3 min"
+  },
+  {
+    "id": "05be1c37a2814f56",
+    "slug": "alek-thomas",
+    "title": "Alek Thomas: What You Need to Know",
+    "trend": "alek thomas",
+    "category": "Sports",
+    "excerpt": "Alek Thomas explained with reader-first context, sports verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1508344928928-7165b67de128?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Alek Thomas related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Sports",
+      "Alek",
+      "Thomas"
+    ],
+    "quality": {
+      "wordCount": 387,
+      "sections": [
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
+      ],
+      "warnings": [
+        "below-900-words",
+        "missing-required-sections",
+        "needs-more-depth"
+      ]
+    },
+    "ogImage": "assets/og/alek-thomas.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-12T15:31:38.166Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/alek-thomas.html",
+    "readingTime": "3 min"
+  },
+  {
+    "id": "af91a6b75b31e6a7",
+    "slug": "warriors",
+    "title": "Warriors: What You Need to Know",
+    "trend": "warriors",
+    "category": "Sports",
+    "excerpt": "Warriors explained with reader-first context, sports verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Warriors related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Sports",
+      "Warriors"
+    ],
+    "quality": {
+      "wordCount": 397,
+      "sections": [
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
+      ],
+      "warnings": [
+        "below-900-words",
+        "missing-required-sections",
+        "needs-more-depth"
+      ]
+    },
+    "ogImage": "assets/og/warriors.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-12T05:54:26.200Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/warriors.html",
     "readingTime": "3 min"
   },
   {
@@ -1210,95 +1283,20 @@
     ],
     "quality": {
       "wordCount": 386,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/nba-playoffs-bracket.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-12T05:54:25.769Z",
-    "url": "https://contextwire.online/posts/nba-playoffs-bracket.html",
-    "readingTime": "3 min"
-  },
-  {
-    "id": "af91a6b75b31e6a7",
-    "slug": "warriors",
-    "title": "Warriors: What You Need to Know",
-    "trend": "warriors",
-    "category": "Sports",
-    "excerpt": "Warriors explained with reader-first context, sports verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Warriors related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Sports",
-      "Warriors"
-    ],
-    "quality": {
-      "wordCount": 397,
-      "score": 80,
-      "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
-      ],
-      "warnings": [
-        "needs-more-depth"
-      ]
-    },
-    "ogImage": "assets/og/warriors.svg",
-    "sourceCount": 6,
-    "publishedAt": "2026-05-12T05:54:26.200Z",
-    "url": "https://contextwire.online/posts/warriors.html",
-    "readingTime": "3 min"
-  },
-  {
-    "id": "b2ffc190b31433dc",
-    "slug": "daniil-medvedev",
-    "title": "Daniil Medvedev: Schedule, Result, and Context Checks",
-    "trend": "daniil medvedev",
-    "category": "Sports",
-    "excerpt": "Daniil Medvedev explained with reader-first context, sports verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Daniil Medvedev related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Sports",
-      "Daniil",
-      "Medvedev"
-    ],
-    "quality": {
-      "wordCount": 387,
-      "score": 80,
-      "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
-      ],
-      "warnings": [
-        "needs-more-depth"
-      ]
-    },
-    "ogImage": "assets/og/daniil-medvedev.svg",
-    "sourceCount": 6,
-    "publishedAt": "2026-05-11T15:46:50.243Z",
-    "url": "https://contextwire.online/posts/daniil-medvedev.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/nba-playoffs-bracket.html",
     "readingTime": "3 min"
   },
   {
@@ -1320,60 +1318,57 @@
     ],
     "quality": {
       "wordCount": 369,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/ameer-abdullah.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-11T15:46:50.439Z",
-    "url": "https://contextwire.online/posts/ameer-abdullah.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/ameer-abdullah.html",
     "readingTime": "3 min"
   },
   {
-    "id": "5c2dfc0a6c131a8b",
-    "slug": "dram-stock",
-    "title": "DRAM Stock: Key Context, Risks, and Source Check",
-    "trend": "dram stock",
-    "category": "Business",
-    "excerpt": "DRAM Stock explained with reader-first context, business verification points, and the available source trail so the page is useful beyond a simple trend summary.",
+    "id": "b2ffc190b31433dc",
+    "slug": "daniil-medvedev",
+    "title": "Daniil Medvedev: Schedule, Result, and Context Checks",
+    "trend": "daniil medvedev",
+    "category": "Sports",
+    "excerpt": "Daniil Medvedev explained with reader-first context, sports verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
     "image": {
-      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
-      "alt": "DRAM Stock related editorial image",
+      "url": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Daniil Medvedev related editorial image",
       "credit": "Unsplash"
     },
     "tags": [
-      "Business",
-      "DRAM",
-      "Stock"
+      "Sports",
+      "Daniil",
+      "Medvedev"
     ],
     "quality": {
-      "wordCount": 396,
-      "score": 63,
+      "wordCount": 387,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Context:",
+        "Why it is trending:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
-        "needs-more-depth",
-        "add-more-sources-before-publishing"
+        "below-900-words",
+        "missing-required-sections",
+        "needs-more-depth"
       ]
     },
-    "ogImage": "assets/og/dram-stock.svg",
-    "sourceCount": 1,
-    "publishedAt": "2026-05-11T06:23:42.545Z",
-    "url": "https://contextwire.online/posts/dram-stock.html",
+    "ogImage": "assets/og/daniil-medvedev.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-11T15:46:50.243Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/daniil-medvedev.html",
     "readingTime": "3 min"
   },
   {
@@ -1396,58 +1391,57 @@
     ],
     "quality": {
       "wordCount": 393,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/the-boys-season-5-episode-7.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-11T06:23:42.738Z",
-    "url": "https://contextwire.online/posts/the-boys-season-5-episode-7.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/the-boys-season-5-episode-7.html",
     "readingTime": "3 min"
   },
   {
-    "id": "54cb2446acef6ebd",
-    "slug": "images",
-    "title": "Why Images Is Trending Today",
-    "trend": "images",
-    "category": "Technology",
-    "excerpt": "Images explained with reader-first context, technology verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "id": "5c2dfc0a6c131a8b",
+    "slug": "dram-stock",
+    "title": "DRAM Stock: Key Context, Risks, and Source Check",
+    "trend": "dram stock",
+    "category": "Business",
+    "excerpt": "DRAM Stock explained with reader-first context, business verification points, and the available source trail so the page is useful beyond a simple trend summary.",
     "image": {
-      "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Images related editorial image",
+      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
+      "alt": "DRAM Stock related editorial image",
       "credit": "Unsplash"
     },
     "tags": [
-      "Technology",
-      "Images"
+      "Business",
+      "DRAM",
+      "Stock"
     ],
     "quality": {
-      "wordCount": 384,
-      "score": 80,
+      "wordCount": 396,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Context:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
-        "needs-more-depth"
+        "below-900-words",
+        "missing-required-sections",
+        "needs-more-depth",
+        "add-more-sources-before-publishing"
       ]
     },
-    "ogImage": "assets/og/images.svg",
-    "sourceCount": 6,
-    "publishedAt": "2026-05-10T14:04:37.623Z",
-    "url": "https://contextwire.online/posts/images.html",
+    "ogImage": "assets/og/dram-stock.svg",
+    "sourceCount": 1,
+    "publishedAt": "2026-05-11T06:23:42.545Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/dram-stock.html",
     "readingTime": "3 min"
   },
   {
@@ -1469,22 +1463,90 @@
     ],
     "quality": {
       "wordCount": 365,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/edward-r-murrow.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-10T14:04:37.855Z",
-    "url": "https://contextwire.online/posts/edward-r-murrow.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/edward-r-murrow.html",
+    "readingTime": "3 min"
+  },
+  {
+    "id": "54cb2446acef6ebd",
+    "slug": "images",
+    "title": "Why Images Is Trending Today",
+    "trend": "images",
+    "category": "Technology",
+    "excerpt": "Images explained with reader-first context, technology verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Images related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Technology",
+      "Images"
+    ],
+    "quality": {
+      "wordCount": 384,
+      "sections": [
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
+      ],
+      "warnings": [
+        "below-900-words",
+        "missing-required-sections",
+        "needs-more-depth"
+      ]
+    },
+    "ogImage": "assets/og/images.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-10T14:04:37.623Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/images.html",
+    "readingTime": "3 min"
+  },
+  {
+    "id": "e9e2f5a2ad4289c1",
+    "slug": "apac",
+    "title": "APAC: What You Need to Know",
+    "trend": "apac",
+    "category": "Business",
+    "excerpt": "APAC explained with reader-first context, business verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1400&q=82",
+      "alt": "APAC related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Business",
+      "APAC"
+    ],
+    "quality": {
+      "wordCount": 401,
+      "sections": [
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
+      ],
+      "warnings": [
+        "below-900-words",
+        "missing-required-sections",
+        "needs-more-depth"
+      ]
+    },
+    "ogImage": "assets/og/apac.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-10T05:51:58.972Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/apac.html",
     "readingTime": "3 min"
   },
   {
@@ -1508,15 +1570,14 @@
     ],
     "quality": {
       "wordCount": 363,
-      "score": 63,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth",
         "add-more-sources-before-publishing"
       ]
@@ -1524,43 +1585,42 @@
     "ogImage": "assets/og/ufc-post-fight-press-conference.svg",
     "sourceCount": 1,
     "publishedAt": "2026-05-10T05:51:58.555Z",
-    "url": "https://contextwire.online/posts/ufc-post-fight-press-conference.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/ufc-post-fight-press-conference.html",
     "readingTime": "3 min"
   },
   {
-    "id": "e9e2f5a2ad4289c1",
-    "slug": "apac",
-    "title": "APAC: What You Need to Know",
-    "trend": "apac",
-    "category": "Business",
-    "excerpt": "APAC explained with reader-first context, business verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "id": "97472d543331a16f",
+    "slug": "qinwen-zheng",
+    "title": "Qinwen Zheng: What Fans Should Confirm First",
+    "trend": "qinwen zheng",
+    "category": "Sports",
+    "excerpt": "Qinwen Zheng explained with reader-first context, sports verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
     "image": {
-      "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1400&q=82",
-      "alt": "APAC related editorial image",
+      "url": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Qinwen Zheng related editorial image",
       "credit": "Unsplash"
     },
     "tags": [
-      "Business",
-      "APAC"
+      "Sports",
+      "Qinwen",
+      "Zheng"
     ],
     "quality": {
-      "wordCount": 401,
-      "score": 80,
+      "wordCount": 378,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
-    "ogImage": "assets/og/apac.svg",
+    "ogImage": "assets/og/qinwen-zheng.svg",
     "sourceCount": 6,
-    "publishedAt": "2026-05-10T05:51:58.972Z",
-    "url": "https://contextwire.online/posts/apac.html",
+    "publishedAt": "2026-05-09T14:03:03.929Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/qinwen-zheng.html",
     "readingTime": "3 min"
   },
   {
@@ -1582,15 +1642,15 @@
     ],
     "quality": {
       "wordCount": 338,
-      "score": 63,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Context:",
+        "Why it is trending:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth",
         "add-more-sources-before-publishing"
       ]
@@ -1598,81 +1658,8 @@
     "ogImage": "assets/og/ufc-card-tonight.svg",
     "sourceCount": 1,
     "publishedAt": "2026-05-09T14:03:03.753Z",
-    "url": "https://contextwire.online/posts/ufc-card-tonight.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/ufc-card-tonight.html",
     "readingTime": "2 min"
-  },
-  {
-    "id": "97472d543331a16f",
-    "slug": "qinwen-zheng",
-    "title": "Qinwen Zheng: What Fans Should Confirm First",
-    "trend": "qinwen zheng",
-    "category": "Sports",
-    "excerpt": "Qinwen Zheng explained with reader-first context, sports verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Qinwen Zheng related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Sports",
-      "Qinwen",
-      "Zheng"
-    ],
-    "quality": {
-      "wordCount": 378,
-      "score": 80,
-      "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
-      ],
-      "warnings": [
-        "needs-more-depth"
-      ]
-    },
-    "ogImage": "assets/og/qinwen-zheng.svg",
-    "sourceCount": 6,
-    "publishedAt": "2026-05-09T14:03:03.929Z",
-    "url": "https://contextwire.online/posts/qinwen-zheng.html",
-    "readingTime": "3 min"
-  },
-  {
-    "id": "98ce4223d205b92c",
-    "slug": "ben-affleck",
-    "title": "The Ben Affleck Story: Context and Analysis",
-    "trend": "ben affleck",
-    "category": "Culture",
-    "excerpt": "Ben Affleck explained with reader-first context, culture verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Ben Affleck related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Culture",
-      "Affleck"
-    ],
-    "quality": {
-      "wordCount": 382,
-      "score": 80,
-      "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
-      ],
-      "warnings": [
-        "needs-more-depth"
-      ]
-    },
-    "ogImage": "assets/og/ben-affleck.svg",
-    "sourceCount": 6,
-    "publishedAt": "2026-05-09T05:36:41.299Z",
-    "url": "https://contextwire.online/posts/ben-affleck.html",
-    "readingTime": "3 min"
   },
   {
     "id": "e5cffb9b25814342",
@@ -1693,58 +1680,57 @@
     ],
     "quality": {
       "wordCount": 449,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Context:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/tanner-scott.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-09T05:36:41.566Z",
-    "url": "https://contextwire.online/posts/tanner-scott.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/tanner-scott.html",
     "readingTime": "3 min"
   },
   {
-    "id": "ddf290a2ff58fb1f",
-    "slug": "mu-stock",
-    "title": "Mu Stock: What Investors and Readers Should Verify",
-    "trend": "mu stock",
-    "category": "Business",
-    "excerpt": "Mu Stock explained with reader-first context, business verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "id": "98ce4223d205b92c",
+    "slug": "ben-affleck",
+    "title": "The Ben Affleck Story: Context and Analysis",
+    "trend": "ben affleck",
+    "category": "Culture",
+    "excerpt": "Ben Affleck explained with reader-first context, culture verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
     "image": {
-      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Mu Stock related editorial image",
+      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Ben Affleck related editorial image",
       "credit": "Unsplash"
     },
     "tags": [
-      "Business",
-      "Stock"
+      "Culture",
+      "Affleck"
     ],
     "quality": {
-      "wordCount": 405,
-      "score": 80,
+      "wordCount": 382,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Context:",
+        "Why it is trending:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
-    "ogImage": "assets/og/mu-stock.svg",
+    "ogImage": "assets/og/ben-affleck.svg",
     "sourceCount": 6,
-    "publishedAt": "2026-05-08T14:25:30.024Z",
-    "url": "https://contextwire.online/posts/mu-stock.html",
+    "publishedAt": "2026-05-09T05:36:41.299Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/ben-affleck.html",
     "readingTime": "3 min"
   },
   {
@@ -1768,15 +1754,14 @@
     ],
     "quality": {
       "wordCount": 402,
-      "score": 63,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Context:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth",
         "add-more-sources-before-publishing"
       ]
@@ -1784,44 +1769,42 @@
     "ogImage": "assets/og/ryan-seacrest-appearance-changes.svg",
     "sourceCount": 1,
     "publishedAt": "2026-05-08T14:25:30.233Z",
-    "url": "https://contextwire.online/posts/ryan-seacrest-appearance-changes.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/ryan-seacrest-appearance-changes.html",
     "readingTime": "3 min"
   },
   {
-    "id": "f46ee8d10875fe59",
-    "slug": "jennifer-meyer",
-    "title": "Jennifer Meyer: Release Details, Public Reaction, and What to Verify",
-    "trend": "jennifer meyer",
-    "category": "Culture",
-    "excerpt": "Jennifer Meyer explained with reader-first context, culture verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "id": "ddf290a2ff58fb1f",
+    "slug": "mu-stock",
+    "title": "Mu Stock: What Investors and Readers Should Verify",
+    "trend": "mu stock",
+    "category": "Business",
+    "excerpt": "Mu Stock explained with reader-first context, business verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
     "image": {
-      "url": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Jennifer Meyer related editorial image",
+      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Mu Stock related editorial image",
       "credit": "Unsplash"
     },
     "tags": [
-      "Culture",
-      "Jennifer",
-      "Meyer"
+      "Business",
+      "Stock"
     ],
     "quality": {
-      "wordCount": 408,
-      "score": 80,
+      "wordCount": 405,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
-    "ogImage": "assets/og/jennifer-meyer.svg",
+    "ogImage": "assets/og/mu-stock.svg",
     "sourceCount": 6,
-    "publishedAt": "2026-05-08T05:18:11.852Z",
-    "url": "https://contextwire.online/posts/jennifer-meyer.html",
+    "publishedAt": "2026-05-08T14:25:30.024Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/mu-stock.html",
     "readingTime": "3 min"
   },
   {
@@ -1843,59 +1826,57 @@
     ],
     "quality": {
       "wordCount": 436,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Context:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/alexander-volkov.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-08T05:18:12.065Z",
-    "url": "https://contextwire.online/posts/alexander-volkov.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/alexander-volkov.html",
     "readingTime": "3 min"
   },
   {
-    "id": "504792aa36501260",
-    "slug": "rory-mcilroy",
-    "title": "Why Rory Mcilroy Is Trending Today",
-    "trend": "rory mcilroy",
-    "category": "Sports",
-    "excerpt": "Rory Mcilroy explained with reader-first context, sports verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "id": "f46ee8d10875fe59",
+    "slug": "jennifer-meyer",
+    "title": "Jennifer Meyer: Release Details, Public Reaction, and What to Verify",
+    "trend": "jennifer meyer",
+    "category": "Culture",
+    "excerpt": "Jennifer Meyer explained with reader-first context, culture verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
     "image": {
-      "url": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Rory Mcilroy related editorial image",
+      "url": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Jennifer Meyer related editorial image",
       "credit": "Unsplash"
     },
     "tags": [
-      "Sports",
-      "Rory",
-      "Mcilroy"
+      "Culture",
+      "Jennifer",
+      "Meyer"
     ],
     "quality": {
-      "wordCount": 389,
-      "score": 80,
+      "wordCount": 408,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
-    "ogImage": "assets/og/rory-mcilroy.svg",
+    "ogImage": "assets/og/jennifer-meyer.svg",
     "sourceCount": 6,
-    "publishedAt": "2026-05-07T15:17:03.518Z",
-    "url": "https://contextwire.online/posts/rory-mcilroy.html",
+    "publishedAt": "2026-05-08T05:18:11.852Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/jennifer-meyer.html",
     "readingTime": "3 min"
   },
   {
@@ -1917,59 +1898,58 @@
     ],
     "quality": {
       "wordCount": 403,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/jonathan-pollard.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-07T15:17:03.844Z",
-    "url": "https://contextwire.online/posts/jonathan-pollard.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/jonathan-pollard.html",
     "readingTime": "3 min"
   },
   {
-    "id": "6769bfa089ae3124",
-    "slug": "michael-gandolfini",
-    "title": "Michael Gandolfini: What You Need to Know",
-    "trend": "michael gandolfini",
-    "category": "Culture",
-    "excerpt": "Michael Gandolfini explained with reader-first context, culture verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "id": "504792aa36501260",
+    "slug": "rory-mcilroy",
+    "title": "Why Rory Mcilroy Is Trending Today",
+    "trend": "rory mcilroy",
+    "category": "Sports",
+    "excerpt": "Rory Mcilroy explained with reader-first context, sports verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
     "image": {
-      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Michael Gandolfini related editorial image",
+      "url": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Rory Mcilroy related editorial image",
       "credit": "Unsplash"
     },
     "tags": [
-      "Culture",
-      "Michael",
-      "Gandolfini"
+      "Sports",
+      "Rory",
+      "Mcilroy"
     ],
     "quality": {
-      "wordCount": 379,
-      "score": 80,
+      "wordCount": 389,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Context:",
+        "Why it is trending:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
-    "ogImage": "assets/og/michael-gandolfini.svg",
+    "ogImage": "assets/og/rory-mcilroy.svg",
     "sourceCount": 6,
-    "publishedAt": "2026-05-07T05:48:54.612Z",
-    "url": "https://contextwire.online/posts/michael-gandolfini.html",
+    "publishedAt": "2026-05-07T15:17:03.518Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/rory-mcilroy.html",
     "readingTime": "3 min"
   },
   {
@@ -1991,59 +1971,55 @@
     ],
     "quality": {
       "wordCount": 370,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/bruno-mars.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-07T05:48:54.923Z",
-    "url": "https://contextwire.online/posts/bruno-mars.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/bruno-mars.html",
     "readingTime": "3 min"
   },
   {
-    "id": "bf5233ad4a1532b9",
-    "slug": "firehouse-subs",
-    "title": "The Firehouse Subs Story: Context and Analysis",
-    "trend": "firehouse subs",
+    "id": "6769bfa089ae3124",
+    "slug": "michael-gandolfini",
+    "title": "Michael Gandolfini: What You Need to Know",
+    "trend": "michael gandolfini",
     "category": "Culture",
-    "excerpt": "Firehouse Subs explained with reader-first context, culture verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "excerpt": "Michael Gandolfini explained with reader-first context, culture verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
     "image": {
-      "url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Firehouse Subs related editorial image",
+      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Michael Gandolfini related editorial image",
       "credit": "Unsplash"
     },
     "tags": [
       "Culture",
-      "Firehouse",
-      "Subs"
+      "Michael",
+      "Gandolfini"
     ],
     "quality": {
-      "wordCount": 371,
-      "score": 80,
+      "wordCount": 379,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
-    "ogImage": "assets/og/firehouse-subs.svg",
+    "ogImage": "assets/og/michael-gandolfini.svg",
     "sourceCount": 6,
-    "publishedAt": "2026-05-06T15:14:23.710Z",
-    "url": "https://contextwire.online/posts/firehouse-subs.html",
+    "publishedAt": "2026-05-07T05:48:54.612Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/michael-gandolfini.html",
     "readingTime": "3 min"
   },
   {
@@ -2065,60 +2041,56 @@
     ],
     "quality": {
       "wordCount": 378,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/hayden-panettiere.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-06T15:14:23.905Z",
-    "url": "https://contextwire.online/posts/hayden-panettiere.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/hayden-panettiere.html",
     "readingTime": "3 min"
   },
   {
-    "id": "832ecfe87fc8974c",
-    "slug": "caro-claire-burke",
-    "title": "Why Caro Claire Burke Is Trending Today",
-    "trend": "caro claire burke",
-    "category": "Technology",
-    "excerpt": "Caro Claire Burke explained with reader-first context, technology verification points, and 5 public sources so the page is useful beyond a simple trend summary.",
+    "id": "bf5233ad4a1532b9",
+    "slug": "firehouse-subs",
+    "title": "The Firehouse Subs Story: Context and Analysis",
+    "trend": "firehouse subs",
+    "category": "Culture",
+    "excerpt": "Firehouse Subs explained with reader-first context, culture verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
     "image": {
-      "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Caro Claire Burke related editorial image",
+      "url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Firehouse Subs related editorial image",
       "credit": "Unsplash"
     },
     "tags": [
-      "Technology",
-      "Caro",
-      "Claire",
-      "Burke"
+      "Culture",
+      "Firehouse",
+      "Subs"
     ],
     "quality": {
-      "wordCount": 402,
-      "score": 80,
+      "wordCount": 371,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
-    "ogImage": "assets/og/caro-claire-burke.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-06T05:45:11.533Z",
-    "url": "https://contextwire.online/posts/caro-claire-burke.html",
+    "ogImage": "assets/og/firehouse-subs.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-06T15:14:23.710Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/firehouse-subs.html",
     "readingTime": "3 min"
   },
   {
@@ -2141,22 +2113,93 @@
     ],
     "quality": {
       "wordCount": 379,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/oregon-state-baseball.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-06T05:45:11.801Z",
-    "url": "https://contextwire.online/posts/oregon-state-baseball.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/oregon-state-baseball.html",
+    "readingTime": "3 min"
+  },
+  {
+    "id": "832ecfe87fc8974c",
+    "slug": "caro-claire-burke",
+    "title": "Why Caro Claire Burke Is Trending Today",
+    "trend": "caro claire burke",
+    "category": "Technology",
+    "excerpt": "Caro Claire Burke explained with reader-first context, technology verification points, and 5 public sources so the page is useful beyond a simple trend summary.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Caro Claire Burke related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Technology",
+      "Caro",
+      "Claire",
+      "Burke"
+    ],
+    "quality": {
+      "wordCount": 402,
+      "sections": [
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
+      ],
+      "warnings": [
+        "below-900-words",
+        "missing-required-sections",
+        "needs-more-depth"
+      ]
+    },
+    "ogImage": "assets/og/caro-claire-burke.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-05-06T05:45:11.533Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/caro-claire-burke.html",
+    "readingTime": "3 min"
+  },
+  {
+    "id": "c7d791d9626607d0",
+    "slug": "nasdaq-composite",
+    "title": "Nasdaq Composite: What Investors and Readers Should Verify",
+    "trend": "nasdaq composite",
+    "category": "Business",
+    "excerpt": "Nasdaq Composite explained with reader-first context, business verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Nasdaq Composite related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Business",
+      "Nasdaq",
+      "Composite"
+    ],
+    "quality": {
+      "wordCount": 436,
+      "sections": [
+        "Context:",
+        "What to verify:",
+        "Bottom line:"
+      ],
+      "warnings": [
+        "below-900-words",
+        "missing-required-sections",
+        "needs-more-depth"
+      ]
+    },
+    "ogImage": "assets/og/nasdaq-composite.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-05T14:34:21.396Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/nasdaq-composite.html",
     "readingTime": "3 min"
   },
   {
@@ -2180,96 +2223,21 @@
     ],
     "quality": {
       "wordCount": 450,
-      "score": 75,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Context:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/white-house-state-ballroom.svg",
     "sourceCount": 4,
     "publishedAt": "2026-05-05T14:34:20.850Z",
-    "url": "https://contextwire.online/posts/white-house-state-ballroom.html",
-    "readingTime": "3 min"
-  },
-  {
-    "id": "c7d791d9626607d0",
-    "slug": "nasdaq-composite",
-    "title": "Nasdaq Composite: What Investors and Readers Should Verify",
-    "trend": "nasdaq composite",
-    "category": "Business",
-    "excerpt": "Nasdaq Composite explained with reader-first context, business verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Nasdaq Composite related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Business",
-      "Nasdaq",
-      "Composite"
-    ],
-    "quality": {
-      "wordCount": 436,
-      "score": 80,
-      "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
-      ],
-      "warnings": [
-        "needs-more-depth"
-      ]
-    },
-    "ogImage": "assets/og/nasdaq-composite.svg",
-    "sourceCount": 6,
-    "publishedAt": "2026-05-05T14:34:21.396Z",
-    "url": "https://contextwire.online/posts/nasdaq-composite.html",
-    "readingTime": "3 min"
-  },
-  {
-    "id": "7125d3e2c1fdc597",
-    "slug": "rachel-zegler",
-    "title": "The Rachel Zegler Story: Context and Analysis",
-    "trend": "rachel zegler",
-    "category": "Culture",
-    "excerpt": "Rachel Zegler explained with reader-first context, culture verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Rachel Zegler related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Culture",
-      "Rachel",
-      "Zegler"
-    ],
-    "quality": {
-      "wordCount": 379,
-      "score": 80,
-      "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
-      ],
-      "warnings": [
-        "needs-more-depth"
-      ]
-    },
-    "ogImage": "assets/og/rachel-zegler.svg",
-    "sourceCount": 6,
-    "publishedAt": "2026-05-05T05:31:12.088Z",
-    "url": "https://contextwire.online/posts/rachel-zegler.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/white-house-state-ballroom.html",
     "readingTime": "3 min"
   },
   {
@@ -2293,59 +2261,58 @@
     ],
     "quality": {
       "wordCount": 459,
-      "score": 75,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Context:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/jaafar-jackson-met-gala-2026.svg",
     "sourceCount": 4,
     "publishedAt": "2026-05-05T05:31:12.315Z",
-    "url": "https://contextwire.online/posts/jaafar-jackson-met-gala-2026.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/jaafar-jackson-met-gala-2026.html",
     "readingTime": "3 min"
   },
   {
-    "id": "ac8908b3fcfea3c8",
-    "slug": "smci-stock",
-    "title": "SMCI Stock: What You Need to Know",
-    "trend": "smci stock",
-    "category": "Business",
-    "excerpt": "SMCI Stock explained with reader-first context, business verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "id": "7125d3e2c1fdc597",
+    "slug": "rachel-zegler",
+    "title": "The Rachel Zegler Story: Context and Analysis",
+    "trend": "rachel zegler",
+    "category": "Culture",
+    "excerpt": "Rachel Zegler explained with reader-first context, culture verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
     "image": {
-      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
-      "alt": "SMCI Stock related editorial image",
+      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Rachel Zegler related editorial image",
       "credit": "Unsplash"
     },
     "tags": [
-      "Business",
-      "SMCI",
-      "Stock"
+      "Culture",
+      "Rachel",
+      "Zegler"
     ],
     "quality": {
-      "wordCount": 385,
-      "score": 80,
+      "wordCount": 379,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Context:",
+        "Why it is trending:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
-    "ogImage": "assets/og/smci-stock.svg",
+    "ogImage": "assets/og/rachel-zegler.svg",
     "sourceCount": 6,
-    "publishedAt": "2026-05-04T14:55:32.012Z",
-    "url": "https://contextwire.online/posts/smci-stock.html",
+    "publishedAt": "2026-05-05T05:31:12.088Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/rachel-zegler.html",
     "readingTime": "3 min"
   },
   {
@@ -2368,57 +2335,57 @@
     ],
     "quality": {
       "wordCount": 419,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/chelsea-vs-nottm-forest.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-04T14:55:32.232Z",
-    "url": "https://contextwire.online/posts/chelsea-vs-nottm-forest.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/chelsea-vs-nottm-forest.html",
     "readingTime": "3 min"
   },
   {
-    "id": "91ed4416be39951c",
-    "slug": "nbc",
-    "title": "NBC: Context, Timeline, and Reader Guide",
-    "trend": "nbc",
-    "category": "Culture",
-    "excerpt": "NBC explained with reader-first context, culture verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "id": "ac8908b3fcfea3c8",
+    "slug": "smci-stock",
+    "title": "SMCI Stock: What You Need to Know",
+    "trend": "smci stock",
+    "category": "Business",
+    "excerpt": "SMCI Stock explained with reader-first context, business verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
     "image": {
-      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
-      "alt": "NBC related editorial image",
+      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
+      "alt": "SMCI Stock related editorial image",
       "credit": "Unsplash"
     },
     "tags": [
-      "Culture"
+      "Business",
+      "SMCI",
+      "Stock"
     ],
     "quality": {
-      "wordCount": 378,
-      "score": 80,
+      "wordCount": 385,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
-    "ogImage": "assets/og/nbc.svg",
+    "ogImage": "assets/og/smci-stock.svg",
     "sourceCount": 6,
-    "publishedAt": "2026-05-04T05:51:33.879Z",
-    "url": "https://contextwire.online/posts/nbc.html",
+    "publishedAt": "2026-05-04T14:55:32.012Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/smci-stock.html",
     "readingTime": "3 min"
   },
   {
@@ -2440,58 +2407,54 @@
     ],
     "quality": {
       "wordCount": 379,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/suvendu-adhikari.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-04T05:51:34.334Z",
-    "url": "https://contextwire.online/posts/suvendu-adhikari.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/suvendu-adhikari.html",
     "readingTime": "3 min"
   },
   {
-    "id": "32e83478f80a0831",
-    "slug": "sinner",
-    "title": "Sinner: What You Need to Know",
-    "trend": "sinner",
-    "category": "Sports",
-    "excerpt": "Sinner explained with reader-first context, sports verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "id": "91ed4416be39951c",
+    "slug": "nbc",
+    "title": "NBC: Context, Timeline, and Reader Guide",
+    "trend": "nbc",
+    "category": "Culture",
+    "excerpt": "NBC explained with reader-first context, culture verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
     "image": {
-      "url": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Sinner related editorial image",
+      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
+      "alt": "NBC related editorial image",
       "credit": "Unsplash"
     },
     "tags": [
-      "Sports",
-      "Sinner"
+      "Culture"
     ],
     "quality": {
-      "wordCount": 370,
-      "score": 80,
+      "wordCount": 378,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
-    "ogImage": "assets/og/sinner.svg",
+    "ogImage": "assets/og/nbc.svg",
     "sourceCount": 6,
-    "publishedAt": "2026-05-03T13:57:31.726Z",
-    "url": "https://contextwire.online/posts/sinner.html",
+    "publishedAt": "2026-05-04T05:51:33.879Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/nbc.html",
     "readingTime": "3 min"
   },
   {
@@ -2512,22 +2475,92 @@
     ],
     "quality": {
       "wordCount": 447,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Context:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/ipl-standings.svg",
     "sourceCount": 5,
     "publishedAt": "2026-05-03T13:57:31.971Z",
-    "url": "https://contextwire.online/posts/ipl-standings.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/ipl-standings.html",
+    "readingTime": "3 min"
+  },
+  {
+    "id": "32e83478f80a0831",
+    "slug": "sinner",
+    "title": "Sinner: What You Need to Know",
+    "trend": "sinner",
+    "category": "Sports",
+    "excerpt": "Sinner explained with reader-first context, sports verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Sinner related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Sports",
+      "Sinner"
+    ],
+    "quality": {
+      "wordCount": 370,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "What to verify:",
+        "Bottom line:"
+      ],
+      "warnings": [
+        "below-900-words",
+        "missing-required-sections",
+        "needs-more-depth"
+      ]
+    },
+    "ogImage": "assets/og/sinner.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-03T13:57:31.726Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/sinner.html",
+    "readingTime": "3 min"
+  },
+  {
+    "id": "4cbb2f3736aff1d3",
+    "slug": "wsl",
+    "title": "WSL: What Fans Should Confirm First",
+    "trend": "wsl",
+    "category": "Sports",
+    "excerpt": "WSL explained with reader-first context, sports verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1400&q=82",
+      "alt": "WSL related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Sports"
+    ],
+    "quality": {
+      "wordCount": 378,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "What to verify:",
+        "Bottom line:"
+      ],
+      "warnings": [
+        "below-900-words",
+        "missing-required-sections",
+        "needs-more-depth"
+      ]
+    },
+    "ogImage": "assets/og/wsl.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-03T05:46:14.137Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/wsl.html",
     "readingTime": "3 min"
   },
   {
@@ -2549,57 +2582,57 @@
     ],
     "quality": {
       "wordCount": 393,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Context:",
+        "Why it is trending:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/floyd-mayweather.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-03T05:46:13.829Z",
-    "url": "https://contextwire.online/posts/floyd-mayweather.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/floyd-mayweather.html",
     "readingTime": "3 min"
   },
   {
-    "id": "4cbb2f3736aff1d3",
-    "slug": "wsl",
-    "title": "WSL: What Fans Should Confirm First",
-    "trend": "wsl",
+    "id": "c36e74b817343bc9",
+    "slug": "psg-vs-lorient",
+    "title": "PSG vs Lorient: What Fans Should Confirm First",
+    "trend": "psg vs lorient",
     "category": "Sports",
-    "excerpt": "WSL explained with reader-first context, sports verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "excerpt": "PSG vs Lorient explained with reader-first context, sports verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
     "image": {
       "url": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1400&q=82",
-      "alt": "WSL related editorial image",
+      "alt": "PSG vs Lorient related editorial image",
       "credit": "Unsplash"
     },
     "tags": [
-      "Sports"
+      "Sports",
+      "Lorient"
     ],
     "quality": {
-      "wordCount": 378,
-      "score": 80,
+      "wordCount": 399,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
-    "ogImage": "assets/og/wsl.svg",
+    "ogImage": "assets/og/psg-vs-lorient.svg",
     "sourceCount": 6,
-    "publishedAt": "2026-05-03T05:46:14.137Z",
-    "url": "https://contextwire.online/posts/wsl.html",
+    "publishedAt": "2026-05-02T14:25:47.510Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/psg-vs-lorient.html",
     "readingTime": "3 min"
   },
   {
@@ -2621,58 +2654,54 @@
     ],
     "quality": {
       "wordCount": 370,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/bayern-munich.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-02T14:25:47.263Z",
-    "url": "https://contextwire.online/posts/bayern-munich.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/bayern-munich.html",
     "readingTime": "3 min"
   },
   {
-    "id": "c36e74b817343bc9",
-    "slug": "psg-vs-lorient",
-    "title": "PSG vs Lorient: What Fans Should Confirm First",
-    "trend": "psg vs lorient",
+    "id": "40d41875aa590dd5",
+    "slug": "csk-vs-mi",
+    "title": "CSK vs MI: What Fans Should Confirm First",
+    "trend": "csk vs mi",
     "category": "Sports",
-    "excerpt": "PSG vs Lorient explained with reader-first context, sports verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "excerpt": "CSK vs MI explained with reader-first context, sports verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
     "image": {
-      "url": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1400&q=82",
-      "alt": "PSG vs Lorient related editorial image",
+      "url": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=1400&q=82",
+      "alt": "CSK vs MI related editorial image",
       "credit": "Unsplash"
     },
     "tags": [
-      "Sports",
-      "Lorient"
+      "Sports"
     ],
     "quality": {
-      "wordCount": 399,
-      "score": 80,
+      "wordCount": 453,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Context:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
-    "ogImage": "assets/og/psg-vs-lorient.svg",
+    "ogImage": "assets/og/csk-vs-mi.svg",
     "sourceCount": 6,
-    "publishedAt": "2026-05-02T14:25:47.510Z",
-    "url": "https://contextwire.online/posts/psg-vs-lorient.html",
+    "publishedAt": "2026-05-02T14:14:23.188Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/csk-vs-mi.html",
     "readingTime": "3 min"
   },
   {
@@ -2694,94 +2723,22 @@
     ],
     "quality": {
       "wordCount": 391,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "Context:",
+        "Why it is trending:",
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/islam-makhachev.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-02T14:14:22.745Z",
-    "url": "https://contextwire.online/posts/islam-makhachev.html",
-    "readingTime": "3 min"
-  },
-  {
-    "id": "40d41875aa590dd5",
-    "slug": "csk-vs-mi",
-    "title": "CSK vs MI: What Fans Should Confirm First",
-    "trend": "csk vs mi",
-    "category": "Sports",
-    "excerpt": "CSK vs MI explained with reader-first context, sports verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=1400&q=82",
-      "alt": "CSK vs MI related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Sports"
-    ],
-    "quality": {
-      "wordCount": 453,
-      "score": 80,
-      "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
-      ],
-      "warnings": [
-        "needs-more-depth"
-      ]
-    },
-    "ogImage": "assets/og/csk-vs-mi.svg",
-    "sourceCount": 6,
-    "publishedAt": "2026-05-02T14:14:23.188Z",
-    "url": "https://contextwire.online/posts/csk-vs-mi.html",
-    "readingTime": "3 min"
-  },
-  {
-    "id": "e1ed54bc1be07af3",
-    "slug": "the-sheep-detectives",
-    "title": "The Sheep Detectives: What You Need to Know",
-    "trend": "the sheep detectives",
-    "category": "Culture",
-    "excerpt": "The Sheep Detectives explained with reader-first context, culture verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
-    "image": {
-      "url": "assets/generated/ai-culture-books.png",
-      "alt": "The Sheep Detectives related editorial image",
-      "credit": "AI-generated"
-    },
-    "tags": [
-      "Culture",
-      "Sheep",
-      "Detectives"
-    ],
-    "quality": {
-      "wordCount": 381,
-      "score": 80,
-      "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
-      ],
-      "warnings": [
-        "needs-more-depth"
-      ]
-    },
-    "ogImage": "assets/og/the-sheep-detectives.svg",
-    "sourceCount": 6,
-    "publishedAt": "2026-05-02T13:16:52.004Z",
-    "url": "https://contextwire.online/posts/the-sheep-detectives.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/islam-makhachev.html",
     "readingTime": "3 min"
   },
   {
@@ -2802,22 +2759,56 @@
     ],
     "quality": {
       "wordCount": 346,
-      "score": 80,
       "sections": [
-        "Quick answer",
-        "Context",
-        "Source notes",
-        "What to verify",
-        "Bottom line"
+        "What to verify:",
+        "Bottom line:"
       ],
       "warnings": [
+        "below-900-words",
+        "missing-required-sections",
         "needs-more-depth"
       ]
     },
     "ogImage": "assets/og/socialism.svg",
     "sourceCount": 6,
     "publishedAt": "2026-05-02T13:16:52.129Z",
-    "url": "https://contextwire.online/posts/socialism.html",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/socialism.html",
     "readingTime": "2 min"
+  },
+  {
+    "id": "e1ed54bc1be07af3",
+    "slug": "the-sheep-detectives",
+    "title": "The Sheep Detectives: What You Need to Know",
+    "trend": "the sheep detectives",
+    "category": "Culture",
+    "excerpt": "The Sheep Detectives explained with reader-first context, culture verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "image": {
+      "url": "assets/generated/ai-culture-books.png",
+      "alt": "The Sheep Detectives related editorial image",
+      "credit": "AI-generated"
+    },
+    "tags": [
+      "Culture",
+      "Sheep",
+      "Detectives"
+    ],
+    "quality": {
+      "wordCount": 381,
+      "sections": [
+        "Reader impact:",
+        "What to verify:",
+        "Bottom line:"
+      ],
+      "warnings": [
+        "below-900-words",
+        "missing-required-sections",
+        "needs-more-depth"
+      ]
+    },
+    "ogImage": "assets/og/the-sheep-detectives.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-02T13:16:52.004Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/the-sheep-detectives.html",
+    "readingTime": "3 min"
   }
 ]

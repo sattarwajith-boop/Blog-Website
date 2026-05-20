@@ -64,15 +64,14 @@
   "ogImage": "assets/og/quintayvious-hutchins.svg",
   "quality": {
     "wordCount": 405,
-    "score": 80,
     "sections": [
-      "Quick answer",
-      "Context",
-      "Source notes",
-      "What to verify",
-      "Bottom line"
+      "Reader impact:",
+      "What to verify:",
+      "Bottom line:"
     ],
     "warnings": [
+      "below-900-words",
+      "missing-required-sections",
       "needs-more-depth"
     ]
   },

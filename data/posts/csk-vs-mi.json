@@ -62,15 +62,14 @@
   "ogImage": "assets/og/csk-vs-mi.svg",
   "quality": {
     "wordCount": 453,
-    "score": 80,
     "sections": [
-      "Quick answer",
-      "Context",
-      "Source notes",
-      "What to verify",
-      "Bottom line"
+      "Context:",
+      "What to verify:",
+      "Bottom line:"
     ],
     "warnings": [
+      "below-900-words",
+      "missing-required-sections",
       "needs-more-depth"
     ]
   },

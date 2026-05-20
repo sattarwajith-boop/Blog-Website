@@ -64,15 +64,13 @@
   "ogImage": "assets/og/michael-gandolfini.svg",
   "quality": {
     "wordCount": 379,
-    "score": 80,
     "sections": [
-      "Quick answer",
-      "Context",
-      "Source notes",
-      "What to verify",
-      "Bottom line"
+      "What to verify:",
+      "Bottom line:"
     ],
     "warnings": [
+      "below-900-words",
+      "missing-required-sections",
       "needs-more-depth"
     ]
   },

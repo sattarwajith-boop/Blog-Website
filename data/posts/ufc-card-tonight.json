@@ -39,15 +39,15 @@
   "ogImage": "assets/og/ufc-card-tonight.svg",
   "quality": {
     "wordCount": 338,
-    "score": 63,
     "sections": [
-      "Quick answer",
-      "Context",
-      "Source notes",
-      "What to verify",
-      "Bottom line"
+      "Context:",
+      "Why it is trending:",
+      "What to verify:",
+      "Bottom line:"
     ],
     "warnings": [
+      "below-900-words",
+      "missing-required-sections",
       "needs-more-depth",
       "add-more-sources-before-publishing"
     ]
