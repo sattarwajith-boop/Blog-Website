@@ -1,0 +1,4 @@
+# ContextWire ads.txt
+# No advertising sellers are authorized yet.
+# After Google AdSense approves this site, replace this placeholder with:
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
