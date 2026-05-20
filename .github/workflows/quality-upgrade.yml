@@ -24,7 +24,7 @@ jobs:
           node-version: "20"
 
       - name: Check scripts
-        run: node --check scripts/generate-posts.mjs && node --check scripts/upgrade-quality.mjs && node --check scripts/remove-quality-score.mjs && node --check scripts/fix-public-brand.mjs && node --check scripts/check-brand.mjs
+        run: node --check scripts/generate-posts.mjs && node --check scripts/upgrade-quality.mjs && node --check scripts/remove-quality-score.mjs && node --check scripts/fix-public-brand.mjs && node --check scripts/fix-public-domain.mjs && node --check scripts/check-brand.mjs
 
       - name: Upgrade existing posts
         env:
@@ -38,6 +38,11 @@ jobs:
       - name: Clean public brand text
         run: node scripts/fix-public-brand.mjs
 
+      - name: Clean public domain URLs
+        env:
+          SITE_URL: ${{ github.event.inputs.site_url }}
+        run: node scripts/fix-public-domain.mjs
+
       - name: Check old brand text
         run: node scripts/check-brand.mjs
 
@@ -45,4 +50,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Apply ContextWire article quality upgrades"
-          file_pattern: "data/posts.json data/index.json data/posts/*.json posts/*.html assets/quality-upgrades.css robots.txt ADSENSE_READY_CHECKLIST.md rss.xml sitemap.xml site.webmanifest"
+          file_pattern: "data/posts.json data/index.json data/posts/*.json posts/*.html assets/quality-upgrades.css robots.txt ADSENSE_READY_CHECKLIST.md rss.xml sitemap.xml site.webmanifest index.html archive.html about.html contact.html privacy.html terms.html editorial-policy.html"
