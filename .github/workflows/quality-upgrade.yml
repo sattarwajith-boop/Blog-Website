@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       site_url:
-        description: "Full website URL, for example https://yourdomain.com"
+        description: "Full website URL, for example https://contextwire.online"
         required: false
-        default: "https://sattarwajith-boop.github.io/Blog-Website"
+        default: "https://contextwire.online"
 
 permissions:
   contents: write
