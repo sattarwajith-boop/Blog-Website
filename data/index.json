@@ -1,5 +1,77 @@
 [
   {
+    "id": "39b013797e648d32",
+    "slug": "alex-de-minaur",
+    "title": "The Alex De Minaur Story: Context and Analysis",
+    "trend": "alex de minaur",
+    "category": "Trends",
+    "excerpt": "Alex De Minaur is gaining attention in current trend data. Search interest is around 500+. This briefing explains the context, verification points, and what to watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Alex De Minaur related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Alex",
+      "Minaur"
+    ],
+    "quality": {
+      "wordCount": 983,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "What to watch next:",
+        "Bottom line:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/alex-de-minaur.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-20T16:09:48.093Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/alex-de-minaur.html",
+    "readingTime": "6 min"
+  },
+  {
+    "id": "fabeccbd9193b102",
+    "slug": "billy-eichner",
+    "title": "Today's Billy Eichner Update: Key Context",
+    "trend": "billy eichner",
+    "category": "Trends",
+    "excerpt": "Billy Eichner is gaining attention in current trend data. Search interest is around 500+. This briefing explains the context, verification points, and what to watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Billy Eichner related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Billy",
+      "Eichner"
+    ],
+    "quality": {
+      "wordCount": 972,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "What to watch next:",
+        "Bottom line:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/billy-eichner.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-20T16:09:47.860Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/billy-eichner.html",
+    "readingTime": "6 min"
+  },
+  {
     "id": "f40c16db41803830",
     "slug": "carls-jr",
     "title": "Carls Jr Explained: Trending Context",
