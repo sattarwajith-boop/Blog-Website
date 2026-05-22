@@ -1,5 +1,76 @@
 [
   {
+    "id": "79f78351ecb17fca",
+    "slug": "jack-quaid",
+    "title": "Jack Quaid: What You Need to Know",
+    "trend": "jack quaid",
+    "category": "Trends",
+    "excerpt": "Jack Quaid is gaining attention in current trend data. Search interest is around 100+. This briefing explains the context, verification points, and what to watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Jack Quaid related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Jack",
+      "Quaid"
+    ],
+    "quality": {
+      "wordCount": 985,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "What to watch next:",
+        "Bottom line:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/jack-quaid.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-22T06:34:41.297Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/jack-quaid.html",
+    "readingTime": "6 min"
+  },
+  {
+    "id": "58c3816a74bdc254",
+    "slug": "andor",
+    "title": "Why Andor Is Trending Today",
+    "trend": "andor",
+    "category": "Trends",
+    "excerpt": "Andor is gaining attention in current trend data. Search interest is around 100+. This briefing explains the context, verification points, and what to watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Andor related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Andor"
+    ],
+    "quality": {
+      "wordCount": 984,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "What to watch next:",
+        "Bottom line:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/andor.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-22T06:34:41.026Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/andor.html",
+    "readingTime": "6 min"
+  },
+  {
     "id": "937545bf58c49231",
     "slug": "lakeith-stanfield",
     "title": "The Lakeith Stanfield Story: Context and Analysis",
