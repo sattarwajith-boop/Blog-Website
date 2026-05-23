@@ -1,5 +1,76 @@
 [
   {
+    "id": "2266b4c092527355",
+    "slug": "the-substance",
+    "title": "The Substance: What You Need to Know",
+    "trend": "the substance",
+    "category": "Culture",
+    "excerpt": "The Substance is gaining attention in current trend data. Search interest is around 200+. This briefing explains the context, verification points, and what to watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1400&q=82",
+      "alt": "The Substance related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Culture",
+      "Substance"
+    ],
+    "quality": {
+      "wordCount": 990,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "What to watch next:",
+        "Bottom line:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/the-substance.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-23T05:55:15.176Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/the-substance.html",
+    "readingTime": "6 min"
+  },
+  {
+    "id": "a83c954ad49f1e5b",
+    "slug": "power-outage",
+    "title": "The Power Outage Story: Context and Analysis",
+    "trend": "power outage",
+    "category": "Trends",
+    "excerpt": "Power Outage is gaining attention in current trend data. Search interest is around 200+. This briefing explains the context, verification points, and what to watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Power Outage related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Power",
+      "Outage"
+    ],
+    "quality": {
+      "wordCount": 977,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "What to watch next:",
+        "Bottom line:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/power-outage.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-23T05:55:14.866Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/power-outage.html",
+    "readingTime": "6 min"
+  },
+  {
     "id": "8180b678d944cb1c",
     "slug": "unruly-aircraft-passenger",
     "title": "Today's Unruly Aircraft Passenger Update: Key Context",

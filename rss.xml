@@ -5,6 +5,20 @@
     <link>https://sattarwajith-boop.github.io/Blog-Website</link>
     <description>Trend briefings with concise context and daily updates.</description>
     <item>
+      <title>The Substance: What You Need to Know</title>
+      <link>https://sattarwajith-boop.github.io/Blog-Website/posts/the-substance.html</link>
+      <guid>https://sattarwajith-boop.github.io/Blog-Website/posts/the-substance.html</guid>
+      <pubDate>Sat, 23 May 2026 05:55:15 GMT</pubDate>
+      <description>The Substance is gaining attention in current trend data. Search interest is around 200+. This briefing explains the context, verification points, and what to watch next.</description>
+    </item>
+    <item>
+      <title>The Power Outage Story: Context and Analysis</title>
+      <link>https://sattarwajith-boop.github.io/Blog-Website/posts/power-outage.html</link>
+      <guid>https://sattarwajith-boop.github.io/Blog-Website/posts/power-outage.html</guid>
+      <pubDate>Sat, 23 May 2026 05:55:14 GMT</pubDate>
+      <description>Power Outage is gaining attention in current trend data. Search interest is around 200+. This briefing explains the context, verification points, and what to watch next.</description>
+    </item>
+    <item>
       <title>Today&apos;s Unruly Aircraft Passenger Update: Key Context</title>
       <link>https://sattarwajith-boop.github.io/Blog-Website/posts/unruly-aircraft-passenger.html</link>
       <guid>https://sattarwajith-boop.github.io/Blog-Website/posts/unruly-aircraft-passenger.html</guid>
@@ -269,20 +283,6 @@
       <guid>https://sattarwajith-boop.github.io/Blog-Website/posts/medicare.html</guid>
       <pubDate>Wed, 13 May 2026 19:27:54 GMT</pubDate>
       <description>Medicare explained with reader-first context, news verification points, and 6 public sources so the page is useful beyond a simple trend summary.</description>
-    </item>
-    <item>
-      <title>Ford Stock: What You Need to Know</title>
-      <link>https://sattarwajith-boop.github.io/Blog-Website/posts/ford-stock.html</link>
-      <guid>https://sattarwajith-boop.github.io/Blog-Website/posts/ford-stock.html</guid>
-      <pubDate>Wed, 13 May 2026 15:33:45 GMT</pubDate>
-      <description>Ford Stock explained with reader-first context, business verification points, and 6 public sources so the page is useful beyond a simple trend summary.</description>
-    </item>
-    <item>
-      <title>Quintayvious Hutchins: What Readers Should Know and Verify</title>
-      <link>https://sattarwajith-boop.github.io/Blog-Website/posts/quintayvious-hutchins.html</link>
-      <guid>https://sattarwajith-boop.github.io/Blog-Website/posts/quintayvious-hutchins.html</guid>
-      <pubDate>Wed, 13 May 2026 15:33:45 GMT</pubDate>
-      <description>Quintayvious Hutchins explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.</description>
     </item>
   </channel>
 </rss>
