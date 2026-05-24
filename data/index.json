@@ -1,5 +1,76 @@
 [
   {
+    "id": "92464001be06ee56",
+    "slug": "kanye-west",
+    "title": "Kanye West Explained: Trending Context",
+    "trend": "kanye west",
+    "category": "Trends",
+    "excerpt": "Kanye West is gaining attention in current trend data. Search interest is around 200+. This briefing explains the context, verification points, and what to watch next.",
+    "image": {
+      "url": "assets/generated/ai-trending-editorial.png",
+      "alt": "Kanye West related editorial image",
+      "credit": "AI-generated"
+    },
+    "tags": [
+      "Trends",
+      "Kanye",
+      "West"
+    ],
+    "quality": {
+      "wordCount": 990,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "What to watch next:",
+        "Bottom line:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/kanye-west.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-24T06:23:29.012Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/kanye-west.html",
+    "readingTime": "6 min"
+  },
+  {
+    "id": "142714e8be66f7da",
+    "slug": "verizon",
+    "title": "Verizon: Full Briefing",
+    "trend": "verizon",
+    "category": "Trends",
+    "excerpt": "Verizon is gaining attention in current trend data. Search interest is around 500+. This briefing explains the context, verification points, and what to watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Verizon related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Verizon"
+    ],
+    "quality": {
+      "wordCount": 954,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "What to watch next:",
+        "Bottom line:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/verizon.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-24T06:23:28.750Z",
+    "url": "https://sattarwajith-boop.github.io/Blog-Website/posts/verizon.html",
+    "readingTime": "6 min"
+  },
+  {
     "id": "2c208d9efdba3aa8",
     "slug": "hull-vs-middlesbrough",
     "title": "Hull vs Middlesbrough: What's Happening Right Now",
