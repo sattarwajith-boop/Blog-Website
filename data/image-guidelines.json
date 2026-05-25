@@ -1,0 +1,18 @@
+{
+  "site": "ContextWire",
+  "rule": "Use topic-relevant images, not random category stock images.",
+  "requiredFields": ["url", "alt", "credit", "sourceUrl", "usageNote"],
+  "preferredSources": {
+    "productReview": "Official product media page or original screenshot/photo.",
+    "movieReview": "Official poster, official trailer still, studio media page, or original editorial graphic.",
+    "tvReview": "Official show key art, official trailer still, network media page, or original editorial graphic.",
+    "news": "Image directly related to the event, official statement page, press page, or original editorial graphic.",
+    "technology": "Official product image, app screenshot, company press page, or original editorial graphic.",
+    "broadExplainer": "Licensed stock or original editorial graphic is acceptable when no specific subject image is needed."
+  },
+  "avoid": [
+    "random stock image for a specific product, movie, show, person, or event",
+    "image that misleads readers about what is shown",
+    "photo without credit/source information"
+  ]
+}
