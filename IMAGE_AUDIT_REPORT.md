@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-05-25T18:52:58.188Z
+Generated: 2026-05-25T18:55:50.533Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 30
+Total issues: 31
+
+## MLB: Schedule, Result, and Context Checks
+- Slug: `mlb`
+- Topic type: sports-event
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use official league/team/event image, licensed photo, scoreboard/schedule screenshot, or original editorial graphic.
 
 ## Liverpool vs Brentford: Key Context, Risks, and Source Check
 - Slug: `liverpool-vs-brentford`
