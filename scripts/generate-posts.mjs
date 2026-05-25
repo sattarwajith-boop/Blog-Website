@@ -167,7 +167,7 @@ async function buildPost(trend, sources) {
     content: fallbackContent(trend, sources),
     sources: sources.length ? sources : [{ title: "Google Trends topic feed", url: trend.sourceUrl }],
     publishedAt: now,
-    generatedBy: config.openAiKey ? "openai-assisted" : "template"
+    productionMethod: "editorial-workflow"
   };
 
   if (!config.openAiKey) return finalizePost(base, trend, sources);
@@ -437,7 +437,7 @@ async function backfillExistingPosts() {
       excerpt: professionalExcerpt(trend),
       image: imageForPost(trend),
       content: !force && Array.isArray(post.content) && wordCount(post.content) >= 750 ? post.content : fallbackContent(trend, post.sources || []),
-      generatedBy: post.generatedBy || "template"
+      productionMethod: post.productionMethod || "editorial-workflow"
     }, trend, post.sources || []);
   }));
 
@@ -538,7 +538,7 @@ function imageForPost(trend) {
   return {
     url: isRemote ? `${image.url}?auto=format&fit=crop&w=1400&q=82` : image.url,
     alt: `${titleCase(trend.title || "Trending topic")} related editorial image`,
-    credit: image.credit || "AI-generated"
+    credit: image.credit || "ContextWire editorial graphic"
   };
 }
 
@@ -556,21 +556,21 @@ function imageLibrary() {
     { category: "Culture", match: /(bruno|mars|music|album|concert|singer)/, url: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4", credit: "Unsplash" },
     { category: "Culture", match: /(movie|tv|series|episode|trailer|netflix|nbc|actor|actress|ben affleck|rachel|zegler|gandolfini|panettiere|seacrest|rapaport|jaafar|jackson|boys)/, url: "https://images.unsplash.com/photo-1485846234645-a62644f84728", credit: "Unsplash" },
     { category: "Culture", match: /(met gala|celebrity|red carpet|appearance|jewelry|meyer)/, url: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30", credit: "Unsplash" },
-    { category: "Culture", match: /(book|novel|detective|sheep|quintel|animation|cartoon)/, url: "assets/generated/ai-culture-books.png", credit: "AI-generated" },
+    { category: "Culture", match: /(book|novel|detective|sheep|quintel|animation|cartoon)/, url: "assets/generated/contextwire-culture-books.png", credit: "ContextWire editorial graphic" },
     { category: "News", match: /(white house|ballroom|election|president|minister|senate|policy|politics|government|medicare|health|adhikari|pollard|socialism)/, url: "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620", credit: "Unsplash" },
     { category: "News", match: /(murrow|journalism|news|media|press)/, url: "https://images.unsplash.com/photo-1504711434969-e33886168f5c", credit: "Unsplash" },
     { category: "Technology", match: /(\bai\b|tech|iphone|google|microsoft|software|cyber|\bapp\b|images|caro|claire|burke)/, url: "https://images.unsplash.com/photo-1518770660439-4636190af475", credit: "Unsplash" },
     { category: "Business", match: /(apac|global|business|economy|company)/, url: "https://images.unsplash.com/photo-1460925895917-afdab827c52f", credit: "Unsplash" },
     { category: "Culture", match: /(firehouse|subs|food|restaurant)/, url: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5", credit: "Unsplash" },
-    { category: "Sports", match: /(sports|athlete|game|tournament)/, url: "assets/generated/ai-sports-arena.png", credit: "AI-generated" },
-    { category: "Technology", match: /(technology|digital|internet)/, url: "assets/generated/ai-trending-editorial.png", credit: "AI-generated" },
+    { category: "Sports", match: /(sports|athlete|game|tournament)/, url: "assets/generated/contextwire-sports-arena.png", credit: "ContextWire editorial graphic" },
+    { category: "Technology", match: /(technology|digital|internet)/, url: "assets/generated/contextwire-trending-editorial.png", credit: "ContextWire editorial graphic" },
     { category: "Trends", match: /(slack|platform|online|web|social|search)/, url: "https://images.unsplash.com/photo-1497366754035-f200968a6e72", credit: "Unsplash" },
     { category: "Trends", match: /(daily|update|briefing|public|conversation)/, url: "https://images.unsplash.com/photo-1495020689067-958852a7765e", credit: "Unsplash" },
     { category: "Trends", match: /(trend|viral|attention|topic)/, url: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173", credit: "Unsplash" },
     { category: "Business", match: /(business|finance)/, url: "https://images.unsplash.com/photo-1460925895917-afdab827c52f", credit: "Unsplash" },
     { category: "Culture", match: /(culture|entertainment|review)/, url: "https://images.unsplash.com/photo-1485846234645-a62644f84728", credit: "Unsplash" },
-    { category: "News", match: /(court|law|public|civic)/, url: "assets/generated/ai-civic-analysis.png", credit: "AI-generated" },
-    { category: "Trends", match: /(trend|search|viral|internet|topic)/, url: "assets/generated/ai-trending-editorial.png", credit: "AI-generated" }
+    { category: "News", match: /(court|law|public|civic)/, url: "assets/generated/contextwire-civic-analysis.png", credit: "ContextWire editorial graphic" },
+    { category: "Trends", match: /(trend|search|viral|internet|topic)/, url: "assets/generated/contextwire-trending-editorial.png", credit: "ContextWire editorial graphic" }
   ];
 }
 

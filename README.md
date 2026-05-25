@@ -1,6 +1,6 @@
 # ContextWire
 
-A static ContextWire blogging website that publishes source-checked long-form briefings from current internet trend feeds.
+A static ContextWire publishing site for source-checked long-form briefings from current internet trend feeds.
 
 ## What it does
 
@@ -9,8 +9,8 @@ A static ContextWire blogging website that publishes source-checked long-form br
 - Creates new posts in `data/posts.json`.
 - Upgrades posts into 900+ word reader-first articles with visible source notes.
 - Rebuilds `rss.xml` and `sitemap.xml`.
-- Runs automatically from GitHub Actions twice per day.
-- Works without paid APIs. If you add `OPENAI_API_KEY`, it can generate richer post copy while still using the fetched sources.
+- Runs from GitHub Actions twice per day.
+- Works without paid APIs. If you add the optional writing API key, it can create richer post copy while still using the fetched sources.
 
 ## One-time setup
 
@@ -18,10 +18,10 @@ A static ContextWire blogging website that publishes source-checked long-form br
 2. In the repository, open **Settings > Pages** and publish from the default branch root.
 3. In **Settings > Actions > General**, allow GitHub Actions to read and write repository contents.
 4. Set repository variable `SITE_URL` to `https://contextwire.online` or let the workflows use that default.
-5. Optional: add repository secret `OPENAI_API_KEY` and repository variable `OPENAI_MODEL` if you want assisted long-form writing.
-6. Open **Actions > Auto publish trending posts > Run workflow** for the first test.
+5. Optional: add the writing API secret and model variable if you want richer long-form writing.
+6. Open **Actions > Publish ContextWire briefings > Run workflow** for the first test.
 
-The workflow is scheduled at 8:15 AM and 6:15 PM Asia/Colombo time. Change `.github/workflows/auto-post.yml` if you want different times or more runs per day.
+The workflow is scheduled at 8:15 AM and 6:15 PM Asia/Colombo time. Change the publishing workflow if you want different times or more runs per day.
 
 ## Local test
 
@@ -46,7 +46,7 @@ Open `index.html` in your browser to preview. After generation, the newest post 
 
 ## Useful settings
 
-- `POSTS_PER_RUN`: how many posts to publish per automation run. Default: `2`.
+- `POSTS_PER_RUN`: how many posts to publish per scheduled run. Default: `2`.
 - `MAX_POSTS`: how many posts to keep in `data/posts.json`. Default: `160`.
 - `BLOG_REGION`: Google Trends region. Default: `US`.
 - `BLOG_LANGUAGE`: feed language. Default: `en-US`.
@@ -54,4 +54,4 @@ Open `index.html` in your browser to preview. After generation, the newest post 
 
 ## Editorial note
 
-Automated trend posts should be treated as editorial briefings. The scripts include source links and avoid unsupported claims, but fast-moving stories should still be checked before promotion, indexing, or monetization review.
+Trend posts should be treated as editorial briefings. The scripts include source links and avoid unsupported claims, but fast-moving stories should still be checked before promotion, indexing, or monetization review.

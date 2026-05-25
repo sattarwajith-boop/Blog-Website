@@ -15,7 +15,7 @@ const specificTopicPatterns = [
 const genericImagePatterns = [
   /images\.unsplash\.com/i,
   /assets\/generated\//i,
-  /ai-generated/i,
+  /contextwire editorial graphic/i,
   /generic/i,
   /stock/i
 ];

@@ -1,11 +1,11 @@
 # AdSense readiness checklist
 
-This repository now includes a ContextWire quality-upgrade layer for reader-first posts.
+This repository now includes a ContextWire editorial-quality layer for reader-first posts.
 
 ## Before applying
 
 - Set the real custom domain in GitHub Pages.
-- Run the generator with `SITE_URL=https://yourdomain.com` so sitemap, RSS, canonical URLs, and robots.txt use your real domain.
+- Run the publishing scripts with `SITE_URL=https://contextwire.online` so sitemap, RSS, canonical URLs, and robots.txt use the real domain.
 - Review at least 20 to 30 articles manually before applying.
 - Open several live posts in incognito and confirm the source boxes are visible.
 - Replace weak posts that have only one source or generic information.
@@ -14,9 +14,9 @@ This repository now includes a ContextWire quality-upgrade layer for reader-firs
 
 ## Recommended publishing workflow
 
-1. Let automation create the draft.
+1. Let the publishing workflow prepare the article.
 2. Run the ContextWire quality workflow, or locally run `SITE_URL=https://contextwire.online BLOG_NAME=ContextWire node scripts/upgrade-quality.mjs`.
 3. Manually check facts and sources.
 4. Publish only articles with real reader value.
 
-Do not try to hide AI use. Improve the public quality so the site is useful to real readers.
+Keep the public site focused on reader value, visible sources, and clear editorial standards.

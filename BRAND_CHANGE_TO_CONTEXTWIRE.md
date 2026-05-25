@@ -29,7 +29,7 @@ Important files to update:
 - `scripts/generate-posts.mjs`
 - `scripts/upgrade-quality.mjs`
 
-For future generated posts, run with:
+For future publishing runs, use:
 
 ```bash
 BLOG_NAME="ContextWire" node scripts/generate-posts.mjs

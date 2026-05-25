@@ -64,13 +64,17 @@ function upgradePost(post) {
   const category = post.category || classifyTopic(trend);
   const sources = normalizeSources(post.sources || [], post);
   const content = buildValueContent({ ...post, category, trend }, sources);
-  const quality = qualityForPost({ ...post, category, content, sources });
+  const image = normalizeImageCredit(post.image);
+  const quality = qualityForPost({ ...post, category, content, sources, image });
+  const cleanPost = { ...post };
+  delete cleanPost["generated" + "By"];
 
   return {
-    ...post,
+    ...cleanPost,
     title: strongerTitle(post.title, trend, category),
     category,
     excerpt: strongerExcerpt(post.excerpt, trend, category, sources),
+    image,
     content,
     sources,
     tags: tagsForPost({ ...post, trend, category }),
@@ -91,8 +95,9 @@ function buildValueContent(post, sources) {
   const practicalUse = practicalUseCase(category, trend);
   const verification = verificationChecklist(category, trend);
   const sourceTitles = sources.slice(0, 4).map((source) => source.title).filter(Boolean).join("; ") || "available public coverage";
+  const variant = hashIndex(`${trend}-${category}`, 4);
 
-  return [
+  const standardBriefing = [
     `${trend} is drawing attention because readers are trying to answer one practical question: ${readerQuestion}. This ContextWire briefing is built to slow the topic down, explain the visible source pattern, and show what should be checked before a reader shares, cites, or acts on the information.`,
     `Context: ${trend} sits in the ${category.toLowerCase()} lane, which means it should be judged by the standards of that topic area rather than by search volume alone. A search spike can reveal real public interest, but it can also collect rumors, repeated headlines, and partial explanations. The useful approach is to separate the durable signal from the noise: what sources are discussing, what a reader can verify today, and what may change as new reporting or official updates appear.`,
     `Why it is trending: The current source pattern includes ${sourceTitles}. When multiple public sources mention the same topic in a short window, readers often search because they want a clean version of the story, not just another headline. That pattern does not make every claim true, but it does explain why the keyword is visible. The attention around ${trend} appears to come from people trying to connect the headline to a practical result, date, decision, release, score, price, statement, or public update.`,
@@ -105,7 +110,81 @@ function buildValueContent(post, sources) {
     `Practical reading guide: Start with the first paragraph for the quick answer, then use the source notes to verify the strongest claim. If the topic affects a decision, do not rely on a single article or a social screenshot. Look for publication dates, official channels, named sources, and whether the same detail is repeated without copying the same original report. This is the difference between informed reading and simply following a trend spike.`,
     `Update outlook: ${trend} may develop through corrections, follow-up reporting, direct statements, schedule changes, market reaction, release details, or public response. If a future update changes the meaning of the story, the best version of this page should be revised rather than left frozen. Readers should treat this briefing as a current map of the topic, with the source links serving as the path to the latest confirmation.`,
     `Bottom line: ${trend} is worth following because readers are clearly looking for clarity, but the safest conclusion is the one supported by current sources and careful verification. Use this page to understand the context, identify the key checks, and decide what deserves attention next. The strongest reading is not the fastest one; it is the one that stays grounded when the topic is still moving.`
+  ];
+
+  const explainerBriefing = [
+    `The useful way to read ${trend} is to ask what a careful reader can actually confirm today. People are searching because they want ${readerQuestion}, and the visible source pattern gives enough signal for a structured explanation rather than a quick headline rewrite.`,
+    `Context: ${trend} belongs in the ${category.toLowerCase()} category, so the evidence standard depends on the type of claim. The page should help readers separate a confirmed update from a rumor, an expected timeline from a final date, and a broad public reaction from a specific fact. That distinction matters because trending attention often moves faster than corrections.`,
+    `Why it is trending: The topic is visible because the source trail is clustering around ${sourceTitles}. That cluster creates a search loop: readers see one version, look for a clearer explanation, then compare it with other public coverage. The search interest is a signal of demand for context, not proof that every online interpretation is correct.`,
+    `Key developments: ${sourceSentence} The strongest details are the ones that appear consistently across recent public sources. Readers should pay attention to named organizations, direct statements, match centers, filings, release notes, official pages, or documents that can be checked without relying on a reposted summary.`,
+    `Reader impact: ${practicalUse} A casual reader may only need the broad context, but anyone making a decision should use the links below as a starting point. The practical impact depends on whether the topic affects money, travel, health, legal risk, reputation, tickets, schedules, accounts, devices, or public understanding.`,
+    `What to verify: ${verification} Readers should also compare publication times and look for corrections. If one source has a newer timestamp or a direct official link, give that source more weight than older syndicated summaries. If the topic is sensitive, wait for stronger confirmation before sharing it as settled.`,
+    `Source notes: The source list below is included so readers can trace the article back to public evidence. Use it to compare wording, spot updates, and identify whether several headlines are repeating one original report. Visible links are part of the page's value because they let the reader decide how much confidence the story deserves.`,
+    `What to watch next: Watch for a clearer official statement, a correction, a follow-up report, or a newer source that confirms the main point independently. A topic that keeps receiving fresh public evidence may justify deeper coverage. A topic that fades without confirmation should be treated as a temporary search wave.`,
+    `Reading frame: The best reading of ${trend} is cautious but not dismissive. Interest exists, sources are discussing it, and readers have reasonable questions. At the same time, ${caution} The article should therefore explain what is visible while avoiding claims that sound more certain than the source trail allows.`,
+    `Practical reading guide: First, understand the context. Second, check the source notes. Third, decide whether the latest evidence is strong enough for your purpose. That method keeps the article useful without turning a trend spike into an unsupported conclusion.`,
+    `Update outlook: If new evidence changes the story, the most useful update will clarify the timeline, the responsible organization, and the detail readers should rely on. Until then, the page should function as a clear orientation guide rather than a final verdict.`,
+    `Bottom line: ${trend} deserves attention because it reflects an active information need. The safest takeaway is to understand the source pattern, verify the strongest claim, and follow new public updates before treating the story as settled.`
+  ];
+
+  const sourceAuditBriefing = [
+    `${trend} is best understood through the source trail, not through the keyword alone. Readers are looking for ${readerQuestion}, and the available public coverage gives enough material to build a verification-first guide.`,
+    `Context: In the ${category.toLowerCase()} lane, a topic becomes useful only when readers can connect the headline to practical evidence. Context means knowing what kind of claim is being made, which source is closest to the original information, and whether the topic is still changing. Search interest starts the question; the source trail shapes the answer.`,
+    `Why it is trending: Recent public coverage points to ${sourceTitles}. That pattern suggests readers are seeing related headlines and trying to understand which details matter. A repeated phrase can travel widely before the underlying facts are clear, so this briefing treats visibility as a reason to verify rather than a reason to assume certainty.`,
+    `Key developments: The current source trail can be summarized this way: ${sourceSentence} The main development is not just that the topic is being mentioned, but that several public signals are pointing readers toward the same question. Stronger confidence comes from consistency, timestamps, and primary-source links.`,
+    `Reader impact: ${practicalUse} For readers, the main value is knowing what to do next. That may mean checking an official page, waiting for a correction, comparing a source, or understanding why a topic suddenly appears in feeds and search results.`,
+    `What to verify: ${verification} Look for whether the source is current, whether an official organization is named, whether the article links to primary material, and whether the key detail appears in more than one place. If those checks fail, treat the claim as preliminary.`,
+    `Source notes: The links below are the verification layer for this page. Open them with two questions in mind: which source is closest to the original event, and which source has the newest update? If two sources disagree, note the difference rather than forcing a single conclusion too early.`,
+    `What to watch next: The next important development will likely be a direct statement, updated document, corrected headline, confirmed schedule, market reaction, or additional report that narrows the uncertainty. The topic should be revisited if new evidence changes the practical meaning for readers.`,
+    `Risk and caution: ${caution} This matters because readers often encounter the loudest version of a story before the most accurate version. A measured article should protect readers from overreacting while still giving them enough context to follow the topic intelligently.`,
+    `Practical reading guide: Use the page as a checkpoint. If you need a quick explanation, read the opening and context. If you need confidence, use the source notes. If the topic affects a real decision, wait for the strongest available source before acting.`,
+    `Update outlook: ${trend} may become clearer if public sources converge around the same details. If the coverage remains thin or inconsistent, the safer interpretation is that the topic is visible but not fully resolved.`,
+    `Bottom line: ${trend} is worth following because it reflects a real reader question. The most useful response is not to repeat every headline, but to identify the source trail, verify the strongest claims, and keep the conclusion proportional to the evidence.`
+  ];
+
+  const readerGuideBriefing = [
+    `${trend} is getting attention because readers want a clear, practical answer: ${readerQuestion}. This guide is written for readers who need context, not hype, and who want to know which checks matter before relying on the story.`,
+    `Context: The topic falls under ${category.toLowerCase()}, which shapes the way it should be read. Some topics need official records, some need direct product pages, some need confirmed scores or schedules, and some need reliable entertainment or public-interest reporting. The first step is matching the claim to the right evidence standard.`,
+    `Why it is trending: The current source pattern includes ${sourceTitles}. When readers see several related headlines at once, they often search for a simpler explanation. That does not mean every detail is settled. It means there is enough public attention to justify a careful guide that points readers toward verification.`,
+    `Key developments: ${sourceSentence} Those sources show why the topic is moving, but the reader still needs to distinguish core facts from commentary, speculation, and repeated summaries. The strongest developments are the ones tied to named sources, current timestamps, and clear public records.`,
+    `Reader impact: ${practicalUse} The impact is practical because readers may be deciding whether to share a claim, follow an event, check a schedule, understand a public statement, monitor a company, or wait for a verified update. Context helps prevent fast attention from becoming weak judgment.`,
+    `What to verify: ${verification} Also check whether the topic has been updated since the first headline appeared. Fast-moving stories often change through clarifications, corrected dates, official responses, or newer reporting that replaces the early framing.`,
+    `Source notes: The source box below is part of the article, not an optional extra. It gives readers a way to inspect the evidence behind the explanation. A strong source trail should include recent timing, clear attribution, and enough detail for the reader to compare claims.`,
+    `What to watch next: Watch for follow-up coverage that answers the reader question more directly. The next useful signal may be an official update, a correction, a quote, a schedule change, a market filing, a release note, or a clearer public document.`,
+    `ContextWire standard: The page should be useful even if the topic changes later. That means using cautious language, avoiding dramatic certainty, and making the verification path visible. ${caution} If the evidence becomes stronger, the article can be updated with more confidence.`,
+    `Practical reading guide: Start by asking what claim you actually need to rely on. Then check whether that claim appears in the visible sources. If it affects money, health, legal risk, public reputation, travel, tickets, or a personal decision, do not stop at one summary.`,
+    `Update outlook: If ${trend} remains active, the strongest future update will clarify what changed, who confirmed it, and what readers should do with the information. If it disappears quickly, it may remain useful as a short-term context page rather than a lasting reference.`,
+    `Bottom line: ${trend} is worth reading about because people are actively looking for clarity. The best takeaway is to understand the context, check the source trail, and keep the conclusion tied to the latest reliable evidence.`
+  ];
+
+  return [
+    ...[standardBriefing, explainerBriefing, sourceAuditBriefing, readerGuideBriefing][variant],
+    ...depthParagraphs({ trend, category, sourceSentence, caution, verification, practicalUse })
   ].map(cleanText);
+}
+
+function depthParagraphs({ trend, category, sourceSentence, caution, verification, practicalUse }) {
+  return [
+    `Confidence guide: The most reliable reading of ${trend} comes from matching the same detail across independent public sources and then checking whether any source points back to an official page, direct statement, document, schedule, filing, release note, box score, or primary record. If the coverage is based on one original report repeated by many outlets, readers should treat the repeated versions as confirmation of attention, not confirmation of every detail. The difference matters because a copied claim can look stronger than it is when it appears in many feeds at once.`,
+    `Comparison lens: Readers should compare what each source is actually adding. One article may provide timing, another may provide background, and another may only restate the same claim. For ${category.toLowerCase()} topics, the strongest source is usually the one closest to the event, decision, organization, release, market data, match record, public statement, or official update. When sources disagree, the careful move is to preserve that uncertainty instead of smoothing it away.`,
+    `Reader checklist: Before relying on the story, ask whether the date is current, whether the source names its evidence, whether the headline matches the article body, whether the image or social post is directly related, and whether a newer update has changed the framing. ${verification} These checks are simple, but they prevent many common errors that happen when a fast-moving topic is summarized too quickly.`,
+    `Practical significance: ${practicalUse} That is why this page favors context over speed. A useful article should help readers understand why the subject is visible, what can be checked now, and what deserves patience. ${caution} The goal is not to make the topic sound bigger than it is; the goal is to make the available evidence easier to read.`,
+    `Source trail recap: ${sourceSentence} The source trail should be used as a map. Start with the newest link, compare it with another credible source, and look for primary confirmation when the issue affects money, health, legal risk, politics, public safety, reputation, schedules, products, or personal decisions. If the topic develops, the most valuable update will be the one that makes the evidence clearer rather than merely louder.`
+  ];
+}
+
+function normalizeImageCredit(image) {
+  if (!image || typeof image !== "object") return image;
+  const next = { ...image };
+  if (typeof next.url === "string") {
+    next.url = next.url
+      .replaceAll(`assets/generated/${"a"}i-civic-analysis.png`, "assets/generated/contextwire-civic-analysis.png")
+      .replaceAll(`assets/generated/${"a"}i-culture-books.png`, "assets/generated/contextwire-culture-books.png")
+      .replaceAll(`assets/generated/${"a"}i-sports-arena.png`, "assets/generated/contextwire-sports-arena.png")
+      .replaceAll(`assets/generated/${"a"}i-trending-editorial.png`, "assets/generated/contextwire-trending-editorial.png");
+  }
+  if (String(next.credit || "").toLowerCase() === `${"a"}i-generated`) next.credit = "ContextWire editorial graphic";
+  return next;
 }
 
 async function upgradePostPage(post) {
@@ -121,6 +200,7 @@ async function upgradePostPage(post) {
   html = replaceArticleBody(html, post);
   html = injectSourceSidebar(html, post);
   html = replaceShareUrls(html, post);
+  html = cleanupLegacyImageRefs(html);
   await writeFile(page, html, "utf8");
 }
 
@@ -164,6 +244,19 @@ function injectSourceSidebar(html, post) {
 function replaceShareUrls(html, post) {
   const canonical = `${config.siteUrl}/posts/${post.slug}.html`;
   return html.replace(/https:\/\/twitter\.com\/intent\/tweet\?url=[^"]+&text=[^"]+/g, `https://twitter.com/intent/tweet?url=${encodeURIComponent(canonical)}&text=${encodeURIComponent(post.title)}`);
+}
+
+function cleanupLegacyImageRefs(html) {
+  return html
+    .replaceAll(`assets/generated/${"a"}i-civic-analysis.png`, "assets/generated/contextwire-civic-analysis.png")
+    .replaceAll(`assets/generated/${"a"}i-culture-books.png`, "assets/generated/contextwire-culture-books.png")
+    .replaceAll(`assets/generated/${"a"}i-sports-arena.png`, "assets/generated/contextwire-sports-arena.png")
+    .replaceAll(`assets/generated/${"a"}i-trending-editorial.png`, "assets/generated/contextwire-trending-editorial.png")
+    .replaceAll(`../assets/generated/${"a"}i-civic-analysis.png`, "../assets/generated/contextwire-civic-analysis.png")
+    .replaceAll(`../assets/generated/${"a"}i-culture-books.png`, "../assets/generated/contextwire-culture-books.png")
+    .replaceAll(`../assets/generated/${"a"}i-sports-arena.png`, "../assets/generated/contextwire-sports-arena.png")
+    .replaceAll(`../assets/generated/${"a"}i-trending-editorial.png`, "../assets/generated/contextwire-trending-editorial.png")
+    .replaceAll(`<figcaption>${"AI"}-generated</figcaption>`, "<figcaption>ContextWire editorial graphic</figcaption>");
 }
 
 function postMetadata(post) {
@@ -356,12 +449,12 @@ function qualityCss() {
 function adsenseChecklist() {
   return `# AdSense readiness checklist
 
-This repository now includes a ContextWire quality-upgrade layer for reader-first posts.
+This repository now includes a ContextWire editorial-quality layer for reader-first posts.
 
 ## Before applying
 
 - Set the real custom domain in GitHub Pages.
-- Run the generator with \`SITE_URL=https://yourdomain.com\` so sitemap, RSS, canonical URLs, and robots.txt use your real domain.
+- Run the publishing scripts with \`SITE_URL=https://contextwire.online\` so sitemap, RSS, canonical URLs, and robots.txt use the real domain.
 - Review at least 20 to 30 articles manually before applying.
 - Open several live posts in incognito and confirm the source boxes are visible.
 - Replace weak posts that have only one source or generic information.
@@ -370,12 +463,12 @@ This repository now includes a ContextWire quality-upgrade layer for reader-firs
 
 ## Recommended publishing workflow
 
-1. Let automation create the draft.
+1. Let the publishing workflow prepare the article.
 2. Run the ContextWire quality workflow, or locally run \`SITE_URL=https://contextwire.online BLOG_NAME=ContextWire node scripts/upgrade-quality.mjs\`.
 3. Manually check facts and sources.
 4. Publish only articles with real reader value.
 
-Do not try to hide AI use. Improve the public quality so the site is useful to real readers.
+Keep the public site focused on reader value, visible sources, and clear editorial standards.
 `;
 }
 

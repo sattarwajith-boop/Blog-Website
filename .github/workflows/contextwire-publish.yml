@@ -1,14 +1,13 @@
-name: Auto publish trending posts
+name: Publish ContextWire briefings
 
-# This push trigger lets the first workflow setup be activated by a small workflow-file update.
 on:
   push:
     paths:
-      - ".github/workflows/auto-post.yml"
+      - ".github/workflows/contextwire-publish.yml"
   workflow_dispatch:
     inputs:
       posts_per_run:
-        description: "How many posts to publish now"
+        description: "How many briefings to publish now"
         required: false
         default: "2"
   schedule:
@@ -31,7 +30,7 @@ jobs:
         with:
           node-version: 20
 
-      - name: Generate posts
+      - name: Prepare ContextWire briefings
         run: node scripts/generate-posts.mjs
         env:
           POSTS_PER_RUN: ${{ github.event.inputs.posts_per_run || '2' }}
@@ -55,13 +54,13 @@ jobs:
           node scripts/audit-images.mjs
           node scripts/check-brand.mjs
 
-      - name: Commit new posts
+      - name: Commit new briefings
         run: |
           if [ -n "$(git status --porcelain)" ]; then
-            git config user.name "trend-blog-bot"
+            git config user.name "contextwire-publisher"
             git config user.email "actions@github.com"
             git add data/posts.json data/index.json data/posts/ data/topics.json posts/ rss.xml sitemap.xml robots.txt IMAGE_AUDIT_REPORT.md assets/quality-upgrades.css index.html archive.html about.html contact.html privacy.html terms.html editorial-policy.html site.webmanifest
-            git commit -m "Publish automated trending posts"
+            git commit -m "Publish ContextWire briefings"
             git push
           else
             echo "No new posts to publish."
