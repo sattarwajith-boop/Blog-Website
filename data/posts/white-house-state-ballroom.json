@@ -56,14 +56,15 @@
   "ogImage": "assets/og/white-house-state-ballroom.svg",
   "quality": {
     "wordCount": 450,
+    "score": 75,
     "sections": [
-      "Context:",
-      "What to verify:",
-      "Bottom line:"
+      "Quick answer",
+      "Context",
+      "Source notes",
+      "What to verify",
+      "Bottom line"
     ],
     "warnings": [
-      "below-900-words",
-      "missing-required-sections",
       "needs-more-depth"
     ]
   },

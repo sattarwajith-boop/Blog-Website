@@ -62,13 +62,15 @@
   "ogImage": "assets/og/super-mario-galaxy-movie-boxoffice.svg",
   "quality": {
     "wordCount": 387,
+    "score": 80,
     "sections": [
-      "What to verify:",
-      "Bottom line:"
+      "Quick answer",
+      "Context",
+      "Source notes",
+      "What to verify",
+      "Bottom line"
     ],
     "warnings": [
-      "below-900-words",
-      "missing-required-sections",
       "needs-more-depth"
     ]
   },

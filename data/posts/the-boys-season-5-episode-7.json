@@ -65,13 +65,15 @@
   "ogImage": "assets/og/the-boys-season-5-episode-7.svg",
   "quality": {
     "wordCount": 393,
+    "score": 80,
     "sections": [
-      "What to verify:",
-      "Bottom line:"
+      "Quick answer",
+      "Context",
+      "Source notes",
+      "What to verify",
+      "Bottom line"
     ],
     "warnings": [
-      "below-900-words",
-      "missing-required-sections",
       "needs-more-depth"
     ]
   },

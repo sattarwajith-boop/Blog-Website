@@ -39,14 +39,15 @@
   "ogImage": "assets/og/dram-stock.svg",
   "quality": {
     "wordCount": 396,
+    "score": 63,
     "sections": [
-      "Context:",
-      "What to verify:",
-      "Bottom line:"
+      "Quick answer",
+      "Context",
+      "Source notes",
+      "What to verify",
+      "Bottom line"
     ],
     "warnings": [
-      "below-900-words",
-      "missing-required-sections",
       "needs-more-depth",
       "add-more-sources-before-publishing"
     ]

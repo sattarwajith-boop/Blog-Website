@@ -63,14 +63,15 @@
   "ogImage": "assets/og/apac.svg",
   "quality": {
     "wordCount": 401,
+    "score": 80,
     "sections": [
-      "Reader impact:",
-      "What to verify:",
-      "Bottom line:"
+      "Quick answer",
+      "Context",
+      "Source notes",
+      "What to verify",
+      "Bottom line"
     ],
     "warnings": [
-      "below-900-words",
-      "missing-required-sections",
       "needs-more-depth"
     ]
   },

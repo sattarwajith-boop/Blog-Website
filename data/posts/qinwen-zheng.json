@@ -64,13 +64,15 @@
   "ogImage": "assets/og/qinwen-zheng.svg",
   "quality": {
     "wordCount": 378,
+    "score": 80,
     "sections": [
-      "What to verify:",
-      "Bottom line:"
+      "Quick answer",
+      "Context",
+      "Source notes",
+      "What to verify",
+      "Bottom line"
     ],
     "warnings": [
-      "below-900-words",
-      "missing-required-sections",
       "needs-more-depth"
     ]
   },

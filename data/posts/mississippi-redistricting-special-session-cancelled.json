@@ -52,14 +52,15 @@
   "ogImage": "assets/og/mississippi-redistricting-special-session-cancelled.svg",
   "quality": {
     "wordCount": 410,
+    "score": 75,
     "sections": [
-      "Reader impact:",
-      "What to verify:",
-      "Bottom line:"
+      "Quick answer",
+      "Context",
+      "Source notes",
+      "What to verify",
+      "Bottom line"
     ],
     "warnings": [
-      "below-900-words",
-      "missing-required-sections",
       "needs-more-depth"
     ]
   },

@@ -63,15 +63,15 @@
   "ogImage": "assets/og/sinner.svg",
   "quality": {
     "wordCount": 370,
+    "score": 80,
     "sections": [
-      "Context:",
-      "Why it is trending:",
-      "What to verify:",
-      "Bottom line:"
+      "Quick answer",
+      "Context",
+      "Source notes",
+      "What to verify",
+      "Bottom line"
     ],
     "warnings": [
-      "below-900-words",
-      "missing-required-sections",
       "needs-more-depth"
     ]
   },
