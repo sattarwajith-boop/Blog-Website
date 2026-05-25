@@ -1,6 +1,6 @@
 # AdSense readiness checklist
 
-This repository now includes a quality-upgrade layer for AI-assisted posts.
+This repository now includes a ContextWire quality-upgrade layer for reader-first posts.
 
 ## Before applying
 
@@ -15,7 +15,7 @@ This repository now includes a quality-upgrade layer for AI-assisted posts.
 ## Recommended publishing workflow
 
 1. Let automation create the draft.
-2. Run `npm run upgrade`.
+2. Run the ContextWire quality workflow, or locally run `SITE_URL=https://contextwire.online BLOG_NAME=ContextWire node scripts/upgrade-quality.mjs`.
 3. Manually check facts and sources.
 4. Publish only articles with real reader value.
 

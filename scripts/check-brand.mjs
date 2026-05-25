@@ -1,7 +1,15 @@
 import { readdir, readFile } from "node:fs/promises";
 
 const root = new URL("../", import.meta.url);
-const banned = ["TrendPulse Daily", "Daily intelligence", "TRENDPULSE DAILY"];
+const banned = [
+  "TrendPulse",
+  "TrendPulse Daily",
+  "Daily intelligence",
+  "TRENDPULSE DAILY",
+  "sattarwajith-boop.github.io",
+  "Blog-Website",
+  "sattarwajith-boop.github.io%2FBlog-Website"
+];
 const ignoredDirs = new Set([".git", "node_modules", "scripts", ".github"]);
 const allowed = new Set([".html", ".json", ".xml", ".txt", ".webmanifest", ".svg"]);
 

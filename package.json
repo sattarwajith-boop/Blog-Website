@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "generate": "node scripts/generate-posts.mjs",
-    "check": "node --check scripts/generate-posts.mjs && node --check scripts/serve-preview.mjs",
+    "check": "node --check scripts/generate-posts.mjs && node --check scripts/upgrade-quality.mjs && node --check scripts/remove-quality-score.mjs && node --check scripts/fix-public-brand.mjs && node --check scripts/fix-public-domain.mjs && node --check scripts/fix-analytics.mjs && node --check scripts/audit-images.mjs && node --check scripts/check-brand.mjs && node --check scripts/serve-preview.mjs",
+    "quality": "node scripts/upgrade-quality.mjs && node scripts/remove-quality-score.mjs && node scripts/fix-public-brand.mjs && node scripts/fix-public-domain.mjs && node scripts/fix-analytics.mjs && node scripts/audit-images.mjs && node scripts/check-brand.mjs",
     "preview": "node scripts/serve-preview.mjs"
   },
   "engines": {

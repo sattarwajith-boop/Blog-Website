@@ -4,12 +4,13 @@ Use **ContextWire** as the new website name.
 
 Recommended tagline: **Source-checked context**
 
-Run these replacements across the repository:
+Run the public brand cleanup script instead of doing manual replacements:
 
-- `TrendPulse Daily` -> `ContextWire`
-- `TrendPulse` -> `ContextWire`
-- `Daily intelligence` -> `Source-checked context`
-- `TRENDPULSE DAILY` -> `CONTEXTWIRE`
+```bash
+node scripts/fix-public-brand.mjs
+```
+
+The script keeps public output on the **ContextWire** name, tagline, and logo language.
 
 Important files to update:
 
@@ -38,5 +39,5 @@ BLOG_NAME="ContextWire" node scripts/upgrade-quality.mjs
 For the custom domain, also set:
 
 ```bash
-SITE_URL="https://yourdomain.com"
+SITE_URL="https://contextwire.online"
 ```

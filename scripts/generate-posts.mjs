@@ -3,12 +3,12 @@ import { mkdir, readdir, readFile, rm, writeFile } from "node:fs/promises";
 
 const root = new URL("../", import.meta.url);
 const config = {
-  blogName: process.env.BLOG_NAME || "TrendPulse Daily",
+  blogName: process.env.BLOG_NAME || "ContextWire",
   region: process.env.BLOG_REGION || "US",
   language: process.env.BLOG_LANGUAGE || "en-US",
   postsPerRun: clampNumber(process.env.POSTS_PER_RUN, 1, 10, 2),
   maxPosts: clampNumber(process.env.MAX_POSTS, 20, 500, 160),
-  siteUrl: trimSlash(process.env.SITE_URL || "https://sattarwajith-boop.github.io/Blog-Website"),
+  siteUrl: trimSlash(process.env.SITE_URL || "https://contextwire.online"),
   openAiKey: process.env.OPENAI_API_KEY || "",
   openAiModel: process.env.OPENAI_MODEL || "gpt-4.1-mini"
 };
@@ -603,7 +603,7 @@ async function fetchText(url) {
   try {
     const response = await fetch(url, {
       signal: controller.signal,
-      headers: { "user-agent": "TrendPulseDaily/1.0" }
+      headers: { "user-agent": "ContextWire/1.0" }
     });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     return await response.text();
@@ -813,7 +813,7 @@ function buildPostPage(post, posts) {
     <nav class="topbar" aria-label="Primary">
       <a class="brand" href="../">
         <img class="brand-logo" src="../assets/icons/site-logo.svg" alt="" width="48" height="48" aria-hidden="true">
-        <span><strong>TrendPulse</strong><small>Daily intelligence</small></span>
+        <span><strong>ContextWire</strong><small>Source-checked context</small></span>
       </a>
       <div class="nav-actions">
         <a href="../archive.html">Archive</a>
@@ -888,8 +888,8 @@ function footerMarkup(prefix = "") {
   return `
       <div class="footer-grid">
         <div>
-          <p class="footer-brand"><img src="${prefix}assets/icons/site-logo.svg" alt="" width="40" height="40" aria-hidden="true"><strong>TrendPulse Daily</strong></p>
-          <p>Sharp trend briefings for readers who want context quickly, without the noise.</p>
+          <p class="footer-brand"><img src="${prefix}assets/icons/site-logo.svg" alt="" width="40" height="40" aria-hidden="true"><strong>ContextWire</strong></p>
+          <p>Clear source-checked briefings for readers who want context quickly, without the noise.</p>
         </div>
         <nav aria-label="Footer quick links">
           <strong>Quick Links</strong>
@@ -915,7 +915,7 @@ function footerMarkup(prefix = "") {
         <p>Browse fresh context across sports, business, technology, culture, and public affairs.</p>
         <a class="read-more-link" href="${prefix}archive.html">Open Archive</a>
       </div>
-      <p class="footer-note">&copy; ${new Date().getFullYear()} TrendPulse Daily. Built for concise trend context and fast topic discovery.</p>`;
+      <p class="footer-note">&copy; ${new Date().getFullYear()} ContextWire. Built for clear context, source checks, and practical topic discovery.</p>`;
 }
 
 function articleSchema(post, canonical, imageUrl) {
@@ -950,7 +950,7 @@ function generateOgSvg(post) {
     .join("\n  ");
   const number = String(hashIndex(post.slug || post.title || category, 90) + 1).padStart(2, "0");
 
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="${escapeSvg(post.title || "TrendPulse briefing")}">
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="${escapeSvg(post.title || "ContextWire briefing")}">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="${palette.start}"/>
@@ -966,7 +966,7 @@ function generateOgSvg(post) {
   <text x="72" y="96" font-family="Arial, Helvetica, sans-serif" font-size="23" font-weight="800" fill="${palette.accent}" letter-spacing="2">${escapeSvg(category.toUpperCase())}</text>
   <text x="72" y="136" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#cbd5e1">TREND BRIEFING</text>
   ${titleMarkup}
-  <text x="72" y="552" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800" fill="#ffffff">TRENDPULSE DAILY</text>
+  <text x="72" y="552" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800" fill="#ffffff">CONTEXTWIRE</text>
   <text x="1128" y="552" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#dbeafe">${escapeSvg(date)}</text>
   <text x="1010" y="292" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="176" font-weight="700" fill="#ffffff" opacity=".08">${number}</text>
 </svg>

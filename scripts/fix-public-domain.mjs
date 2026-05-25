@@ -6,7 +6,11 @@ const oldBases = [
   "https://sattarwajith-boop.github.io/Blog-Website",
   "http://sattarwajith-boop.github.io/Blog-Website",
   "https://sattarwajith-boop.github.io/Blog-Website/",
-  "http://sattarwajith-boop.github.io/Blog-Website/"
+  "http://sattarwajith-boop.github.io/Blog-Website/",
+  "https%3A%2F%2Fsattarwajith-boop.github.io%2FBlog-Website",
+  "http%3A%2F%2Fsattarwajith-boop.github.io%2FBlog-Website",
+  "https%3A%2F%2Fsattarwajith-boop.github.io%2FBlog-Website%2F",
+  "http%3A%2F%2Fsattarwajith-boop.github.io%2FBlog-Website%2F"
 ];
 const ignoredDirs = new Set([".git", "node_modules", "scripts", ".github"]);
 const allowed = new Set([".html", ".json", ".xml", ".txt", ".webmanifest"]);
@@ -24,7 +28,8 @@ async function main() {
     const before = await readFile(file, "utf8");
     let after = before;
     for (const oldBase of oldBases) {
-      after = after.replaceAll(oldBase.replace(/\/+$/, ""), target);
+      const replacement = oldBase.includes("%2F") ? encodeURIComponent(target) : target;
+      after = after.replaceAll(oldBase.replace(/\/+$/, ""), replacement);
     }
     after = after.replaceAll(`${target}//`, `${target}/`);
     if (after !== before) {

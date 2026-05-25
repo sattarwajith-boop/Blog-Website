@@ -1,12 +1,13 @@
-# TrendPulse Daily
+# ContextWire
 
-A static blogging website that can publish one or more posts every day from current internet trend feeds.
+A static ContextWire blogging website that publishes source-checked long-form briefings from current internet trend feeds.
 
 ## What it does
 
 - Fetches Google Trends Trending Now RSS by default.
 - Looks up related Google News RSS headlines for source context.
 - Creates new posts in `data/posts.json`.
+- Upgrades posts into 900+ word reader-first articles with visible source notes.
 - Rebuilds `rss.xml` and `sitemap.xml`.
 - Runs automatically from GitHub Actions twice per day.
 - Works without paid APIs. If you add `OPENAI_API_KEY`, it can generate richer post copy while still using the fetched sources.
@@ -16,8 +17,8 @@ A static blogging website that can publish one or more posts every day from curr
 1. Create a new GitHub repository and upload this `trending-auto-blog` folder.
 2. In the repository, open **Settings > Pages** and publish from the default branch root.
 3. In **Settings > Actions > General**, allow GitHub Actions to read and write repository contents.
-4. Optional: add repository variable `SITE_URL` with your final GitHub Pages or custom-domain URL.
-5. Optional: add repository secret `OPENAI_API_KEY` and repository variable `OPENAI_MODEL` if you want AI-assisted writing.
+4. Set repository variable `SITE_URL` to `https://contextwire.online` or let the workflows use that default.
+5. Optional: add repository secret `OPENAI_API_KEY` and repository variable `OPENAI_MODEL` if you want assisted long-form writing.
 6. Open **Actions > Auto publish trending posts > Run workflow** for the first test.
 
 The workflow is scheduled at 8:15 AM and 6:15 PM Asia/Colombo time. Change `.github/workflows/auto-post.yml` if you want different times or more runs per day.
@@ -27,6 +28,18 @@ The workflow is scheduled at 8:15 AM and 6:15 PM Asia/Colombo time. Change `.git
 ```bash
 npm run check
 npm run generate
+```
+
+For production-style cleanup, run:
+
+```bash
+SITE_URL=https://contextwire.online BLOG_NAME=ContextWire node scripts/upgrade-quality.mjs
+node scripts/remove-quality-score.mjs
+node scripts/fix-public-brand.mjs
+SITE_URL=https://contextwire.online node scripts/fix-public-domain.mjs
+node scripts/fix-analytics.mjs
+node scripts/audit-images.mjs
+node scripts/check-brand.mjs
 ```
 
 Open `index.html` in your browser to preview. After generation, the newest post appears as the featured article.
@@ -41,4 +54,4 @@ Open `index.html` in your browser to preview. After generation, the newest post 
 
 ## Editorial note
 
-Automated trend posts should be treated as briefings. The script includes source links and avoids unsupported claims, but fast-moving stories should still be checked before promotion.
+Automated trend posts should be treated as editorial briefings. The scripts include source links and avoid unsupported claims, but fast-moving stories should still be checked before promotion, indexing, or monetization review.
