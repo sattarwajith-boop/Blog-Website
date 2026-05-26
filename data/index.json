@@ -1,5 +1,80 @@
 [
   {
+    "id": "96ad9dc9441c293e",
+    "slug": "billboard-top-100",
+    "title": "The Billboard Top 100 Story: Context and Analysis",
+    "trend": "billboard top 100",
+    "category": "Trends",
+    "excerpt": "Billboard Top 100 explained with reader-first context, trends verification points, and the available source trail so the page is useful beyond a simple trend summary.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Billboard Top 100 related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Billboard"
+    ],
+    "quality": {
+      "wordCount": 1103,
+      "score": 83,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "Source notes:",
+        "What to watch next:",
+        "Bottom line:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/billboard-top-100.svg",
+    "sourceCount": 1,
+    "publishedAt": "2026-05-26T16:30:31.201Z",
+    "url": "https://contextwire.online/posts/billboard-top-100.html",
+    "readingTime": "6 min"
+  },
+  {
+    "id": "482b9c5fd0be1543",
+    "slug": "general-hospital",
+    "title": "Why General Hospital Is Trending Today",
+    "trend": "general hospital",
+    "category": "Trends",
+    "excerpt": "General Hospital explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "General Hospital related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "General",
+      "Hospital"
+    ],
+    "quality": {
+      "wordCount": 1161,
+      "score": 96,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "Source notes:",
+        "What to watch next:",
+        "Bottom line:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/general-hospital.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-26T16:30:31.729Z",
+    "url": "https://contextwire.online/posts/general-hospital.html",
+    "readingTime": "7 min"
+  },
+  {
     "id": "90fbeb86102d30d1",
     "slug": "kirk-cousins",
     "title": "Kirk Cousins: What Readers Should Know and Verify",
