@@ -1,5 +1,81 @@
 [
   {
+    "id": "90fbeb86102d30d1",
+    "slug": "kirk-cousins",
+    "title": "Kirk Cousins: What Readers Should Know and Verify",
+    "trend": "kirk cousins",
+    "category": "Trends",
+    "excerpt": "Kirk Cousins explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Kirk Cousins related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Kirk",
+      "Cousins"
+    ],
+    "quality": {
+      "wordCount": 1178,
+      "score": 96,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "Source notes:",
+        "What to watch next:",
+        "Bottom line:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/kirk-cousins.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-26T06:32:45.244Z",
+    "url": "https://contextwire.online/posts/kirk-cousins.html",
+    "readingTime": "7 min"
+  },
+  {
+    "id": "cd4bdacaf558646e",
+    "slug": "chet-hanks",
+    "title": "Chet Hanks: What Readers Should Know and Verify",
+    "trend": "chet hanks",
+    "category": "Trends",
+    "excerpt": "Chet Hanks explained with reader-first context, trends verification points, and 6 public sources so the page is useful beyond a simple trend summary.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Chet Hanks related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Chet",
+      "Hanks"
+    ],
+    "quality": {
+      "wordCount": 1170,
+      "score": 96,
+      "sections": [
+        "Context:",
+        "Why it is trending:",
+        "Key developments:",
+        "Reader impact:",
+        "What to verify:",
+        "Source notes:",
+        "What to watch next:",
+        "Bottom line:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/chet-hanks.svg",
+    "sourceCount": 6,
+    "publishedAt": "2026-05-26T06:32:45.422Z",
+    "url": "https://contextwire.online/posts/chet-hanks.html",
+    "readingTime": "7 min"
+  },
+  {
     "id": "7d4a9d368942c3e7",
     "slug": "alycia-parks",
     "title": "Alycia Parks: Clear Context and Source Check",
