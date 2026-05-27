@@ -9,7 +9,7 @@ on:
       posts_per_run:
         description: "How many briefings to publish now"
         required: false
-        default: "2"
+        default: "1"
   schedule:
     # 8:15 AM and 6:15 PM Asia/Colombo, expressed in UTC.
     - cron: "45 2 * * *"
@@ -33,7 +33,7 @@ jobs:
       - name: Prepare ContextWire briefings
         run: node scripts/generate-posts.mjs
         env:
-          POSTS_PER_RUN: ${{ github.event.inputs.posts_per_run || '2' }}
+          POSTS_PER_RUN: ${{ github.event.inputs.posts_per_run || '1' }}
           BLOG_REGION: US
           BLOG_LANGUAGE: en-US
           BLOG_NAME: ContextWire
@@ -59,7 +59,7 @@ jobs:
           if [ -n "$(git status --porcelain)" ]; then
             git config user.name "contextwire-publisher"
             git config user.email "actions@github.com"
-            git add data/posts.json data/index.json data/posts/ data/topics.json posts/ rss.xml sitemap.xml robots.txt IMAGE_AUDIT_REPORT.md assets/quality-upgrades.css index.html archive.html about.html contact.html privacy.html terms.html editorial-policy.html site.webmanifest
+            git add data/posts.json data/index.json data/posts/ data/topics.json posts/ author/ rss.xml sitemap.xml robots.txt IMAGE_AUDIT_REPORT.md assets/quality-upgrades.css index.html archive.html about.html contact.html privacy.html terms.html editorial-policy.html corrections.html site.webmanifest
             git commit -m "Publish ContextWire briefings"
             git push
           else

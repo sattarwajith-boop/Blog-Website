@@ -56,4 +56,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Apply ContextWire article quality upgrades"
-          file_pattern: "data/posts.json data/index.json data/posts/*.json posts/*.html assets/quality-upgrades.css robots.txt ADSENSE_READY_CHECKLIST.md IMAGE_AUDIT_REPORT.md rss.xml sitemap.xml site.webmanifest index.html archive.html about.html contact.html privacy.html terms.html editorial-policy.html"
+          file_pattern: "data/posts.json data/index.json data/posts/*.json posts/*.html author/*.html assets/quality-upgrades.css robots.txt ADSENSE_READY_CHECKLIST.md IMAGE_AUDIT_REPORT.md rss.xml sitemap.xml site.webmanifest index.html archive.html about.html contact.html privacy.html terms.html editorial-policy.html corrections.html"

@@ -399,6 +399,77 @@ h2 {
   line-height: 1.72;
 }
 
+.post-body .key-facts {
+  max-width: 850px;
+  margin: 0 0 24px;
+  padding: 18px 20px 18px 38px;
+  border: 1px solid rgba(15, 118, 110, 0.2);
+  border-radius: 8px;
+  background: #f6fbfa;
+  color: var(--ink);
+}
+
+.post-body .key-facts li + li {
+  margin-top: 10px;
+}
+
+.source-box,
+.author-box {
+  margin: 34px 0;
+  border: 1px solid rgba(15, 118, 110, 0.22);
+  border-radius: 8px;
+  padding: 22px;
+  background: linear-gradient(180deg, rgba(15, 118, 110, 0.08), rgba(255, 255, 255, 0.72));
+}
+
+.source-box ol {
+  margin: 14px 0 0;
+  padding-left: 22px;
+}
+
+.source-box li + li {
+  margin-top: 10px;
+}
+
+.source-box a {
+  color: #0f766e;
+  font-weight: 800;
+}
+
+.source-box span {
+  display: block;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.author-box {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.author-avatar {
+  width: 52px;
+  height: 52px;
+  flex: 0 0 52px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--accent-ink);
+  color: #fff;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.author-box h2 {
+  margin: 0 0 8px;
+}
+
+.author-box a {
+  color: inherit;
+}
+
 .feature-meta {
   display: flex;
   flex-wrap: wrap;

@@ -10,6 +10,8 @@ let posts = [];
 let activeTopic = "All";
 let query = "";
 let visibleCount = pageSize;
+const params = new URLSearchParams(window.location.search);
+const initialCategory = params.get("category");
 
 const formatter = new Intl.DateTimeFormat(undefined, {
   year: "numeric",
@@ -28,6 +30,9 @@ async function initArchive() {
   }
 
   posts.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+  if (initialCategory && posts.some((post) => post.category?.toLowerCase() === initialCategory.toLowerCase())) {
+    activeTopic = posts.find((post) => post.category?.toLowerCase() === initialCategory.toLowerCase()).category;
+  }
   const topics = new Set(posts.map((post) => post.category).filter(Boolean));
   document.querySelector("#archiveTotal").textContent = posts.length;
   document.querySelector("#archiveTopics").textContent = topics.size;
@@ -45,6 +50,7 @@ function renderFilters() {
     button.setAttribute("aria-pressed", String(topic === activeTopic));
     button.addEventListener("click", () => {
       activeTopic = topic;
+      updateCategoryUrl();
       visibleCount = pageSize;
       renderFilters();
       renderArchive();
@@ -60,6 +66,7 @@ function renderArchive() {
   empty.hidden = filtered.length > 0;
   loadMore.hidden = filtered.length <= visibleCount;
   summary.textContent = resultText(filtered.length);
+  updateArchiveHeading(filtered.length);
 }
 
 function filteredPosts() {
@@ -92,6 +99,26 @@ function resultText(count) {
   if (!query && activeTopic === "All") return `${count} total briefings`;
   const topic = activeTopic === "All" ? "all topics" : activeTopic;
   return `${count} result${count === 1 ? "" : "s"} for ${query ? `"${query}"` : topic}`;
+}
+
+function updateCategoryUrl() {
+  const next = new URL(window.location.href);
+  if (activeTopic === "All") next.searchParams.delete("category");
+  else next.searchParams.set("category", activeTopic);
+  window.history.replaceState({}, "", next);
+}
+
+function updateArchiveHeading(count) {
+  const title = activeTopic === "All" ? "Archive | ContextWire" : `${activeTopic} Articles | ContextWire`;
+  document.title = title;
+  const heroTitle = document.querySelector(".archive-hero h1");
+  const heroLede = document.querySelector(".archive-hero .lede");
+  const eyebrow = document.querySelector(".archive-hero .eyebrow");
+  if (eyebrow) eyebrow.textContent = activeTopic === "All" ? "Full archive" : `${activeTopic} archive`;
+  if (heroTitle) heroTitle.textContent = activeTopic === "All" ? "All briefings in one searchable index." : `${activeTopic} articles and source-checked briefings.`;
+  if (heroLede) heroLede.textContent = activeTopic === "All"
+    ? "Use the archive to scan recent topics, filter by category, and open any briefing directly."
+    : `Browse ${count} ${activeTopic.toLowerCase()} article${count === 1 ? "" : "s"} from ContextWire.`;
 }
 
 function relativeAge(value) {

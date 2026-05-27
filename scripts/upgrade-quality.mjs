@@ -8,14 +8,12 @@ const config = {
 };
 
 const requiredSections = [
-  "Context:",
-  "Why it is trending:",
-  "Key developments:",
-  "Reader impact:",
-  "What to verify:",
-  "Source notes:",
-  "What to watch next:",
-  "Bottom line:"
+  "What happened:",
+  "Key details:",
+  "Background:",
+  "Why it matters:",
+  "What's confirmed:",
+  "What to watch:"
 ];
 
 const paths = {
@@ -63,7 +61,7 @@ function upgradePost(post) {
   const trend = titleCase(post.trend || post.title || "this topic");
   const category = post.category || classifyTopic(trend);
   const sources = normalizeSources(post.sources || [], post);
-  const content = buildValueContent({ ...post, category, trend }, sources);
+  const content = hasFocusedArticle(post.content) ? post.content.map(cleanText) : buildFocusedContent({ ...post, category, trend }, sources);
   const image = normalizeImageCredit(post.image);
   const quality = qualityForPost({ ...post, category, content, sources, image });
   const cleanPost = { ...post };
@@ -77,6 +75,14 @@ function upgradePost(post) {
     image,
     content,
     sources,
+    author: post.author || {
+      name: "ContextWire Editorial Desk",
+      title: "Source-checking desk",
+      url: `${config.siteUrl}/author/contextwire-editorial-desk.html`,
+      bio: "The ContextWire Editorial Desk prepares source-checked briefings with emphasis on clear facts, cautious language, and reader-useful context."
+    },
+    updatedAt: post.updatedAt || post.publishedAt || new Date().toISOString(),
+    keyFacts: normalizeKeyFacts(post.keyFacts, trend, sources),
     tags: tagsForPost({ ...post, trend, category }),
     humanReview: {
       status: "editorial-review-required",
@@ -163,6 +169,32 @@ function buildValueContent(post, sources) {
   ].map(cleanText);
 }
 
+function hasFocusedArticle(content) {
+  if (!Array.isArray(content)) return false;
+  const text = content.join(" ");
+  const count = wordCount(content);
+  return count >= 500 && count <= 900 && requiredSections.every((section) => text.includes(section));
+}
+
+function buildFocusedContent(post, sources) {
+  const trend = titleCase(post.trend || post.title || "this topic");
+  const category = post.category || "Trends";
+  const sourceLabels = sources.slice(0, 5).map((source) => source.title).filter(Boolean);
+  const sourceText = sourceLabels.length ? sourceLabels.join("; ") : "public coverage was limited when this page was prepared";
+  const facts = normalizeKeyFacts(post.keyFacts, trend, sources);
+  const caution = categoryCaution(category);
+  return [
+    `What happened: ${trend} is receiving fresh reader attention in the ${category.toLowerCase()} category. The available source headlines point to a practical reader question: what changed, which details are supported, and whether the topic affects a schedule, price, score, release, company update, public statement, or personal decision.`,
+    `Key details: ${facts.join(" ")} These points are limited to the source headlines and existing trend data. If a detail is not visible in the source set, ContextWire does not treat it as confirmed.`,
+    `Background: The source context includes ${sourceText}. This matters because readers often see repeated headlines before they see the strongest evidence. A useful article should identify what the public sources actually say, then avoid adding unsupported details just to make the page longer.`,
+    `Why it matters: Readers search for ${trend} because they need a direct explanation, not repeated advice. For ${category.toLowerCase()} topics, the important details may include dates, names, teams, venues, companies, prices, official statements, documents, product notices, or confirmed results. When those details are present in sources, they should be checked against the newest link below.`,
+    `What's confirmed: The confirmed material is the topic's public visibility and the source headlines linked on this page. ${caution} If newer reporting changes the timeline, price, score, quote, or official position, the article should be updated rather than padded with general language.`,
+    `Reader takeaway: The practical reading is narrow: start with the newest source, compare whether other sources repeat the same fact independently, and give extra weight to official pages or named organizations. If the topic affects money, tickets, health, legal risk, travel, public reputation, product decisions, or sports results, wait for stronger confirmation before acting.`,
+    `What to watch: The next useful update will be a clearer primary source, a corrected report, an official page, a schedule listing, a filing, a venue notice, a status update, or another source that independently confirms the key detail. Readers should give more weight to those updates than to repeated summaries.`,
+    `Bottom line: ${trend} is worth following only to the extent that the sources support concrete facts. Use this article as a concise guide to the current source set, then check the links before relying on time-sensitive details.`
+  ].map(cleanText);
+}
+
 function depthParagraphs({ trend, category, sourceSentence, caution, verification, practicalUse }) {
   return [
     `Confidence guide: The most reliable reading of ${trend} comes from matching the same detail across independent public sources and then checking whether any source points back to an official page, direct statement, document, schedule, filing, release note, box score, or primary record. If the coverage is based on one original report repeated by many outlets, readers should treat the repeated versions as confirmation of attention, not confirmation of every detail. The difference matters because a copied claim can look stronger than it is when it appears in many feeds at once.`,
@@ -212,8 +244,21 @@ function replaceArticleBody(html, post) {
 }
 
 function articleBodyHtml(post) {
-  const paragraphs = (post.content || []).map((paragraph) => `<p>${escapeHtml(paragraph)}</p>`).join("\n        ");
-  return `${paragraphs}\n        ${sourceBoxHtml(post)}\n        ${reviewBoxHtml(post)}\n        `;
+  const paragraphs = (post.content || []).map((paragraph) => {
+    const parsed = sectionParagraph(paragraph);
+    if (!parsed) return `<p>${escapeHtml(paragraph)}</p>`;
+    const facts = parsed.heading === "Key Details" ? `<ul class="key-facts">${normalizeKeyFacts(post.keyFacts, post.trend || post.title, post.sources || []).map((fact) => `<li>${escapeHtml(fact)}</li>`).join("")}</ul>` : "";
+    return `<h2>${escapeHtml(parsed.heading)}</h2>${facts}${parsed.body ? `<p>${escapeHtml(parsed.body)}</p>` : ""}`;
+  }).join("\n        ");
+  return `${paragraphs}\n        ${sourceBoxHtml(post)}\n        ${authorBoxHtml(post.author)}\n        `;
+}
+
+function sectionParagraph(paragraph) {
+  const text = cleanText(paragraph);
+  const match = text.match(/^(What happened|Key details|Background|Why it matters|What's confirmed|What to watch|Bottom line):\s*(.*)$/i);
+  if (!match) return null;
+  const heading = match[1].replace(/\b\w/g, (char) => char.toUpperCase()).replace("What'S", "What's");
+  return { heading, body: match[2] || "" };
 }
 
 function sourceBoxHtml(post) {
@@ -229,6 +274,19 @@ function reviewBoxHtml(post) {
   return `<aside class="review-box" aria-label="Editorial review note">
           <strong>Editorial standard</strong>
           <p>ContextWire briefings are structured for reader verification: the topic is explained in plain language, sources are visible, and time-sensitive claims should be checked against the latest public updates.</p>
+        </aside>`;
+}
+
+function authorBoxHtml(author = {}) {
+  const name = escapeHtml(author.name || "ContextWire Editorial Desk");
+  const bio = escapeHtml(author.bio || "The ContextWire Editorial Desk prepares source-checked briefings with emphasis on clear facts, cautious language, and reader-useful context.");
+  return `<aside class="author-box" aria-label="Article author">
+          <a href="../author/contextwire-editorial-desk.html" class="author-avatar" aria-hidden="true">CW</a>
+          <div>
+            <p class="card-label">Written by</p>
+            <h2><a href="../author/contextwire-editorial-desk.html">${name}</a></h2>
+            <p>${bio}</p>
+          </div>
         </aside>`;
 }
 
@@ -299,7 +357,7 @@ function normalizeSources(sources, post) {
 
 function strongerTitle(title, trend, category) {
   const base = cleanText(title || "");
-  if (base && !/full briefing|trending context|key context|what's happening right now/i.test(base)) return trimTitle(base, 78);
+  if (base && !/full briefing|trending context|key context|what's happening right now|what to verify|context and analysis|what you need to know/i.test(base)) return trimTitle(base, 78);
   const options = {
     Technology: [`${trend}: What Changed, What to Check, and Why It Matters`, `${trend}: Practical Reader Guide and Source Check`],
     Business: [`${trend}: What Investors and Readers Should Verify`, `${trend}: Key Context, Risks, and Source Check`],
@@ -312,9 +370,22 @@ function strongerTitle(title, trend, category) {
 }
 
 function strongerExcerpt(excerpt, trend, category, sources) {
+  const existing = cleanText(excerpt || "");
+  const words = existing.split(/\s+/).filter(Boolean);
+  if (words.length >= 18 && words.length <= 35 && !/beyond a simple trend summary|verification points/i.test(existing)) return existing;
   const sourceText = sources.length > 1 ? `${sources.length} public sources` : "the available source trail";
-  const text = `${trend} explained with reader-first context, ${category.toLowerCase()} verification points, and ${sourceText} so the page is useful beyond a simple trend summary.`;
+  const text = `${trend} summarized with source-linked facts, key details, and what readers should watch next from ${sourceText}.`;
   return trimTitle(text, 210);
+}
+
+function normalizeKeyFacts(keyFacts, trend, sources) {
+  const facts = (Array.isArray(keyFacts) ? keyFacts : []).map(cleanText).filter(Boolean).slice(0, 6);
+  const unique = [...new Set(facts.filter((fact) => !/Readers should compare newer reporting/i.test(fact)))];
+  if (unique.length >= 3) return unique;
+  const next = [];
+  for (const source of sources.slice(0, 5)) next.push(`${source.title}.`);
+  while (next.length < 3) next.push(`${titleCase(trend)} needs stronger source confirmation before readers rely on time-sensitive details.`);
+  return next.slice(0, 6).map(cleanText);
 }
 
 function qualityForPost(post) {
@@ -322,8 +393,12 @@ function qualityForPost(post) {
   const warnings = [];
   const text = [post.title, post.excerpt, ...(post.content || [])].join(" ");
   const sections = requiredSections.filter((section) => text.includes(section));
-  if (words < 900) warnings.push("below-900-words");
+  if (words < 500) warnings.push("below-500-words");
+  if (words > 900) warnings.push("over-900-words");
   if ((post.sources || []).length < 1) warnings.push("missing-visible-sources");
+  if ((post.sources || []).length < 3) warnings.push("thin-source-set");
+  if (!post.author?.name) warnings.push("missing-author");
+  if (!Array.isArray(post.keyFacts) || post.keyFacts.length < 3) warnings.push("missing-key-facts");
   if (sections.length < requiredSections.length) warnings.push("missing-reader-value-sections");
   if (!post.image?.alt || !post.image?.credit) warnings.push("image-metadata-needed");
   if (/TrendPulse|sattarwajith-boop\.github\.io|Blog-Website/i.test(text)) warnings.push("old-brand-or-domain");
@@ -338,10 +413,10 @@ function qualityForPost(post) {
 function qualityScore(post) {
   let score = 55;
   const words = wordCount(post.content || []);
-  if (words >= 900) score += 12;
-  if (words >= 1000) score += 8;
-  if ((post.sources || []).length >= 2) score += 12;
+  if (words >= 500 && words <= 900) score += 16;
+  if ((post.sources || []).length >= 3) score += 12;
   if ((post.sources || []).length >= 5) score += 5;
+  if (post.author?.name) score += 4;
   if (post.image?.alt && post.image?.credit) score += 4;
   if (requiredSections.every((section) => (post.content || []).join(" ").includes(section))) score += 4;
   return Math.min(96, score);
