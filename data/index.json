@@ -1,5 +1,41 @@
 [
   {
+    "id": "6cd2f272e1a4d18e",
+    "slug": "mitch-johnson",
+    "title": "Mitch Johnson: Key Facts and Background",
+    "trend": "mitch johnson",
+    "category": "Trends",
+    "excerpt": "Mitch Johnson is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Mitch Johnson related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Mitch",
+      "Johnson"
+    ],
+    "quality": {
+      "wordCount": 596,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/mitch-johnson.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-05-27T00:43:16.836Z",
+    "url": "https://contextwire.online/posts/mitch-johnson.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "96ad9dc9441c293e",
     "slug": "billboard-top-100",
     "title": "Billboard Top 100: What Happened and Key Details",

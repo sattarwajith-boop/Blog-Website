@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-05-27T00:40:47.424Z
+Generated: 2026-05-27T00:43:17.732Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 106
+Total issues: 107
+
+## Mitch Johnson: Key Facts and Background
+- Slug: `mitch-johnson`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Billboard Top 100: What Happened and Key Details
 - Slug: `billboard-top-100`
