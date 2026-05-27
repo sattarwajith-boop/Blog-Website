@@ -1,5 +1,40 @@
 [
   {
+    "id": "c3cbce6199f32b57",
+    "slug": "coach",
+    "title": "Coach: Source-Checked Reader Guide",
+    "trend": "coach",
+    "category": "Trends",
+    "excerpt": "Coach is gaining attention in current trend data. Search interest is around 10000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Coach related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Coach"
+    ],
+    "quality": {
+      "wordCount": 573,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/coach.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-05-27T06:47:33.725Z",
+    "url": "https://contextwire.online/posts/coach.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "6cd2f272e1a4d18e",
     "slug": "mitch-johnson",
     "title": "Mitch Johnson: Key Facts and Background",
