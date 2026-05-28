@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-05-27T16:27:00.576Z
+Generated: 2026-05-28T06:38:49.157Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 109
+Total issues: 110
+
+## Vanessa Kirby: Latest Public Details Explained
+- Slug: `vanessa-kirby`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: ContextWire editorial graphic
+- Current image: assets/generated/contextwire-trending-editorial.png
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Barcelona - Real Sociedad: Key Facts and Background
 - Slug: `barcelona-real-sociedad`
