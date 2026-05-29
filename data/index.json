@@ -1,5 +1,41 @@
 [
   {
+    "id": "886e1fe64e73ca77",
+    "slug": "xbox-series-x",
+    "title": "Xbox Series X: Confirmed Details and What Comes Next",
+    "trend": "xbox series x",
+    "category": "Trends",
+    "excerpt": "Xbox Series X is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Xbox Series X related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Xbox",
+      "Series"
+    ],
+    "quality": {
+      "wordCount": 577,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/xbox-series-x.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-05-29T06:40:51.293Z",
+    "url": "https://contextwire.online/posts/xbox-series-x.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "c7ec61326de905a4",
     "slug": "sabalenka",
     "title": "Sabalenka: Key Facts and Background",
