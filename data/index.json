@@ -1,5 +1,41 @@
 [
   {
+    "id": "4fcf26a145f63ff9",
+    "slug": "rush-hour",
+    "title": "Rush Hour: Source-Checked Reader Guide",
+    "trend": "rush hour",
+    "category": "Trends",
+    "excerpt": "Rush Hour is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Rush Hour related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Rush",
+      "Hour"
+    ],
+    "quality": {
+      "wordCount": 594,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/rush-hour.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-05-30T06:02:47.740Z",
+    "url": "https://contextwire.online/posts/rush-hour.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "4cc3029c2963182e",
     "slug": "iran-vs-gambia",
     "title": "Iran vs Gambia: What Happened and Key Details",
