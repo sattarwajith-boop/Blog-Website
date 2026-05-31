@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-05-31T06:42:20.038Z
+Generated: 2026-05-31T14:21:33.900Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 115
+Total issues: 116
+
+## Jodar Tennis: Latest Public Details Explained
+- Slug: `jodar-tennis`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Immunizations: Source-Checked Reader Guide
 - Slug: `immunizations`
