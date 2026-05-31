@@ -1,5 +1,40 @@
 [
   {
+    "id": "bbf268cf5b912a1b",
+    "slug": "immunizations",
+    "title": "Immunizations: Source-Checked Reader Guide",
+    "trend": "immunizations",
+    "category": "Trends",
+    "excerpt": "Immunizations is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Immunizations related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Immunizations"
+    ],
+    "quality": {
+      "wordCount": 585,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/immunizations.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-05-31T06:42:19.197Z",
+    "url": "https://contextwire.online/posts/immunizations.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "3316b6b374934b4f",
     "slug": "power-to-the-people-festival",
     "title": "Power to the People Festival: What Readers Should Know Now",
