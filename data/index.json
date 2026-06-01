@@ -1,5 +1,40 @@
 [
   {
+    "id": "7050355bf7191839",
+    "slug": "raiders",
+    "title": "Raiders: What Readers Should Know Now",
+    "trend": "raiders",
+    "category": "Trends",
+    "excerpt": "Raiders is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Raiders related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Raiders"
+    ],
+    "quality": {
+      "wordCount": 561,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/raiders.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-01T18:27:10.549Z",
+    "url": "https://contextwire.online/posts/raiders.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "501cc3668d7a67a5",
     "slug": "john-deere",
     "title": "John Deere: Source-Checked Reader Guide",
