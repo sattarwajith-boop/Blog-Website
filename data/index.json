@@ -1,5 +1,41 @@
 [
   {
+    "id": "512fa91cdbf985e6",
+    "slug": "onslaught-movie",
+    "title": "Onslaught Movie: Confirmed Details and What Comes Next",
+    "trend": "onslaught movie",
+    "category": "Culture",
+    "excerpt": "Onslaught Movie is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Onslaught Movie related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Culture",
+      "Onslaught",
+      "Movie"
+    ],
+    "quality": {
+      "wordCount": 574,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/onslaught-movie.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-02T17:07:03.849Z",
+    "url": "https://contextwire.online/posts/onslaught-movie.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "49e31c7c6807d846",
     "slug": "lamborghini",
     "title": "Lamborghini: Confirmed Details and What Comes Next",

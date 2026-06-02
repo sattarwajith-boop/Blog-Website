@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-02T07:10:47.780Z
+Generated: 2026-06-02T17:07:04.942Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 119
+Total issues: 120
+
+## Onslaught Movie: Confirmed Details and What Comes Next
+- Slug: `onslaught-movie`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Lamborghini: Confirmed Details and What Comes Next
 - Slug: `lamborghini`
