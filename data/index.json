@@ -1,5 +1,40 @@
 [
   {
+    "id": "49e31c7c6807d846",
+    "slug": "lamborghini",
+    "title": "Lamborghini: Confirmed Details and What Comes Next",
+    "trend": "lamborghini",
+    "category": "Trends",
+    "excerpt": "Lamborghini is gaining attention in current trend data. Search interest is around 100+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Lamborghini related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Lamborghini"
+    ],
+    "quality": {
+      "wordCount": 545,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/lamborghini.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-02T07:10:46.689Z",
+    "url": "https://contextwire.online/posts/lamborghini.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "7050355bf7191839",
     "slug": "raiders",
     "title": "Raiders: What Readers Should Know Now",

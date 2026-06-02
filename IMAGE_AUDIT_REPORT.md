@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-01T18:27:11.791Z
+Generated: 2026-06-02T07:10:47.780Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 118
+Total issues: 119
+
+## Lamborghini: Confirmed Details and What Comes Next
+- Slug: `lamborghini`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: ContextWire editorial graphic
+- Current image: assets/generated/contextwire-trending-editorial.png
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Raiders: What Readers Should Know Now
 - Slug: `raiders`
