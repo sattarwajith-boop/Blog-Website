@@ -1,5 +1,40 @@
 [
   {
+    "id": "9dc65c18c5347fba",
+    "slug": "kuwait",
+    "title": "Kuwait: Key Facts and Background",
+    "trend": "kuwait",
+    "category": "Trends",
+    "excerpt": "Kuwait is gaining attention in current trend data. Search interest is around 5000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Kuwait related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Kuwait"
+    ],
+    "quality": {
+      "wordCount": 569,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/kuwait.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-03T07:25:47.142Z",
+    "url": "https://contextwire.online/posts/kuwait.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "512fa91cdbf985e6",
     "slug": "onslaught-movie",
     "title": "Onslaught Movie: Confirmed Details and What Comes Next",

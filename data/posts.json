@@ -1,5 +1,94 @@
 [
   {
+    "id": "9dc65c18c5347fba",
+    "slug": "kuwait",
+    "title": "Kuwait: Key Facts and Background",
+    "trend": "kuwait",
+    "category": "Trends",
+    "excerpt": "Kuwait is gaining attention in current trend data. Search interest is around 5000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Kuwait related editorial image",
+      "credit": "Unsplash"
+    },
+    "content": [
+      "What happened: Kuwait is drawing fresh reader attention in the trends category. Google Trends reported search interest around 5000+. The available source headlines point readers toward one practical task: understand the specific update, separate confirmed details from repetition, and decide whether the story affects schedules, money, public understanding, entertainment plans, sport results, or technology decisions.",
+      "Key details: The strongest details currently available from the source set are: Search interest was reported around 5000+. NPR reported: Iran fires missiles in Kuwait and Bahrain, U.S. strikes Iran facility in response. AP News reported: Iranian drone attack hits Kuwait airport, wounding people. The Times of Israel reported: Kuwait suspends flights after several injured in Iranian attack on international airport. BBC reported: US and Iran launch new strikes, as Kuwait says airport hit by Iranian drones. Türkiye Today reported: Iranian drone hits Kuwait airport terminal, multiple people injured. These points are intentionally limited to what the source headlines and trend data support. If a detail is not visible in the source set, this article does not treat it as confirmed.",
+      "Background: The source context for Kuwait includes NPR: Iran fires missiles in Kuwait and Bahrain, U.S. strikes Iran facility in response; AP News: Iranian drone attack hits Kuwait airport, wounding people; The Times of Israel: Kuwait suspends flights after several injured in Iranian attack on international airport; BBC: US and Iran launch new strikes, as Kuwait says airport hit by Iranian drones; Türkiye Today: Iranian drone hits Kuwait airport terminal, multiple people injured. That mix is useful because it shows which parts of the topic are being repeated publicly and which parts may still need a primary source, official page, direct statement, fixture page, filing, venue notice, product note, or updated report before readers rely on it.",
+      "Why it matters: Readers usually search for a topic like Kuwait because they need a usable answer, not a pile of repeated headlines. For trends coverage, that means the article should clarify the latest public signal, identify the responsible organizations or people when the sources name them, and avoid stretching a thin source set into false certainty.",
+      "What's confirmed: The confirmed material is the public trend signal and the linked source headlines shown below. For Kuwait, prioritize recent updates and named public records over repeated summaries. When the source set contains dates, names, scores, prices, venues, companies, or official organizations, those details should be checked against the newest linked source before a reader acts on them.",
+      "Reader takeaway: The useful reading is narrow and practical. Start with the newest source, compare whether other sources repeat the same fact independently, and give extra weight to official pages or named organizations. If the topic affects money, tickets, health, legal risk, travel, public reputation, product decisions, or sports results, wait for stronger confirmation before acting.",
+      "What to watch: The next useful update will be a clearer source with direct evidence, a correction, an official statement, a schedule or price page, a box score, a filing, a status page, or a new report that confirms the key detail independently. If later sources add concrete facts, this page should be updated rather than padded with speculation.",
+      "Bottom line: Kuwait is worth reading about because the topic is visible and readers are looking for a clear answer. The safest takeaway is to use the source links, focus on confirmed details, and avoid treating repeated headlines as stronger evidence than they really are."
+    ],
+    "sources": [
+      {
+        "title": "Iran fires missiles in Kuwait and Bahrain, U.S. strikes Iran facility in response",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBfNm01aE1Cckc1YmhwUFl2Uy00cmJTYk03cXdJWmtLSDNpS2NzbjEzRUhPeHNLZk5jQmItV1BVX1A2LU5iWV9KbWdOWUptRnNoTFhYMFhjLWlPam5PajdwNHlKUE9tbUltcTc0?oc=5",
+        "publishedAt": "Wed, 03 Jun 2026 06:45:30 GMT"
+      },
+      {
+        "title": "Iranian drone attack hits Kuwait airport, wounding people",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMWw3aG9uNmppOHRXVF9yQ2tkOGdlN3g5c2FnQllkOUxxYXhqSUVoUlRYc21pVHlHdjNFOE1nbDZjNlYta2dsVW4tUV9kekZFM2NVWUZ2UGRXSzZkXzBmSm54VTdlb2FBQkdsVHJnQ0R1aEJncGF5N2xPaEdGVDdWZG1vaS1WQU9EeVJZZWJzQlgyaWV1S21MNmhQT1pXb0tNbXBrbzQ0bmRaQXFjQ3JETEpCVVM3Zw?oc=5",
+        "publishedAt": "Wed, 03 Jun 2026 06:16:00 GMT"
+      },
+      {
+        "title": "Kuwait suspends flights after several injured in Iranian attack on international airport",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPLTRqLUVfN1RBNDFYNU1DUlZkM2VaRzJ6d0F4b29WVlozd2lmU25fYTVYMXpIZ0xYQm8xVjVaMFlrNGN0RGxETmk2UjBsZlhuaTFjYnU0N1hXSklxaUtDRU1BNi1hZDREeTRPWUd5TXdDeFBoMjhDNnZiaThHaW9XTnpwR3EwS3NCQzUwSnZTV1VkY1hRcTZxcF9pb1h5MmRmbjlhU2RtMVN0OFV3VlgzekJ1dkstMzBWbWpNX2ZxMWpVLXFCMG41bGpTcU9xREU?oc=5",
+        "publishedAt": "Wed, 03 Jun 2026 06:20:47 GMT"
+      },
+      {
+        "title": "US and Iran launch new strikes, as Kuwait says airport hit by Iranian drones",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IQlY0SWk3SW1lWWlyN19nN0VHNklGQ2xvVm04LU8zajZpWEZaOXVaWTk3YmZpRmFLYWUwQVc3T3pMMXc1dWdVZkdsVzVVajUzZllhN29aYVJJdw?oc=5",
+        "publishedAt": "Wed, 03 Jun 2026 06:54:14 GMT"
+      },
+      {
+        "title": "Iranian drone hits Kuwait airport terminal, multiple people injured",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONldiT3dGQ283NUhQTUFJd1JOODVQQlRUTWhyT21QSk1WRmlIaTBhQjBJaFZVSnoyUWl4ZnpiTGNmOWdobUtpZ2lTQkFCYjRHTTVlWTlITUlkcDZaMGx0ZjRmWkFfTmIzSmwtZUw2RHFaNlhXSV92Q2o2V1hzS2VJenBKMGk0UmdKU2dlN1FTZkc3WEFLQThkdmQxMVVOWS1NUS1JeE5iWGxxUDN3SXBJ?oc=5",
+        "publishedAt": "Wed, 03 Jun 2026 05:56:49 GMT"
+      }
+    ],
+    "author": {
+      "name": "ContextWire Editorial Desk",
+      "title": "Source-checking desk",
+      "url": "https://contextwire.online/author/contextwire-editorial-desk.html",
+      "bio": "The ContextWire Editorial Desk prepares source-checked briefings with emphasis on clear facts, cautious language, and reader-useful context."
+    },
+    "updatedAt": "2026-06-03T07:25:47.142Z",
+    "keyFacts": [
+      "Search interest was reported around 5000+.",
+      "NPR reported: Iran fires missiles in Kuwait and Bahrain, U.S. strikes Iran facility in response.",
+      "AP News reported: Iranian drone attack hits Kuwait airport, wounding people.",
+      "The Times of Israel reported: Kuwait suspends flights after several injured in Iranian attack on international airport.",
+      "BBC reported: US and Iran launch new strikes, as Kuwait says airport hit by Iranian drones.",
+      "Türkiye Today reported: Iranian drone hits Kuwait airport terminal, multiple people injured."
+    ],
+    "publishedAt": "2026-06-03T07:25:47.142Z",
+    "productionMethod": "editorial-workflow",
+    "tags": [
+      "Trends",
+      "Kuwait"
+    ],
+    "ogImage": "assets/og/kuwait.svg",
+    "quality": {
+      "wordCount": 569,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "humanReview": {
+      "status": "editorial-review-required",
+      "note": "ContextWire briefing prepared with visible source notes, reader-focused sections, and verification prompts. Final factual approval should be completed before promotion or monetization review."
+    }
+  },
+  {
     "id": "512fa91cdbf985e6",
     "slug": "onslaught-movie",
     "title": "Onslaught Movie: Confirmed Details and What Comes Next",
