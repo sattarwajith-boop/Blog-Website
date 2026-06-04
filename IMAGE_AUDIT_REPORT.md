@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-04T07:09:47.457Z
+Generated: 2026-06-04T16:04:26.341Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 123
+Total issues: 124
+
+## Consumers Energy: What Readers Should Know Now
+- Slug: `consumers-energy`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Jennifer Lawrence: Confirmed Details and What Comes Next
 - Slug: `jennifer-lawrence`

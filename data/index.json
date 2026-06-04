@@ -1,5 +1,41 @@
 [
   {
+    "id": "823a617e2dbdf52a",
+    "slug": "consumers-energy",
+    "title": "Consumers Energy: What Readers Should Know Now",
+    "trend": "consumers energy",
+    "category": "Trends",
+    "excerpt": "Consumers Energy is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Consumers Energy related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Consumers",
+      "Energy"
+    ],
+    "quality": {
+      "wordCount": 550,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/consumers-energy.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-04T16:04:25.272Z",
+    "url": "https://contextwire.online/posts/consumers-energy.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "c9939f7c385c427f",
     "slug": "jennifer-lawrence",
     "title": "Jennifer Lawrence: Confirmed Details and What Comes Next",
