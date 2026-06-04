@@ -1,5 +1,41 @@
 [
   {
+    "id": "c9939f7c385c427f",
+    "slug": "jennifer-lawrence",
+    "title": "Jennifer Lawrence: Confirmed Details and What Comes Next",
+    "trend": "jennifer lawrence",
+    "category": "News",
+    "excerpt": "Jennifer Lawrence is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-civic-analysis.png",
+      "alt": "Jennifer Lawrence related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "News",
+      "Jennifer",
+      "Lawrence"
+    ],
+    "quality": {
+      "wordCount": 581,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/jennifer-lawrence.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-04T07:09:46.451Z",
+    "url": "https://contextwire.online/posts/jennifer-lawrence.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "1d5f79afbc4a658c",
     "slug": "albania-vs-israel",
     "title": "Albania vs Israel: What Happened and Key Details",

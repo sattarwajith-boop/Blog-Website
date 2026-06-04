@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-03T17:33:16.938Z
+Generated: 2026-06-04T07:09:47.457Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 122
+Total issues: 123
+
+## Jennifer Lawrence: Confirmed Details and What Comes Next
+- Slug: `jennifer-lawrence`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: ContextWire editorial graphic
+- Current image: assets/generated/contextwire-civic-analysis.png
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Albania vs Israel: What Happened and Key Details
 - Slug: `albania-vs-israel`
