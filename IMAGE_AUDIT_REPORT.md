@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-05T06:51:27.456Z
+Generated: 2026-06-05T15:38:55.472Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 125
+Total issues: 126
+
+## Monaco: Key Facts and Background
+- Slug: `monaco`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Why Is Crypto Crashing: Confirmed Details and What Comes Next
 - Slug: `why-is-crypto-crashing`

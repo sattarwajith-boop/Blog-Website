@@ -1,5 +1,40 @@
 [
   {
+    "id": "f4c884520d4d8b1b",
+    "slug": "monaco",
+    "title": "Monaco: Key Facts and Background",
+    "trend": "monaco",
+    "category": "Trends",
+    "excerpt": "Monaco is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Monaco related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Monaco"
+    ],
+    "quality": {
+      "wordCount": 607,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/monaco.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-05T15:38:54.457Z",
+    "url": "https://contextwire.online/posts/monaco.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "7a8b544bcbecff20",
     "slug": "why-is-crypto-crashing",
     "title": "Why Is Crypto Crashing: Confirmed Details and What Comes Next",
