@@ -1,5 +1,41 @@
 [
   {
+    "id": "f841730ff4171ffe",
+    "slug": "chris-janson",
+    "title": "Chris Janson: Confirmed Details and What Comes Next",
+    "trend": "chris janson",
+    "category": "Trends",
+    "excerpt": "Chris Janson is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Chris Janson related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Chris",
+      "Janson"
+    ],
+    "quality": {
+      "wordCount": 638,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/chris-janson.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-06T14:19:27.265Z",
+    "url": "https://contextwire.online/posts/chris-janson.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "87f63a559b1e780f",
     "slug": "amoc",
     "title": "Amoc: What Readers Should Know Now",
