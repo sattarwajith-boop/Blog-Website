@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-07T06:49:55.285Z
+Generated: 2026-06-07T14:31:57.283Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 129
+Total issues: 130
+
+## Queen Elizabeth: Source-Checked Reader Guide
+- Slug: `queen-elizabeth`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Netflix Top Movies Right Now: Confirmed Details and What Comes Next
 - Slug: `netflix-top-movies-right-now`
