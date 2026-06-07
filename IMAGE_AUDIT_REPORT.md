@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-06T14:19:28.414Z
+Generated: 2026-06-07T06:49:55.285Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 128
+Total issues: 129
+
+## Netflix Top Movies Right Now: Confirmed Details and What Comes Next
+- Slug: `netflix-top-movies-right-now`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Chris Janson: Confirmed Details and What Comes Next
 - Slug: `chris-janson`
