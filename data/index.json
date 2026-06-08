@@ -1,5 +1,40 @@
 [
   {
+    "id": "cc81d104d188cbaa",
+    "slug": "bts-oreos",
+    "title": "Bts Oreos: Source-Checked Reader Guide",
+    "trend": "bts oreos",
+    "category": "Trends",
+    "excerpt": "Bts Oreos is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Bts Oreos related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Oreos"
+    ],
+    "quality": {
+      "wordCount": 580,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/bts-oreos.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-08T16:38:37.192Z",
+    "url": "https://contextwire.online/posts/bts-oreos.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "14998ba99bf678e4",
     "slug": "real-estate",
     "title": "Real Estate: Latest Public Details Explained",

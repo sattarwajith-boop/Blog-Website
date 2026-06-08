@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-08T07:15:28.359Z
+Generated: 2026-06-08T16:38:38.392Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 131
+Total issues: 132
+
+## Bts Oreos: Source-Checked Reader Guide
+- Slug: `bts-oreos`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Real Estate: Latest Public Details Explained
 - Slug: `real-estate`
