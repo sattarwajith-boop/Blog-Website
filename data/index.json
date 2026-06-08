@@ -1,5 +1,41 @@
 [
   {
+    "id": "14998ba99bf678e4",
+    "slug": "real-estate",
+    "title": "Real Estate: Latest Public Details Explained",
+    "trend": "real estate",
+    "category": "Trends",
+    "excerpt": "Real Estate is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Real Estate related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Real",
+      "Estate"
+    ],
+    "quality": {
+      "wordCount": 576,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/real-estate.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-08T07:15:27.201Z",
+    "url": "https://contextwire.online/posts/real-estate.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "991d69dc7c013ad5",
     "slug": "queen-elizabeth",
     "title": "Queen Elizabeth: Source-Checked Reader Guide",
