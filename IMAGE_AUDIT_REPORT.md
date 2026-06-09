@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-09T06:34:28.475Z
+Generated: 2026-06-09T15:43:47.191Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 133
+Total issues: 134
+
+## Divorce Lawyer: Source-Checked Reader Guide
+- Slug: `divorce-lawyer`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: ContextWire editorial graphic
+- Current image: assets/generated/contextwire-civic-analysis.png
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## William Contreras: Key Facts and Background
 - Slug: `william-contreras`

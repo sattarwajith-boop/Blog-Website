@@ -1,5 +1,41 @@
 [
   {
+    "id": "33c39df6d09aa2a4",
+    "slug": "divorce-lawyer",
+    "title": "Divorce Lawyer: Source-Checked Reader Guide",
+    "trend": "divorce lawyer",
+    "category": "News",
+    "excerpt": "Divorce Lawyer is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-civic-analysis.png",
+      "alt": "Divorce Lawyer related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "News",
+      "Divorce",
+      "Lawyer"
+    ],
+    "quality": {
+      "wordCount": 545,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/divorce-lawyer.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-09T15:43:45.977Z",
+    "url": "https://contextwire.online/posts/divorce-lawyer.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "022cac7fb4ba7daf",
     "slug": "william-contreras",
     "title": "William Contreras: Key Facts and Background",
