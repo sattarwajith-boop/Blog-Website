@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-08T16:38:38.392Z
+Generated: 2026-06-09T06:34:28.475Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 132
+Total issues: 133
+
+## William Contreras: Key Facts and Background
+- Slug: `william-contreras`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Bts Oreos: Source-Checked Reader Guide
 - Slug: `bts-oreos`
