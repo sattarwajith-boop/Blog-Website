@@ -1,5 +1,41 @@
 [
   {
+    "id": "15f77e7c03f6263a",
+    "slug": "kyrie-irving",
+    "title": "Kyrie Irving: Confirmed Details and What Comes Next",
+    "trend": "kyrie irving",
+    "category": "Trends",
+    "excerpt": "Kyrie Irving is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Kyrie Irving related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Kyrie",
+      "Irving"
+    ],
+    "quality": {
+      "wordCount": 600,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/kyrie-irving.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-10T06:50:33.808Z",
+    "url": "https://contextwire.online/posts/kyrie-irving.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "33c39df6d09aa2a4",
     "slug": "divorce-lawyer",
     "title": "Divorce Lawyer: Source-Checked Reader Guide",
