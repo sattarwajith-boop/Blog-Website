@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-10T06:50:35.007Z
+Generated: 2026-06-10T16:25:21.272Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 135
+Total issues: 136
+
+## Hogwarts Legacy 2: Latest Public Details Explained
+- Slug: `hogwarts-legacy-2`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: ContextWire editorial graphic
+- Current image: assets/generated/contextwire-trending-editorial.png
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Kyrie Irving: Confirmed Details and What Comes Next
 - Slug: `kyrie-irving`
