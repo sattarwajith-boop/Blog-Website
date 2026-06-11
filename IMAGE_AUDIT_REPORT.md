@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-10T16:25:21.272Z
+Generated: 2026-06-11T07:17:09.461Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 136
+Total issues: 137
+
+## Erie Insurance: Confirmed Details and What Comes Next
+- Slug: `erie-insurance`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: ContextWire editorial graphic
+- Current image: assets/generated/contextwire-trending-editorial.png
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Hogwarts Legacy 2: Latest Public Details Explained
 - Slug: `hogwarts-legacy-2`
