@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-12T07:07:17.947Z
+Generated: 2026-06-12T15:53:05.518Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 138
+Total issues: 139
+
+## Novorossiya: Key Facts and Background
+- Slug: `novorossiya`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Cryptocurrency: What Happened and Key Details
 - Slug: `cryptocurrency`

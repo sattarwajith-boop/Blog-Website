@@ -1,5 +1,40 @@
 [
   {
+    "id": "32d5473ec79a6302",
+    "slug": "novorossiya",
+    "title": "Novorossiya: Key Facts and Background",
+    "trend": "novorossiya",
+    "category": "Trends",
+    "excerpt": "Novorossiya is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Novorossiya related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Novorossiya"
+    ],
+    "quality": {
+      "wordCount": 553,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/novorossiya.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-12T15:53:04.300Z",
+    "url": "https://contextwire.online/posts/novorossiya.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "04fa5a4d48227a49",
     "slug": "cryptocurrency",
     "title": "Cryptocurrency: What Happened and Key Details",
