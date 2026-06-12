@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-11T16:39:50.322Z
+Generated: 2026-06-12T07:07:17.947Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 137
+Total issues: 138
+
+## Cryptocurrency: What Happened and Key Details
+- Slug: `cryptocurrency`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Erie Insurance: Confirmed Details and What Comes Next
 - Slug: `erie-insurance`

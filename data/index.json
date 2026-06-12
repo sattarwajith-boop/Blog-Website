@@ -1,5 +1,40 @@
 [
   {
+    "id": "04fa5a4d48227a49",
+    "slug": "cryptocurrency",
+    "title": "Cryptocurrency: What Happened and Key Details",
+    "trend": "cryptocurrency",
+    "category": "Business",
+    "excerpt": "Cryptocurrency is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Cryptocurrency related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Business",
+      "Cryptocurrency"
+    ],
+    "quality": {
+      "wordCount": 563,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/cryptocurrency.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-12T07:07:16.855Z",
+    "url": "https://contextwire.online/posts/cryptocurrency.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "9859fabdfae326d0",
     "slug": "donde-puedo-ver-el-mundial-2026",
     "title": "Donde Puedo Ver El Mundial 2026: What Readers Should Know Now",
