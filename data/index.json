@@ -1,5 +1,41 @@
 [
   {
+    "id": "6edd0d791d59ea45",
+    "slug": "nico-rosberg",
+    "title": "Nico Rosberg: What Happened and Key Details",
+    "trend": "nico rosberg",
+    "category": "Trends",
+    "excerpt": "Nico Rosberg is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Nico Rosberg related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Nico",
+      "Rosberg"
+    ],
+    "quality": {
+      "wordCount": 592,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/nico-rosberg.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-14T14:58:10.497Z",
+    "url": "https://contextwire.online/posts/nico-rosberg.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "d239198884d0a96f",
     "slug": "maribel-guardia",
     "title": "Maribel Guardia: Key Facts and Background",

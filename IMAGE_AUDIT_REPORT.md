@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-14T07:08:54.861Z
+Generated: 2026-06-14T14:58:11.765Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 141
+Total issues: 142
+
+## Nico Rosberg: What Happened and Key Details
+- Slug: `nico-rosberg`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Maribel Guardia: Key Facts and Background
 - Slug: `maribel-guardia`
