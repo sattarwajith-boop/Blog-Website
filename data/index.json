@@ -1,5 +1,40 @@
 [
   {
+    "id": "6b52bce9fe2dd5bc",
+    "slug": "joe-alwyn",
+    "title": "Joe Alwyn: What Readers Should Know Now",
+    "trend": "joe alwyn",
+    "category": "Trends",
+    "excerpt": "Joe Alwyn is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Joe Alwyn related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Alwyn"
+    ],
+    "quality": {
+      "wordCount": 600,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/joe-alwyn.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-15T17:34:06.602Z",
+    "url": "https://contextwire.online/posts/joe-alwyn.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "74182c97fbc55fa1",
     "slug": "mormon-church",
     "title": "Mormon Church: Source-Checked Reader Guide",

@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-15T08:39:51.300Z
+Generated: 2026-06-15T17:34:07.889Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 143
+Total issues: 144
+
+## Joe Alwyn: What Readers Should Know Now
+- Slug: `joe-alwyn`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: ContextWire editorial graphic
+- Current image: assets/generated/contextwire-trending-editorial.png
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Mormon Church: Source-Checked Reader Guide
 - Slug: `mormon-church`
