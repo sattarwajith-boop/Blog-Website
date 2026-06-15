@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-14T14:58:11.765Z
+Generated: 2026-06-15T08:39:51.300Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 142
+Total issues: 143
+
+## Mormon Church: Source-Checked Reader Guide
+- Slug: `mormon-church`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Nico Rosberg: What Happened and Key Details
 - Slug: `nico-rosberg`
