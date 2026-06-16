@@ -1,5 +1,41 @@
 [
   {
+    "id": "39cf4ec380c6fd62",
+    "slug": "snap-stock",
+    "title": "Snap Stock: Key Facts and Background",
+    "trend": "snap stock",
+    "category": "Business",
+    "excerpt": "Snap Stock is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Snap Stock related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Business",
+      "Snap",
+      "Stock"
+    ],
+    "quality": {
+      "wordCount": 585,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/snap-stock.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-16T17:37:24.697Z",
+    "url": "https://contextwire.online/posts/snap-stock.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "c0b8042938a80d95",
     "slug": "june-16",
     "title": "June 16: Source-Checked Reader Guide",

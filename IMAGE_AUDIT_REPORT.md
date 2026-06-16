@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-16T08:33:21.847Z
+Generated: 2026-06-16T17:37:25.963Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 145
+Total issues: 146
+
+## Snap Stock: Key Facts and Background
+- Slug: `snap-stock`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## June 16: Source-Checked Reader Guide
 - Slug: `june-16`
