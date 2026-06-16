@@ -1,5 +1,40 @@
 [
   {
+    "id": "c0b8042938a80d95",
+    "slug": "june-16",
+    "title": "June 16: Source-Checked Reader Guide",
+    "trend": "june 16",
+    "category": "Trends",
+    "excerpt": "June 16 is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "June 16 related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "June"
+    ],
+    "quality": {
+      "wordCount": 562,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/june-16.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-16T08:33:20.709Z",
+    "url": "https://contextwire.online/posts/june-16.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "6b52bce9fe2dd5bc",
     "slug": "joe-alwyn",
     "title": "Joe Alwyn: What Readers Should Know Now",
