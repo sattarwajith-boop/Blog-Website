@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-17T07:37:33.672Z
+Generated: 2026-06-17T16:26:40.352Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 147
+Total issues: 148
+
+## Aryna Sabalenka: Confirmed Details and What Comes Next
+- Slug: `aryna-sabalenka`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: ContextWire editorial graphic
+- Current image: assets/generated/contextwire-trending-editorial.png
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Kai Cenat: What Readers Should Know Now
 - Slug: `kai-cenat`
