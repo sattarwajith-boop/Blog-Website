@@ -1,5 +1,40 @@
 [
   {
+    "id": "49e5a6b6e512c678",
+    "slug": "kai-cenat",
+    "title": "Kai Cenat: What Readers Should Know Now",
+    "trend": "kai cenat",
+    "category": "Trends",
+    "excerpt": "Kai Cenat is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Kai Cenat related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Cenat"
+    ],
+    "quality": {
+      "wordCount": 664,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/kai-cenat.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-17T07:37:32.416Z",
+    "url": "https://contextwire.online/posts/kai-cenat.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "39cf4ec380c6fd62",
     "slug": "snap-stock",
     "title": "Snap Stock: Key Facts and Background",
