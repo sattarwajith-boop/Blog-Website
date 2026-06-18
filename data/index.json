@@ -1,5 +1,41 @@
 [
   {
+    "id": "a8cd8cbc832c8c16",
+    "slug": "monica-mcnutt",
+    "title": "Monica Mcnutt: Confirmed Details and What Comes Next",
+    "trend": "monica mcnutt",
+    "category": "Trends",
+    "excerpt": "Monica Mcnutt is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Monica Mcnutt related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Monica",
+      "Mcnutt"
+    ],
+    "quality": {
+      "wordCount": 568,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/monica-mcnutt.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-18T16:05:00.849Z",
+    "url": "https://contextwire.online/posts/monica-mcnutt.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "305ed4435c37767a",
     "slug": "is-claude-down",
     "title": "Is Claude Down: Source-Checked Reader Guide",
