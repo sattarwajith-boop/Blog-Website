@@ -1,5 +1,40 @@
 [
   {
+    "id": "e0b6537b8d33be0e",
+    "slug": "megan-fox",
+    "title": "Megan Fox: What Happened and Key Details",
+    "trend": "megan fox",
+    "category": "Trends",
+    "excerpt": "Megan Fox is gaining attention in current trend data. Search interest is around 100+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Megan Fox related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Megan"
+    ],
+    "quality": {
+      "wordCount": 568,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/megan-fox.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-19T08:18:25.663Z",
+    "url": "https://contextwire.online/posts/megan-fox.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "a8cd8cbc832c8c16",
     "slug": "monica-mcnutt",
     "title": "Monica Mcnutt: Confirmed Details and What Comes Next",

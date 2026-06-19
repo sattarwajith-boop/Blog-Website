@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-18T16:05:01.820Z
+Generated: 2026-06-19T08:18:26.991Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 150
+Total issues: 151
+
+## Megan Fox: What Happened and Key Details
+- Slug: `megan-fox`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Monica Mcnutt: Confirmed Details and What Comes Next
 - Slug: `monica-mcnutt`
