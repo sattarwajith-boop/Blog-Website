@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-20T06:47:40.799Z
+Generated: 2026-06-20T14:55:21.029Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 153
+Total issues: 154
+
+## Frigibax Community Day: What Happened and Key Details
+- Slug: `frigibax-community-day`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Copa Mundial De Fútbol: Latest Public Details Explained
 - Slug: `copa-mundial-de-f-tbol`
