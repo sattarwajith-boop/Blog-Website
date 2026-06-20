@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-19T15:52:36.544Z
+Generated: 2026-06-20T06:47:40.799Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 152
+Total issues: 153
+
+## Copa Mundial De Fútbol: Latest Public Details Explained
+- Slug: `copa-mundial-de-f-tbol`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: ContextWire editorial graphic
+- Current image: assets/generated/contextwire-trending-editorial.png
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Michael Pennel Jr: What Readers Should Know Now
 - Slug: `michael-pennel-jr`
