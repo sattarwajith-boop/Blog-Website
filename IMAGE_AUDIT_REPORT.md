@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-21T07:19:01.093Z
+Generated: 2026-06-21T15:01:01.118Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 155
+
+## When Is the NBA Draft: What Readers Should Know Now
+- Slug: `when-is-the-nba-draft`
+- Topic type: sports-event
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use official league/team/event image, licensed photo, scoreboard/schedule screenshot, or original editorial graphic.
 
 ## Netflix Voicemails for Isabelle: Confirmed Details and What Comes Next
 - Slug: `netflix-voicemails-for-isabelle`
@@ -1236,12 +1244,4 @@ Total issues: 155
 - Issue: generic image for specific topic
 - Current credit: ContextWire editorial graphic
 - Current image: assets/generated/contextwire-culture-books.png
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Socialism: Key Facts and Background
-- Slug: `socialism`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
