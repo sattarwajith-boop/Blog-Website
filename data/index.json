@@ -1,5 +1,40 @@
 [
   {
+    "id": "5f28489f2ffeb9dc",
+    "slug": "foxone",
+    "title": "Foxone: Confirmed Details and What Comes Next",
+    "trend": "foxone",
+    "category": "Trends",
+    "excerpt": "Foxone is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Foxone related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Foxone"
+    ],
+    "quality": {
+      "wordCount": 609,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/foxone.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-22T17:17:44.676Z",
+    "url": "https://contextwire.online/posts/foxone.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "146dc0aefcb89b91",
     "slug": "news-on-6",
     "title": "News on 6: Latest Public Details Explained",
@@ -5713,40 +5748,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-02T14:14:22.745Z",
     "url": "https://contextwire.online/posts/islam-makhachev.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "40d41875aa590dd5",
-    "slug": "csk-vs-mi",
-    "title": "CSK vs MI: Key Facts and Background",
-    "trend": "csk vs mi",
-    "category": "Sports",
-    "excerpt": "CSK vs MI is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=1400&q=82",
-      "alt": "CSK vs MI related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Sports"
-    ],
-    "quality": {
-      "wordCount": 593,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/csk-vs-mi.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-02T14:14:23.188Z",
-    "url": "https://contextwire.online/posts/csk-vs-mi.html",
     "readingTime": "4 min"
   }
 ]
