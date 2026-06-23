@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-23T06:33:51.955Z
+Generated: 2026-06-23T15:38:19.526Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 155
+
+## David Trone April Mcclain Delaney: Confirmed Details and What Comes Next
+- Slug: `david-trone-april-mcclain-delaney`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: ContextWire editorial graphic
+- Current image: assets/generated/contextwire-trending-editorial.png
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Housing Affordability Bill Senate: What Readers Should Know Now
 - Slug: `housing-affordability-bill-senate`
@@ -1232,14 +1240,6 @@ Total issues: 155
 
 ## Bayern Munich: What Readers Should Know Now
 - Slug: `bayern-munich`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## PSG vs Lorient: Source-Checked Reader Guide
-- Slug: `psg-vs-lorient`
 - Topic type: product
 - Issue: generic image for specific topic
 - Current credit: Unsplash
