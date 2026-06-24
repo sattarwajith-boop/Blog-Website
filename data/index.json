@@ -1,5 +1,41 @@
 [
   {
+    "id": "a3b89cfeab06f5f4",
+    "slug": "jodie-foster",
+    "title": "Jodie Foster: Confirmed Details and What Comes Next",
+    "trend": "jodie foster",
+    "category": "Trends",
+    "excerpt": "Jodie Foster is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Jodie Foster related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Jodie",
+      "Foster"
+    ],
+    "quality": {
+      "wordCount": 612,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/jodie-foster.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-24T06:30:32.737Z",
+    "url": "https://contextwire.online/posts/jodie-foster.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "47f0abdf2a0adc17",
     "slug": "david-trone-april-mcclain-delaney",
     "title": "David Trone April Mcclain Delaney: Confirmed Details and What Comes Next",
@@ -5718,42 +5754,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-03T05:46:14.137Z",
     "url": "https://contextwire.online/posts/wsl.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "58d103da49ab0ba9",
-    "slug": "bayern-munich",
-    "title": "Bayern Munich: What Readers Should Know Now",
-    "trend": "bayern munich",
-    "category": "Sports",
-    "excerpt": "Bayern Munich is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Bayern Munich related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Sports",
-      "Bayern",
-      "Munich"
-    ],
-    "quality": {
-      "wordCount": 579,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/bayern-munich.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-02T14:25:47.263Z",
-    "url": "https://contextwire.online/posts/bayern-munich.html",
     "readingTime": "4 min"
   }
 ]

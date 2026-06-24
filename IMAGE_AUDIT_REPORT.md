@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-23T15:38:19.526Z
+Generated: 2026-06-24T06:30:34.001Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 155
+
+## Jodie Foster: Confirmed Details and What Comes Next
+- Slug: `jodie-foster`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## David Trone April Mcclain Delaney: Confirmed Details and What Comes Next
 - Slug: `david-trone-april-mcclain-delaney`
@@ -1232,14 +1240,6 @@ Total issues: 155
 
 ## WSL: What Happened and Key Details
 - Slug: `wsl`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Bayern Munich: What Readers Should Know Now
-- Slug: `bayern-munich`
 - Topic type: product
 - Issue: generic image for specific topic
 - Current credit: Unsplash
