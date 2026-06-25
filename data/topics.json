@@ -1,5 +1,10 @@
 [
   {
+    "key": "citizen-vigilante",
+    "title": "citizen vigilante",
+    "usedAt": "2026-06-25T06:33:53.900Z"
+  },
+  {
     "key": "earthquake",
     "title": "earthquake",
     "usedAt": "2026-06-24T15:22:27.193Z"

@@ -1,5 +1,41 @@
 [
   {
+    "id": "945ef86af1a4285b",
+    "slug": "citizen-vigilante",
+    "title": "Citizen Vigilante: Confirmed Details and What Comes Next",
+    "trend": "citizen vigilante",
+    "category": "Trends",
+    "excerpt": "Citizen Vigilante is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Citizen Vigilante related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Citizen",
+      "Vigilante"
+    ],
+    "quality": {
+      "wordCount": 564,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/citizen-vigilante.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-25T06:33:53.878Z",
+    "url": "https://contextwire.online/posts/citizen-vigilante.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "e745f07c42c7e5df",
     "slug": "earthquake",
     "title": "Earthquake: Key Facts and Background",
@@ -28,8 +64,7 @@
       ],
       "warnings": [
         "below-500-words",
-        "thin-source-set",
-        "missing-key-facts"
+        "thin-source-set"
       ]
     },
     "ogImage": "assets/og/earthquake.svg",
@@ -5723,42 +5758,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-03T13:57:31.971Z",
     "url": "https://contextwire.online/posts/ipl-standings.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "ddd64245c2719f41",
-    "slug": "floyd-mayweather",
-    "title": "Floyd Mayweather: What Readers Should Know Now",
-    "trend": "floyd mayweather",
-    "category": "Sports",
-    "excerpt": "Floyd Mayweather is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Floyd Mayweather related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Sports",
-      "Floyd",
-      "Mayweather"
-    ],
-    "quality": {
-      "wordCount": 597,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/floyd-mayweather.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-03T05:46:13.829Z",
-    "url": "https://contextwire.online/posts/floyd-mayweather.html",
     "readingTime": "4 min"
   }
 ]

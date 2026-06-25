@@ -59,8 +59,7 @@
     ],
     "warnings": [
       "below-500-words",
-      "thin-source-set",
-      "missing-key-facts"
+      "thin-source-set"
     ]
   },
   "humanReview": {
