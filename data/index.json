@@ -1,5 +1,41 @@
 [
   {
+    "id": "90263906905b5dd3",
+    "slug": "emma-navarro",
+    "title": "Emma Navarro: Source-Checked Reader Guide",
+    "trend": "emma navarro",
+    "category": "Trends",
+    "excerpt": "Emma Navarro is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Emma Navarro related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Emma",
+      "Navarro"
+    ],
+    "quality": {
+      "wordCount": 576,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/emma-navarro.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-25T15:32:09.478Z",
+    "url": "https://contextwire.online/posts/emma-navarro.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "945ef86af1a4285b",
     "slug": "citizen-vigilante",
     "title": "Citizen Vigilante: Confirmed Details and What Comes Next",
@@ -5723,41 +5759,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-03T13:57:31.726Z",
     "url": "https://contextwire.online/posts/sinner.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "3cc971bea229e246",
-    "slug": "ipl-standings",
-    "title": "IPL Standings: Source-Checked Reader Guide",
-    "trend": "ipl standings",
-    "category": "Sports",
-    "excerpt": "IPL Standings is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=1400&q=82",
-      "alt": "IPL Standings related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Sports",
-      "Standings"
-    ],
-    "quality": {
-      "wordCount": 581,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/ipl-standings.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-03T13:57:31.971Z",
-    "url": "https://contextwire.online/posts/ipl-standings.html",
     "readingTime": "4 min"
   }
 ]

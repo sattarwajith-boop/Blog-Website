@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-25T06:33:55.053Z
+Generated: 2026-06-25T15:32:10.816Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 155
+
+## Emma Navarro: Source-Checked Reader Guide
+- Slug: `emma-navarro`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Citizen Vigilante: Confirmed Details and What Comes Next
 - Slug: `citizen-vigilante`
@@ -1236,12 +1244,4 @@ Total issues: 155
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## IPL Standings: Source-Checked Reader Guide
-- Slug: `ipl-standings`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1531415074968-036ba1b575da?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
