@@ -1,5 +1,41 @@
 [
   {
+    "id": "7aa688811211a516",
+    "slug": "famous-birthdays",
+    "title": "Famous Birthdays: What Happened and Key Details",
+    "trend": "famous birthdays",
+    "category": "Trends",
+    "excerpt": "Famous Birthdays is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Famous Birthdays related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Famous",
+      "Birthdays"
+    ],
+    "quality": {
+      "wordCount": 572,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/famous-birthdays.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-26T06:37:58.183Z",
+    "url": "https://contextwire.online/posts/famous-birthdays.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "90263906905b5dd3",
     "slug": "emma-navarro",
     "title": "Emma Navarro: Source-Checked Reader Guide",
@@ -5724,41 +5760,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-04T05:51:34.334Z",
     "url": "https://contextwire.online/posts/suvendu-adhikari.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "32e83478f80a0831",
-    "slug": "sinner",
-    "title": "Sinner: Confirmed Details and What Comes Next",
-    "trend": "sinner",
-    "category": "Sports",
-    "excerpt": "Sinner is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Sinner related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Sports",
-      "Sinner"
-    ],
-    "quality": {
-      "wordCount": 576,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/sinner.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-03T13:57:31.726Z",
-    "url": "https://contextwire.online/posts/sinner.html",
     "readingTime": "4 min"
   }
 ]
