@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-27T06:15:59.245Z
+Generated: 2026-06-27T14:16:06.684Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 155
+
+## Daniil Donchenko: Latest Public Details Explained
+- Slug: `daniil-donchenko`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: ContextWire editorial graphic
+- Current image: assets/generated/contextwire-trending-editorial.png
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Okc Weather: What Happened and Key Details
 - Slug: `okc-weather`
@@ -1236,12 +1244,4 @@ Total issues: 155
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Chelsea vs Nottm Forest: Latest Public Details Explained
-- Slug: `chelsea-vs-nottm-forest`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
