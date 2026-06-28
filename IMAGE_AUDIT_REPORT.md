@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-28T06:45:30.012Z
+Generated: 2026-06-28T14:25:45.659Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 155
+Total issues: 156
+
+## Larry David New Show: Confirmed Details and What Comes Next
+- Slug: `larry-david-new-show`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Buc Ee's Locations: What Happened and Key Details
 - Slug: `buc-ee-s-locations`
