@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-28T14:25:45.659Z
+Generated: 2026-06-29T07:14:22.023Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 156
+
+## Lizzo 2026 Bet Awards Appearance: Latest Public Details Explained
+- Slug: `lizzo-2026-bet-awards-appearance`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Larry David New Show: Confirmed Details and What Comes Next
 - Slug: `larry-david-new-show`
@@ -1244,12 +1252,4 @@ Total issues: 156
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Rachel Zegler: What Happened and Key Details
-- Slug: `rachel-zegler`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
