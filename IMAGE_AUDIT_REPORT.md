@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-06-29T16:26:54.588Z
+Generated: 2026-06-30T06:40:08.824Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 156
+
+## Kirk Franklin Philadelphia: Source-Checked Reader Guide
+- Slug: `kirk-franklin-philadelphia`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Brasil - Japón: Confirmed Details and What Comes Next
 - Slug: `brasil-jap-n`
@@ -1244,12 +1252,4 @@ Total issues: 156
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1508344928928-7165b67de128?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## White House State Ballroom: Confirmed Details and What Comes Next
-- Slug: `white-house-state-ballroom`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.

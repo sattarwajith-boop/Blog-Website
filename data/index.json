@@ -1,5 +1,42 @@
 [
   {
+    "id": "8c96b77f20d413c9",
+    "slug": "kirk-franklin-philadelphia",
+    "title": "Kirk Franklin Philadelphia: Source-Checked Reader Guide",
+    "trend": "kirk franklin philadelphia",
+    "category": "Trends",
+    "excerpt": "Kirk Franklin Philadelphia is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Kirk Franklin Philadelphia related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Kirk",
+      "Franklin",
+      "Philadelphia"
+    ],
+    "quality": {
+      "wordCount": 581,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/kirk-franklin-philadelphia.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-06-30T06:40:07.525Z",
+    "url": "https://contextwire.online/posts/kirk-franklin-philadelphia.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "42a530fd18ade966",
     "slug": "brasil-jap-n",
     "title": "Brasil - Japón: Confirmed Details and What Comes Next",
@@ -5726,44 +5763,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-06T05:45:11.801Z",
     "url": "https://contextwire.online/posts/oregon-state-baseball.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "93f16dc4078bcbe1",
-    "slug": "white-house-state-ballroom",
-    "title": "White House State Ballroom: Confirmed Details and What Comes Next",
-    "trend": "white house state ballroom",
-    "category": "News",
-    "excerpt": "White House State Ballroom is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1400&q=82",
-      "alt": "White House State Ballroom related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "News",
-      "White",
-      "House",
-      "State",
-      "Ballroom"
-    ],
-    "quality": {
-      "wordCount": 606,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/white-house-state-ballroom.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-05T14:34:20.850Z",
-    "url": "https://contextwire.online/posts/white-house-state-ballroom.html",
     "readingTime": "4 min"
   }
 ]
