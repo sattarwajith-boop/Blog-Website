@@ -1,5 +1,41 @@
 [
   {
+    "id": "e9269128c322b203",
+    "slug": "nick-robertson",
+    "title": "Nick Robertson: What Readers Should Know Now",
+    "trend": "nick robertson",
+    "category": "Trends",
+    "excerpt": "Nick Robertson is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Nick Robertson related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Nick",
+      "Robertson"
+    ],
+    "quality": {
+      "wordCount": 534,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/nick-robertson.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-01T15:23:19.985Z",
+    "url": "https://contextwire.online/posts/nick-robertson.html",
+    "readingTime": "3 min"
+  },
+  {
     "id": "a675be6a6eb508a7",
     "slug": "what-is-july-1st",
     "title": "What Is July 1st: Key Facts and Background",
@@ -5728,42 +5764,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-06T15:14:23.710Z",
     "url": "https://contextwire.online/posts/firehouse-subs.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "f25216684805d718",
-    "slug": "hayden-panettiere",
-    "title": "Hayden Panettiere: What Readers Should Know Now",
-    "trend": "hayden panettiere",
-    "category": "Culture",
-    "excerpt": "Hayden Panettiere is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Hayden Panettiere related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Culture",
-      "Hayden",
-      "Panettiere"
-    ],
-    "quality": {
-      "wordCount": 575,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/hayden-panettiere.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-06T15:14:23.905Z",
-    "url": "https://contextwire.online/posts/hayden-panettiere.html",
     "readingTime": "4 min"
   }
 ]
