@@ -1,5 +1,41 @@
 [
   {
+    "id": "ca88b4b6c3a39fe5",
+    "slug": "jonathan-kuminga",
+    "title": "Jonathan Kuminga: Source-Checked Reader Guide",
+    "trend": "jonathan kuminga",
+    "category": "Trends",
+    "excerpt": "Jonathan Kuminga is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Jonathan Kuminga related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Jonathan",
+      "Kuminga"
+    ],
+    "quality": {
+      "wordCount": 554,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/jonathan-kuminga.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-02T06:24:40.195Z",
+    "url": "https://contextwire.online/posts/jonathan-kuminga.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "e9269128c322b203",
     "slug": "nick-robertson",
     "title": "Nick Robertson: What Readers Should Know Now",
@@ -5728,42 +5764,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-07T05:48:54.923Z",
     "url": "https://contextwire.online/posts/bruno-mars.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "bf5233ad4a1532b9",
-    "slug": "firehouse-subs",
-    "title": "Firehouse Subs: Source-Checked Reader Guide",
-    "trend": "firehouse subs",
-    "category": "Culture",
-    "excerpt": "Firehouse Subs is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Firehouse Subs related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Culture",
-      "Firehouse",
-      "Subs"
-    ],
-    "quality": {
-      "wordCount": 585,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/firehouse-subs.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-06T15:14:23.710Z",
-    "url": "https://contextwire.online/posts/firehouse-subs.html",
     "readingTime": "4 min"
   }
 ]
