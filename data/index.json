@@ -1,5 +1,41 @@
 [
   {
+    "id": "b2800e7dc091c570",
+    "slug": "amanda-anisimova",
+    "title": "Amanda Anisimova: What Readers Should Know Now",
+    "trend": "amanda anisimova",
+    "category": "Trends",
+    "excerpt": "Amanda Anisimova is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Amanda Anisimova related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Amanda",
+      "Anisimova"
+    ],
+    "quality": {
+      "wordCount": 592,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/amanda-anisimova.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-02T14:57:29.289Z",
+    "url": "https://contextwire.online/posts/amanda-anisimova.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "ca88b4b6c3a39fe5",
     "slug": "jonathan-kuminga",
     "title": "Jonathan Kuminga: Source-Checked Reader Guide",
@@ -5728,42 +5764,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-07T05:48:54.612Z",
     "url": "https://contextwire.online/posts/michael-gandolfini.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "d14ee593ece9a01e",
-    "slug": "bruno-mars",
-    "title": "Bruno Mars: What Readers Should Know Now",
-    "trend": "bruno mars",
-    "category": "Culture",
-    "excerpt": "Bruno Mars is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Bruno Mars related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Culture",
-      "Bruno",
-      "Mars"
-    ],
-    "quality": {
-      "wordCount": 593,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/bruno-mars.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-07T05:48:54.923Z",
-    "url": "https://contextwire.online/posts/bruno-mars.html",
     "readingTime": "4 min"
   }
 ]

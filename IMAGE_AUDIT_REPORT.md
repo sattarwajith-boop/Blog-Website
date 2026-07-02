@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-07-02T06:24:41.541Z
+Generated: 2026-07-02T14:57:30.496Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 155
+
+## Amanda Anisimova: What Readers Should Know Now
+- Slug: `amanda-anisimova`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: ContextWire editorial graphic
+- Current image: assets/generated/contextwire-trending-editorial.png
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Jonathan Kuminga: Source-Checked Reader Guide
 - Slug: `jonathan-kuminga`
@@ -1236,12 +1244,4 @@ Total issues: 155
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Bruno Mars: What Readers Should Know Now
-- Slug: `bruno-mars`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
