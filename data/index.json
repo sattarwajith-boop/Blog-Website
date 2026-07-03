@@ -1,5 +1,41 @@
 [
   {
+    "id": "7361a4cdc3cf0a2e",
+    "slug": "mission-impossible",
+    "title": "Mission Impossible: What Happened and Key Details",
+    "trend": "mission impossible",
+    "category": "Trends",
+    "excerpt": "Mission Impossible is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Mission Impossible related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Mission",
+      "Impossible"
+    ],
+    "quality": {
+      "wordCount": 558,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/mission-impossible.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-03T06:16:56.277Z",
+    "url": "https://contextwire.online/posts/mission-impossible.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "b2800e7dc091c570",
     "slug": "amanda-anisimova",
     "title": "Amanda Anisimova: What Readers Should Know Now",
@@ -5728,42 +5764,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-07T15:17:03.844Z",
     "url": "https://contextwire.online/posts/jonathan-pollard.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "6769bfa089ae3124",
-    "slug": "michael-gandolfini",
-    "title": "Michael Gandolfini: Confirmed Details and What Comes Next",
-    "trend": "michael gandolfini",
-    "category": "Culture",
-    "excerpt": "Michael Gandolfini is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Michael Gandolfini related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Culture",
-      "Michael",
-      "Gandolfini"
-    ],
-    "quality": {
-      "wordCount": 577,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/michael-gandolfini.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-07T05:48:54.612Z",
-    "url": "https://contextwire.online/posts/michael-gandolfini.html",
     "readingTime": "4 min"
   }
 ]
