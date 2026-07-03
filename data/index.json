@@ -1,5 +1,42 @@
 [
   {
+    "id": "af2b4fc5fee3d612",
+    "slug": "new-heights-prince-william",
+    "title": "New Heights Prince William: Source-Checked Reader Guide",
+    "trend": "new heights prince william",
+    "category": "Trends",
+    "excerpt": "A focused briefing on New Heights Prince William: what the headlines reveal, where the story stands, and what comes next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "New Heights Prince William related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Heights",
+      "Prince",
+      "William"
+    ],
+    "quality": {
+      "wordCount": 594,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/new-heights-prince-william.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-03T14:56:38.064Z",
+    "url": "https://contextwire.online/posts/new-heights-prince-william.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "7361a4cdc3cf0a2e",
     "slug": "mission-impossible",
     "title": "Mission Impossible: What Happened and Key Details",
@@ -5729,41 +5766,5 @@
     "publishedAt": "2026-05-07T15:17:03.518Z",
     "url": "https://contextwire.online/posts/rory-mcilroy.html",
     "readingTime": "3 min"
-  },
-  {
-    "id": "b632294541955881",
-    "slug": "jonathan-pollard",
-    "title": "Jonathan Pollard: Source-Checked Reader Guide",
-    "trend": "jonathan pollard",
-    "category": "News",
-    "excerpt": "Jonathan Pollard is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Jonathan Pollard related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "News",
-      "Jonathan",
-      "Pollard"
-    ],
-    "quality": {
-      "wordCount": 616,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/jonathan-pollard.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-07T15:17:03.844Z",
-    "url": "https://contextwire.online/posts/jonathan-pollard.html",
-    "readingTime": "4 min"
   }
 ]

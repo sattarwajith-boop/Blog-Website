@@ -1,10 +1,10 @@
 # ContextWire image audit report
 
-Generated: 2026-07-03T06:16:57.647Z
+Generated: 2026-07-03T14:56:39.385Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 155
+Total issues: 154
 
 ## Mission Impossible: What Happened and Key Details
 - Slug: `mission-impossible`
@@ -1236,12 +1236,4 @@ Total issues: 155
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Jonathan Pollard: Source-Checked Reader Guide
-- Slug: `jonathan-pollard`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
