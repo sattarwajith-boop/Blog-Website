@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-07-03T14:56:39.385Z
+Generated: 2026-07-04T06:00:54.997Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 154
+
+## Kelsey Rowing: What Happened and Key Details
+- Slug: `kelsey-rowing`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Mission Impossible: What Happened and Key Details
 - Slug: `mission-impossible`
@@ -1228,12 +1236,4 @@ Total issues: 154
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Rory Mcilroy: Latest Public Details Explained
-- Slug: `rory-mcilroy`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
