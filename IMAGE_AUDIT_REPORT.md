@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-07-05T06:25:17.533Z
+Generated: 2026-07-05T14:19:49.403Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 154
+
+## Trump Accounts: Key Facts and Background
+- Slug: `trump-accounts`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Will Smith: Key Facts and Background
 - Slug: `will-smith`
@@ -1228,12 +1236,4 @@ Total issues: 154
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Ryan Seacrest Appearance Changes: Key Facts and Background
-- Slug: `ryan-seacrest-appearance-changes`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.

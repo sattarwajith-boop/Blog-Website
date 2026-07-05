@@ -1,5 +1,41 @@
 [
   {
+    "id": "ebc1abf0473bea04",
+    "slug": "trump-accounts",
+    "title": "Trump Accounts: Key Facts and Background",
+    "trend": "trump accounts",
+    "category": "Trends",
+    "excerpt": "Trump Accounts is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Trump Accounts related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Trump",
+      "Accounts"
+    ],
+    "quality": {
+      "wordCount": 564,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/trump-accounts.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-05T14:19:48.034Z",
+    "url": "https://contextwire.online/posts/trump-accounts.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "17abfed306f902b0",
     "slug": "will-smith",
     "title": "Will Smith: Key Facts and Background",
@@ -5733,44 +5769,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-08T14:25:30.024Z",
     "url": "https://contextwire.online/posts/mu-stock.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "a23946b6143b45e2",
-    "slug": "ryan-seacrest-appearance-changes",
-    "title": "Ryan Seacrest Appearance Changes: Key Facts and Background",
-    "trend": "ryan seacrest appearance changes",
-    "category": "Culture",
-    "excerpt": "Ryan Seacrest Appearance Changes is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Ryan Seacrest Appearance Changes related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Culture",
-      "Ryan",
-      "Seacrest",
-      "Appearance",
-      "Changes"
-    ],
-    "quality": {
-      "wordCount": 582,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/ryan-seacrest-appearance-changes.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-08T14:25:30.233Z",
-    "url": "https://contextwire.online/posts/ryan-seacrest-appearance-changes.html",
     "readingTime": "4 min"
   }
 ]
