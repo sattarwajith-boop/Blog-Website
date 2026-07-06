@@ -1,5 +1,41 @@
 [
   {
+    "id": "b548595fde403c81",
+    "slug": "jeremy-renner",
+    "title": "Jeremy Renner: Key Facts and Background",
+    "trend": "jeremy renner",
+    "category": "Trends",
+    "excerpt": "Jeremy Renner is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Jeremy Renner related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Jeremy",
+      "Renner"
+    ],
+    "quality": {
+      "wordCount": 576,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/jeremy-renner.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-06T06:54:17.603Z",
+    "url": "https://contextwire.online/posts/jeremy-renner.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "ebc1abf0473bea04",
     "slug": "trump-accounts",
     "title": "Trump Accounts: Key Facts and Background",
@@ -5734,41 +5770,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-09T05:36:41.566Z",
     "url": "https://contextwire.online/posts/tanner-scott.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "ddf290a2ff58fb1f",
-    "slug": "mu-stock",
-    "title": "Mu Stock: Source-Checked Reader Guide",
-    "trend": "mu stock",
-    "category": "Business",
-    "excerpt": "Mu Stock is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Mu Stock related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Business",
-      "Stock"
-    ],
-    "quality": {
-      "wordCount": 572,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/mu-stock.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-08T14:25:30.024Z",
-    "url": "https://contextwire.online/posts/mu-stock.html",
     "readingTime": "4 min"
   }
 ]
