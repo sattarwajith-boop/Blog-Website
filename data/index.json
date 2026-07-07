@@ -1,5 +1,40 @@
 [
   {
+    "id": "f1e80ac56c419bd5",
+    "slug": "openai",
+    "title": "Openai: What Readers Should Know Now",
+    "trend": "openai",
+    "category": "Trends",
+    "excerpt": "Openai is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Openai related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Openai"
+    ],
+    "quality": {
+      "wordCount": 563,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/openai.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-07T06:30:35.111Z",
+    "url": "https://contextwire.online/posts/openai.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "3e4cec354dc027a7",
     "slug": "michelle-buteau",
     "title": "Michelle Buteau: What Happened and Key Details",
@@ -5735,41 +5770,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-09T14:03:03.929Z",
     "url": "https://contextwire.online/posts/qinwen-zheng.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "98ce4223d205b92c",
-    "slug": "ben-affleck",
-    "title": "Ben Affleck: What Happened and Key Details",
-    "trend": "ben affleck",
-    "category": "Culture",
-    "excerpt": "Ben Affleck is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Ben Affleck related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Culture",
-      "Affleck"
-    ],
-    "quality": {
-      "wordCount": 597,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/ben-affleck.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-09T05:36:41.299Z",
-    "url": "https://contextwire.online/posts/ben-affleck.html",
     "readingTime": "4 min"
   }
 ]
