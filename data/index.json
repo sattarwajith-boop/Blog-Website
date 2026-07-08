@@ -1,5 +1,41 @@
 [
   {
+    "id": "b79b2e8085048f22",
+    "slug": "arthur-fery",
+    "title": "Arthur Fery: Source-Checked Reader Guide",
+    "trend": "arthur fery",
+    "category": "Trends",
+    "excerpt": "Arthur Fery is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Arthur Fery related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Arthur",
+      "Fery"
+    ],
+    "quality": {
+      "wordCount": 546,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/arthur-fery.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-08T14:59:07.146Z",
+    "url": "https://contextwire.online/posts/arthur-fery.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "3e1ba166a01d95ae",
     "slug": "kospi",
     "title": "Kospi: Latest Public Details Explained",
@@ -5734,41 +5770,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-10T05:51:58.555Z",
     "url": "https://contextwire.online/posts/ufc-post-fight-press-conference.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "e9e2f5a2ad4289c1",
-    "slug": "apac",
-    "title": "APAC: What Readers Should Know Now",
-    "trend": "apac",
-    "category": "Business",
-    "excerpt": "APAC is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1400&q=82",
-      "alt": "APAC related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Business",
-      "APAC"
-    ],
-    "quality": {
-      "wordCount": 578,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/apac.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-10T05:51:58.972Z",
-    "url": "https://contextwire.online/posts/apac.html",
     "readingTime": "4 min"
   }
 ]

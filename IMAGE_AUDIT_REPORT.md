@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-07-08T05:37:34.232Z
+Generated: 2026-07-08T14:59:08.525Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 154
+
+## Arthur Fery: Source-Checked Reader Guide
+- Slug: `arthur-fery`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Kospi: Latest Public Details Explained
 - Slug: `kospi`
@@ -1228,12 +1236,4 @@ Total issues: 154
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## APAC: What Readers Should Know Now
-- Slug: `apac`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
