@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-07-08T14:59:08.525Z
+Generated: 2026-07-09T15:45:10.574Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 154
+
+## Mike Dewine: Confirmed Details and What Comes Next
+- Slug: `mike-dewine`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Arthur Fery: Source-Checked Reader Guide
 - Slug: `arthur-fery`
@@ -1228,12 +1236,4 @@ Total issues: 154
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## UFC Post Fight Press Conference: Latest Public Details Explained
-- Slug: `ufc-post-fight-press-conference`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.

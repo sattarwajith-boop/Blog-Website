@@ -1,5 +1,41 @@
 [
   {
+    "id": "877557af2e298f9e",
+    "slug": "mike-dewine",
+    "title": "Mike Dewine: Confirmed Details and What Comes Next",
+    "trend": "mike dewine",
+    "category": "Trends",
+    "excerpt": "Mike Dewine is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Mike Dewine related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Mike",
+      "Dewine"
+    ],
+    "quality": {
+      "wordCount": 588,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/mike-dewine.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-09T15:45:09.243Z",
+    "url": "https://contextwire.online/posts/mike-dewine.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "b79b2e8085048f22",
     "slug": "arthur-fery",
     "title": "Arthur Fery: Source-Checked Reader Guide",
@@ -5732,44 +5768,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-10T14:04:37.855Z",
     "url": "https://contextwire.online/posts/edward-r-murrow.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "3bb9447d34c136a3",
-    "slug": "ufc-post-fight-press-conference",
-    "title": "UFC Post Fight Press Conference: Latest Public Details Explained",
-    "trend": "ufc post fight press conference",
-    "category": "Sports",
-    "excerpt": "UFC Post Fight Press Conference is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?auto=format&fit=crop&w=1400&q=82",
-      "alt": "UFC Post Fight Press Conference related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Sports",
-      "Post",
-      "Fight",
-      "Press",
-      "Conference"
-    ],
-    "quality": {
-      "wordCount": 622,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/ufc-post-fight-press-conference.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-10T05:51:58.555Z",
-    "url": "https://contextwire.online/posts/ufc-post-fight-press-conference.html",
     "readingTime": "4 min"
   }
 ]
