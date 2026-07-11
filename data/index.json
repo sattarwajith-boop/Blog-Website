@@ -1,5 +1,39 @@
 [
   {
+    "id": "b200d8a9a3afa754",
+    "slug": "big",
+    "title": "Big: What Happened and Key Details",
+    "trend": "big",
+    "category": "Trends",
+    "excerpt": "Big is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Big related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends"
+    ],
+    "quality": {
+      "wordCount": 581,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/big.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-11T14:08:30.256Z",
+    "url": "https://contextwire.online/posts/big.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "dff72070b1af6683",
     "slug": "olivia-wilde",
     "title": "Olivia Wilde: Key Facts and Background",
@@ -5734,42 +5768,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-11T15:46:50.439Z",
     "url": "https://contextwire.online/posts/ameer-abdullah.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "5c2dfc0a6c131a8b",
-    "slug": "dram-stock",
-    "title": "DRAM Stock: What Readers Should Know Now",
-    "trend": "dram stock",
-    "category": "Business",
-    "excerpt": "DRAM Stock is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
-      "alt": "DRAM Stock related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Business",
-      "DRAM",
-      "Stock"
-    ],
-    "quality": {
-      "wordCount": 564,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/dram-stock.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-11T06:23:42.545Z",
-    "url": "https://contextwire.online/posts/dram-stock.html",
     "readingTime": "4 min"
   }
 ]

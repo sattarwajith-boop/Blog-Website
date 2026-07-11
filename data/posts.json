@@ -1,5 +1,93 @@
 [
   {
+    "id": "b200d8a9a3afa754",
+    "slug": "big",
+    "title": "Big: What Happened and Key Details",
+    "trend": "big",
+    "category": "Trends",
+    "excerpt": "Big is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Big related editorial image",
+      "credit": "Unsplash"
+    },
+    "content": [
+      "What happened: Big is drawing fresh reader attention in the trends category. Google Trends reported search interest around 2000+. The available source headlines point readers toward one practical task: understand the specific update, separate confirmed details from repetition, and decide whether the story affects schedules, money, public understanding, entertainment plans, sport results, or technology decisions.",
+      "Key details: The strongest details currently available from the source set are: Search interest was reported around 2000+. TODAY.com reported: Meet the Cast of 'Big Brother' 2026: Who's in Season 28?. MarketWatch reported: The U.S. stock market is becoming 'too big to fail'. The Colorado Sun reported: Yes, the \"explosive diarrhea\" parasite is in Colorado. No, it's not a big deal.. Yahoo Finance reported: Big bank profit engines expected to roar into earnings as Main Street keeps spending. The Guardian reported: Datacentres drive up big tech's carbon emissions to a third of those of France. These points are intentionally limited to what the source headlines and trend data support. If a detail is not visible in the source set, this article does not treat it as confirmed.",
+      "Background: The source context for Big includes TODAY.com: Meet the Cast of 'Big Brother' 2026: Who's in Season 28?; MarketWatch: The U.S. stock market is becoming 'too big to fail'; The Colorado Sun: Yes, the \"explosive diarrhea\" parasite is in Colorado. No, it's not a big deal.; Yahoo Finance: Big bank profit engines expected to roar into earnings as Main Street keeps spending; The Guardian: Datacentres drive up big tech's carbon emissions to a third of those of France. That mix is useful because it shows which parts of the topic are being repeated publicly and which parts may still need a primary source, official page, direct statement, fixture page, filing, venue notice, product note, or updated report before readers rely on it.",
+      "Why it matters: Readers usually search for a topic like Big because they need a usable answer, not a pile of repeated headlines. For trends coverage, that means the article should clarify the latest public signal, identify the responsible organizations or people when the sources name them, and avoid stretching a thin source set into false certainty.",
+      "What's confirmed: The confirmed material is the public trend signal and the linked source headlines shown below. For Big, prioritize recent updates and named public records over repeated summaries. When the source set contains dates, names, scores, prices, venues, companies, or official organizations, those details should be checked against the newest linked source before a reader acts on them.",
+      "Reader takeaway: The useful reading is narrow and practical. Start with the newest source, compare whether other sources repeat the same fact independently, and give extra weight to official pages or named organizations. If the topic affects money, tickets, health, legal risk, travel, public reputation, product decisions, or sports results, wait for stronger confirmation before acting.",
+      "What to watch: The next useful update will be a clearer source with direct evidence, a correction, an official statement, a schedule or price page, a box score, a filing, a status page, or a new report that confirms the key detail independently. If later sources add concrete facts, this page should be updated rather than padded with speculation.",
+      "Bottom line: Big is worth reading about because the topic is visible and readers are looking for a clear answer. The safest takeaway is to use the source links, focus on confirmed details, and avoid treating repeated headlines as stronger evidence than they really are."
+    ],
+    "sources": [
+      {
+        "title": "Meet the Cast of 'Big Brother' 2026: Who's in Season 28?",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeEdyVEJ3d0NFc1k5WFV5c1Z4VGw1RC1KWjh2X2lWU2tZMlBhVXJobncxbHhyX0Jsc0psakM1VEh1RnQ0SDU4RG1QeXNIb2ZKOUJNdUNPaTl6ZEotVVQyak9oRG1ndlo2VGhGZl9pS2tIdnVsSUZ6UmZSc0oydW9zbi1UWlA?oc=5",
+        "publishedAt": "Sat, 11 Jul 2026 06:40:00 GMT"
+      },
+      {
+        "title": "The U.S. stock market is becoming 'too big to fail'",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPT0w4WVRxd0RGY3Nva0ROSXBWemZBT3A0VnNTcWctd291VUw3MVBqeDh0Uk93c25jbTJ1Z3YzLUMxdER3UHpySm1pTHZkQ2haZm80aWVSMkRWOV84MTJlcXh0bVJBbnhUY0JMZHdJS19wTmt4d2RBMkdjRzlHaEh4UktETkdQLXJKU0JzTDNEWmF0ZG80eUE?oc=5",
+        "publishedAt": "Sat, 11 Jul 2026 11:30:00 GMT"
+      },
+      {
+        "title": "Yes, the \"explosive diarrhea\" parasite is in Colorado. No, it's not a big deal.",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQeDRtcW9ubkppRGdBaUFZMzg3R2FIZDBFOE1ZaFJabzdQbU1CVGxoaDE2MHNEOE5WcmdRTHVYaXZPdWJPZ2FtZi1aQzV2cnlqdUVVMVRYQmdFcU5paHRWZENzRU5taVJLWXcxMncxVHVhSEpZYmpLc0Nla3I5YWdLU1g3RVVtdmFB?oc=5",
+        "publishedAt": "Sat, 11 Jul 2026 09:23:00 GMT"
+      },
+      {
+        "title": "Big bank profit engines expected to roar into earnings as Main Street keeps spending",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPT1o3MWhIdy01dGM1S21ueHVYekVIdzVENmhqeE5yUkcybUFneHNMQ0VhNGM3VHdDdjl1MDNCQnhKblBWZmdJQUdWb1JHd3Y2TTNIcEMydTNkV2xEY2pOUFUwNWg4ZGRRYVBfZkVEVzk3cl8wMWE1bTZ5NENCeEVaalhWQ0hvb3AwamlxY0JzbmtkeVlOR19vcEZuZDdORkJvZWh2Mk9lTlZQNWUzTk9sY3ByZ1R0RUh0dDc2bHEtQUoyX2o2cmt3ZjV5NHRIWVM2b2FjWHcxNDA?oc=5",
+        "publishedAt": "Sat, 11 Jul 2026 13:32:38 GMT"
+      },
+      {
+        "title": "Datacentres drive up big tech's carbon emissions to a third of those of France",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ3dVRkNFUzVKRlV1Vk1wQXhsQ0FZYTgyRjRZNDFfVGtfRHR1aE5iSkZpbUtYejZJMGI0RmRYVS1uckpwbWxDVjNkUi1kMlZDYU1iQ1p6allXYUJLLVdOdU9VQ29tN3AxUFE0eWJpRjczajBIR21lTWQtTS1PbUZlVDc0Y2UyZGgxNmE1ODRFd0x4eDE0UWZGWlc4UTZxVVBLUjhDa2dTdzdYZw?oc=5",
+        "publishedAt": "Sat, 11 Jul 2026 11:25:00 GMT"
+      }
+    ],
+    "author": {
+      "name": "ContextWire Editorial Desk",
+      "title": "Source-checking desk",
+      "url": "https://contextwire.online/author/contextwire-editorial-desk.html",
+      "bio": "The ContextWire Editorial Desk prepares source-checked briefings with emphasis on clear facts, cautious language, and reader-useful context."
+    },
+    "updatedAt": "2026-07-11T14:08:30.256Z",
+    "keyFacts": [
+      "Search interest was reported around 2000+.",
+      "TODAY.com reported: Meet the Cast of 'Big Brother' 2026: Who's in Season 28?.",
+      "MarketWatch reported: The U.S. stock market is becoming 'too big to fail'.",
+      "The Colorado Sun reported: Yes, the \"explosive diarrhea\" parasite is in Colorado. No, it's not a big deal..",
+      "Yahoo Finance reported: Big bank profit engines expected to roar into earnings as Main Street keeps spending.",
+      "The Guardian reported: Datacentres drive up big tech's carbon emissions to a third of those of France."
+    ],
+    "publishedAt": "2026-07-11T14:08:30.256Z",
+    "productionMethod": "editorial-workflow",
+    "tags": [
+      "Trends"
+    ],
+    "ogImage": "assets/og/big.svg",
+    "quality": {
+      "wordCount": 581,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "humanReview": {
+      "status": "editorial-review-required",
+      "note": "ContextWire briefing prepared with visible source notes, reader-focused sections, and verification prompts. Final factual approval should be completed before promotion or monetization review."
+    }
+  },
+  {
     "id": "dff72070b1af6683",
     "slug": "olivia-wilde",
     "title": "Olivia Wilde: Key Facts and Background",
@@ -14199,95 +14287,6 @@
       "news.google.com reported: Former Colts free agent running back signs with AFC South rival.",
       "news.google.com reported: Jaguars sign RB Ameer Abdullah.",
       "news.google.com reported: Jaguars Sign RB Ameer Abdullah Among Four Roster Moves."
-    ]
-  },
-  {
-    "id": "5c2dfc0a6c131a8b",
-    "slug": "dram-stock",
-    "title": "DRAM Stock: What Readers Should Know Now",
-    "trend": "dram stock",
-    "category": "Business",
-    "excerpt": "DRAM Stock is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
-      "alt": "DRAM Stock related editorial image",
-      "credit": "Unsplash"
-    },
-    "content": [
-      "What happened: DRAM Stock is drawing fresh reader attention in the business category. The topic appeared in public trend data, but exact search volume was not available. The available source headlines point readers toward one practical task: understand the specific update, separate confirmed details from repetition, and decide whether the story affects schedules, money, public understanding, entertainment plans, sport results, or technology decisions.",
-      "Key details: The strongest details currently available from the source set are: Mshale reported: Firefighters Continue To Battle Two Wildfires In Riverside County Dram Stock (LRkBlNcCh4). eciks.org reported: DRAM stock surges 21% today as memory chip demand drives ETF to 121% YTD gain. eciks.org reported: Micron stock jumps 14% after UBS raises price target to $1,625, sees 100% upside. Mshale reported: Actors At Arlington National Cemetery Vanilla Ninja (5Z5yIVEbUF). Mshale reported: The Motley Fool Canada (ZYtYrnJA7r). These points are intentionally limited to what the source headlines and trend data support. If a detail is not visible in the source set, this article does not treat it as confirmed.",
-      "Background: The source context for DRAM Stock includes Mshale: Firefighters Continue To Battle Two Wildfires In Riverside County Dram Stock (LRkBlNcCh4); eciks.org: DRAM stock surges 21% today as memory chip demand drives ETF to 121% YTD gain; eciks.org: Micron stock jumps 14% after UBS raises price target to $1,625, sees 100% upside; Mshale: Actors At Arlington National Cemetery Vanilla Ninja (5Z5yIVEbUF); Mshale: The Motley Fool Canada (ZYtYrnJA7r). That mix is useful because it shows which parts of the topic are being repeated publicly and which parts may still need a primary source, official page, direct statement, fixture page, filing, venue notice, product note, or updated report before readers rely on it.",
-      "Why it matters: Readers usually search for a topic like DRAM Stock because they need a usable answer, not a pile of repeated headlines. For business coverage, that means the article should clarify the latest public signal, identify the responsible organizations or people when the sources name them, and avoid stretching a thin source set into false certainty.",
-      "What's confirmed: The confirmed material is the public trend signal and the linked source headlines shown below. For market or company topics, verify figures through current filings, exchange data, or trusted financial reporting. When the source set contains dates, names, scores, prices, venues, companies, or official organizations, those details should be checked against the newest linked source before a reader acts on them.",
-      "Reader takeaway: The useful reading is narrow and practical. Start with the newest source, compare whether other sources repeat the same fact independently, and give extra weight to official pages or named organizations. If the topic affects money, tickets, health, legal risk, travel, public reputation, product decisions, or sports results, wait for stronger confirmation before acting.",
-      "What to watch: The next useful update will be a clearer source with direct evidence, a correction, an official statement, a schedule or price page, a box score, a filing, a status page, or a new report that confirms the key detail independently. If later sources add concrete facts, this page should be updated rather than padded with speculation.",
-      "Bottom line: DRAM Stock is worth reading about because the topic is visible and readers are looking for a clear answer. The safest takeaway is to use the source links, focus on confirmed details, and avoid treating repeated headlines as stronger evidence than they really are."
-    ],
-    "sources": [
-      {
-        "title": "Firefighters Continue To Battle Two Wildfires In Riverside County Dram Stock (LRkBlNcCh4)",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA3aDA5N2ktTVVoOVRkRVNXcng1WXc5c3dXUnpYUmhlV210SjNOckZGM252WURxYU9jWHFndDUtRWZ0eDdSSTNKUllnbnkyUmlyNW0zRkZwLWdQcDg?oc=5",
-        "publishedAt": "Tue, 26 May 2026 18:34:30 GMT"
-      },
-      {
-        "title": "DRAM stock surges 21% today as memory chip demand drives ETF to 121% YTD gain",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQ29acVFpVEdXajBHT3g1T0haczFaVlJ1THRWZ0pjNW1fZHNsbW9sb1U1MUFaWkNtUjVFd0dfaXpUbTJ0OTMxalBBZ1ZnNENFTHRWWDBqdTNKUk4yak5kZFRmQVJyQTQ4VWZOUzE5NTREU2EzVnloTjNJUkRFdzY1TTNOdUdmOXItWXVCVGIwdmU2SkZqbURrNHJJZmlTY1lZNjdCVTZ3VQ?oc=5",
-        "publishedAt": "Tue, 26 May 2026 16:33:55 GMT"
-      },
-      {
-        "title": "Micron stock jumps 14% after UBS raises price target to $1,625, sees 100% upside",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQMW05eGN5LUhNN0NSUU5oak8tZ0FVcW5MRUpkUUFtNHZ4dkNERnBNOUVXcENCdEdTd0xOc3NLZ01xVXAxRzZhN1lpcngybUNFWXAyQV9VS1FhT2NvajRZQ2Z2UUE0b18zYjM3YnNsZDVsVlhGbkNxRmVxV1BkWjZ2cXlvUWZ0RVdLT01lMEMxbEpCU0Q1dkpuMjVmYUlpQ251cTFXOFZaUG0?oc=5",
-        "publishedAt": "Tue, 26 May 2026 15:21:13 GMT"
-      },
-      {
-        "title": "Actors At Arlington National Cemetery Vanilla Ninja (5Z5yIVEbUF)",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB5SWhVMFpPWnhINEFDV25KQmpZY2FvS0YxR0toRXVHcW5mUElhblN4YU02Y0xmUlVyTjdVQk5oclhIZVBPRy1QVl9wYWZsSXpreV9nUlByVXk5dDg?oc=5",
-        "publishedAt": "Tue, 26 May 2026 17:47:04 GMT"
-      },
-      {
-        "title": "The Motley Fool Canada (ZYtYrnJA7r)",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFVWVReVNEMnVfOFhZYW1wU2ZzQUJCczJwRmM1XzNIWGRrSVhBa28wRGRKTkR4cjIxbWljb3ZMZWswSU1DajBsR0VFcnBEeDJtd0p3RUt6cTJKeEU?oc=5",
-        "publishedAt": "Tue, 26 May 2026 22:58:46 GMT"
-      }
-    ],
-    "publishedAt": "2026-05-11T06:23:42.545Z",
-    "tags": [
-      "Business",
-      "DRAM",
-      "Stock"
-    ],
-    "ogImage": "assets/og/dram-stock.svg",
-    "quality": {
-      "wordCount": 564,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "humanReview": {
-      "status": "editorial-review-required",
-      "note": "ContextWire briefing prepared with visible source notes, reader-focused sections, and verification prompts. Final factual approval should be completed before promotion or monetization review."
-    },
-    "productionMethod": "editorial-workflow",
-    "author": {
-      "name": "ContextWire Editorial Desk",
-      "title": "Source-checking desk",
-      "url": "https://contextwire.online/author/contextwire-editorial-desk.html",
-      "bio": "The ContextWire Editorial Desk prepares source-checked briefings with emphasis on clear facts, cautious language, and reader-useful context."
-    },
-    "updatedAt": "2026-05-11T06:23:42.545Z",
-    "keyFacts": [
-      "Mshale reported: Firefighters Continue To Battle Two Wildfires In Riverside County Dram Stock (LRkBlNcCh4).",
-      "eciks.org reported: DRAM stock surges 21% today as memory chip demand drives ETF to 121% YTD gain.",
-      "eciks.org reported: Micron stock jumps 14% after UBS raises price target to $1,625, sees 100% upside.",
-      "Mshale reported: Actors At Arlington National Cemetery Vanilla Ninja (5Z5yIVEbUF).",
-      "Mshale reported: The Motley Fool Canada (ZYtYrnJA7r)."
     ]
   }
 ]
