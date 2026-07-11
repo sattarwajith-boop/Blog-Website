@@ -1,5 +1,41 @@
 [
   {
+    "id": "dff72070b1af6683",
+    "slug": "olivia-wilde",
+    "title": "Olivia Wilde: Key Facts and Background",
+    "trend": "olivia wilde",
+    "category": "Trends",
+    "excerpt": "Olivia Wilde is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Olivia Wilde related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Olivia",
+      "Wilde"
+    ],
+    "quality": {
+      "wordCount": 590,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/olivia-wilde.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-11T05:28:02.817Z",
+    "url": "https://contextwire.online/posts/olivia-wilde.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "59b540994a668969",
     "slug": "carnival-new-cruise-ship-2029",
     "title": "Carnival New Cruise Ship 2029: Source-Checked Reader Guide",
@@ -5734,43 +5770,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-11T06:23:42.545Z",
     "url": "https://contextwire.online/posts/dram-stock.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "74cb8a5826df6561",
-    "slug": "the-boys-season-5-episode-7",
-    "title": "The Boys Season 5 Episode 7: Latest Public Details Explained",
-    "trend": "the boys season 5 episode 7",
-    "category": "Culture",
-    "excerpt": "The Boys Season 5 Episode 7 is drawing attention across multiple channels. Here is the current picture with useful context.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
-      "alt": "The Boys Season 5 Episode 7 related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Culture",
-      "Boys",
-      "Season",
-      "Episode"
-    ],
-    "quality": {
-      "wordCount": 651,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/the-boys-season-5-episode-7.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-11T06:23:42.738Z",
-    "url": "https://contextwire.online/posts/the-boys-season-5-episode-7.html",
     "readingTime": "4 min"
   }
 ]

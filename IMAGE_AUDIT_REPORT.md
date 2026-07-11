@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-07-10T15:18:19.636Z
+Generated: 2026-07-11T05:28:04.467Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 153
+
+## Olivia Wilde: Key Facts and Background
+- Slug: `olivia-wilde`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Elisha Ellison: Key Facts and Background
 - Slug: `elisha-ellison`
@@ -1221,11 +1229,3 @@ Total issues: 153
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## The Boys Season 5 Episode 7: Latest Public Details Explained
-- Slug: `the-boys-season-5-episode-7`
-- Topic type: movie-tv
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use official poster/key art, an official trailer still, or an original editorial graphic. Add credit and sourceUrl.
