@@ -1,5 +1,40 @@
 [
   {
+    "id": "ffb7ca50fef33ab3",
+    "slug": "new-girl",
+    "title": "New Girl: What Happened and Key Details",
+    "trend": "new girl",
+    "category": "Trends",
+    "excerpt": "New Girl is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "New Girl related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Girl"
+    ],
+    "quality": {
+      "wordCount": 594,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/new-girl.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-12T05:43:31.052Z",
+    "url": "https://contextwire.online/posts/new-girl.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "b200d8a9a3afa754",
     "slug": "big",
     "title": "Big: What Happened and Key Details",
@@ -5732,42 +5767,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-11T15:46:50.243Z",
     "url": "https://contextwire.online/posts/daniil-medvedev.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "836709d6c70a402f",
-    "slug": "ameer-abdullah",
-    "title": "Ameer Abdullah: Confirmed Details and What Comes Next",
-    "trend": "ameer abdullah",
-    "category": "Sports",
-    "excerpt": "Ameer Abdullah is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1566577739112-5180d4bf9390?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Ameer Abdullah related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Sports",
-      "Ameer",
-      "Abdullah"
-    ],
-    "quality": {
-      "wordCount": 563,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/ameer-abdullah.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-11T15:46:50.439Z",
-    "url": "https://contextwire.online/posts/ameer-abdullah.html",
     "readingTime": "4 min"
   }
 ]
