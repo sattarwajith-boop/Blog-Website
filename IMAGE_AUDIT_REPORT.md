@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-07-12T14:11:35.888Z
+Generated: 2026-07-13T05:54:10.681Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 153
+
+## Sam Neill: Confirmed Details and What Comes Next
+- Slug: `sam-neill`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Wimbledon Today: Latest Public Details Explained
 - Slug: `wimbledon-today`
@@ -1216,14 +1224,6 @@ Total issues: 153
 
 ## NBA Playoffs Bracket: Key Facts and Background
 - Slug: `nba-playoffs-bracket`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Warriors: Latest Public Details Explained
-- Slug: `warriors`
 - Topic type: product
 - Issue: generic image for specific topic
 - Current credit: Unsplash

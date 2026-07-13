@@ -1,5 +1,40 @@
 [
   {
+    "id": "439527f8b9666532",
+    "slug": "sam-neill",
+    "title": "Sam Neill: Confirmed Details and What Comes Next",
+    "trend": "sam neill",
+    "category": "Trends",
+    "excerpt": "Sam Neill is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Sam Neill related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Neill"
+    ],
+    "quality": {
+      "wordCount": 536,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/sam-neill.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-13T05:54:09.255Z",
+    "url": "https://contextwire.online/posts/sam-neill.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "bd21ae7bed92b284",
     "slug": "wimbledon-today",
     "title": "Wimbledon Today: Latest Public Details Explained",
@@ -5732,41 +5767,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-12T05:54:25.769Z",
     "url": "https://contextwire.online/posts/nba-playoffs-bracket.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "af91a6b75b31e6a7",
-    "slug": "warriors",
-    "title": "Warriors: Latest Public Details Explained",
-    "trend": "warriors",
-    "category": "Sports",
-    "excerpt": "Warriors is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Warriors related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Sports",
-      "Warriors"
-    ],
-    "quality": {
-      "wordCount": 545,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/warriors.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-12T05:54:26.200Z",
-    "url": "https://contextwire.online/posts/warriors.html",
     "readingTime": "4 min"
   }
 ]
