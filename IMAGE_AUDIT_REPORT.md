@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-07-14T05:15:47.197Z
+Generated: 2026-07-14T14:27:16.775Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 153
+
+## Illinois: Key Facts and Background
+- Slug: `illinois`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Taylor Swift New Album: Confirmed Details and What Comes Next
 - Slug: `taylor-swift-new-album`
@@ -1220,12 +1228,4 @@ Total issues: 153
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Alek Thomas: What Readers Should Know Now
-- Slug: `alek-thomas`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1508344928928-7165b67de128?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
