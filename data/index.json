@@ -1,5 +1,42 @@
 [
   {
+    "id": "be21c257d68c99f1",
+    "slug": "taylor-swift-new-album",
+    "title": "Taylor Swift New Album: Confirmed Details and What Comes Next",
+    "trend": "taylor swift new album",
+    "category": "Culture",
+    "excerpt": "Taylor Swift New Album is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Taylor Swift New Album related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Culture",
+      "Taylor",
+      "Swift",
+      "Album"
+    ],
+    "quality": {
+      "wordCount": 595,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/taylor-swift-new-album.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-14T05:15:45.572Z",
+    "url": "https://contextwire.online/posts/taylor-swift-new-album.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "85fb7e9c0b902837",
     "slug": "lilli-tagger",
     "title": "Lilli Tagger: Key Facts and Background",
@@ -5731,42 +5768,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-12T15:31:38.166Z",
     "url": "https://contextwire.online/posts/alek-thomas.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "064fcd324197da04",
-    "slug": "madison-keys",
-    "title": "Madison Keys: Source-Checked Reader Guide",
-    "trend": "madison keys",
-    "category": "Sports",
-    "excerpt": "Madison Keys is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Madison Keys related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Sports",
-      "Madison",
-      "Keys"
-    ],
-    "quality": {
-      "wordCount": 591,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/madison-keys.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-12T15:31:38.383Z",
-    "url": "https://contextwire.online/posts/madison-keys.html",
     "readingTime": "4 min"
   }
 ]

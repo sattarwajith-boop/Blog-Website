@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-07-13T15:33:22.233Z
+Generated: 2026-07-14T05:15:47.197Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 153
+
+## Taylor Swift New Album: Confirmed Details and What Comes Next
+- Slug: `taylor-swift-new-album`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Lilli Tagger: Key Facts and Background
 - Slug: `lilli-tagger`
@@ -1220,12 +1228,4 @@ Total issues: 153
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1508344928928-7165b67de128?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Madison Keys: Source-Checked Reader Guide
-- Slug: `madison-keys`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1622279457486-62dcc4a431d6?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
