@@ -1,5 +1,41 @@
 [
   {
+    "id": "069d34cb97a64d01",
+    "slug": "molly-shannon",
+    "title": "Molly Shannon: What Happened and Key Details",
+    "trend": "molly shannon",
+    "category": "Trends",
+    "excerpt": "Molly Shannon is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Molly Shannon related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Molly",
+      "Shannon"
+    ],
+    "quality": {
+      "wordCount": 586,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/molly-shannon.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-15T05:16:47.236Z",
+    "url": "https://contextwire.online/posts/molly-shannon.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "572d3339c79978c9",
     "slug": "illinois",
     "title": "Illinois: Key Facts and Background",
@@ -5732,41 +5768,5 @@
     "publishedAt": "2026-05-13T06:04:34.836Z",
     "url": "https://contextwire.online/posts/jg-quintel.html",
     "readingTime": "4 min"
-  },
-  {
-    "id": "2beaffb5206552ba",
-    "slug": "michael-rapaport",
-    "title": "Michael Rapaport: Source-Checked Reader Guide",
-    "trend": "michael rapaport",
-    "category": "Culture",
-    "excerpt": "Michael Rapaport is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Michael Rapaport related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Culture",
-      "Michael",
-      "Rapaport"
-    ],
-    "quality": {
-      "wordCount": 541,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/michael-rapaport.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-13T06:04:35.041Z",
-    "url": "https://contextwire.online/posts/michael-rapaport.html",
-    "readingTime": "3 min"
   }
 ]
