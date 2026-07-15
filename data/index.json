@@ -1,5 +1,41 @@
 [
   {
+    "id": "fa13fdcbaf6e0fa6",
+    "slug": "zimbabwe-vs-bangladesh",
+    "title": "Zimbabwe vs Bangladesh: Confirmed Details and What Comes Next",
+    "trend": "zimbabwe vs bangladesh",
+    "category": "Trends",
+    "excerpt": "Zimbabwe vs Bangladesh is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Zimbabwe vs Bangladesh related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Zimbabwe",
+      "Bangladesh"
+    ],
+    "quality": {
+      "wordCount": 617,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/zimbabwe-vs-bangladesh.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-15T14:24:53.652Z",
+    "url": "https://contextwire.online/posts/zimbabwe-vs-bangladesh.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "069d34cb97a64d01",
     "slug": "molly-shannon",
     "title": "Molly Shannon: What Happened and Key Details",
@@ -5732,41 +5768,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-13T15:33:45.301Z",
     "url": "https://contextwire.online/posts/ford-stock.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "15484c65071d939f",
-    "slug": "jg-quintel",
-    "title": "JG Quintel: Confirmed Details and What Comes Next",
-    "trend": "jg quintel",
-    "category": "Culture",
-    "excerpt": "JG Quintel is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-culture-books.png",
-      "alt": "JG Quintel related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "tags": [
-      "Culture",
-      "Quintel"
-    ],
-    "quality": {
-      "wordCount": 603,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/jg-quintel.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-13T06:04:34.836Z",
-    "url": "https://contextwire.online/posts/jg-quintel.html",
     "readingTime": "4 min"
   }
 ]
