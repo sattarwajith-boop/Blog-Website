@@ -1,5 +1,41 @@
 [
   {
+    "id": "79ce8a464ea0218b",
+    "slug": "britney-spears",
+    "title": "Britney Spears: What Readers Should Know Now",
+    "trend": "britney spears",
+    "category": "Trends",
+    "excerpt": "Britney Spears is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Britney Spears related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Britney",
+      "Spears"
+    ],
+    "quality": {
+      "wordCount": 600,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/britney-spears.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-16T05:26:57.288Z",
+    "url": "https://contextwire.online/posts/britney-spears.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "fa13fdcbaf6e0fa6",
     "slug": "zimbabwe-vs-bangladesh",
     "title": "Zimbabwe vs Bangladesh: Confirmed Details and What Comes Next",
@@ -5733,41 +5769,5 @@
     "publishedAt": "2026-05-13T15:33:45.020Z",
     "url": "https://contextwire.online/posts/quintayvious-hutchins.html",
     "readingTime": "3 min"
-  },
-  {
-    "id": "ef1c4ca895d43fd6",
-    "slug": "ford-stock",
-    "title": "Ford Stock: What Readers Should Know Now",
-    "trend": "ford stock",
-    "category": "Business",
-    "excerpt": "Ford Stock is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Ford Stock related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Business",
-      "Ford",
-      "Stock"
-    ],
-    "quality": {
-      "wordCount": 576,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/ford-stock.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-13T15:33:45.301Z",
-    "url": "https://contextwire.online/posts/ford-stock.html",
-    "readingTime": "4 min"
   }
 ]
