@@ -1,5 +1,41 @@
 [
   {
+    "id": "00f70f8acc833fab",
+    "slug": "ryan-garcia",
+    "title": "Ryan Garcia: Confirmed Details and What Comes Next",
+    "trend": "ryan garcia",
+    "category": "Trends",
+    "excerpt": "Ryan Garcia is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Ryan Garcia related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Ryan",
+      "Garcia"
+    ],
+    "quality": {
+      "wordCount": 566,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/ryan-garcia.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-17T05:28:51.352Z",
+    "url": "https://contextwire.online/posts/ryan-garcia.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "d5df58d98781bab1",
     "slug": "fox-fall-sunday-schedule",
     "title": "Fox Fall Sunday Schedule: Key Facts and Background",
@@ -5733,42 +5769,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-13T19:27:54.825Z",
     "url": "https://contextwire.online/posts/medicare.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "b23226ffe666a6b6",
-    "slug": "adley-rutschman",
-    "title": "Adley Rutschman: Key Facts and Background",
-    "trend": "adley rutschman",
-    "category": "Sports",
-    "excerpt": "Adley Rutschman is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1508344928928-7165b67de128?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Adley Rutschman related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Sports",
-      "Adley",
-      "Rutschman"
-    ],
-    "quality": {
-      "wordCount": 559,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/adley-rutschman.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-13T19:27:55.089Z",
-    "url": "https://contextwire.online/posts/adley-rutschman.html",
     "readingTime": "4 min"
   }
 ]
