@@ -1,5 +1,40 @@
 [
   {
+    "id": "fb87b6bc3f17d008",
+    "slug": "fidelity",
+    "title": "Fidelity: What Happened and Key Details",
+    "trend": "fidelity",
+    "category": "Trends",
+    "excerpt": "Fidelity is gaining attention in current trend data. Search interest is around 5000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Fidelity related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Fidelity"
+    ],
+    "quality": {
+      "wordCount": 531,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/fidelity.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-17T14:15:15.495Z",
+    "url": "https://contextwire.online/posts/fidelity.html",
+    "readingTime": "3 min"
+  },
+  {
     "id": "00f70f8acc833fab",
     "slug": "ryan-garcia",
     "title": "Ryan Garcia: Confirmed Details and What Comes Next",
@@ -5734,41 +5769,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-14T06:03:51.360Z",
     "url": "https://contextwire.online/posts/jill-kargman.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "03f46f003af30322",
-    "slug": "medicare",
-    "title": "Medicare: Confirmed Details and What Comes Next",
-    "trend": "medicare",
-    "category": "News",
-    "excerpt": "Medicare is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Medicare related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "News",
-      "Medicare"
-    ],
-    "quality": {
-      "wordCount": 543,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/medicare.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-13T19:27:54.825Z",
-    "url": "https://contextwire.online/posts/medicare.html",
     "readingTime": "4 min"
   }
 ]
