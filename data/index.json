@@ -1,5 +1,41 @@
 [
   {
+    "id": "fa8baa871b178710",
+    "slug": "francesco-molinari",
+    "title": "Francesco Molinari: Source-Checked Reader Guide",
+    "trend": "francesco molinari",
+    "category": "Trends",
+    "excerpt": "Francesco Molinari is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Francesco Molinari related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Francesco",
+      "Molinari"
+    ],
+    "quality": {
+      "wordCount": 564,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/francesco-molinari.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-18T14:06:05.676Z",
+    "url": "https://contextwire.online/posts/francesco-molinari.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "126002263a1a7985",
     "slug": "post",
     "title": "손흥민: What Happened and Key Details",
@@ -5728,45 +5764,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-14T15:09:20.766Z",
     "url": "https://contextwire.online/posts/is-slack-down.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "c20fa9cbe92b5191",
-    "slug": "super-mario-galaxy-movie-boxoffice",
-    "title": "Super Mario Galaxy Movie Boxoffice: Source-Checked Reader Guide",
-    "trend": "super mario galaxy movie boxoffice",
-    "category": "Culture",
-    "excerpt": "A focused briefing on Super Mario Galaxy Movie Boxoffice: what the headlines reveal, where the story stands, and what comes next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Super Mario Galaxy Movie Boxoffice related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Culture",
-      "Super",
-      "Mario",
-      "Galaxy",
-      "Movie",
-      "Boxoffice"
-    ],
-    "quality": {
-      "wordCount": 595,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/super-mario-galaxy-movie-boxoffice.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-14T06:03:51.084Z",
-    "url": "https://contextwire.online/posts/super-mario-galaxy-movie-boxoffice.html",
     "readingTime": "4 min"
   }
 ]

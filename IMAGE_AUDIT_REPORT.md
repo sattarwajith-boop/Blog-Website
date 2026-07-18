@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-07-18T05:11:08.848Z
+Generated: 2026-07-18T14:06:06.996Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 153
+
+## Francesco Molinari: Source-Checked Reader Guide
+- Slug: `francesco-molinari`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## 손흥민: What Happened and Key Details
 - Slug: `post`
@@ -1220,12 +1228,4 @@ Total issues: 153
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Super Mario Galaxy Movie Boxoffice: Source-Checked Reader Guide
-- Slug: `super-mario-galaxy-movie-boxoffice`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
