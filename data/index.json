@@ -1,5 +1,45 @@
 [
   {
+    "id": "cc87768012db42b3",
+    "slug": "george-russell",
+    "title": "George Russell: What Readers Should Know Now",
+    "trend": "george russell",
+    "category": "Trends",
+    "excerpt": "George Russell is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "George Russell related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "George",
+      "Russell"
+    ],
+    "quality": {
+      "wordCount": 405,
+      "score": 67,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": [
+        "below-500-words",
+        "thin-source-set",
+        "missing-key-facts"
+      ]
+    },
+    "ogImage": "assets/og/george-russell.svg",
+    "sourceCount": 1,
+    "publishedAt": "2026-07-19T14:09:36.047Z",
+    "url": "https://contextwire.online/posts/george-russell.html",
+    "readingTime": "3 min"
+  },
+  {
     "id": "eaf436cc86912c8d",
     "slug": "mia-goth",
     "title": "Mia Goth: Key Facts and Background",
@@ -5724,45 +5764,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-15T06:19:59.827Z",
     "url": "https://contextwire.online/posts/famous-basketball-players.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "a477b8fd13550087",
-    "slug": "mississippi-redistricting-special-session-cancelled",
-    "title": "Mississippi Redistricting Special Session Cancelled: Key Facts and Background",
-    "trend": "mississippi redistricting special session cancelled",
-    "category": "Trends",
-    "excerpt": "Mississippi Redistricting Special Session Cancelled is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Mississippi Redistricting Special Session Cancelled related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Mississippi",
-      "Redistricting",
-      "Special",
-      "Session",
-      "Cancelled"
-    ],
-    "quality": {
-      "wordCount": 602,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/mississippi-redistricting-special-session-cancelled.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-14T15:09:20.539Z",
-    "url": "https://contextwire.online/posts/mississippi-redistricting-special-session-cancelled.html",
     "readingTime": "4 min"
   }
 ]
