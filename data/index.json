@@ -1,5 +1,40 @@
 [
   {
+    "id": "eaf436cc86912c8d",
+    "slug": "mia-goth",
+    "title": "Mia Goth: Key Facts and Background",
+    "trend": "mia goth",
+    "category": "Trends",
+    "excerpt": "Mia Goth is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Mia Goth related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Goth"
+    ],
+    "quality": {
+      "wordCount": 572,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/mia-goth.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-19T05:37:46.513Z",
+    "url": "https://contextwire.online/posts/mia-goth.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "fa8baa871b178710",
     "slug": "francesco-molinari",
     "title": "Francesco Molinari: Source-Checked Reader Guide",
@@ -5728,42 +5763,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-14T15:09:20.539Z",
     "url": "https://contextwire.online/posts/mississippi-redistricting-special-session-cancelled.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "b563803551266581",
-    "slug": "is-slack-down",
-    "title": "Is Slack Down: Source-Checked Reader Guide",
-    "trend": "is slack down",
-    "category": "Trends",
-    "excerpt": "Is Slack Down is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Is Slack Down related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Slack",
-      "Down"
-    ],
-    "quality": {
-      "wordCount": 616,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/is-slack-down.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-14T15:09:20.766Z",
-    "url": "https://contextwire.online/posts/is-slack-down.html",
     "readingTime": "4 min"
   }
 ]
