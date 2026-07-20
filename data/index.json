@@ -1,5 +1,41 @@
 [
   {
+    "id": "3b6c98c36d67efe6",
+    "slug": "chris-hemsworth",
+    "title": "Chris Hemsworth: Source-Checked Reader Guide",
+    "trend": "chris hemsworth",
+    "category": "Trends",
+    "excerpt": "Chris Hemsworth is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Chris Hemsworth related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Chris",
+      "Hemsworth"
+    ],
+    "quality": {
+      "wordCount": 566,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/chris-hemsworth.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-20T05:56:18.839Z",
+    "url": "https://contextwire.online/posts/chris-hemsworth.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "cc87768012db42b3",
     "slug": "george-russell",
     "title": "George Russell: What Readers Should Know Now",
@@ -29,8 +65,7 @@
       ],
       "warnings": [
         "below-500-words",
-        "thin-source-set",
-        "missing-key-facts"
+        "thin-source-set"
       ]
     },
     "ogImage": "assets/og/george-russell.svg",
@@ -5727,43 +5762,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-15T06:19:59.600Z",
     "url": "https://contextwire.online/posts/idris-elba.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "49a64b552ecad356",
-    "slug": "famous-basketball-players",
-    "title": "Famous Basketball Players: What Readers Should Know Now",
-    "trend": "famous basketball players",
-    "category": "Trends",
-    "excerpt": "Famous Basketball Players is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Famous Basketball Players related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Famous",
-      "Basketball",
-      "Players"
-    ],
-    "quality": {
-      "wordCount": 558,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/famous-basketball-players.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-15T06:19:59.827Z",
-    "url": "https://contextwire.online/posts/famous-basketball-players.html",
     "readingTime": "4 min"
   }
 ]
