@@ -1,5 +1,41 @@
 [
   {
+    "id": "5dd531be6fa817cd",
+    "slug": "marcello-hernandez",
+    "title": "Marcello Hernandez: Key Facts and Background",
+    "trend": "marcello hernandez",
+    "category": "Trends",
+    "excerpt": "Marcello Hernandez is gaining attention in current trend data. Search interest is around 5000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Marcello Hernandez related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Marcello",
+      "Hernandez"
+    ],
+    "quality": {
+      "wordCount": 588,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/marcello-hernandez.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-21T05:36:41.087Z",
+    "url": "https://contextwire.online/posts/marcello-hernandez.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "59feb9be34980ddf",
     "slug": "united-airlines-employee-passenger-confrontation",
     "title": "United Airlines Employee Passenger Confrontation: Source-Checked Reader Guide",
@@ -5726,45 +5762,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-15T15:04:29.046Z",
     "url": "https://contextwire.online/posts/abc-world-news-tonight-ratings.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "99ecc60144fb27a2",
-    "slug": "doral-golf-course-trump-monument",
-    "title": "Doral Golf Course Trump Monument: Confirmed Details and What Comes Next",
-    "trend": "doral golf course trump monument",
-    "category": "Sports",
-    "excerpt": "Doral Golf Course Trump Monument is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Doral Golf Course Trump Monument related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Sports",
-      "Doral",
-      "Golf",
-      "Course",
-      "Trump",
-      "Monument"
-    ],
-    "quality": {
-      "wordCount": 600,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/doral-golf-course-trump-monument.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-15T15:04:29.311Z",
-    "url": "https://contextwire.online/posts/doral-golf-course-trump-monument.html",
     "readingTime": "4 min"
   }
 ]
