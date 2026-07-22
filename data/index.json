@@ -1,5 +1,41 @@
 [
   {
+    "id": "a721baa1ea1029c8",
+    "slug": "seth-meyers",
+    "title": "Seth Meyers: Source-Checked Reader Guide",
+    "trend": "seth meyers",
+    "category": "Culture",
+    "excerpt": "Seth Meyers is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Seth Meyers related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Culture",
+      "Seth",
+      "Meyers"
+    ],
+    "quality": {
+      "wordCount": 588,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/seth-meyers.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-22T05:35:26.861Z",
+    "url": "https://contextwire.online/posts/seth-meyers.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "f220ab85bfcaa65c",
     "slug": "kaylee-hottle",
     "title": "Kaylee Hottle: Source-Checked Reader Guide",
@@ -5722,44 +5758,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-16T05:42:04.539Z",
     "url": "https://contextwire.online/posts/new-york-times.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "d3f85733b2d9573e",
-    "slug": "terry-stotts-warriors-departure",
-    "title": "Terry Stotts Warriors Departure: Latest Public Details Explained",
-    "trend": "terry stotts warriors departure",
-    "category": "Sports",
-    "excerpt": "Terry Stotts Warriors Departure is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Terry Stotts Warriors Departure related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Sports",
-      "Terry",
-      "Stotts",
-      "Warriors",
-      "Departure"
-    ],
-    "quality": {
-      "wordCount": 577,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/terry-stotts-warriors-departure.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-16T05:42:04.725Z",
-    "url": "https://contextwire.online/posts/terry-stotts-warriors-departure.html",
     "readingTime": "4 min"
   }
 ]
