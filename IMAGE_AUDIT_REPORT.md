@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-07-22T05:35:28.238Z
+Generated: 2026-07-22T14:36:59.785Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 152
+
+## Nuno Borges: Latest Public Details Explained
+- Slug: `nuno-borges`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Seth Meyers: Source-Checked Reader Guide
 - Slug: `seth-meyers`
@@ -1212,12 +1220,4 @@ Total issues: 152
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## New York Times: What Readers Should Know Now
-- Slug: `new-york-times`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: ContextWire editorial graphic
-- Current image: assets/generated/contextwire-trending-editorial.png
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.

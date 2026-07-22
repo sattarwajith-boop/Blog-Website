@@ -1,5 +1,41 @@
 [
   {
+    "id": "7894ed45e6988148",
+    "slug": "nuno-borges",
+    "title": "Nuno Borges: Latest Public Details Explained",
+    "trend": "nuno borges",
+    "category": "Trends",
+    "excerpt": "Nuno Borges is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Nuno Borges related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Nuno",
+      "Borges"
+    ],
+    "quality": {
+      "wordCount": 584,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/nuno-borges.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-22T14:36:58.503Z",
+    "url": "https://contextwire.online/posts/nuno-borges.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "a721baa1ea1029c8",
     "slug": "seth-meyers",
     "title": "Seth Meyers: Source-Checked Reader Guide",
@@ -5722,42 +5758,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-16T14:07:24.118Z",
     "url": "https://contextwire.online/posts/bruno-mars-chicago.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "204905a69fd6716c",
-    "slug": "new-york-times",
-    "title": "New York Times: What Readers Should Know Now",
-    "trend": "new york times",
-    "category": "Trends",
-    "excerpt": "New York Times is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-trending-editorial.png",
-      "alt": "New York Times related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "tags": [
-      "Trends",
-      "York",
-      "Times"
-    ],
-    "quality": {
-      "wordCount": 578,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/new-york-times.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-16T05:42:04.539Z",
-    "url": "https://contextwire.online/posts/new-york-times.html",
     "readingTime": "4 min"
   }
 ]
