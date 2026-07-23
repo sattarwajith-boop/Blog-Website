@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-07-22T14:36:59.785Z
+Generated: 2026-07-23T05:40:19.425Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 152
+
+## Jana Nayagan: What Happened and Key Details
+- Slug: `jana-nayagan`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Nuno Borges: Latest Public Details Explained
 - Slug: `nuno-borges`
@@ -1212,12 +1220,4 @@ Total issues: 152
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Bruno Mars Chicago: What Readers Should Know Now
-- Slug: `bruno-mars-chicago`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
