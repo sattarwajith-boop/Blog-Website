@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-07-23T05:40:19.425Z
+Generated: 2026-07-23T14:52:43.690Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 152
+
+## Martha Stewart: What Happened and Key Details
+- Slug: `martha-stewart`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Jana Nayagan: What Happened and Key Details
 - Slug: `jana-nayagan`
@@ -1208,14 +1216,6 @@ Total issues: 152
 
 ## Titanic: Source-Checked Reader Guide
 - Slug: `titanic`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Bundesliga: What Happened and Key Details
-- Slug: `bundesliga`
 - Topic type: product
 - Issue: generic image for specific topic
 - Current credit: Unsplash

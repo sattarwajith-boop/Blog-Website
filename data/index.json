@@ -1,5 +1,41 @@
 [
   {
+    "id": "4b234c819b8922ca",
+    "slug": "martha-stewart",
+    "title": "Martha Stewart: What Happened and Key Details",
+    "trend": "martha stewart",
+    "category": "Trends",
+    "excerpt": "Martha Stewart is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Martha Stewart related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Martha",
+      "Stewart"
+    ],
+    "quality": {
+      "wordCount": 598,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/martha-stewart.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-23T14:52:42.449Z",
+    "url": "https://contextwire.online/posts/martha-stewart.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "d303a59e3ab77f11",
     "slug": "jana-nayagan",
     "title": "Jana Nayagan: What Happened and Key Details",
@@ -5722,41 +5758,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-17T06:03:16.075Z",
     "url": "https://contextwire.online/posts/titanic.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "fc0de28f92be4853",
-    "slug": "bundesliga",
-    "title": "Bundesliga: What Happened and Key Details",
-    "trend": "bundesliga",
-    "category": "Trends",
-    "excerpt": "Bundesliga is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Bundesliga related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Bundesliga"
-    ],
-    "quality": {
-      "wordCount": 566,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/bundesliga.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-16T14:07:23.886Z",
-    "url": "https://contextwire.online/posts/bundesliga.html",
     "readingTime": "4 min"
   }
 ]
