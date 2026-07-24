@@ -1,5 +1,41 @@
 [
   {
+    "id": "f25d433c09b6c500",
+    "slug": "jordan-rodgers",
+    "title": "Jordan Rodgers: Source-Checked Reader Guide",
+    "trend": "jordan rodgers",
+    "category": "Trends",
+    "excerpt": "Jordan Rodgers is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Jordan Rodgers related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Jordan",
+      "Rodgers"
+    ],
+    "quality": {
+      "wordCount": 586,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/jordan-rodgers.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-24T14:23:46.527Z",
+    "url": "https://contextwire.online/posts/jordan-rodgers.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "bd8afc0962472d85",
     "slug": "kennewick-fire",
     "title": "Kennewick Fire: Source-Checked Reader Guide",
@@ -5723,42 +5759,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-17T14:08:25.162Z",
     "url": "https://contextwire.online/posts/amy-grant.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "8b54a014ea488131",
-    "slug": "navy-federal",
-    "title": "Navy Federal: Source-Checked Reader Guide",
-    "trend": "navy federal",
-    "category": "Business",
-    "excerpt": "Navy Federal is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Navy Federal related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Business",
-      "Navy",
-      "Federal"
-    ],
-    "quality": {
-      "wordCount": 560,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/navy-federal.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-17T06:03:15.776Z",
-    "url": "https://contextwire.online/posts/navy-federal.html",
     "readingTime": "4 min"
   }
 ]
