@@ -1,5 +1,41 @@
 [
   {
+    "id": "bd8afc0962472d85",
+    "slug": "kennewick-fire",
+    "title": "Kennewick Fire: Source-Checked Reader Guide",
+    "trend": "kennewick fire",
+    "category": "Trends",
+    "excerpt": "Kennewick Fire is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Kennewick Fire related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Kennewick",
+      "Fire"
+    ],
+    "quality": {
+      "wordCount": 567,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/kennewick-fire.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-24T05:36:33.092Z",
+    "url": "https://contextwire.online/posts/kennewick-fire.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "4b234c819b8922ca",
     "slug": "martha-stewart",
     "title": "Martha Stewart: What Happened and Key Details",
@@ -5723,41 +5759,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-17T06:03:15.776Z",
     "url": "https://contextwire.online/posts/navy-federal.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "222a62ce015fe3bf",
-    "slug": "titanic",
-    "title": "Titanic: Source-Checked Reader Guide",
-    "trend": "titanic",
-    "category": "Trends",
-    "excerpt": "Titanic is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Titanic related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Titanic"
-    ],
-    "quality": {
-      "wordCount": 550,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/titanic.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-17T06:03:16.075Z",
-    "url": "https://contextwire.online/posts/titanic.html",
     "readingTime": "4 min"
   }
 ]
