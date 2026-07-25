@@ -1,5 +1,42 @@
 [
   {
+    "id": "08f8663386337a84",
+    "slug": "giants-game-today",
+    "title": "Giants Game Today: Latest Public Details Explained",
+    "trend": "giants game today",
+    "category": "Sports",
+    "excerpt": "Giants Game Today is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-sports-arena.png",
+      "alt": "Giants Game Today related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Sports",
+      "Giants",
+      "Game",
+      "Today"
+    ],
+    "quality": {
+      "wordCount": 578,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/giants-game-today.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-25T05:30:41.794Z",
+    "url": "https://contextwire.online/posts/giants-game-today.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "f25d433c09b6c500",
     "slug": "jordan-rodgers",
     "title": "Jordan Rodgers: Source-Checked Reader Guide",
@@ -5724,41 +5761,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-17T14:08:24.938Z",
     "url": "https://contextwire.online/posts/nba-mvp.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "4e9473470d1ccb7e",
-    "slug": "amy-grant",
-    "title": "Amy Grant: Source-Checked Reader Guide",
-    "trend": "amy grant",
-    "category": "Trends",
-    "excerpt": "Amy Grant is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Amy Grant related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Grant"
-    ],
-    "quality": {
-      "wordCount": 575,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/amy-grant.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-17T14:08:25.162Z",
-    "url": "https://contextwire.online/posts/amy-grant.html",
     "readingTime": "4 min"
   }
 ]
