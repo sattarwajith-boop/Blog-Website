@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-07-25T05:30:43.136Z
+Generated: 2026-07-25T14:15:53.689Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 152
+
+## Jason Sudeikis: Confirmed Details and What Comes Next
+- Slug: `jason-sudeikis`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Giants Game Today: Latest Public Details Explained
 - Slug: `giants-game-today`
@@ -1212,12 +1220,4 @@ Total issues: 152
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## NBA Mvp: Key Facts and Background
-- Slug: `nba-mvp`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
