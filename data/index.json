@@ -1,5 +1,41 @@
 [
   {
+    "id": "b22b1a4a402b3b86",
+    "slug": "cook-islands",
+    "title": "Cook Islands: Confirmed Details and What Comes Next",
+    "trend": "cook islands",
+    "category": "Trends",
+    "excerpt": "Cook Islands is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Cook Islands related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Cook",
+      "Islands"
+    ],
+    "quality": {
+      "wordCount": 566,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/cook-islands.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-27T15:29:45.097Z",
+    "url": "https://contextwire.online/posts/cook-islands.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "80dfff390153a3e1",
     "slug": "rebecca-ferguson",
     "title": "Rebecca Ferguson: What Happened and Key Details",
@@ -5728,42 +5764,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-19T06:35:40.689Z",
     "url": "https://contextwire.online/posts/ameren.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "2a6faa8003021419",
-    "slug": "weather-chicago",
-    "title": "Weather Chicago: Latest Public Details Explained",
-    "trend": "weather chicago",
-    "category": "Trends",
-    "excerpt": "Weather Chicago is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-trending-editorial.png",
-      "alt": "Weather Chicago related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "tags": [
-      "Trends",
-      "Weather",
-      "Chicago"
-    ],
-    "quality": {
-      "wordCount": 561,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/weather-chicago.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-18T16:05:40.251Z",
-    "url": "https://contextwire.online/posts/weather-chicago.html",
     "readingTime": "4 min"
   }
 ]
