@@ -1,5 +1,41 @@
 [
   {
+    "id": "80dfff390153a3e1",
+    "slug": "rebecca-ferguson",
+    "title": "Rebecca Ferguson: What Happened and Key Details",
+    "trend": "rebecca ferguson",
+    "category": "Trends",
+    "excerpt": "Rebecca Ferguson is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Rebecca Ferguson related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Rebecca",
+      "Ferguson"
+    ],
+    "quality": {
+      "wordCount": 574,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/rebecca-ferguson.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-27T06:05:39.076Z",
+    "url": "https://contextwire.online/posts/rebecca-ferguson.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "b3dc4680ac118525",
     "slug": "peter-lassally",
     "title": "Peter Lassally: Source-Checked Reader Guide",
@@ -5728,41 +5764,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-18T16:05:40.251Z",
     "url": "https://contextwire.online/posts/weather-chicago.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "a6ee0fef57738ce8",
-    "slug": "lanterns",
-    "title": "Lanterns: Source-Checked Reader Guide",
-    "trend": "lanterns",
-    "category": "Trends",
-    "excerpt": "Lanterns is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Lanterns related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Lanterns"
-    ],
-    "quality": {
-      "wordCount": 570,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/lanterns.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-18T16:05:40.655Z",
-    "url": "https://contextwire.online/posts/lanterns.html",
     "readingTime": "4 min"
   }
 ]
