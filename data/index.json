@@ -1,5 +1,42 @@
 [
   {
+    "id": "0f6b47f71e4ea7f8",
+    "slug": "lindsey-graham-family",
+    "title": "Lindsey Graham Family: Confirmed Details and What Comes Next",
+    "trend": "lindsey graham family",
+    "category": "Trends",
+    "excerpt": "Lindsey Graham Family is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Lindsey Graham Family related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Lindsey",
+      "Graham",
+      "Family"
+    ],
+    "quality": {
+      "wordCount": 649,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/lindsey-graham-family.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-28T15:03:45.237Z",
+    "url": "https://contextwire.online/posts/lindsey-graham-family.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "ac4fb9a5abda03fb",
     "slug": "gala",
     "title": "Gala: What Happened and Key Details",
@@ -5730,40 +5767,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-19T16:01:36.399Z",
     "url": "https://contextwire.online/posts/south-park-season-29-premiere.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "d1def730bca99160",
-    "slug": "pak-vs-ban",
-    "title": "Pak vs Ban: Source-Checked Reader Guide",
-    "trend": "pak vs ban",
-    "category": "Trends",
-    "excerpt": "Pak vs Ban is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Pak vs Ban related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends"
-    ],
-    "quality": {
-      "wordCount": 624,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/pak-vs-ban.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-19T06:35:40.498Z",
-    "url": "https://contextwire.online/posts/pak-vs-ban.html",
     "readingTime": "4 min"
   }
 ]
