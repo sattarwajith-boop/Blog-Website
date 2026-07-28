@@ -1,5 +1,40 @@
 [
   {
+    "id": "ac4fb9a5abda03fb",
+    "slug": "gala",
+    "title": "Gala: What Happened and Key Details",
+    "trend": "gala",
+    "category": "Trends",
+    "excerpt": "Gala is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Gala related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Gala"
+    ],
+    "quality": {
+      "wordCount": 555,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/gala.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-28T05:33:02.008Z",
+    "url": "https://contextwire.online/posts/gala.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "b22b1a4a402b3b86",
     "slug": "cook-islands",
     "title": "Cook Islands: Confirmed Details and What Comes Next",
@@ -5729,41 +5764,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-19T06:35:40.498Z",
     "url": "https://contextwire.online/posts/pak-vs-ban.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "011407832c94c5e5",
-    "slug": "ameren",
-    "title": "Ameren: Latest Public Details Explained",
-    "trend": "ameren",
-    "category": "Trends",
-    "excerpt": "Ameren is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-trending-editorial.png",
-      "alt": "Ameren related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "tags": [
-      "Trends",
-      "Ameren"
-    ],
-    "quality": {
-      "wordCount": 581,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/ameren.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-19T06:35:40.689Z",
-    "url": "https://contextwire.online/posts/ameren.html",
     "readingTime": "4 min"
   }
 ]
