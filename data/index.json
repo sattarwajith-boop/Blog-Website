@@ -1,5 +1,40 @@
 [
   {
+    "id": "e7bbb4af5689905d",
+    "slug": "arthur-gea",
+    "title": "Arthur Gea: Latest Public Details Explained",
+    "trend": "arthur gea",
+    "category": "Trends",
+    "excerpt": "Arthur Gea is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Arthur Gea related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Arthur"
+    ],
+    "quality": {
+      "wordCount": 612,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/arthur-gea.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-29T05:37:49.230Z",
+    "url": "https://contextwire.online/posts/arthur-gea.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "0f6b47f71e4ea7f8",
     "slug": "lindsey-graham-family",
     "title": "Lindsey Graham Family: Confirmed Details and What Comes Next",
@@ -5729,44 +5764,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-19T16:01:36.159Z",
     "url": "https://contextwire.online/posts/royce-lewis.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "78bb6b100ccd16d7",
-    "slug": "south-park-season-29-premiere",
-    "title": "South Park Season 29 Premiere: Source-Checked Reader Guide",
-    "trend": "south park season 29 premiere",
-    "category": "Trends",
-    "excerpt": "A focused briefing on South Park Season 29 Premiere: what the headlines reveal, where the story stands, and what comes next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "South Park Season 29 Premiere related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "South",
-      "Park",
-      "Season",
-      "Premiere"
-    ],
-    "quality": {
-      "wordCount": 574,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/south-park-season-29-premiere.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-19T16:01:36.399Z",
-    "url": "https://contextwire.online/posts/south-park-season-29-premiere.html",
     "readingTime": "4 min"
   }
 ]
