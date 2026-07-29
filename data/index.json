@@ -1,5 +1,41 @@
 [
   {
+    "id": "83b5e2f3d800878d",
+    "slug": "bernie-moreno",
+    "title": "Bernie Moreno: Source-Checked Reader Guide",
+    "trend": "bernie moreno",
+    "category": "Trends",
+    "excerpt": "Bernie Moreno is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Bernie Moreno related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Bernie",
+      "Moreno"
+    ],
+    "quality": {
+      "wordCount": 585,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/bernie-moreno.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-29T14:56:32.968Z",
+    "url": "https://contextwire.online/posts/bernie-moreno.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "e7bbb4af5689905d",
     "slug": "arthur-gea",
     "title": "Arthur Gea: Latest Public Details Explained",
@@ -5728,42 +5764,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-20T06:35:27.755Z",
     "url": "https://contextwire.online/posts/carls-jr.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "4decd0b7f70fea94",
-    "slug": "royce-lewis",
-    "title": "Royce Lewis: Key Facts and Background",
-    "trend": "royce lewis",
-    "category": "Trends",
-    "excerpt": "Royce Lewis is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Royce Lewis related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Royce",
-      "Lewis"
-    ],
-    "quality": {
-      "wordCount": 559,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/royce-lewis.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-19T16:01:36.159Z",
-    "url": "https://contextwire.online/posts/royce-lewis.html",
     "readingTime": "4 min"
   }
 ]
