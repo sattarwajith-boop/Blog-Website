@@ -1,5 +1,39 @@
 [
   {
+    "id": "11b5431a2c4ef569",
+    "slug": "amd",
+    "title": "Amd: What Happened and Key Details",
+    "trend": "amd",
+    "category": "Trends",
+    "excerpt": "Amd is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Amd related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends"
+    ],
+    "quality": {
+      "wordCount": 597,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/amd.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-30T14:54:02.759Z",
+    "url": "https://contextwire.online/posts/amd.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "2965fa0c1ab8ae3e",
     "slug": "cameron-norrie",
     "title": "Cameron Norrie: Latest Public Details Explained",
@@ -5730,41 +5764,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-20T16:09:48.093Z",
     "url": "https://contextwire.online/posts/alex-de-minaur.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "ab845f7ed55c7388",
-    "slug": "bts-members",
-    "title": "Bts Members: Key Facts and Background",
-    "trend": "bts members",
-    "category": "Trends",
-    "excerpt": "Bts Members is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Bts Members related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Members"
-    ],
-    "quality": {
-      "wordCount": 565,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/bts-members.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-20T06:35:27.565Z",
-    "url": "https://contextwire.online/posts/bts-members.html",
     "readingTime": "4 min"
   }
 ]
