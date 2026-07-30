@@ -1,5 +1,41 @@
 [
   {
+    "id": "2965fa0c1ab8ae3e",
+    "slug": "cameron-norrie",
+    "title": "Cameron Norrie: Latest Public Details Explained",
+    "trend": "cameron norrie",
+    "category": "Trends",
+    "excerpt": "Cameron Norrie is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Cameron Norrie related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Cameron",
+      "Norrie"
+    ],
+    "quality": {
+      "wordCount": 584,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/cameron-norrie.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-30T05:26:08.118Z",
+    "url": "https://contextwire.online/posts/cameron-norrie.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "83b5e2f3d800878d",
     "slug": "bernie-moreno",
     "title": "Bernie Moreno: Source-Checked Reader Guide",
@@ -5729,41 +5765,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-20T06:35:27.565Z",
     "url": "https://contextwire.online/posts/bts-members.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "f40c16db41803830",
-    "slug": "carls-jr",
-    "title": "Carls Jr: Confirmed Details and What Comes Next",
-    "trend": "carls jr",
-    "category": "Trends",
-    "excerpt": "Carls Jr is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-trending-editorial.png",
-      "alt": "Carls Jr related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "tags": [
-      "Trends",
-      "Carls"
-    ],
-    "quality": {
-      "wordCount": 585,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/carls-jr.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-20T06:35:27.755Z",
-    "url": "https://contextwire.online/posts/carls-jr.html",
     "readingTime": "4 min"
   }
 ]
