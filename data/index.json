@@ -1,5 +1,41 @@
 [
   {
+    "id": "63eba4455004da8b",
+    "slug": "adva-lavie",
+    "title": "Adva Lavie: What Happened and Key Details",
+    "trend": "adva lavie",
+    "category": "Trends",
+    "excerpt": "Adva Lavie is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Adva Lavie related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Adva",
+      "Lavie"
+    ],
+    "quality": {
+      "wordCount": 602,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/adva-lavie.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-31T05:51:42.549Z",
+    "url": "https://contextwire.online/posts/adva-lavie.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "11b5431a2c4ef569",
     "slug": "amd",
     "title": "Amd: What Happened and Key Details",
@@ -5728,42 +5764,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-20T16:09:47.860Z",
     "url": "https://contextwire.online/posts/billy-eichner.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "39b013797e648d32",
-    "slug": "alex-de-minaur",
-    "title": "Alex De Minaur: Key Facts and Background",
-    "trend": "alex de minaur",
-    "category": "Trends",
-    "excerpt": "Alex De Minaur is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Alex De Minaur related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Alex",
-      "Minaur"
-    ],
-    "quality": {
-      "wordCount": 576,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/alex-de-minaur.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-20T16:09:48.093Z",
-    "url": "https://contextwire.online/posts/alex-de-minaur.html",
     "readingTime": "4 min"
   }
 ]
