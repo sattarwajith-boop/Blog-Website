@@ -1,5 +1,41 @@
 [
   {
+    "id": "dff793ed4436bb44",
+    "slug": "hartman-colorado",
+    "title": "Hartman Colorado: Confirmed Details and What Comes Next",
+    "trend": "hartman colorado",
+    "category": "Trends",
+    "excerpt": "Hartman Colorado is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Hartman Colorado related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Hartman",
+      "Colorado"
+    ],
+    "quality": {
+      "wordCount": 562,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/hartman-colorado.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-07-31T15:07:04.724Z",
+    "url": "https://contextwire.online/posts/hartman-colorado.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "63eba4455004da8b",
     "slug": "adva-lavie",
     "title": "Adva Lavie: What Happened and Key Details",
@@ -5728,42 +5764,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-21T06:37:24.354Z",
     "url": "https://contextwire.online/posts/benji-madden.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "fabeccbd9193b102",
-    "slug": "billy-eichner",
-    "title": "Billy Eichner: What Happened and Key Details",
-    "trend": "billy eichner",
-    "category": "Trends",
-    "excerpt": "Billy Eichner is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Billy Eichner related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Billy",
-      "Eichner"
-    ],
-    "quality": {
-      "wordCount": 671,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/billy-eichner.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-20T16:09:47.860Z",
-    "url": "https://contextwire.online/posts/billy-eichner.html",
     "readingTime": "4 min"
   }
 ]
