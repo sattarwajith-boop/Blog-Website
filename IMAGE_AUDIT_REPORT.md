@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-08-01T05:41:57.403Z
+Generated: 2026-08-01T14:10:11.370Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 152
+
+## NFL Preseason Schedule: Confirmed Details and What Comes Next
+- Slug: `nfl-preseason-schedule`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1566577739112-5180d4bf9390?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## August 1: What Readers Should Know Now
 - Slug: `august-1`
@@ -1212,12 +1220,4 @@ Total issues: 152
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Ca Lottery: What Happened and Key Details
-- Slug: `ca-lottery`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
