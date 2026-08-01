@@ -1,5 +1,40 @@
 [
   {
+    "id": "5bfa5717a47b2626",
+    "slug": "august-1",
+    "title": "August 1: What Readers Should Know Now",
+    "trend": "august 1",
+    "category": "Trends",
+    "excerpt": "August 1 is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "August 1 related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "August"
+    ],
+    "quality": {
+      "wordCount": 548,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/august-1.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-01T05:41:55.356Z",
+    "url": "https://contextwire.online/posts/august-1.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "dff793ed4436bb44",
     "slug": "hartman-colorado",
     "title": "Hartman Colorado: Confirmed Details and What Comes Next",
@@ -5728,42 +5763,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-21T06:37:24.158Z",
     "url": "https://contextwire.online/posts/ca-lottery.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "f5ff7c034a4c2750",
-    "slug": "benji-madden",
-    "title": "Benji Madden: Confirmed Details and What Comes Next",
-    "trend": "benji madden",
-    "category": "Trends",
-    "excerpt": "Benji Madden is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-trending-editorial.png",
-      "alt": "Benji Madden related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "tags": [
-      "Trends",
-      "Benji",
-      "Madden"
-    ],
-    "quality": {
-      "wordCount": 581,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/benji-madden.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-21T06:37:24.354Z",
-    "url": "https://contextwire.online/posts/benji-madden.html",
     "readingTime": "4 min"
   }
 ]
