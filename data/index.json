@@ -1,5 +1,41 @@
 [
   {
+    "id": "5891996bb0c3e432",
+    "slug": "scarlett-johansson",
+    "title": "Scarlett Johansson: Confirmed Details and What Comes Next",
+    "trend": "scarlett johansson",
+    "category": "Trends",
+    "excerpt": "Scarlett Johansson is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Scarlett Johansson related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Scarlett",
+      "Johansson"
+    ],
+    "quality": {
+      "wordCount": 570,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/scarlett-johansson.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-02T14:12:57.346Z",
+    "url": "https://contextwire.online/posts/scarlett-johansson.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "78249d1b46557024",
     "slug": "how-many-post-credit-scenes-in-brand-new-day",
     "title": "How Many Post Credit Scenes in Brand New Day: Key Facts and Background",
@@ -5729,44 +5765,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-22T06:34:41.297Z",
     "url": "https://contextwire.online/posts/jack-quaid.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "ef7e31ed1417ef0c",
-    "slug": "cody-johnson-entertainer-of-year",
-    "title": "Cody Johnson Entertainer of Year: Source-Checked Reader Guide",
-    "trend": "cody johnson entertainer of year",
-    "category": "Trends",
-    "excerpt": "A focused briefing on Cody Johnson Entertainer of Year: what the headlines reveal, where the story stands, and what comes next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Cody Johnson Entertainer of Year related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Cody",
-      "Johnson",
-      "Entertainer",
-      "Year"
-    ],
-    "quality": {
-      "wordCount": 590,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/cody-johnson-entertainer-of-year.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-21T16:00:26.758Z",
-    "url": "https://contextwire.online/posts/cody-johnson-entertainer-of-year.html",
     "readingTime": "4 min"
   }
 ]
