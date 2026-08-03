@@ -1,5 +1,40 @@
 [
   {
+    "id": "5e56cda3984e8c7c",
+    "slug": "daredevil",
+    "title": "Daredevil: What Readers Should Know Now",
+    "trend": "daredevil",
+    "category": "Trends",
+    "excerpt": "Daredevil is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Daredevil related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Daredevil"
+    ],
+    "quality": {
+      "wordCount": 591,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/daredevil.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-03T05:58:25.802Z",
+    "url": "https://contextwire.online/posts/daredevil.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "5891996bb0c3e432",
     "slug": "scarlett-johansson",
     "title": "Scarlett Johansson: Confirmed Details and What Comes Next",
@@ -5729,42 +5764,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-22T06:34:41.026Z",
     "url": "https://contextwire.online/posts/andor.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "79f78351ecb17fca",
-    "slug": "jack-quaid",
-    "title": "Jack Quaid: What Readers Should Know Now",
-    "trend": "jack quaid",
-    "category": "Trends",
-    "excerpt": "Jack Quaid is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Jack Quaid related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Jack",
-      "Quaid"
-    ],
-    "quality": {
-      "wordCount": 601,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/jack-quaid.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-22T06:34:41.297Z",
-    "url": "https://contextwire.online/posts/jack-quaid.html",
     "readingTime": "4 min"
   }
 ]

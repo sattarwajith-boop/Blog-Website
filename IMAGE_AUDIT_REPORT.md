@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-08-02T14:12:58.285Z
+Generated: 2026-08-03T05:58:27.132Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 152
+
+## Daredevil: What Readers Should Know Now
+- Slug: `daredevil`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: ContextWire editorial graphic
+- Current image: assets/generated/contextwire-trending-editorial.png
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Scarlett Johansson: Confirmed Details and What Comes Next
 - Slug: `scarlett-johansson`
@@ -1208,14 +1216,6 @@ Total issues: 152
 
 ## Andor: Confirmed Details and What Comes Next
 - Slug: `andor`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Jack Quaid: What Readers Should Know Now
-- Slug: `jack-quaid`
 - Topic type: product
 - Issue: generic image for specific topic
 - Current credit: Unsplash
