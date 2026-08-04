@@ -1,5 +1,41 @@
 [
   {
+    "id": "28aacfbf45998e09",
+    "slug": "klay-thompson",
+    "title": "Klay Thompson: What Readers Should Know Now",
+    "trend": "klay thompson",
+    "category": "Trends",
+    "excerpt": "Klay Thompson is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Klay Thompson related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Klay",
+      "Thompson"
+    ],
+    "quality": {
+      "wordCount": 596,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/klay-thompson.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-04T15:07:59.708Z",
+    "url": "https://contextwire.online/posts/klay-thompson.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "7823b5050ddd9e68",
     "slug": "aaron-farinacci-spokane",
     "title": "Aaron Farinacci Spokane: Source-Checked Reader Guide",
@@ -5731,41 +5767,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-23T05:55:15.176Z",
     "url": "https://contextwire.online/posts/the-substance.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "f744cac240b25346",
-    "slug": "asts",
-    "title": "Asts: Source-Checked Reader Guide",
-    "trend": "asts",
-    "category": "Trends",
-    "excerpt": "Asts is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Asts related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Asts"
-    ],
-    "quality": {
-      "wordCount": 554,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/asts.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-22T15:39:22.771Z",
-    "url": "https://contextwire.online/posts/asts.html",
     "readingTime": "4 min"
   }
 ]
