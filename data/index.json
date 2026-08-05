@@ -1,5 +1,41 @@
 [
   {
+    "id": "ad244b5e7230af32",
+    "slug": "marcell-ozuna",
+    "title": "Marcell Ozuna: Confirmed Details and What Comes Next",
+    "trend": "marcell ozuna",
+    "category": "Trends",
+    "excerpt": "Marcell Ozuna is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Marcell Ozuna related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Marcell",
+      "Ozuna"
+    ],
+    "quality": {
+      "wordCount": 532,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/marcell-ozuna.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-05T14:59:51.450Z",
+    "url": "https://contextwire.online/posts/marcell-ozuna.html",
+    "readingTime": "3 min"
+  },
+  {
     "id": "b25773b2175e067f",
     "slug": "outside-lands-2026",
     "title": "Outside Lands 2026: Source-Checked Reader Guide",
@@ -5734,41 +5770,5 @@
     "publishedAt": "2026-05-23T14:12:09.911Z",
     "url": "https://contextwire.online/posts/hull-vs-middlesbrough.html",
     "readingTime": "4 min"
-  },
-  {
-    "id": "a83c954ad49f1e5b",
-    "slug": "power-outage",
-    "title": "Power Outage: What Happened and Key Details",
-    "trend": "power outage",
-    "category": "Trends",
-    "excerpt": "Power Outage is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Power Outage related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Power",
-      "Outage"
-    ],
-    "quality": {
-      "wordCount": 539,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/power-outage.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-23T05:55:14.866Z",
-    "url": "https://contextwire.online/posts/power-outage.html",
-    "readingTime": "3 min"
   }
 ]
