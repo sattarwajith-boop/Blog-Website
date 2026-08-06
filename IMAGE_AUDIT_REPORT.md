@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-08-06T05:34:45.082Z
+Generated: 2026-08-06T14:58:33.599Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 152
+
+## Tan France: Key Facts and Background
+- Slug: `tan-france`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Tucson Weather: What Readers Should Know Now
 - Slug: `tucson-weather`
@@ -1208,14 +1216,6 @@ Total issues: 152
 
 ## Kanye West: Confirmed Details and What Comes Next
 - Slug: `kanye-west`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: ContextWire editorial graphic
-- Current image: assets/generated/contextwire-trending-editorial.png
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Ashley Mcbryde: Latest Public Details Explained
-- Slug: `ashley-mcbryde`
 - Topic type: product
 - Issue: generic image for specific topic
 - Current credit: ContextWire editorial graphic

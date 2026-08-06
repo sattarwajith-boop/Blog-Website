@@ -1,5 +1,40 @@
 [
   {
+    "id": "06547836d81a5d6f",
+    "slug": "tan-france",
+    "title": "Tan France: Key Facts and Background",
+    "trend": "tan france",
+    "category": "Trends",
+    "excerpt": "Tan France is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Tan France related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "France"
+    ],
+    "quality": {
+      "wordCount": 584,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/tan-france.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-06T14:58:32.277Z",
+    "url": "https://contextwire.online/posts/tan-france.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "f3ff6a0f73546da7",
     "slug": "tucson-weather",
     "title": "Tucson Weather: What Readers Should Know Now",
@@ -5733,42 +5768,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-24T06:23:29.012Z",
     "url": "https://contextwire.online/posts/kanye-west.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "c68c428b7ea3851e",
-    "slug": "ashley-mcbryde",
-    "title": "Ashley Mcbryde: Latest Public Details Explained",
-    "trend": "ashley mcbryde",
-    "category": "Trends",
-    "excerpt": "Ashley Mcbryde is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-trending-editorial.png",
-      "alt": "Ashley Mcbryde related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "tags": [
-      "Trends",
-      "Ashley",
-      "Mcbryde"
-    ],
-    "quality": {
-      "wordCount": 607,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/ashley-mcbryde.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-23T14:12:09.586Z",
-    "url": "https://contextwire.online/posts/ashley-mcbryde.html",
     "readingTime": "4 min"
   }
 ]
