@@ -1,5 +1,40 @@
 [
   {
+    "id": "ba126384c54b0ba4",
+    "slug": "oreo",
+    "title": "Oreo: Confirmed Details and What Comes Next",
+    "trend": "oreo",
+    "category": "Trends",
+    "excerpt": "Oreo is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Oreo related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Oreo"
+    ],
+    "quality": {
+      "wordCount": 549,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/oreo.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-07T13:56:56.145Z",
+    "url": "https://contextwire.online/posts/oreo.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "4493f89ec190dea7",
     "slug": "barbara-palvin",
     "title": "Barbara Palvin: Key Facts and Background",
@@ -5733,41 +5768,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-24T14:09:34.906Z",
     "url": "https://contextwire.online/posts/michael-zheng.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "142714e8be66f7da",
-    "slug": "verizon",
-    "title": "Verizon: Source-Checked Reader Guide",
-    "trend": "verizon",
-    "category": "Trends",
-    "excerpt": "Verizon is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Verizon related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Verizon"
-    ],
-    "quality": {
-      "wordCount": 562,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/verizon.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-24T06:23:28.750Z",
-    "url": "https://contextwire.online/posts/verizon.html",
     "readingTime": "4 min"
   }
 ]
