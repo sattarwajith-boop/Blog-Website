@@ -1,5 +1,41 @@
 [
   {
+    "id": "4493f89ec190dea7",
+    "slug": "barbara-palvin",
+    "title": "Barbara Palvin: Key Facts and Background",
+    "trend": "barbara palvin",
+    "category": "Trends",
+    "excerpt": "Barbara Palvin is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Barbara Palvin related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Barbara",
+      "Palvin"
+    ],
+    "quality": {
+      "wordCount": 570,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/barbara-palvin.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-07T04:37:20.454Z",
+    "url": "https://contextwire.online/posts/barbara-palvin.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "06547836d81a5d6f",
     "slug": "tan-france",
     "title": "Tan France: Key Facts and Background",
@@ -5732,42 +5768,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-24T06:23:28.750Z",
     "url": "https://contextwire.online/posts/verizon.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "92464001be06ee56",
-    "slug": "kanye-west",
-    "title": "Kanye West: Confirmed Details and What Comes Next",
-    "trend": "kanye west",
-    "category": "Trends",
-    "excerpt": "Kanye West is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-trending-editorial.png",
-      "alt": "Kanye West related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "tags": [
-      "Trends",
-      "Kanye",
-      "West"
-    ],
-    "quality": {
-      "wordCount": 603,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/kanye-west.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-24T06:23:29.012Z",
-    "url": "https://contextwire.online/posts/kanye-west.html",
     "readingTime": "4 min"
   }
 ]
