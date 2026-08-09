@@ -1,5 +1,41 @@
 [
   {
+    "id": "1dfa901e7a5c40d5",
+    "slug": "colman-domingo",
+    "title": "Colman Domingo: What Happened and Key Details",
+    "trend": "colman domingo",
+    "category": "Trends",
+    "excerpt": "Colman Domingo is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Colman Domingo related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Colman",
+      "Domingo"
+    ],
+    "quality": {
+      "wordCount": 590,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/colman-domingo.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-09T04:03:15.487Z",
+    "url": "https://contextwire.online/posts/colman-domingo.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "86f2f403928766cf",
     "slug": "swansea-vs-birmingham",
     "title": "Swansea vs Birmingham: Source-Checked Reader Guide",
@@ -5732,42 +5768,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-25T06:56:59.206Z",
     "url": "https://contextwire.online/posts/megan-lawless.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "e5cecbe6257d3041",
-    "slug": "twisha-sharma",
-    "title": "Twisha Sharma: What Happened and Key Details",
-    "trend": "twisha sharma",
-    "category": "Trends",
-    "excerpt": "Twisha Sharma is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Twisha Sharma related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Twisha",
-      "Sharma"
-    ],
-    "quality": {
-      "wordCount": 583,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/twisha-sharma.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-25T06:56:59.602Z",
-    "url": "https://contextwire.online/posts/twisha-sharma.html",
     "readingTime": "4 min"
   }
 ]

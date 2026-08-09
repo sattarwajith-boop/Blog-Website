@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-08-08T13:30:18.350Z
+Generated: 2026-08-09T04:03:16.783Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 152
+
+## Colman Domingo: What Happened and Key Details
+- Slug: `colman-domingo`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Swansea vs Birmingham: Source-Checked Reader Guide
 - Slug: `swansea-vs-birmingham`
@@ -1212,12 +1220,4 @@ Total issues: 152
 - Issue: generic image for specific topic
 - Current credit: ContextWire editorial graphic
 - Current image: assets/generated/contextwire-civic-analysis.png
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Twisha Sharma: What Happened and Key Details
-- Slug: `twisha-sharma`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
