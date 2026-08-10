@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-08-09T13:35:19.649Z
+Generated: 2026-08-10T04:16:19.487Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 151
+
+## Reno Fire: Confirmed Details and What Comes Next
+- Slug: `reno-fire`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: ContextWire editorial graphic
+- Current image: assets/generated/contextwire-trending-editorial.png
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Colman Domingo: What Happened and Key Details
 - Slug: `colman-domingo`
@@ -1204,12 +1212,4 @@ Total issues: 151
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## French Open Day One Upsets: Confirmed Details and What Comes Next
-- Slug: `french-open-day-one-upsets`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: ContextWire editorial graphic
-- Current image: assets/generated/contextwire-trending-editorial.png
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.

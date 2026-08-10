@@ -63,8 +63,7 @@
       "What to watch:"
     ],
     "warnings": [
-      "thin-source-set",
-      "missing-key-facts"
+      "thin-source-set"
     ]
   },
   "humanReview": {
