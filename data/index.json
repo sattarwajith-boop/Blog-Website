@@ -1,5 +1,40 @@
 [
   {
+    "id": "b0d2b1831a5c404e",
+    "slug": "gold",
+    "title": "Gold: What Happened and Key Details",
+    "trend": "gold",
+    "category": "Trends",
+    "excerpt": "Gold is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Gold related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Gold"
+    ],
+    "quality": {
+      "wordCount": 557,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/gold.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-10T14:03:45.615Z",
+    "url": "https://contextwire.online/posts/gold.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "c01c8ab9245aeb35",
     "slug": "reno-fire",
     "title": "Reno Fire: Confirmed Details and What Comes Next",
@@ -5737,42 +5772,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-25T18:33:43.545Z",
     "url": "https://contextwire.online/posts/roman-safiullin.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "360a6bc2620f27a8",
-    "slug": "andrey-rublev",
-    "title": "Andrey Rublev: Key Facts and Background",
-    "trend": "andrey rublev",
-    "category": "Trends",
-    "excerpt": "Andrey Rublev is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Andrey Rublev related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Andrey",
-      "Rublev"
-    ],
-    "quality": {
-      "wordCount": 587,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/andrey-rublev.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-25T15:39:55.057Z",
-    "url": "https://contextwire.online/posts/andrey-rublev.html",
     "readingTime": "4 min"
   }
 ]
