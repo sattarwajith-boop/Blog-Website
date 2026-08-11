@@ -1,5 +1,41 @@
 [
   {
+    "id": "9b926e2b95aa0bf5",
+    "slug": "dodgers-score",
+    "title": "Dodgers Score: What Happened and Key Details",
+    "trend": "dodgers score",
+    "category": "Trends",
+    "excerpt": "Dodgers Score is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Dodgers Score related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Dodgers",
+      "Score"
+    ],
+    "quality": {
+      "wordCount": 616,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/dodgers-score.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-11T04:04:57.313Z",
+    "url": "https://contextwire.online/posts/dodgers-score.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "b0d2b1831a5c404e",
     "slug": "gold",
     "title": "Gold: What Happened and Key Details",
@@ -5736,42 +5772,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-25T18:33:43.262Z",
     "url": "https://contextwire.online/posts/casper-ruud.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "3f3aae9729b78c92",
-    "slug": "roman-safiullin",
-    "title": "Roman Safiullin: Latest Public Details Explained",
-    "trend": "roman safiullin",
-    "category": "Trends",
-    "excerpt": "Roman Safiullin is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-trending-editorial.png",
-      "alt": "Roman Safiullin related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "tags": [
-      "Trends",
-      "Roman",
-      "Safiullin"
-    ],
-    "quality": {
-      "wordCount": 613,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/roman-safiullin.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-25T18:33:43.545Z",
-    "url": "https://contextwire.online/posts/roman-safiullin.html",
     "readingTime": "4 min"
   }
 ]

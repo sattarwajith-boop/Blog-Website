@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-08-10T14:03:47.536Z
+Generated: 2026-08-11T04:04:58.514Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 151
+
+## Dodgers Score: What Happened and Key Details
+- Slug: `dodgers-score`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Gold: What Happened and Key Details
 - Slug: `gold`
@@ -1204,12 +1212,4 @@ Total issues: 151
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Roman Safiullin: Latest Public Details Explained
-- Slug: `roman-safiullin`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: ContextWire editorial graphic
-- Current image: assets/generated/contextwire-trending-editorial.png
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
