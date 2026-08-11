@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-08-11T04:04:58.514Z
+Generated: 2026-08-11T14:04:14.239Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 151
+
+## Kwqc Weather: Latest Public Details Explained
+- Slug: `kwqc-weather`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Dodgers Score: What Happened and Key Details
 - Slug: `dodgers-score`
@@ -1204,12 +1212,4 @@ Total issues: 151
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Casper Ruud: Key Facts and Background
-- Slug: `casper-ruud`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
