@@ -1,5 +1,40 @@
 [
   {
+    "id": "9e63ccaa5d69101f",
+    "slug": "diamondbacks",
+    "title": "Diamondbacks: Confirmed Details and What Comes Next",
+    "trend": "diamondbacks",
+    "category": "Trends",
+    "excerpt": "Diamondbacks is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Diamondbacks related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Diamondbacks"
+    ],
+    "quality": {
+      "wordCount": 561,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/diamondbacks.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-12T04:25:54.983Z",
+    "url": "https://contextwire.online/posts/diamondbacks.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "1d2b06cf1fb447ac",
     "slug": "kwqc-weather",
     "title": "Kwqc Weather: Latest Public Details Explained",
@@ -5738,40 +5773,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-25T18:55:49.082Z",
     "url": "https://contextwire.online/posts/alycia-parks.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "54ca94113eedc106",
-    "slug": "mlb",
-    "title": "MLB: What Readers Should Know Now",
-    "trend": "mlb",
-    "category": "Sports",
-    "excerpt": "MLB is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=1400&q=82",
-      "alt": "MLB related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Sports"
-    ],
-    "quality": {
-      "wordCount": 557,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/mlb.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-25T18:55:49.526Z",
-    "url": "https://contextwire.online/posts/mlb.html",
     "readingTime": "4 min"
   }
 ]
