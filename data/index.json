@@ -1,5 +1,41 @@
 [
   {
+    "id": "dcbad47126511ee1",
+    "slug": "nflx-stock",
+    "title": "Nflx Stock: Latest Public Details Explained",
+    "trend": "nflx stock",
+    "category": "Business",
+    "excerpt": "Nflx Stock is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Nflx Stock related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Business",
+      "Nflx",
+      "Stock"
+    ],
+    "quality": {
+      "wordCount": 577,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/nflx-stock.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-13T14:05:58.108Z",
+    "url": "https://contextwire.online/posts/nflx-stock.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "6030293eea263510",
     "slug": "landon-knack",
     "title": "Landon Knack: What Readers Should Know Now",
@@ -5740,42 +5776,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-26T16:30:31.729Z",
     "url": "https://contextwire.online/posts/general-hospital.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "90fbeb86102d30d1",
-    "slug": "kirk-cousins",
-    "title": "Kirk Cousins: Confirmed Details and What Comes Next",
-    "trend": "kirk cousins",
-    "category": "Trends",
-    "excerpt": "Kirk Cousins is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-trending-editorial.png",
-      "alt": "Kirk Cousins related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "tags": [
-      "Trends",
-      "Kirk",
-      "Cousins"
-    ],
-    "quality": {
-      "wordCount": 587,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/kirk-cousins.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-26T06:32:45.244Z",
-    "url": "https://contextwire.online/posts/kirk-cousins.html",
     "readingTime": "4 min"
   }
 ]
