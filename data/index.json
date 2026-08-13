@@ -1,5 +1,41 @@
 [
   {
+    "id": "6030293eea263510",
+    "slug": "landon-knack",
+    "title": "Landon Knack: What Readers Should Know Now",
+    "trend": "landon knack",
+    "category": "Trends",
+    "excerpt": "Landon Knack is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Landon Knack related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Landon",
+      "Knack"
+    ],
+    "quality": {
+      "wordCount": 520,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/landon-knack.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-13T04:28:34.693Z",
+    "url": "https://contextwire.online/posts/landon-knack.html",
+    "readingTime": "3 min"
+  },
+  {
     "id": "be8b897a3d98db41",
     "slug": "nintendo-switch-zelda-ocarina-of-time",
     "title": "Nintendo Switch Zelda Ocarina of Time: What Happened and Key Details",
@@ -5740,42 +5776,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-26T06:32:45.244Z",
     "url": "https://contextwire.online/posts/kirk-cousins.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "cd4bdacaf558646e",
-    "slug": "chet-hanks",
-    "title": "Chet Hanks: What Happened and Key Details",
-    "trend": "chet hanks",
-    "category": "Trends",
-    "excerpt": "Chet Hanks is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Chet Hanks related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Chet",
-      "Hanks"
-    ],
-    "quality": {
-      "wordCount": 613,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/chet-hanks.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-26T06:32:45.422Z",
-    "url": "https://contextwire.online/posts/chet-hanks.html",
     "readingTime": "4 min"
   }
 ]
