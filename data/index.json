@@ -1,5 +1,45 @@
 [
   {
+    "id": "8b7d81ebc2e62c86",
+    "slug": "lacey-chabert",
+    "title": "Lacey Chabert: What Readers Should Know Now",
+    "trend": "lacey chabert",
+    "category": "Trends",
+    "excerpt": "Lacey Chabert is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Lacey Chabert related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Lacey",
+      "Chabert"
+    ],
+    "quality": {
+      "wordCount": 405,
+      "score": 67,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": [
+        "below-500-words",
+        "thin-source-set",
+        "missing-key-facts"
+      ]
+    },
+    "ogImage": "assets/og/lacey-chabert.svg",
+    "sourceCount": 1,
+    "publishedAt": "2026-08-14T14:00:50.514Z",
+    "url": "https://contextwire.online/posts/lacey-chabert.html",
+    "readingTime": "3 min"
+  },
+  {
     "id": "26bb1f98dcd8d72b",
     "slug": "angels",
     "title": "Angels: Source-Checked Reader Guide",
@@ -5740,41 +5780,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-27T00:43:16.836Z",
     "url": "https://contextwire.online/posts/mitch-johnson.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "96ad9dc9441c293e",
-    "slug": "billboard-top-100",
-    "title": "Billboard Top 100: What Happened and Key Details",
-    "trend": "billboard top 100",
-    "category": "Trends",
-    "excerpt": "Billboard Top 100 is gaining attention in current trend data. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Billboard Top 100 related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Billboard"
-    ],
-    "quality": {
-      "wordCount": 573,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/billboard-top-100.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-26T16:30:31.201Z",
-    "url": "https://contextwire.online/posts/billboard-top-100.html",
     "readingTime": "4 min"
   }
 ]

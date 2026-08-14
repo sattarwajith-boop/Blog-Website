@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-08-14T04:25:40.907Z
+Generated: 2026-08-14T14:00:51.946Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 151
+
+## Lacey Chabert: What Readers Should Know Now
+- Slug: `lacey-chabert`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Angels: Source-Checked Reader Guide
 - Slug: `angels`
@@ -1200,14 +1208,6 @@ Total issues: 151
 
 ## Mitch Johnson: Key Facts and Background
 - Slug: `mitch-johnson`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Billboard Top 100: What Happened and Key Details
-- Slug: `billboard-top-100`
 - Topic type: product
 - Issue: generic image for specific topic
 - Current credit: Unsplash
