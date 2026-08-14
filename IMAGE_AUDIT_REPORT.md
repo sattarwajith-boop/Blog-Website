@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-08-13T14:05:59.452Z
+Generated: 2026-08-14T04:25:40.907Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 151
+
+## Angels: Source-Checked Reader Guide
+- Slug: `angels`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Nflx Stock: Latest Public Details Explained
 - Slug: `nflx-stock`
@@ -1204,12 +1212,4 @@ Total issues: 151
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## General Hospital: Confirmed Details and What Comes Next
-- Slug: `general-hospital`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
