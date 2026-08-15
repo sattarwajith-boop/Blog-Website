@@ -1,5 +1,41 @@
 [
   {
+    "id": "5ce8b7088603e28b",
+    "slug": "panama-canal",
+    "title": "Panama Canal: Latest Public Details Explained",
+    "trend": "panama canal",
+    "category": "Trends",
+    "excerpt": "Panama Canal is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Panama Canal related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Panama",
+      "Canal"
+    ],
+    "quality": {
+      "wordCount": 578,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/panama-canal.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-15T13:15:49.726Z",
+    "url": "https://contextwire.online/posts/panama-canal.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "3ae30d8e0078ef49",
     "slug": "las-vegas-weather",
     "title": "Las Vegas Weather: Latest Public Details Explained",
@@ -5744,41 +5780,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-27T16:26:59.595Z",
     "url": "https://contextwire.online/posts/barcelona-real-sociedad.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "c3cbce6199f32b57",
-    "slug": "coach",
-    "title": "Coach: Source-Checked Reader Guide",
-    "trend": "coach",
-    "category": "Trends",
-    "excerpt": "Coach is gaining attention in current trend data. Search interest is around 10000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Coach related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Coach"
-    ],
-    "quality": {
-      "wordCount": 573,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/coach.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-27T06:47:33.725Z",
-    "url": "https://contextwire.online/posts/coach.html",
     "readingTime": "4 min"
   }
 ]
