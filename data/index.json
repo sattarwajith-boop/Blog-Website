@@ -1,5 +1,40 @@
 [
   {
+    "id": "8f6801f49809c7e1",
+    "slug": "pat-mcafee",
+    "title": "Pat Mcafee: Confirmed Details and What Comes Next",
+    "trend": "pat mcafee",
+    "category": "Trends",
+    "excerpt": "Pat Mcafee is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Pat Mcafee related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Mcafee"
+    ],
+    "quality": {
+      "wordCount": 594,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/pat-mcafee.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-16T03:29:58.612Z",
+    "url": "https://contextwire.online/posts/pat-mcafee.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "5ce8b7088603e28b",
     "slug": "panama-canal",
     "title": "Panama Canal: Latest Public Details Explained",
@@ -5743,43 +5778,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-28T06:38:48.114Z",
     "url": "https://contextwire.online/posts/vanessa-kirby.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "3b2c7df1ca451c4e",
-    "slug": "barcelona-real-sociedad",
-    "title": "Barcelona - Real Sociedad: Key Facts and Background",
-    "trend": "barcelona - real sociedad",
-    "category": "Trends",
-    "excerpt": "Barcelona - Real Sociedad is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Barcelona - Real Sociedad related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Barcelona",
-      "Real",
-      "Sociedad"
-    ],
-    "quality": {
-      "wordCount": 574,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/barcelona-real-sociedad.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-27T16:26:59.595Z",
-    "url": "https://contextwire.online/posts/barcelona-real-sociedad.html",
     "readingTime": "4 min"
   }
 ]

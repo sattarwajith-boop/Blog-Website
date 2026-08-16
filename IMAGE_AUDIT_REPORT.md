@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-08-15T13:15:51.050Z
+Generated: 2026-08-16T03:29:59.979Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 151
+
+## Pat Mcafee: Confirmed Details and What Comes Next
+- Slug: `pat-mcafee`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Panama Canal: Latest Public Details Explained
 - Slug: `panama-canal`
@@ -1204,12 +1212,4 @@ Total issues: 151
 - Issue: generic image for specific topic
 - Current credit: ContextWire editorial graphic
 - Current image: assets/generated/contextwire-trending-editorial.png
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Barcelona - Real Sociedad: Key Facts and Background
-- Slug: `barcelona-real-sociedad`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
