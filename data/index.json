@@ -1,5 +1,41 @@
 [
   {
+    "id": "89f361478073f503",
+    "slug": "halo-studios",
+    "title": "Halo Studios: Confirmed Details and What Comes Next",
+    "trend": "halo studios",
+    "category": "Trends",
+    "excerpt": "Halo Studios is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Halo Studios related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Halo",
+      "Studios"
+    ],
+    "quality": {
+      "wordCount": 578,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/halo-studios.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-16T13:17:04.606Z",
+    "url": "https://contextwire.online/posts/halo-studios.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "8f6801f49809c7e1",
     "slug": "pat-mcafee",
     "title": "Pat Mcafee: Confirmed Details and What Comes Next",
@@ -5742,42 +5778,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-28T16:42:33.951Z",
     "url": "https://contextwire.online/posts/sabalenka.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "66bcb13900712ffa",
-    "slug": "vanessa-kirby",
-    "title": "Vanessa Kirby: Latest Public Details Explained",
-    "trend": "vanessa kirby",
-    "category": "Trends",
-    "excerpt": "Vanessa Kirby is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-trending-editorial.png",
-      "alt": "Vanessa Kirby related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "tags": [
-      "Trends",
-      "Vanessa",
-      "Kirby"
-    ],
-    "quality": {
-      "wordCount": 588,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/vanessa-kirby.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-28T06:38:48.114Z",
-    "url": "https://contextwire.online/posts/vanessa-kirby.html",
     "readingTime": "4 min"
   }
 ]
