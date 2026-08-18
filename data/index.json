@@ -1,5 +1,41 @@
 [
   {
+    "id": "50429cc1cf05f20b",
+    "slug": "cubs-game",
+    "title": "Cubs Game: What Readers Should Know Now",
+    "trend": "cubs game",
+    "category": "Sports",
+    "excerpt": "Cubs Game is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-sports-arena.png",
+      "alt": "Cubs Game related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Sports",
+      "Cubs",
+      "Game"
+    ],
+    "quality": {
+      "wordCount": 569,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/cubs-game.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-18T03:25:49.679Z",
+    "url": "https://contextwire.online/posts/cubs-game.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "55c3e0b76ddb53ad",
     "slug": "epic",
     "title": "Epic: Confirmed Details and What Comes Next",
@@ -5740,42 +5776,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-30T06:02:47.740Z",
     "url": "https://contextwire.online/posts/rush-hour.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "4cc3029c2963182e",
-    "slug": "iran-vs-gambia",
-    "title": "Iran vs Gambia: What Happened and Key Details",
-    "trend": "iran vs gambia",
-    "category": "Trends",
-    "excerpt": "Iran vs Gambia is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Iran vs Gambia related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Iran",
-      "Gambia"
-    ],
-    "quality": {
-      "wordCount": 585,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/iran-vs-gambia.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-29T16:28:24.232Z",
-    "url": "https://contextwire.online/posts/iran-vs-gambia.html",
     "readingTime": "4 min"
   }
 ]
