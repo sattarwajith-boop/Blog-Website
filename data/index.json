@@ -1,5 +1,41 @@
 [
   {
+    "id": "1e3be6530a35b196",
+    "slug": "daniel-faalele",
+    "title": "Daniel Faalele: Latest Public Details Explained",
+    "trend": "daniel faalele",
+    "category": "Trends",
+    "excerpt": "Daniel Faalele is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Daniel Faalele related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Daniel",
+      "Faalele"
+    ],
+    "quality": {
+      "wordCount": 558,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/daniel-faalele.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-19T13:29:00.407Z",
+    "url": "https://contextwire.online/posts/daniel-faalele.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "20f50b59761eb15a",
     "slug": "a-ja-wilson",
     "title": "A'ja Wilson: What Happened and Key Details",
@@ -5740,41 +5776,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-05-31T14:21:32.861Z",
     "url": "https://contextwire.online/posts/jodar-tennis.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "bbf268cf5b912a1b",
-    "slug": "immunizations",
-    "title": "Immunizations: Source-Checked Reader Guide",
-    "trend": "immunizations",
-    "category": "Trends",
-    "excerpt": "Immunizations is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Immunizations related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Immunizations"
-    ],
-    "quality": {
-      "wordCount": 585,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/immunizations.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-05-31T06:42:19.197Z",
-    "url": "https://contextwire.online/posts/immunizations.html",
     "readingTime": "4 min"
   }
 ]
