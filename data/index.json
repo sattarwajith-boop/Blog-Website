@@ -1,5 +1,41 @@
 [
   {
+    "id": "04dc85ed7cb5f658",
+    "slug": "democratic-party",
+    "title": "Democratic Party: What Readers Should Know Now",
+    "trend": "democratic party",
+    "category": "Trends",
+    "excerpt": "Democratic Party is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Democratic Party related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Democratic",
+      "Party"
+    ],
+    "quality": {
+      "wordCount": 594,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/democratic-party.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-20T13:31:09.015Z",
+    "url": "https://contextwire.online/posts/democratic-party.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "cecf0d6856a9a1b8",
     "slug": "houston-astros",
     "title": "Houston Astros: Source-Checked Reader Guide",
@@ -5740,42 +5776,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-01T18:27:10.549Z",
     "url": "https://contextwire.online/posts/raiders.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "501cc3668d7a67a5",
-    "slug": "john-deere",
-    "title": "John Deere: Source-Checked Reader Guide",
-    "trend": "john deere",
-    "category": "Trends",
-    "excerpt": "John Deere is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "John Deere related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "John",
-      "Deere"
-    ],
-    "quality": {
-      "wordCount": 552,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/john-deere.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-01T07:31:37.848Z",
-    "url": "https://contextwire.online/posts/john-deere.html",
     "readingTime": "4 min"
   }
 ]
