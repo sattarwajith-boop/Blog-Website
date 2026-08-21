@@ -1,5 +1,41 @@
 [
   {
+    "id": "d760bba2079b30f9",
+    "slug": "fidelity-crypto",
+    "title": "Fidelity Crypto: What Happened and Key Details",
+    "trend": "fidelity crypto",
+    "category": "Business",
+    "excerpt": "Fidelity Crypto is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Fidelity Crypto related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Business",
+      "Fidelity",
+      "Crypto"
+    ],
+    "quality": {
+      "wordCount": 551,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/fidelity-crypto.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-21T13:29:56.587Z",
+    "url": "https://contextwire.online/posts/fidelity-crypto.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "cd62eeb551c09ebd",
     "slug": "jacob-cowing",
     "title": "Jacob Cowing: Latest Public Details Explained",
@@ -5742,41 +5778,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-02T17:07:03.849Z",
     "url": "https://contextwire.online/posts/onslaught-movie.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "49e31c7c6807d846",
-    "slug": "lamborghini",
-    "title": "Lamborghini: Confirmed Details and What Comes Next",
-    "trend": "lamborghini",
-    "category": "Trends",
-    "excerpt": "Lamborghini is gaining attention in current trend data. Search interest is around 100+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-trending-editorial.png",
-      "alt": "Lamborghini related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "tags": [
-      "Trends",
-      "Lamborghini"
-    ],
-    "quality": {
-      "wordCount": 545,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/lamborghini.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-02T07:10:46.689Z",
-    "url": "https://contextwire.online/posts/lamborghini.html",
     "readingTime": "4 min"
   }
 ]
