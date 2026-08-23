@@ -1,5 +1,41 @@
 [
   {
+    "id": "3c5c374a78191ebb",
+    "slug": "kevin-keegan",
+    "title": "Kevin Keegan: What Readers Should Know Now",
+    "trend": "kevin keegan",
+    "category": "Trends",
+    "excerpt": "Kevin Keegan is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Kevin Keegan related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Kevin",
+      "Keegan"
+    ],
+    "quality": {
+      "wordCount": 592,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/kevin-keegan.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-23T13:17:55.338Z",
+    "url": "https://contextwire.online/posts/kevin-keegan.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "d12efbdd962ccf36",
     "slug": "nneka-ogwumike",
     "title": "Nneka Ogwumike: What Readers Should Know Now",
@@ -5745,42 +5781,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-04T16:04:25.272Z",
     "url": "https://contextwire.online/posts/consumers-energy.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "c9939f7c385c427f",
-    "slug": "jennifer-lawrence",
-    "title": "Jennifer Lawrence: Confirmed Details and What Comes Next",
-    "trend": "jennifer lawrence",
-    "category": "News",
-    "excerpt": "Jennifer Lawrence is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-civic-analysis.png",
-      "alt": "Jennifer Lawrence related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "tags": [
-      "News",
-      "Jennifer",
-      "Lawrence"
-    ],
-    "quality": {
-      "wordCount": 581,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/jennifer-lawrence.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-04T07:09:46.451Z",
-    "url": "https://contextwire.online/posts/jennifer-lawrence.html",
     "readingTime": "4 min"
   }
 ]
