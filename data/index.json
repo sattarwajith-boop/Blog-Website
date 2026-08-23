@@ -1,5 +1,41 @@
 [
   {
+    "id": "d12efbdd962ccf36",
+    "slug": "nneka-ogwumike",
+    "title": "Nneka Ogwumike: What Readers Should Know Now",
+    "trend": "nneka ogwumike",
+    "category": "Trends",
+    "excerpt": "Nneka Ogwumike is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Nneka Ogwumike related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Nneka",
+      "Ogwumike"
+    ],
+    "quality": {
+      "wordCount": 578,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/nneka-ogwumike.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-23T03:32:53.862Z",
+    "url": "https://contextwire.online/posts/nneka-ogwumike.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "a050163ccc0fd41d",
     "slug": "tropical-storm-moke-hawaii",
     "title": "Tropical Storm Moke Hawaii: Latest Public Details Explained",
@@ -5745,42 +5781,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-04T07:09:46.451Z",
     "url": "https://contextwire.online/posts/jennifer-lawrence.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "1d5f79afbc4a658c",
-    "slug": "albania-vs-israel",
-    "title": "Albania vs Israel: What Happened and Key Details",
-    "trend": "albania vs israel",
-    "category": "Trends",
-    "excerpt": "Albania vs Israel is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Albania vs Israel related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Albania",
-      "Israel"
-    ],
-    "quality": {
-      "wordCount": 585,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/albania-vs-israel.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-03T17:33:15.822Z",
-    "url": "https://contextwire.online/posts/albania-vs-israel.html",
     "readingTime": "4 min"
   }
 ]
