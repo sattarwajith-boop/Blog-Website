@@ -1,5 +1,41 @@
 [
   {
+    "id": "9fbeb92a87ef6f5c",
+    "slug": "nikola-bartunkova",
+    "title": "Nikola Bartunkova: Source-Checked Reader Guide",
+    "trend": "nikola bartunkova",
+    "category": "Trends",
+    "excerpt": "Nikola Bartunkova is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Nikola Bartunkova related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Nikola",
+      "Bartunkova"
+    ],
+    "quality": {
+      "wordCount": 578,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/nikola-bartunkova.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-24T03:35:47.958Z",
+    "url": "https://contextwire.online/posts/nikola-bartunkova.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "3c5c374a78191ebb",
     "slug": "kevin-keegan",
     "title": "Kevin Keegan: What Readers Should Know Now",
@@ -5745,42 +5781,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-05T06:51:26.366Z",
     "url": "https://contextwire.online/posts/why-is-crypto-crashing.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "823a617e2dbdf52a",
-    "slug": "consumers-energy",
-    "title": "Consumers Energy: What Readers Should Know Now",
-    "trend": "consumers energy",
-    "category": "Trends",
-    "excerpt": "Consumers Energy is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Consumers Energy related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Consumers",
-      "Energy"
-    ],
-    "quality": {
-      "wordCount": 550,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/consumers-energy.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-04T16:04:25.272Z",
-    "url": "https://contextwire.online/posts/consumers-energy.html",
     "readingTime": "4 min"
   }
 ]
