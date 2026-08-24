@@ -1,5 +1,41 @@
 [
   {
+    "id": "9b9cedb47e009caa",
+    "slug": "gordon-ramsay",
+    "title": "Gordon Ramsay: What Happened and Key Details",
+    "trend": "gordon ramsay",
+    "category": "Trends",
+    "excerpt": "Gordon Ramsay is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Gordon Ramsay related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Gordon",
+      "Ramsay"
+    ],
+    "quality": {
+      "wordCount": 576,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/gordon-ramsay.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-24T13:34:42.587Z",
+    "url": "https://contextwire.online/posts/gordon-ramsay.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "9fbeb92a87ef6f5c",
     "slug": "nikola-bartunkova",
     "title": "Nikola Bartunkova: Source-Checked Reader Guide",
@@ -5745,42 +5781,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-05T15:38:54.457Z",
     "url": "https://contextwire.online/posts/monaco.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "7a8b544bcbecff20",
-    "slug": "why-is-crypto-crashing",
-    "title": "Why Is Crypto Crashing: Confirmed Details and What Comes Next",
-    "trend": "why is crypto crashing",
-    "category": "Business",
-    "excerpt": "Why Is Crypto Crashing is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Why Is Crypto Crashing related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Business",
-      "Crypto",
-      "Crashing"
-    ],
-    "quality": {
-      "wordCount": 587,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/why-is-crypto-crashing.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-05T06:51:26.366Z",
-    "url": "https://contextwire.online/posts/why-is-crypto-crashing.html",
     "readingTime": "4 min"
   }
 ]
