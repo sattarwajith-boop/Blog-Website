@@ -1,5 +1,40 @@
 [
   {
+    "id": "3fd4a4c3b71189ad",
+    "slug": "facts",
+    "title": "Facts: What Happened and Key Details",
+    "trend": "facts",
+    "category": "Trends",
+    "excerpt": "Facts is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Facts related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Facts"
+    ],
+    "quality": {
+      "wordCount": 551,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/facts.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-26T13:38:21.718Z",
+    "url": "https://contextwire.online/posts/facts.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "0ebc28d4d93fdb26",
     "slug": "immigrant-visa-pause",
     "title": "Immigrant Visa Pause: Key Facts and Background",
@@ -5747,43 +5782,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-07T14:31:56.093Z",
     "url": "https://contextwire.online/posts/queen-elizabeth.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "1e911028d2bd5de3",
-    "slug": "netflix-top-movies-right-now",
-    "title": "Netflix Top Movies Right Now: Confirmed Details and What Comes Next",
-    "trend": "netflix top movies right now",
-    "category": "Culture",
-    "excerpt": "Netflix Top Movies Right Now is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Netflix Top Movies Right Now related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Culture",
-      "Netflix",
-      "Movies",
-      "Right"
-    ],
-    "quality": {
-      "wordCount": 584,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/netflix-top-movies-right-now.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-07T06:49:54.123Z",
-    "url": "https://contextwire.online/posts/netflix-top-movies-right-now.html",
     "readingTime": "4 min"
   }
 ]
