@@ -1,5 +1,40 @@
 [
   {
+    "id": "83f6664d3de740e5",
+    "slug": "chile-vs-usa",
+    "title": "Chile vs Usa: What Readers Should Know Now",
+    "trend": "chile vs usa",
+    "category": "Trends",
+    "excerpt": "Chile vs Usa is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Chile vs Usa related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Chile"
+    ],
+    "quality": {
+      "wordCount": 565,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/chile-vs-usa.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-27T22:34:44.818Z",
+    "url": "https://contextwire.online/posts/chile-vs-usa.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "d83369a90101202c",
     "slug": "ratko-mladic",
     "title": "Ratko Mladic: Confirmed Details and What Comes Next",
@@ -5746,42 +5781,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-08T16:38:37.192Z",
     "url": "https://contextwire.online/posts/bts-oreos.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "14998ba99bf678e4",
-    "slug": "real-estate",
-    "title": "Real Estate: Latest Public Details Explained",
-    "trend": "real estate",
-    "category": "Trends",
-    "excerpt": "Real Estate is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Real Estate related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Real",
-      "Estate"
-    ],
-    "quality": {
-      "wordCount": 576,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/real-estate.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-08T07:15:27.201Z",
-    "url": "https://contextwire.online/posts/real-estate.html",
     "readingTime": "4 min"
   }
 ]
