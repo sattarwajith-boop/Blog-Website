@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-08-27T22:34:46.212Z
+Generated: 2026-08-28T14:34:36.048Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 152
+
+## Pbs: Confirmed Details and What Comes Next
+- Slug: `pbs`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: ContextWire editorial graphic
+- Current image: assets/generated/contextwire-trending-editorial.png
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Chile vs Usa: What Readers Should Know Now
 - Slug: `chile-vs-usa`
@@ -1208,14 +1216,6 @@ Total issues: 152
 
 ## William Contreras: Key Facts and Background
 - Slug: `william-contreras`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Bts Oreos: Source-Checked Reader Guide
-- Slug: `bts-oreos`
 - Topic type: product
 - Issue: generic image for specific topic
 - Current credit: Unsplash
