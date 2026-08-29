@@ -1,5 +1,40 @@
 [
   {
+    "id": "bee86c35cfe4971d",
+    "slug": "draftkings",
+    "title": "Draftkings: Confirmed Details and What Comes Next",
+    "trend": "draftkings",
+    "category": "Trends",
+    "excerpt": "Draftkings is gaining attention in current trend data. Search interest is around 100+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Draftkings related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Draftkings"
+    ],
+    "quality": {
+      "wordCount": 563,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/draftkings.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-29T09:21:45.673Z",
+    "url": "https://contextwire.online/posts/draftkings.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "bc16df35b99e5361",
     "slug": "red-sox-vs-yankees",
     "title": "Red Sox vs Yankees: What Happened and Key Details",
@@ -5743,42 +5778,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-10T06:50:33.808Z",
     "url": "https://contextwire.online/posts/kyrie-irving.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "33c39df6d09aa2a4",
-    "slug": "divorce-lawyer",
-    "title": "Divorce Lawyer: Source-Checked Reader Guide",
-    "trend": "divorce lawyer",
-    "category": "News",
-    "excerpt": "Divorce Lawyer is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-civic-analysis.png",
-      "alt": "Divorce Lawyer related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "tags": [
-      "News",
-      "Divorce",
-      "Lawyer"
-    ],
-    "quality": {
-      "wordCount": 545,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/divorce-lawyer.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-09T15:43:45.977Z",
-    "url": "https://contextwire.online/posts/divorce-lawyer.html",
     "readingTime": "4 min"
   }
 ]
