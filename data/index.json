@@ -1,5 +1,41 @@
 [
   {
+    "id": "71d219277546a643",
+    "slug": "draftkings-fantasy",
+    "title": "Draftkings Fantasy: Source-Checked Reader Guide",
+    "trend": "draftkings fantasy",
+    "category": "Trends",
+    "excerpt": "Draftkings Fantasy is gaining attention in current trend data. Search interest is around 100+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Draftkings Fantasy related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Draftkings",
+      "Fantasy"
+    ],
+    "quality": {
+      "wordCount": 570,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/draftkings-fantasy.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-30T08:31:39.733Z",
+    "url": "https://contextwire.online/posts/draftkings-fantasy.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "0ce256231f2ce228",
     "slug": "disney",
     "title": "Disney+: Key Facts and Background",
@@ -5741,42 +5777,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-11T07:17:08.251Z",
     "url": "https://contextwire.online/posts/erie-insurance.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "2ec7dcf31893de56",
-    "slug": "hogwarts-legacy-2",
-    "title": "Hogwarts Legacy 2: Latest Public Details Explained",
-    "trend": "hogwarts legacy 2",
-    "category": "Trends",
-    "excerpt": "Hogwarts Legacy 2 is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-trending-editorial.png",
-      "alt": "Hogwarts Legacy 2 related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "tags": [
-      "Trends",
-      "Hogwarts",
-      "Legacy"
-    ],
-    "quality": {
-      "wordCount": 569,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/hogwarts-legacy-2.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-10T16:25:20.019Z",
-    "url": "https://contextwire.online/posts/hogwarts-legacy-2.html",
     "readingTime": "4 min"
   }
 ]
