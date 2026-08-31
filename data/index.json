@@ -1,5 +1,40 @@
 [
   {
+    "id": "5f51e63eb7de8e12",
+    "slug": "foxnews",
+    "title": "Foxnews: What Readers Should Know Now",
+    "trend": "foxnews",
+    "category": "Trends",
+    "excerpt": "Foxnews is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Foxnews related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Foxnews"
+    ],
+    "quality": {
+      "wordCount": 607,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/foxnews.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-08-31T19:13:57.910Z",
+    "url": "https://contextwire.online/posts/foxnews.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "0199bb82035175ea",
     "slug": "arrest",
     "title": "Arrest: Confirmed Details and What Comes Next",
@@ -5739,41 +5774,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-12T15:53:04.300Z",
     "url": "https://contextwire.online/posts/novorossiya.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "04fa5a4d48227a49",
-    "slug": "cryptocurrency",
-    "title": "Cryptocurrency: What Happened and Key Details",
-    "trend": "cryptocurrency",
-    "category": "Business",
-    "excerpt": "Cryptocurrency is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Cryptocurrency related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Business",
-      "Cryptocurrency"
-    ],
-    "quality": {
-      "wordCount": 563,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/cryptocurrency.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-12T07:07:16.855Z",
-    "url": "https://contextwire.online/posts/cryptocurrency.html",
     "readingTime": "4 min"
   }
 ]
