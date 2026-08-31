@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-08-30T16:56:53.990Z
+Generated: 2026-08-31T08:53:28.291Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 152
+Total issues: 153
+
+## Arrest: Confirmed Details and What Comes Next
+- Slug: `arrest`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: ContextWire editorial graphic
+- Current image: assets/generated/contextwire-trending-editorial.png
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Harry Maguire: What Happened and Key Details
 - Slug: `harry-maguire`
