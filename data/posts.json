@@ -1,5 +1,94 @@
 [
   {
+    "id": "b2b76047b399afd1",
+    "slug": "twilight",
+    "title": "Twilight: Source-Checked Reader Guide",
+    "trend": "twilight",
+    "category": "Trends",
+    "excerpt": "Twilight is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Twilight related editorial image",
+      "credit": "Unsplash"
+    },
+    "content": [
+      "What happened: Twilight is drawing fresh reader attention in the trends category. Google Trends reported search interest around 200+. The available source headlines point readers toward one practical task: understand the specific update, separate confirmed details from repetition, and decide whether the story affects schedules, money, public understanding, entertainment plans, sport results, or technology decisions.",
+      "Key details: The strongest details currently available from the source set are: Search interest was reported around 200+. UTSA Athletics reported: Roadrunners to open 2026 cross country season at Sam Musgrave UIW Twilight. California Lutheran University reported: Aegean Twilight: The Bronze Age Collapse and the Echoes of Homer. CNN reported: Messi and Djokovic face the twilight of their illustrious careers. A linked source reported: NAPOLITANO: Twilight's last gleaming - Standard-Examiner. SYFY reported: Twilight Zone Writer Wanted Rod Serling to Star in This Classic Episode. These points are intentionally limited to what the source headlines and trend data support. If a detail is not visible in the source set, this article does not treat it as confirmed.",
+      "Background: The source context for Twilight includes UTSA Athletics: Roadrunners to open 2026 cross country season at Sam Musgrave UIW Twilight; California Lutheran University: Aegean Twilight: The Bronze Age Collapse and the Echoes of Homer; CNN: Messi and Djokovic face the twilight of their illustrious careers; Linked source: NAPOLITANO: Twilight's last gleaming - Standard-Examiner; SYFY: Twilight Zone Writer Wanted Rod Serling to Star in This Classic Episode. That mix is useful because it shows which parts of the topic are being repeated publicly and which parts may still need a primary source, official page, direct statement, fixture page, filing, venue notice, product note, or updated report before readers rely on it.",
+      "Why it matters: Readers usually search for a topic like Twilight because they need a usable answer, not a pile of repeated headlines. For trends coverage, that means the article should clarify the latest public signal, identify the responsible organizations or people when the sources name them, and avoid stretching a thin source set into false certainty.",
+      "What's confirmed: The confirmed material is the public trend signal and the linked source headlines shown below. For Twilight, prioritize recent updates and named public records over repeated summaries. When the source set contains dates, names, scores, prices, venues, companies, or official organizations, those details should be checked against the newest linked source before a reader acts on them.",
+      "Reader takeaway: The useful reading is narrow and practical. Start with the newest source, compare whether other sources repeat the same fact independently, and give extra weight to official pages or named organizations. If the topic affects money, tickets, health, legal risk, travel, public reputation, product decisions, or sports results, wait for stronger confirmation before acting.",
+      "What to watch: The next useful update will be a clearer source with direct evidence, a correction, an official statement, a schedule or price page, a box score, a filing, a status page, or a new report that confirms the key detail independently. If later sources add concrete facts, this page should be updated rather than padded with speculation.",
+      "Bottom line: Twilight is worth reading about because the topic is visible and readers are looking for a clear answer. The safest takeaway is to use the source links, focus on confirmed details, and avoid treating repeated headlines as stronger evidence than they really are."
+    ],
+    "sources": [
+      {
+        "title": "Roadrunners to open 2026 cross country season at Sam Musgrave UIW Twilight",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZU9NSGtnS0VwbGdmUFZ6SDRaaDhFRmh0Q05iejFGdGs5UVRYV1FmSVc4aVV0MjVDOUNQbUtGT0U0STNaQ2pSS19PaUFmSXp4R08xVi10eFpEZUhpN2dRVVppZ2pkUmhRMEFjSE9idGxNeHg5aDA4dlVETUdxU1QxV1dtcWtWQzRTZ1V1WTI2LWFNOGw1N21XS2owOVlRdlZlbjBYeGNvWHlhUkVPUmc?oc=5",
+        "publishedAt": "Mon, 31 Aug 2026 22:22:14 GMT"
+      },
+      {
+        "title": "Aegean Twilight: The Bronze Age Collapse and the Echoes of Homer",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1wSVMyMVllYloyWEhJZTRjZFh1c05paW1JdHVkRWY2b2dMdmwycm04TU90YXB3SUc2UWJtN2VCaS00VDlTT1FVZy1TOENyeElXaFNJUlE1TnpZTFE?oc=5",
+        "publishedAt": "Tue, 01 Sep 2026 01:43:20 GMT"
+      },
+      {
+        "title": "Messi and Djokovic face the twilight of their illustrious careers",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZnNnUVZwbER6amhRb2c4bnEwTXpOUWpkSjNrZ3k0eEdXN21vUVd4Njh4NUFMel9YY25zeXNuTTVPaWRVb1RlMWZjcTk4djA0RlZEZFVxY1N3bkJrc0pNVUlacFREQjJVMEtCdTRsQW5QV1dEN2ktNHFjVjBZYmRhRzJFUDBTNUs5RXNCbmtiUEttaGdQRDdwRTZyYzNTQ1VjNHBiWXc4bG9KSFhFWXByTURFUHo?oc=5",
+        "publishedAt": "Mon, 31 Aug 2026 22:35:45 GMT"
+      },
+      {
+        "title": "NAPOLITANO: Twilight's last gleaming - Standard-Examiner",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTHpjQXhMdWtubl9GamxaREdUNnB3a1BDeU5PY0NWRUdLbk9VOHBQNXhRdDljQ2sxT1ExcWNJVjVidjB6ZktDNVA5OGF3WVhvempXb0ZGSVg0R2tZdGdLbFcxUmh4N3owY3RVYTI3TXpsQTlRN0RfeHFNaS1fMDZrLVc5U1ZvaS1VWW9YXzU3MF9jcWZ4S3hfdE1XWmVfOVVhcGc?oc=5",
+        "publishedAt": "Mon, 31 Aug 2026 21:36:09 GMT"
+      },
+      {
+        "title": "Twilight Zone Writer Wanted Rod Serling to Star in This Classic Episode",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSHNJbm5TMnphVU5yQnlJUEw2WUtZdjgzSExpX0M5cXFTOG96M0IwWXJtb2d0M1ZrNWNGQ0lDd29rREtYM3dKM215OF9kc0xPRUpRWVppNnpxa1c4ZTE3UzdZeDBMak1MTVI1RmVfVUc5RDk0ckotckZfb01RYkk0cHhMM0k5Ym9vRWRkY3VRSV9mT2J0bDF2THlncGlHTHhPNnJqaTZGY0huX0pNMlM1QnRYRUR4SDVfRWc?oc=5",
+        "publishedAt": "Mon, 31 Aug 2026 18:01:16 GMT"
+      }
+    ],
+    "author": {
+      "name": "ContextWire Editorial Desk",
+      "title": "Source-checking desk",
+      "url": "https://contextwire.online/author/contextwire-editorial-desk.html",
+      "bio": "The ContextWire Editorial Desk prepares source-checked briefings with emphasis on clear facts, cautious language, and reader-useful context."
+    },
+    "updatedAt": "2026-09-01T07:58:07.147Z",
+    "keyFacts": [
+      "Search interest was reported around 200+.",
+      "UTSA Athletics reported: Roadrunners to open 2026 cross country season at Sam Musgrave UIW Twilight.",
+      "California Lutheran University reported: Aegean Twilight: The Bronze Age Collapse and the Echoes of Homer.",
+      "CNN reported: Messi and Djokovic face the twilight of their illustrious careers.",
+      "A linked source reported: NAPOLITANO: Twilight's last gleaming - Standard-Examiner.",
+      "SYFY reported: Twilight Zone Writer Wanted Rod Serling to Star in This Classic Episode."
+    ],
+    "publishedAt": "2026-09-01T07:58:07.147Z",
+    "productionMethod": "editorial-workflow",
+    "tags": [
+      "Trends",
+      "Twilight"
+    ],
+    "ogImage": "assets/og/twilight.svg",
+    "quality": {
+      "wordCount": 558,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "humanReview": {
+      "status": "editorial-review-required",
+      "note": "ContextWire briefing prepared with visible source notes, reader-focused sections, and verification prompts. Final factual approval should be completed before promotion or monetization review."
+    }
+  },
+  {
     "id": "5f51e63eb7de8e12",
     "slug": "foxnews",
     "title": "Foxnews: What Readers Should Know Now",
@@ -14196,95 +14285,6 @@
     "ogImage": "assets/og/judge-angel-kelley-park-ruling.svg",
     "quality": {
       "wordCount": 591,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "humanReview": {
-      "status": "editorial-review-required",
-      "note": "ContextWire briefing prepared with visible source notes, reader-focused sections, and verification prompts. Final factual approval should be completed before promotion or monetization review."
-    }
-  },
-  {
-    "id": "32d5473ec79a6302",
-    "slug": "novorossiya",
-    "title": "Novorossiya: Key Facts and Background",
-    "trend": "novorossiya",
-    "category": "Trends",
-    "excerpt": "Novorossiya is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Novorossiya related editorial image",
-      "credit": "Unsplash"
-    },
-    "content": [
-      "What happened: Novorossiya is drawing fresh reader attention in the trends category. Google Trends reported search interest around 1000+. The available source headlines point readers toward one practical task: understand the specific update, separate confirmed details from repetition, and decide whether the story affects schedules, money, public understanding, entertainment plans, sport results, or technology decisions.",
-      "Key details: The strongest details currently available from the source set are: Search interest was reported around 1000+. NBC News reported: Putin's road to ruin: Ukraine hits key Russian supply line with new drone campaign. The Guardian reported: 'Highway of death': the Ukrainian drone campaign menacing Russian logistics. Euronews.com reported: Ukraine's drone strikes are methodically cutting Crimea off from Russia. MSN reported: Ukraine's drone chief vows to cut Crimea off from Russia. Workers' Liberty reported: Mozgovoy, the \"Ghost\" Brigade, and Donbas. These points are intentionally limited to what the source headlines and trend data support. If a detail is not visible in the source set, this article does not treat it as confirmed.",
-      "Background: The source context for Novorossiya includes NBC News: Putin's road to ruin: Ukraine hits key Russian supply line with new drone campaign; The Guardian: 'Highway of death': the Ukrainian drone campaign menacing Russian logistics; Euronews.com: Ukraine's drone strikes are methodically cutting Crimea off from Russia; MSN: Ukraine's drone chief vows to cut Crimea off from Russia; Workers' Liberty: Mozgovoy, the \"Ghost\" Brigade, and Donbas. That mix is useful because it shows which parts of the topic are being repeated publicly and which parts may still need a primary source, official page, direct statement, fixture page, filing, venue notice, product note, or updated report before readers rely on it.",
-      "Why it matters: Readers usually search for a topic like Novorossiya because they need a usable answer, not a pile of repeated headlines. For trends coverage, that means the article should clarify the latest public signal, identify the responsible organizations or people when the sources name them, and avoid stretching a thin source set into false certainty.",
-      "What's confirmed: The confirmed material is the public trend signal and the linked source headlines shown below. For Novorossiya, prioritize recent updates and named public records over repeated summaries. When the source set contains dates, names, scores, prices, venues, companies, or official organizations, those details should be checked against the newest linked source before a reader acts on them.",
-      "Reader takeaway: The useful reading is narrow and practical. Start with the newest source, compare whether other sources repeat the same fact independently, and give extra weight to official pages or named organizations. If the topic affects money, tickets, health, legal risk, travel, public reputation, product decisions, or sports results, wait for stronger confirmation before acting.",
-      "What to watch: The next useful update will be a clearer source with direct evidence, a correction, an official statement, a schedule or price page, a box score, a filing, a status page, or a new report that confirms the key detail independently. If later sources add concrete facts, this page should be updated rather than padded with speculation.",
-      "Bottom line: Novorossiya is worth reading about because the topic is visible and readers are looking for a clear answer. The safest takeaway is to use the source links, focus on confirmed details, and avoid treating repeated headlines as stronger evidence than they really are."
-    ],
-    "sources": [
-      {
-        "title": "Putin's road to ruin: Ukraine hits key Russian supply line with new drone campaign",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQVBMckpQNmJHamNVcDN2YXRHNi1VN3hMd05mOGxiQXRPcS1BOVlrLV9VVl9IRWVTa3pibkZkR000VDhGVGMwNENsS2lUNDR3SkFtS0FiWm9BS1g5eGIzeTZRdVg1b0RmRXp3eXNXSnE1djl3TElIRmJlWjN6VDVUMmdPYUM1cDJobjNwb0R1UHJRRXZ2UkdTRWp1Q0dDSXpKQnBiLW42dzY?oc=5",
-        "publishedAt": "Fri, 12 Jun 2026 09:00:27 GMT"
-      },
-      {
-        "title": "'Highway of death': the Ukrainian drone campaign menacing Russian logistics",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcklWcjl1cmRIWklnV0dXYzBLV1pRSl9ZWW1iWEhjWVJJSEEzdXcySTJoMWs2WVpORXZ5WHVacEZVLTFMRENRanllSHdKaVplblltRGZDR1hnUUwyWUFOdHJ3cm1nZlpkbnlTU3huaGpEYUxiV2VUdHBmYWMwM1J2UFFRRHFuTXZOWG5INmotNnN4R1hNb0lrOVRCYXd6VERyb0VuT1JBd09IOUxCdFF3YTBrYmJPMk9FUFE?oc=5",
-        "publishedAt": "Thu, 11 Jun 2026 18:02:00 GMT"
-      },
-      {
-        "title": "Ukraine's drone strikes are methodically cutting Crimea off from Russia",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUElPT0dUZ09Fa19KbGpKLUdKX2ZiaUFhMUg3b1AwdUY5MFRVcEc5OWdTdFZIVmU2WTdCRWpfcGVrdnptVHhDd3JOUnhtaTZfdzJRVUJGTzdfUktWZUtKTGxQLXgzSGlaMWZuajVnVFpZbkY3TEFGSXltN2x0TXpFZFE4SUlDdEtCeDRpUllDMjl1RWUwd2FNeHhfcy1Id2htRkN0b2hpREZKM1U5b2c5TmxGTXp1bkU?oc=5",
-        "publishedAt": "Fri, 12 Jun 2026 10:49:00 GMT"
-      },
-      {
-        "title": "Ukraine's drone chief vows to cut Crimea off from Russia",
-        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPR3FPTEllbDhBNzlTSG1pTGp4S2ZLdXg2Zk83ak44R0dkZW1vaFVOX29RQzRXRjJSekc0ckF4TUJ6SkpOanJIZXI2dTNwbGRFdFFTNERWcVVmZ3JJT3otR21mU1JPWlQtNDFfVUlLRWI3Tm9GY3dNYU5SNi1CenNNaTRhMnlidUFoZlNwLXZPOTJmcHFpMTByRm0tdnFLYUUtVnBHUHREeXhnWS1jVVl6MVJrM003cHZoWEd5SlVFYzJtN1Q2aDBNczhkRDZ4T2IxYUNOTnN2WTlBQXYzSC1OSEZWVXpNZTdBWS1QRG1NQQ?oc=5",
-        "publishedAt": "Fri, 12 Jun 2026 05:18:02 GMT"
-      },
-      {
-        "title": "Mozgovoy, the \"Ghost\" Brigade, and Donbas",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUDRQR0F0dF9KWFBYY1ZjRHJhUWRoRHNyR2ZCNFU3X3ZsQmpvV0lMeEwtcGZGN0gwZ1kyVVhIdjVQRVY1Z0VpNHg3VzdRYlc2MDhzLW1ySkxUbTNCN3M3dEdadThvR2lxeDdHSmNWTXdYNVZpTFlzNER4eUk4U2xhbG5wQVMycmwy?oc=5",
-        "publishedAt": "Fri, 12 Jun 2026 10:06:40 GMT"
-      }
-    ],
-    "author": {
-      "name": "ContextWire Editorial Desk",
-      "title": "Source-checking desk",
-      "url": "https://contextwire.online/author/contextwire-editorial-desk.html",
-      "bio": "The ContextWire Editorial Desk prepares source-checked briefings with emphasis on clear facts, cautious language, and reader-useful context."
-    },
-    "updatedAt": "2026-06-12T15:53:04.300Z",
-    "keyFacts": [
-      "Search interest was reported around 1000+.",
-      "NBC News reported: Putin's road to ruin: Ukraine hits key Russian supply line with new drone campaign.",
-      "The Guardian reported: 'Highway of death': the Ukrainian drone campaign menacing Russian logistics.",
-      "Euronews.com reported: Ukraine's drone strikes are methodically cutting Crimea off from Russia.",
-      "MSN reported: Ukraine's drone chief vows to cut Crimea off from Russia.",
-      "Workers' Liberty reported: Mozgovoy, the \"Ghost\" Brigade, and Donbas."
-    ],
-    "publishedAt": "2026-06-12T15:53:04.300Z",
-    "productionMethod": "editorial-workflow",
-    "tags": [
-      "Trends",
-      "Novorossiya"
-    ],
-    "ogImage": "assets/og/novorossiya.svg",
-    "quality": {
-      "wordCount": 553,
       "score": 96,
       "sections": [
         "What happened:",
