@@ -1,6 +1,6 @@
 # ContextWire image audit report
 
-Generated: 2026-09-01T07:58:08.395Z
+Generated: 2026-09-01T16:53:55.221Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
