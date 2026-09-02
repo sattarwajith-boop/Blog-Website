@@ -1,5 +1,41 @@
 [
   {
+    "id": "79b03aaa32b9fc5c",
+    "slug": "apple-iphone-18-pro-max",
+    "title": "Apple Iphone 18 Pro Max: Source-Checked Reader Guide",
+    "trend": "apple iphone 18 pro max",
+    "category": "Technology",
+    "excerpt": "A focused briefing on Apple Iphone 18 Pro Max: what the headlines reveal, where the story stands, and what comes next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Apple Iphone 18 Pro Max related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Technology",
+      "Apple",
+      "Iphone"
+    ],
+    "quality": {
+      "wordCount": 624,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/apple-iphone-18-pro-max.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-02T07:18:35.847Z",
+    "url": "https://contextwire.online/posts/apple-iphone-18-pro-max.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "2a3d83b870e1f853",
     "slug": "sunday-in-the-park-with-george",
     "title": "Sunday in the Park With George: What Readers Should Know Now",
@@ -5738,41 +5774,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-14T07:08:53.642Z",
     "url": "https://contextwire.online/posts/maribel-guardia.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "6965b199062036b7",
-    "slug": "lluvia",
-    "title": "Lluvia: Confirmed Details and What Comes Next",
-    "trend": "lluvia",
-    "category": "Trends",
-    "excerpt": "Lluvia is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Lluvia related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Lluvia"
-    ],
-    "quality": {
-      "wordCount": 571,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/lluvia.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-13T14:52:49.541Z",
-    "url": "https://contextwire.online/posts/lluvia.html",
     "readingTime": "4 min"
   }
 ]
