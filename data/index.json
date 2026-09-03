@@ -1,5 +1,41 @@
 [
   {
+    "id": "b7cda213f8daa226",
+    "slug": "princess-charlotte",
+    "title": "Princess Charlotte: Source-Checked Reader Guide",
+    "trend": "princess charlotte",
+    "category": "Trends",
+    "excerpt": "Princess Charlotte is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Princess Charlotte related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Princess",
+      "Charlotte"
+    ],
+    "quality": {
+      "wordCount": 622,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/princess-charlotte.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-03T16:40:11.628Z",
+    "url": "https://contextwire.online/posts/princess-charlotte.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "3271c8e03817bf58",
     "slug": "nfl-schedule-this-week",
     "title": "NFL Schedule This Week: Confirmed Details and What Comes Next",
@@ -5737,42 +5773,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-15T17:34:06.602Z",
     "url": "https://contextwire.online/posts/joe-alwyn.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "74182c97fbc55fa1",
-    "slug": "mormon-church",
-    "title": "Mormon Church: Source-Checked Reader Guide",
-    "trend": "mormon church",
-    "category": "Trends",
-    "excerpt": "Mormon Church is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Mormon Church related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Mormon",
-      "Church"
-    ],
-    "quality": {
-      "wordCount": 594,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/mormon-church.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-15T08:39:50.081Z",
-    "url": "https://contextwire.online/posts/mormon-church.html",
     "readingTime": "4 min"
   }
 ]
