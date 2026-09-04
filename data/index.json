@@ -1,5 +1,42 @@
 [
   {
+    "id": "7566045d4a722461",
+    "slug": "stock-market-today",
+    "title": "Stock Market Today: Source-Checked Reader Guide",
+    "trend": "stock market today",
+    "category": "Business",
+    "excerpt": "Stock Market Today is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Stock Market Today related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Business",
+      "Stock",
+      "Market",
+      "Today"
+    ],
+    "quality": {
+      "wordCount": 599,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/stock-market-today.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-04T07:24:08.228Z",
+    "url": "https://contextwire.online/posts/stock-market-today.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "b7cda213f8daa226",
     "slug": "princess-charlotte",
     "title": "Princess Charlotte: Source-Checked Reader Guide",
@@ -5738,41 +5775,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-16T08:33:20.709Z",
     "url": "https://contextwire.online/posts/june-16.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "6b52bce9fe2dd5bc",
-    "slug": "joe-alwyn",
-    "title": "Joe Alwyn: What Readers Should Know Now",
-    "trend": "joe alwyn",
-    "category": "Trends",
-    "excerpt": "Joe Alwyn is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-trending-editorial.png",
-      "alt": "Joe Alwyn related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "tags": [
-      "Trends",
-      "Alwyn"
-    ],
-    "quality": {
-      "wordCount": 600,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/joe-alwyn.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-15T17:34:06.602Z",
-    "url": "https://contextwire.online/posts/joe-alwyn.html",
     "readingTime": "4 min"
   }
 ]
