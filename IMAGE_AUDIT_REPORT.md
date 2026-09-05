@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-09-05T07:06:03.379Z
+Generated: 2026-09-05T15:31:31.913Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 153
+
+## Coastal Carolina vs West Virginia: What Happened and Key Details
+- Slug: `coastal-carolina-vs-west-virginia`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Nursulton Ruziboev: What Happened and Key Details
 - Slug: `nursulton-ruziboev`
@@ -1216,14 +1224,6 @@ Total issues: 153
 
 ## Aryna Sabalenka: Confirmed Details and What Comes Next
 - Slug: `aryna-sabalenka`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: ContextWire editorial graphic
-- Current image: assets/generated/contextwire-trending-editorial.png
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Kai Cenat: What Readers Should Know Now
-- Slug: `kai-cenat`
 - Topic type: product
 - Issue: generic image for specific topic
 - Current credit: ContextWire editorial graphic
