@@ -1,5 +1,41 @@
 [
   {
+    "id": "e1e8c33d60230c40",
+    "slug": "morgan-rogers",
+    "title": "Morgan Rogers: Key Facts and Background",
+    "trend": "morgan rogers",
+    "category": "Trends",
+    "excerpt": "Morgan Rogers is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Morgan Rogers related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Morgan",
+      "Rogers"
+    ],
+    "quality": {
+      "wordCount": 610,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/morgan-rogers.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-06T15:44:39.427Z",
+    "url": "https://contextwire.online/posts/morgan-rogers.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "6aba6deaaad48963",
     "slug": "nevaeh-akira",
     "title": "Nevaeh Akira: What Happened and Key Details",
@@ -5743,42 +5779,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-18T16:05:00.849Z",
     "url": "https://contextwire.online/posts/monica-mcnutt.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "305ed4435c37767a",
-    "slug": "is-claude-down",
-    "title": "Is Claude Down: Source-Checked Reader Guide",
-    "trend": "is claude down",
-    "category": "Trends",
-    "excerpt": "Is Claude Down is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Is Claude Down related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Claude",
-      "Down"
-    ],
-    "quality": {
-      "wordCount": 593,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/is-claude-down.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-18T07:18:21.135Z",
-    "url": "https://contextwire.online/posts/is-claude-down.html",
     "readingTime": "4 min"
   }
 ]
