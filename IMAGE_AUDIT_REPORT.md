@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-09-08T07:24:48.776Z
+Generated: 2026-09-08T16:50:08.369Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 153
+
+## Club Brugge: Key Facts and Background
+- Slug: `club-brugge`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Navier Stokes: Source-Checked Reader Guide
 - Slug: `navier-stokes`
@@ -1220,12 +1228,4 @@ Total issues: 153
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Copa Mundial De Fútbol: Latest Public Details Explained
-- Slug: `copa-mundial-de-f-tbol`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: ContextWire editorial graphic
-- Current image: assets/generated/contextwire-trending-editorial.png
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.

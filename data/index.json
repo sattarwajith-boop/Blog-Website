@@ -1,5 +1,41 @@
 [
   {
+    "id": "3988afefc26eee51",
+    "slug": "club-brugge",
+    "title": "Club Brugge: Key Facts and Background",
+    "trend": "club brugge",
+    "category": "Trends",
+    "excerpt": "Club Brugge is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Club Brugge related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Club",
+      "Brugge"
+    ],
+    "quality": {
+      "wordCount": 606,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/club-brugge.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-08T16:50:06.930Z",
+    "url": "https://contextwire.online/posts/club-brugge.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "4472b9b2a9aa931e",
     "slug": "navier-stokes",
     "title": "Navier Stokes: Source-Checked Reader Guide",
@@ -5742,43 +5778,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-20T14:55:19.690Z",
     "url": "https://contextwire.online/posts/frigibax-community-day.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "14425ec6a75c6b37",
-    "slug": "copa-mundial-de-f-tbol",
-    "title": "Copa Mundial De Fútbol: Latest Public Details Explained",
-    "trend": "copa mundial de fútbol",
-    "category": "Trends",
-    "excerpt": "Copa Mundial De Fútbol is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-trending-editorial.png",
-      "alt": "Copa Mundial De Fútbol related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "tags": [
-      "Trends",
-      "Copa",
-      "Mundial",
-      "Fútbol"
-    ],
-    "quality": {
-      "wordCount": 602,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/copa-mundial-de-f-tbol.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-20T06:47:39.496Z",
-    "url": "https://contextwire.online/posts/copa-mundial-de-f-tbol.html",
     "readingTime": "4 min"
   }
 ]
