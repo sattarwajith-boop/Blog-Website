@@ -1,5 +1,41 @@
 [
   {
+    "id": "4472b9b2a9aa931e",
+    "slug": "navier-stokes",
+    "title": "Navier Stokes: Source-Checked Reader Guide",
+    "trend": "navier stokes",
+    "category": "Trends",
+    "excerpt": "Navier Stokes is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Navier Stokes related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Navier",
+      "Stokes"
+    ],
+    "quality": {
+      "wordCount": 580,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/navier-stokes.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-08T07:24:47.415Z",
+    "url": "https://contextwire.online/posts/navier-stokes.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "f65382e13381ffe8",
     "slug": "al-hilal-vs-neom",
     "title": "Al-hilal vs Neom: What Happened and Key Details",
@@ -5743,42 +5779,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-20T06:47:39.496Z",
     "url": "https://contextwire.online/posts/copa-mundial-de-f-tbol.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "182b0f6ae569a816",
-    "slug": "michael-pennel-jr",
-    "title": "Michael Pennel Jr: What Readers Should Know Now",
-    "trend": "michael pennel jr",
-    "category": "Trends",
-    "excerpt": "Michael Pennel Jr is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Michael Pennel Jr related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Michael",
-      "Pennel"
-    ],
-    "quality": {
-      "wordCount": 625,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/michael-pennel-jr.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-19T15:52:35.303Z",
-    "url": "https://contextwire.online/posts/michael-pennel-jr.html",
     "readingTime": "4 min"
   }
 ]

@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-09-07T17:53:55.956Z
+Generated: 2026-09-08T07:24:48.776Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 153
+
+## Navier Stokes: Source-Checked Reader Guide
+- Slug: `navier-stokes`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Al-hilal vs Neom: What Happened and Key Details
 - Slug: `al-hilal-vs-neom`
@@ -1220,12 +1228,4 @@ Total issues: 153
 - Issue: generic image for specific topic
 - Current credit: ContextWire editorial graphic
 - Current image: assets/generated/contextwire-trending-editorial.png
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Michael Pennel Jr: What Readers Should Know Now
-- Slug: `michael-pennel-jr`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
