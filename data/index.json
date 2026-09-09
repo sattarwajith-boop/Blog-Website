@@ -1,5 +1,40 @@
 [
   {
+    "id": "3446e2f014833a8f",
+    "slug": "lottery",
+    "title": "Lottery: Key Facts and Background",
+    "trend": "lottery",
+    "category": "Trends",
+    "excerpt": "Lottery is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Lottery related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Lottery"
+    ],
+    "quality": {
+      "wordCount": 594,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/lottery.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-09T07:33:18.679Z",
+    "url": "https://contextwire.online/posts/lottery.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "3988afefc26eee51",
     "slug": "club-brugge",
     "title": "Club Brugge: Key Facts and Background",
@@ -5742,42 +5777,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-21T07:18:59.819Z",
     "url": "https://contextwire.online/posts/netflix-voicemails-for-isabelle.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "8e2ab6c2d21d4490",
-    "slug": "frigibax-community-day",
-    "title": "Frigibax Community Day: What Happened and Key Details",
-    "trend": "frigibax community day",
-    "category": "Trends",
-    "excerpt": "Frigibax Community Day is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Frigibax Community Day related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Frigibax",
-      "Community"
-    ],
-    "quality": {
-      "wordCount": 555,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/frigibax-community-day.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-20T14:55:19.690Z",
-    "url": "https://contextwire.online/posts/frigibax-community-day.html",
     "readingTime": "4 min"
   }
 ]
