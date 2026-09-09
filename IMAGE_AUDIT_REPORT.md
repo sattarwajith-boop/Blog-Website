@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-09-09T07:33:24.687Z
+Generated: 2026-09-09T16:53:05.582Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 153
+
+## Barcelona vs: Key Facts and Background
+- Slug: `barcelona-vs`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Lottery: Key Facts and Background
 - Slug: `lottery`
@@ -1221,11 +1229,3 @@ Total issues: 153
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use official league/team/event image, licensed photo, scoreboard/schedule screenshot, or original editorial graphic.
-
-## Netflix Voicemails for Isabelle: Confirmed Details and What Comes Next
-- Slug: `netflix-voicemails-for-isabelle`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
