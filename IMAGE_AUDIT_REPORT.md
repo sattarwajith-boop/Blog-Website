@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-09-09T16:53:05.582Z
+Generated: 2026-09-10T07:29:45.669Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 153
+
+## Deepseek V4.1 Flash: Latest Public Details Explained
+- Slug: `deepseek-v4-1-flash`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Barcelona vs: Key Facts and Background
 - Slug: `barcelona-vs`
@@ -1221,11 +1229,3 @@ Total issues: 153
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## When Is the NBA Draft: What Readers Should Know Now
-- Slug: `when-is-the-nba-draft`
-- Topic type: sports-event
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1546519638-68e109498ffc?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use official league/team/event image, licensed photo, scoreboard/schedule screenshot, or original editorial graphic.

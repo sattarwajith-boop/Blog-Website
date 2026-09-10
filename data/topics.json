@@ -1,5 +1,10 @@
 [
   {
+    "key": "deepseek-v4-1-flash",
+    "title": "deepseek v4.1 flash",
+    "usedAt": "2026-09-10T07:29:44.133Z"
+  },
+  {
     "key": "barcelona-vs",
     "title": "barcelona vs",
     "usedAt": "2026-09-09T16:53:04.423Z"
@@ -1592,11 +1597,6 @@
   {
     "key": "the-sheep-detectives",
     "title": "the sheep detectives",
-    "usedAt": "2026-05-02T13:16:52.129Z"
-  },
-  {
-    "key": "socialism",
-    "title": "socialism",
     "usedAt": "2026-05-02T13:16:52.129Z"
   }
 ]
