@@ -1,5 +1,42 @@
 [
   {
+    "id": "dabaad0bcfcc7dbc",
+    "slug": "fire-weather-watch",
+    "title": "Fire Weather Watch: Confirmed Details and What Comes Next",
+    "trend": "fire weather watch",
+    "category": "Trends",
+    "excerpt": "Fire Weather Watch is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Fire Weather Watch related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Fire",
+      "Weather",
+      "Watch"
+    ],
+    "quality": {
+      "wordCount": 573,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/fire-weather-watch.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-11T07:27:39.207Z",
+    "url": "https://contextwire.online/posts/fire-weather-watch.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "36db3abc3efa26f7",
     "slug": "jj-mccarthy-nfl-trade-rumors",
     "title": "Jj Mccarthy NFL Trade Rumors: Latest Public Details Explained",
@@ -5743,41 +5780,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-23T06:33:50.656Z",
     "url": "https://contextwire.online/posts/housing-affordability-bill-senate.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "5f28489f2ffeb9dc",
-    "slug": "foxone",
-    "title": "Foxone: Confirmed Details and What Comes Next",
-    "trend": "foxone",
-    "category": "Trends",
-    "excerpt": "Foxone is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Foxone related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Foxone"
-    ],
-    "quality": {
-      "wordCount": 609,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/foxone.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-22T17:17:44.676Z",
-    "url": "https://contextwire.online/posts/foxone.html",
     "readingTime": "4 min"
   }
 ]
