@@ -1,5 +1,41 @@
 [
   {
+    "id": "e3f3f5217e584176",
+    "slug": "robin-montgomery",
+    "title": "Robin Montgomery: Source-Checked Reader Guide",
+    "trend": "robin montgomery",
+    "category": "Trends",
+    "excerpt": "Robin Montgomery is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Robin Montgomery related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Robin",
+      "Montgomery"
+    ],
+    "quality": {
+      "wordCount": 582,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/robin-montgomery.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-11T16:44:55.534Z",
+    "url": "https://contextwire.online/posts/robin-montgomery.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "dabaad0bcfcc7dbc",
     "slug": "fire-weather-watch",
     "title": "Fire Weather Watch: Confirmed Details and What Comes Next",
@@ -5742,44 +5778,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-23T15:38:18.205Z",
     "url": "https://contextwire.online/posts/david-trone-april-mcclain-delaney.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "3be3a450a3a41564",
-    "slug": "housing-affordability-bill-senate",
-    "title": "Housing Affordability Bill Senate: What Readers Should Know Now",
-    "trend": "housing affordability bill senate",
-    "category": "Business",
-    "excerpt": "Housing Affordability Bill Senate is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Housing Affordability Bill Senate related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Business",
-      "Housing",
-      "Affordability",
-      "Bill",
-      "Senate"
-    ],
-    "quality": {
-      "wordCount": 561,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/housing-affordability-bill-senate.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-23T06:33:50.656Z",
-    "url": "https://contextwire.online/posts/housing-affordability-bill-senate.html",
     "readingTime": "4 min"
   }
 ]
