@@ -1,5 +1,44 @@
 [
   {
+    "id": "5a377733937f6f19",
+    "slug": "sony-digital-game-ownership-lawsuit",
+    "title": "Sony Digital Game Ownership Lawsuit: Source-Checked Reader Guide",
+    "trend": "sony digital game ownership lawsuit",
+    "category": "Sports",
+    "excerpt": "A focused briefing on Sony Digital Game Ownership Lawsuit: what the headlines reveal, where the story stands, and what comes next.",
+    "image": {
+      "url": "assets/generated/contextwire-sports-arena.png",
+      "alt": "Sony Digital Game Ownership Lawsuit related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Sports",
+      "Sony",
+      "Digital",
+      "Game",
+      "Ownership",
+      "Lawsuit"
+    ],
+    "quality": {
+      "wordCount": 678,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/sony-digital-game-ownership-lawsuit.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-12T15:48:43.314Z",
+    "url": "https://contextwire.online/posts/sony-digital-game-ownership-lawsuit.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "cb2612d96137c165",
     "slug": "income",
     "title": "Income: What Happened and Key Details",
@@ -5739,41 +5778,5 @@
     "publishedAt": "2026-06-24T15:22:27.168Z",
     "url": "https://contextwire.online/posts/earthquake.html",
     "readingTime": "3 min"
-  },
-  {
-    "id": "a3b89cfeab06f5f4",
-    "slug": "jodie-foster",
-    "title": "Jodie Foster: Confirmed Details and What Comes Next",
-    "trend": "jodie foster",
-    "category": "Trends",
-    "excerpt": "Jodie Foster is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Jodie Foster related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Jodie",
-      "Foster"
-    ],
-    "quality": {
-      "wordCount": 612,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/jodie-foster.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-24T06:30:32.737Z",
-    "url": "https://contextwire.online/posts/jodie-foster.html",
-    "readingTime": "4 min"
   }
 ]
