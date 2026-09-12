@@ -1,5 +1,40 @@
 [
   {
+    "id": "cb2612d96137c165",
+    "slug": "income",
+    "title": "Income: What Happened and Key Details",
+    "trend": "income",
+    "category": "Trends",
+    "excerpt": "Income is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Income related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Income"
+    ],
+    "quality": {
+      "wordCount": 559,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/income.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-12T07:20:03.309Z",
+    "url": "https://contextwire.online/posts/income.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "e3f3f5217e584176",
     "slug": "robin-montgomery",
     "title": "Robin Montgomery: Source-Checked Reader Guide",
@@ -5739,45 +5774,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-24T06:30:32.737Z",
     "url": "https://contextwire.online/posts/jodie-foster.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "47f0abdf2a0adc17",
-    "slug": "david-trone-april-mcclain-delaney",
-    "title": "David Trone April Mcclain Delaney: Confirmed Details and What Comes Next",
-    "trend": "david trone april mcclain delaney",
-    "category": "Trends",
-    "excerpt": "David Trone April Mcclain Delaney is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-trending-editorial.png",
-      "alt": "David Trone April Mcclain Delaney related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "tags": [
-      "Trends",
-      "David",
-      "Trone",
-      "April",
-      "Mcclain",
-      "Delaney"
-    ],
-    "quality": {
-      "wordCount": 613,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/david-trone-april-mcclain-delaney.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-23T15:38:18.205Z",
-    "url": "https://contextwire.online/posts/david-trone-april-mcclain-delaney.html",
     "readingTime": "4 min"
   }
 ]
