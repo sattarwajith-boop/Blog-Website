@@ -1,5 +1,41 @@
 [
   {
+    "id": "a01b29e3601e63c8",
+    "slug": "lamine-yamal",
+    "title": "Lamine Yamal: What Happened and Key Details",
+    "trend": "lamine yamal",
+    "category": "Trends",
+    "excerpt": "Lamine Yamal is gaining attention in current trend data. Search interest is around 20000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Lamine Yamal related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Lamine",
+      "Yamal"
+    ],
+    "quality": {
+      "wordCount": 540,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/lamine-yamal.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-13T16:36:27.704Z",
+    "url": "https://contextwire.online/posts/lamine-yamal.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "2df447d6bcf19b95",
     "slug": "steam-frame",
     "title": "Steam Frame: Key Facts and Background",
@@ -5739,42 +5775,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-25T15:32:09.478Z",
     "url": "https://contextwire.online/posts/emma-navarro.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "945ef86af1a4285b",
-    "slug": "citizen-vigilante",
-    "title": "Citizen Vigilante: Confirmed Details and What Comes Next",
-    "trend": "citizen vigilante",
-    "category": "Trends",
-    "excerpt": "Citizen Vigilante is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Citizen Vigilante related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Citizen",
-      "Vigilante"
-    ],
-    "quality": {
-      "wordCount": 564,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/citizen-vigilante.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-25T06:33:53.878Z",
-    "url": "https://contextwire.online/posts/citizen-vigilante.html",
     "readingTime": "4 min"
   }
 ]
