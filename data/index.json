@@ -1,5 +1,41 @@
 [
   {
+    "id": "3a8d0001995cca74",
+    "slug": "inter-vs-udinese",
+    "title": "Inter vs Udinese: Confirmed Details and What Comes Next",
+    "trend": "inter vs udinese",
+    "category": "Trends",
+    "excerpt": "Inter vs Udinese is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Inter vs Udinese related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Inter",
+      "Udinese"
+    ],
+    "quality": {
+      "wordCount": 581,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/inter-vs-udinese.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-14T18:10:49.289Z",
+    "url": "https://contextwire.online/posts/inter-vs-udinese.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "a04be7c5c0c8d05b",
     "slug": "stock",
     "title": "Stock: Source-Checked Reader Guide",
@@ -5738,42 +5774,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-26T15:15:22.710Z",
     "url": "https://contextwire.online/posts/royal-caribbean-whale-strike-alaska.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "7aa688811211a516",
-    "slug": "famous-birthdays",
-    "title": "Famous Birthdays: What Happened and Key Details",
-    "trend": "famous birthdays",
-    "category": "Trends",
-    "excerpt": "Famous Birthdays is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Famous Birthdays related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Famous",
-      "Birthdays"
-    ],
-    "quality": {
-      "wordCount": 572,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/famous-birthdays.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-26T06:37:58.183Z",
-    "url": "https://contextwire.online/posts/famous-birthdays.html",
     "readingTime": "4 min"
   }
 ]
