@@ -1,5 +1,10 @@
 [
   {
+    "key": "stock",
+    "title": "stock",
+    "usedAt": "2026-09-14T08:05:48.752Z"
+  },
+  {
     "key": "lamine-yamal",
     "title": "lamine yamal",
     "usedAt": "2026-09-13T16:36:27.718Z"
@@ -1592,11 +1597,6 @@
   {
     "key": "sinner",
     "title": "sinner",
-    "usedAt": "2026-05-03T13:57:31.972Z"
-  },
-  {
-    "key": "ipl-standings",
-    "title": "ipl standings",
     "usedAt": "2026-05-03T13:57:31.972Z"
   }
 ]

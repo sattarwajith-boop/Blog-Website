@@ -1,5 +1,40 @@
 [
   {
+    "id": "a04be7c5c0c8d05b",
+    "slug": "stock",
+    "title": "Stock: Source-Checked Reader Guide",
+    "trend": "stock",
+    "category": "Business",
+    "excerpt": "Stock is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Stock related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Business",
+      "Stock"
+    ],
+    "quality": {
+      "wordCount": 561,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/stock.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-14T08:05:48.732Z",
+    "url": "https://contextwire.online/posts/stock.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "a01b29e3601e63c8",
     "slug": "lamine-yamal",
     "title": "Lamine Yamal: What Happened and Key Details",
@@ -5739,42 +5774,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-26T06:37:58.183Z",
     "url": "https://contextwire.online/posts/famous-birthdays.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "90263906905b5dd3",
-    "slug": "emma-navarro",
-    "title": "Emma Navarro: Source-Checked Reader Guide",
-    "trend": "emma navarro",
-    "category": "Trends",
-    "excerpt": "Emma Navarro is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Emma Navarro related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Emma",
-      "Navarro"
-    ],
-    "quality": {
-      "wordCount": 576,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/emma-navarro.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-25T15:32:09.478Z",
-    "url": "https://contextwire.online/posts/emma-navarro.html",
     "readingTime": "4 min"
   }
 ]

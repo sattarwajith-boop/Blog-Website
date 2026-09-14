@@ -1,5 +1,94 @@
 [
   {
+    "id": "a04be7c5c0c8d05b",
+    "slug": "stock",
+    "title": "Stock: Source-Checked Reader Guide",
+    "trend": "stock",
+    "category": "Business",
+    "excerpt": "Stock is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Stock related editorial image",
+      "credit": "Unsplash"
+    },
+    "content": [
+      "What happened: Stock is drawing fresh reader attention in the business category. Google Trends reported search interest around 2000+. The available source headlines point readers toward one practical task: understand the specific update, separate confirmed details from repetition, and decide whether the story affects schedules, money, public understanding, entertainment plans, sport results, or technology decisions.",
+      "Key details: The strongest details currently available from the source set are: Search interest was reported around 2000+. Investor's Business Daily reported: Futures Fall; AI Leaders' Call For Slowdown Hits These Stocks. Barron's reported: Stock Futures Slide, Oil Rises Ahead of Fed Rate Decision. nbcsports.com reported: Stock Up, Stock Down - Week 1: Bear Returns. Yahoo Finance reported: Costco Stock Price Forecast: Here's What a $10,000 Investment Today Could Be Worth by September 2027. tradingkey.com reported: Can Robinhood Stock Surge Again in 2026?. These points are intentionally limited to what the source headlines and trend data support. If a detail is not visible in the source set, this article does not treat it as confirmed.",
+      "Background: The source context for Stock includes Investor's Business Daily: Futures Fall; AI Leaders' Call For Slowdown Hits These Stocks; Barron's: Stock Futures Slide, Oil Rises Ahead of Fed Rate Decision; nbcsports.com: Stock Up, Stock Down - Week 1: Bear Returns; Yahoo Finance: Costco Stock Price Forecast: Here's What a $10,000 Investment Today Could Be Worth by September 2027; tradingkey.com: Can Robinhood Stock Surge Again in 2026?. That mix is useful because it shows which parts of the topic are being repeated publicly and which parts may still need a primary source, official page, direct statement, fixture page, filing, venue notice, product note, or updated report before readers rely on it.",
+      "Why it matters: Readers usually search for a topic like Stock because they need a usable answer, not a pile of repeated headlines. For business coverage, that means the article should clarify the latest public signal, identify the responsible organizations or people when the sources name them, and avoid stretching a thin source set into false certainty.",
+      "What's confirmed: The confirmed material is the public trend signal and the linked source headlines shown below. For market or company topics, verify figures through current filings, exchange data, or trusted financial reporting. When the source set contains dates, names, scores, prices, venues, companies, or official organizations, those details should be checked against the newest linked source before a reader acts on them.",
+      "Reader takeaway: The useful reading is narrow and practical. Start with the newest source, compare whether other sources repeat the same fact independently, and give extra weight to official pages or named organizations. If the topic affects money, tickets, health, legal risk, travel, public reputation, product decisions, or sports results, wait for stronger confirmation before acting.",
+      "What to watch: The next useful update will be a clearer source with direct evidence, a correction, an official statement, a schedule or price page, a box score, a filing, a status page, or a new report that confirms the key detail independently. If later sources add concrete facts, this page should be updated rather than padded with speculation.",
+      "Bottom line: Stock is worth reading about because the topic is visible and readers are looking for a clear answer. The safest takeaway is to use the source links, focus on confirmed details, and avoid treating repeated headlines as stronger evidence than they really are."
+    ],
+    "sources": [
+      {
+        "title": "Futures Fall; AI Leaders' Call For Slowdown Hits These Stocks",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNTTgxYjBHZXNGVFRDVXdTdGJBQ3ZUaXB3Q2RvdFB5aHIydVdRLWdBUXRiSzJTZ3p5dVdnTi1zUlhLVEtJeVJpUEhWakw1d2FralNhdktDUEhQYWVhdC0wQzRrYkFjR1VxYkkwODFwTjBHelZDVzdxX2JzNnl0OUIzclVkY2JXQWl6TTF3TjJKZ1RYLUozTUZCTEZzVUJOMmEyRDJpNkpiNUs3STVVMEppZlVzQ1ZUb2xNN2o5VzNtcy1BbnljczFFb0dITHJtYUxnRm9nUTY2SVROZ0RXcTltNTdlOA?oc=5",
+        "publishedAt": "Mon, 14 Sep 2026 06:40:00 GMT"
+      },
+      {
+        "title": "Stock Futures Slide, Oil Rises Ahead of Fed Rate Decision",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5DS0dEakhraTBKLV9LN2NiSDJ4VnMzTzB6VnB1dkxvYVdQUVo4bEFHdGdtT011NmNqV05pYmNmeUt6M3JFaHJyU0ItRWFiYWlLSUdJMWRXN29lOEJ3NXRZbWFsUGxrTXY5YlRWQmtvZ0JMQTN6WDhCdDNB?oc=5",
+        "publishedAt": "Sun, 13 Sep 2026 22:12:00 GMT"
+      },
+      {
+        "title": "Stock Up, Stock Down - Week 1: Bear Returns",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSjNkU1ZDMEZRcU9IZjhwSEFlWkZvQXlaZnZ5LVJSQ0F3THNvRlZJdks2LXFHUFozdldpOHBGMXNuOVZreFFkSlFNYl9lSnR0akRmSzVxV1g5NDdzRjdBVWNYT0lKb01vRExSejJSR2xpZnRjckcxZmk0a0EtVXJrbWx4OEFneTF4TGZRZm5LX0Y?oc=5",
+        "publishedAt": "Mon, 14 Sep 2026 04:10:17 GMT"
+      },
+      {
+        "title": "Costco Stock Price Forecast: Here's What a $10,000 Investment Today Could Be Worth by September 2027",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbDVsVC1lLXJNLWVnWTJjajhUdXRPRDRNRm5oYmxCWUpPeHNMRUxHdlE4dFQxWlJFeGg1LVVKY3pFQlctRVFqTWt3QmZnRGJKQk05bS1JbnFSTjMtS0hiNnNDTmFIOXl4aVZNZ0RuQ3Z3cFA0ZWJteG44RWw5NFJCalJxYm8tNXRYSTlDdXkteFdjMm13SEdoeEo0eElJZmc?oc=5",
+        "publishedAt": "Sun, 13 Sep 2026 13:45:00 GMT"
+      },
+      {
+        "title": "Can Robinhood Stock Surge Again in 2026?",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaWRwcmgxTm5hY041a0xqRWdpM3M2WG91dU1leXNaSmdiVVp6M3VQQmM2Uk91aHVfTmxHX0tGb21KUHN5bDFMQ2VvUHhWcUt6TW5jd0FjT19WeU44N2pzclNRS1c0SnhCY25qM1p6cVE4dEsxdE9PRzVlanUxcnNhQWFFZENMVDJOUkp1LWREQW9iWjE2Ul9jRnBHMnNUamxSZnc?oc=5",
+        "publishedAt": "Sun, 13 Sep 2026 19:09:02 GMT"
+      }
+    ],
+    "author": {
+      "name": "ContextWire Editorial Desk",
+      "title": "Source-checking desk",
+      "url": "https://contextwire.online/author/contextwire-editorial-desk.html",
+      "bio": "The ContextWire Editorial Desk prepares source-checked briefings with emphasis on clear facts, cautious language, and reader-useful context."
+    },
+    "updatedAt": "2026-09-14T08:05:48.732Z",
+    "keyFacts": [
+      "Search interest was reported around 2000+.",
+      "Investor's Business Daily reported: Futures Fall; AI Leaders' Call For Slowdown Hits These Stocks.",
+      "Barron's reported: Stock Futures Slide, Oil Rises Ahead of Fed Rate Decision.",
+      "nbcsports.com reported: Stock Up, Stock Down - Week 1: Bear Returns.",
+      "Yahoo Finance reported: Costco Stock Price Forecast: Here's What a $10,000 Investment Today Could Be Worth by September 2027.",
+      "tradingkey.com reported: Can Robinhood Stock Surge Again in 2026?."
+    ],
+    "publishedAt": "2026-09-14T08:05:48.732Z",
+    "productionMethod": "editorial-workflow",
+    "tags": [
+      "Business",
+      "Stock"
+    ],
+    "ogImage": "assets/og/stock.svg",
+    "quality": {
+      "wordCount": 561,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "humanReview": {
+      "status": "editorial-review-required",
+      "note": "ContextWire briefing prepared with visible source notes, reader-focused sections, and verification prompts. Final factual approval should be completed before promotion or monetization review."
+    }
+  },
+  {
     "id": "a01b29e3601e63c8",
     "slug": "lamine-yamal",
     "title": "Lamine Yamal: What Happened and Key Details",
@@ -14218,96 +14307,6 @@
     "ogImage": "assets/og/famous-birthdays.svg",
     "quality": {
       "wordCount": 572,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "humanReview": {
-      "status": "editorial-review-required",
-      "note": "ContextWire briefing prepared with visible source notes, reader-focused sections, and verification prompts. Final factual approval should be completed before promotion or monetization review."
-    }
-  },
-  {
-    "id": "90263906905b5dd3",
-    "slug": "emma-navarro",
-    "title": "Emma Navarro: Source-Checked Reader Guide",
-    "trend": "emma navarro",
-    "category": "Trends",
-    "excerpt": "Emma Navarro is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Emma Navarro related editorial image",
-      "credit": "Unsplash"
-    },
-    "content": [
-      "What happened: Emma Navarro is drawing fresh reader attention in the trends category. Google Trends reported search interest around 500+. The available source headlines point readers toward one practical task: understand the specific update, separate confirmed details from repetition, and decide whether the story affects schedules, money, public understanding, entertainment plans, sport results, or technology decisions.",
-      "Key details: The strongest details currently available from the source set are: Search interest was reported around 500+. WTA Tennis reported: Navarro knocks out top seed Swiatek in Bad Homburg. Reuters reported: WTA roundup: Emma Navarro knocks off Iga Swiatek at Bad Homburg. Mshale reported: Maria Sakkari Vs. Emma Navarro | 2024 Indian Wells Quarterfinal | WTA Match Highlights Donald Gibb (wAKz0ZTgo4). Just Women's Sports reported: Emma Navarro Upsets Iga Świątek at 2026 Bad Homburg Open. Lob and Smash reported: Emma Navarro found exactly what she needed against Iga Swiatek. These points are intentionally limited to what the source headlines and trend data support. If a detail is not visible in the source set, this article does not treat it as confirmed.",
-      "Background: The source context for Emma Navarro includes WTA Tennis: Navarro knocks out top seed Swiatek in Bad Homburg; Reuters: WTA roundup: Emma Navarro knocks off Iga Swiatek at Bad Homburg; Mshale: Maria Sakkari Vs. Emma Navarro | 2024 Indian Wells Quarterfinal | WTA Match Highlights Donald Gibb (wAKz0ZTgo4); Just Women's Sports: Emma Navarro Upsets Iga Świątek at 2026 Bad Homburg Open; Lob and Smash: Emma Navarro found exactly what she needed against Iga Swiatek. That mix is useful because it shows which parts of the topic are being repeated publicly and which parts may still need a primary source, official page, direct statement, fixture page, filing, venue notice, product note, or updated report before readers rely on it.",
-      "Why it matters: Readers usually search for a topic like Emma Navarro because they need a usable answer, not a pile of repeated headlines. For trends coverage, that means the article should clarify the latest public signal, identify the responsible organizations or people when the sources name them, and avoid stretching a thin source set into false certainty.",
-      "What's confirmed: The confirmed material is the public trend signal and the linked source headlines shown below. For Emma Navarro, prioritize recent updates and named public records over repeated summaries. When the source set contains dates, names, scores, prices, venues, companies, or official organizations, those details should be checked against the newest linked source before a reader acts on them.",
-      "Reader takeaway: The useful reading is narrow and practical. Start with the newest source, compare whether other sources repeat the same fact independently, and give extra weight to official pages or named organizations. If the topic affects money, tickets, health, legal risk, travel, public reputation, product decisions, or sports results, wait for stronger confirmation before acting.",
-      "What to watch: The next useful update will be a clearer source with direct evidence, a correction, an official statement, a schedule or price page, a box score, a filing, a status page, or a new report that confirms the key detail independently. If later sources add concrete facts, this page should be updated rather than padded with speculation.",
-      "Bottom line: Emma Navarro is worth reading about because the topic is visible and readers are looking for a clear answer. The safest takeaway is to use the source links, focus on confirmed details, and avoid treating repeated headlines as stronger evidence than they really are."
-    ],
-    "sources": [
-      {
-        "title": "Navarro knocks out top seed Swiatek in Bad Homburg",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPQXJwR2QzSnYwSlI1TDlHUDlNTjc1ckpRQ3RpU1NYanM1Z09ZQnNScm1FemlFZC1sNzV1QXVSTERxbVotS3NWYTRIX2R4eEFjalB4RnFUNmQyOVNGM2o0b2oyMDNSSjk2UE9oT0xhdEx6bWJ1bzFKQkZpSlNWREJpbjBuRnVfLXVDVGxMbDBvWG9oRFpHLUgtTDRFQ21LMFVwTHVZSmw1Q1VtV2dKdEVjS2hlbkl3dFEzaHg1Y0tIUDlUVGJU?oc=5",
-        "publishedAt": "Wed, 24 Jun 2026 19:23:44 GMT"
-      },
-      {
-        "title": "WTA roundup: Emma Navarro knocks off Iga Swiatek at Bad Homburg",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQV2RLMDdNMkhRV3JXR1diNEdFQ1NPU1NEY3lwZ1E4cXFuaEJGSi1Jc1VmMkZVczdhWHlQaThyNGRvaEp4THhvRVNMUFJjT1lWd0cxRnpRVzFiWUt5UGpIZ2dncHVGMFp3N0xBNW5UNnUyVEtCTGpNQzNoRU1qT09RanJTTmEzZkVsdVJjNnVNSkV4bC14Vy1EV1pVbjYzb1kzc1c5QkJZYkVFNEk2OExFbmF6TGc?oc=5",
-        "publishedAt": "Wed, 24 Jun 2026 22:49:44 GMT"
-      },
-      {
-        "title": "Maria Sakkari Vs. Emma Navarro | 2024 Indian Wells Quarterfinal | WTA Match Highlights Donald Gibb (wAKz0ZTgo4)",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1SRDNPWkhPUDV1YnBmc0R0WjVURTduNk9UUjd4cWNaRHdVdkwtZmFSUHBhUWZOMkpMQ3UyQUpTb2pWb3dCTlBmOWNFNERhVlJCaHpEQndyT0hpVG8?oc=5",
-        "publishedAt": "Thu, 25 Jun 2026 11:43:17 GMT"
-      },
-      {
-        "title": "Emma Navarro Upsets Iga Świątek at 2026 Bad Homburg Open",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQYmVrOTRKdWhnbzJER281dXpZcTNYdzVGSklXNjVlaGg3NkRmNEVGQ1VDUmE4dndmc0pUZ2V2Wkd1SjZzVGdYZGpGbHppREQxMld4Ukw5R0pEMENyejVXcEZmTG11ZTZCNUdTbDR1SWNaaGRjY2I1VE53ak1uekdTWENNcGhnSW9ZdlFoR2FXYlQ1U2RzV0F2Qmd3?oc=5",
-        "publishedAt": "Wed, 24 Jun 2026 19:42:22 GMT"
-      },
-      {
-        "title": "Emma Navarro found exactly what she needed against Iga Swiatek",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTjZFUUk1RFdrV0ZVeDh4VFJ1eV80eUZjazc1c1VDdlB4ZUdpTEJWRk9XMDhId1ctcGNvUXV6dlVhSl9yOGJWSUlTcEZuWTIzNmRGXzNxd2FFVThaWkhxOU1XQW03b0hvdTVQU1ZBZUxXaDRSejdyTzI0M005bnZJbzFJM3ZOOGJQYjFYZ0Jobw?oc=5",
-        "publishedAt": "Wed, 24 Jun 2026 15:52:46 GMT"
-      }
-    ],
-    "author": {
-      "name": "ContextWire Editorial Desk",
-      "title": "Source-checking desk",
-      "url": "https://contextwire.online/author/contextwire-editorial-desk.html",
-      "bio": "The ContextWire Editorial Desk prepares source-checked briefings with emphasis on clear facts, cautious language, and reader-useful context."
-    },
-    "updatedAt": "2026-06-25T15:32:09.478Z",
-    "keyFacts": [
-      "Search interest was reported around 500+.",
-      "WTA Tennis reported: Navarro knocks out top seed Swiatek in Bad Homburg.",
-      "Reuters reported: WTA roundup: Emma Navarro knocks off Iga Swiatek at Bad Homburg.",
-      "Mshale reported: Maria Sakkari Vs. Emma Navarro | 2024 Indian Wells Quarterfinal | WTA Match Highlights Donald Gibb (wAKz0ZTgo4).",
-      "Just Women's Sports reported: Emma Navarro Upsets Iga Świątek at 2026 Bad Homburg Open.",
-      "Lob and Smash reported: Emma Navarro found exactly what she needed against Iga Swiatek."
-    ],
-    "publishedAt": "2026-06-25T15:32:09.478Z",
-    "productionMethod": "editorial-workflow",
-    "tags": [
-      "Trends",
-      "Emma",
-      "Navarro"
-    ],
-    "ogImage": "assets/og/emma-navarro.svg",
-    "quality": {
-      "wordCount": 576,
       "score": 96,
       "sections": [
         "What happened:",
