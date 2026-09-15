@@ -1,5 +1,40 @@
 [
   {
+    "id": "ea24891939fa7236",
+    "slug": "immigration",
+    "title": "Immigration: Source-Checked Reader Guide",
+    "trend": "immigration",
+    "category": "Trends",
+    "excerpt": "Immigration is gaining attention in current trend data. Search interest is around 5000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Immigration related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Immigration"
+    ],
+    "quality": {
+      "wordCount": 557,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/immigration.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-15T08:00:45.226Z",
+    "url": "https://contextwire.online/posts/immigration.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "3a8d0001995cca74",
     "slug": "inter-vs-udinese",
     "title": "Inter vs Udinese: Confirmed Details and What Comes Next",
@@ -5735,45 +5770,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-27T06:15:57.941Z",
     "url": "https://contextwire.online/posts/okc-weather.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "8818cf6e8e181bcf",
-    "slug": "royal-caribbean-whale-strike-alaska",
-    "title": "Royal Caribbean Whale Strike Alaska: Confirmed Details and What Comes Next",
-    "trend": "royal caribbean whale strike alaska",
-    "category": "Trends",
-    "excerpt": "Royal Caribbean Whale Strike Alaska is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Royal Caribbean Whale Strike Alaska related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Royal",
-      "Caribbean",
-      "Whale",
-      "Strike",
-      "Alaska"
-    ],
-    "quality": {
-      "wordCount": 613,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/royal-caribbean-whale-strike-alaska.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-26T15:15:22.710Z",
-    "url": "https://contextwire.online/posts/royal-caribbean-whale-strike-alaska.html",
     "readingTime": "4 min"
   }
 ]
