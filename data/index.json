@@ -1,5 +1,40 @@
 [
   {
+    "id": "4a1f708733ab2724",
+    "slug": "earth",
+    "title": "Earth: Latest Public Details Explained",
+    "trend": "earth",
+    "category": "Trends",
+    "excerpt": "Earth is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Earth related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Earth"
+    ],
+    "quality": {
+      "wordCount": 559,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/earth.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-15T17:15:37.063Z",
+    "url": "https://contextwire.online/posts/earth.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "ea24891939fa7236",
     "slug": "immigration",
     "title": "Immigration: Source-Checked Reader Guide",
@@ -5735,41 +5770,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-27T14:16:05.374Z",
     "url": "https://contextwire.online/posts/daniil-donchenko.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "163273bce203b91d",
-    "slug": "okc-weather",
-    "title": "Okc Weather: What Happened and Key Details",
-    "trend": "okc weather",
-    "category": "Trends",
-    "excerpt": "Okc Weather is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Okc Weather related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Weather"
-    ],
-    "quality": {
-      "wordCount": 536,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/okc-weather.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-27T06:15:57.941Z",
-    "url": "https://contextwire.online/posts/okc-weather.html",
     "readingTime": "4 min"
   }
 ]
