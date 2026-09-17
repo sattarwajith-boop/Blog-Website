@@ -1,5 +1,41 @@
 [
   {
+    "id": "bbf41b3afa7ecd2e",
+    "slug": "daycare-center",
+    "title": "Daycare Center: Key Facts and Background",
+    "trend": "daycare center",
+    "category": "Trends",
+    "excerpt": "Daycare Center is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Daycare Center related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Daycare",
+      "Center"
+    ],
+    "quality": {
+      "wordCount": 574,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/daycare-center.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-17T07:58:03.247Z",
+    "url": "https://contextwire.online/posts/daycare-center.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "e1d3bfc1a827a849",
     "slug": "noah-woods",
     "title": "Noah Woods: What Readers Should Know Now",
@@ -5732,43 +5768,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-29T07:14:20.686Z",
     "url": "https://contextwire.online/posts/lizzo-2026-bet-awards-appearance.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "bfa734afcb71fac2",
-    "slug": "larry-david-new-show",
-    "title": "Larry David New Show: Confirmed Details and What Comes Next",
-    "trend": "larry david new show",
-    "category": "Trends",
-    "excerpt": "Larry David New Show is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Larry David New Show related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Larry",
-      "David",
-      "Show"
-    ],
-    "quality": {
-      "wordCount": 632,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/larry-david-new-show.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-28T14:25:44.322Z",
-    "url": "https://contextwire.online/posts/larry-david-new-show.html",
     "readingTime": "4 min"
   }
 ]
