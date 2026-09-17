@@ -1,5 +1,10 @@
 [
   {
+    "key": "brain-eating-amoeba",
+    "title": "brain eating amoeba",
+    "usedAt": "2026-09-17T17:15:22.050Z"
+  },
+  {
     "key": "daycare-center",
     "title": "daycare center",
     "usedAt": "2026-09-17T07:58:03.277Z"
@@ -1593,10 +1598,5 @@
     "key": "nasdaq-composite",
     "title": "nasdaq composite",
     "usedAt": "2026-05-05T14:34:21.397Z"
-  },
-  {
-    "key": "rachel-zegler",
-    "title": "rachel zegler",
-    "usedAt": "2026-05-05T05:31:12.315Z"
   }
 ]

@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-09-17T07:58:04.856Z
+Generated: 2026-09-17T17:15:23.273Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 153
+
+## Brain Eating Amoeba: What Readers Should Know Now
+- Slug: `brain-eating-amoeba`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: ContextWire editorial graphic
+- Current image: assets/generated/contextwire-trending-editorial.png
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Daycare Center: Key Facts and Background
 - Slug: `daycare-center`
@@ -1220,12 +1228,4 @@ Total issues: 153
 - Issue: generic image for specific topic
 - Current credit: ContextWire editorial graphic
 - Current image: assets/generated/contextwire-trending-editorial.png
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Lizzo 2026 Bet Awards Appearance: Latest Public Details Explained
-- Slug: `lizzo-2026-bet-awards-appearance`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
