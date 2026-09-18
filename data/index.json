@@ -1,5 +1,41 @@
 [
   {
+    "id": "ee3641b4b2773064",
+    "slug": "iranians-rally",
+    "title": "Iranians Rally: Confirmed Details and What Comes Next",
+    "trend": "iranians rally",
+    "category": "Trends",
+    "excerpt": "Iranians Rally is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Iranians Rally related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Iranians",
+      "Rally"
+    ],
+    "quality": {
+      "wordCount": 622,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/iranians-rally.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-18T16:42:30.526Z",
+    "url": "https://contextwire.online/posts/iranians-rally.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "b9c5c696b921834f",
     "slug": "cryptocurrency-trading",
     "title": "Cryptocurrency Trading: Confirmed Details and What Comes Next",
@@ -5730,43 +5766,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-30T15:17:52.854Z",
     "url": "https://contextwire.online/posts/blake-lively-justin-baldoni-lawsuit.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "8c96b77f20d413c9",
-    "slug": "kirk-franklin-philadelphia",
-    "title": "Kirk Franklin Philadelphia: Source-Checked Reader Guide",
-    "trend": "kirk franklin philadelphia",
-    "category": "Trends",
-    "excerpt": "Kirk Franklin Philadelphia is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Kirk Franklin Philadelphia related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Kirk",
-      "Franklin",
-      "Philadelphia"
-    ],
-    "quality": {
-      "wordCount": 581,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/kirk-franklin-philadelphia.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-30T06:40:07.525Z",
-    "url": "https://contextwire.online/posts/kirk-franklin-philadelphia.html",
     "readingTime": "4 min"
   }
 ]
