@@ -1,5 +1,41 @@
 [
   {
+    "id": "b9c5c696b921834f",
+    "slug": "cryptocurrency-trading",
+    "title": "Cryptocurrency Trading: Confirmed Details and What Comes Next",
+    "trend": "cryptocurrency trading",
+    "category": "Business",
+    "excerpt": "Cryptocurrency Trading is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Cryptocurrency Trading related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Business",
+      "Cryptocurrency",
+      "Trading"
+    ],
+    "quality": {
+      "wordCount": 551,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/cryptocurrency-trading.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-18T07:36:02.358Z",
+    "url": "https://contextwire.online/posts/cryptocurrency-trading.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "e5529f1755ef3742",
     "slug": "brain-eating-amoeba",
     "title": "Brain Eating Amoeba: What Readers Should Know Now",
@@ -5731,42 +5767,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-06-30T06:40:07.525Z",
     "url": "https://contextwire.online/posts/kirk-franklin-philadelphia.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "42a530fd18ade966",
-    "slug": "brasil-jap-n",
-    "title": "Brasil - Japón: Confirmed Details and What Comes Next",
-    "trend": "brasil - japón",
-    "category": "Trends",
-    "excerpt": "Brasil - Japón is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-trending-editorial.png",
-      "alt": "Brasil - Japón related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "tags": [
-      "Trends",
-      "Brasil",
-      "Japón"
-    ],
-    "quality": {
-      "wordCount": 595,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/brasil-jap-n.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-06-29T16:26:53.253Z",
-    "url": "https://contextwire.online/posts/brasil-jap-n.html",
     "readingTime": "4 min"
   }
 ]

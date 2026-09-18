@@ -1,5 +1,10 @@
 [
   {
+    "key": "cryptocurrency-trading",
+    "title": "cryptocurrency trading",
+    "usedAt": "2026-09-18T07:36:02.382Z"
+  },
+  {
     "key": "brain-eating-amoeba",
     "title": "brain eating amoeba",
     "usedAt": "2026-09-17T17:15:22.050Z"
@@ -1592,11 +1597,6 @@
   {
     "key": "white-house-state-ballroom",
     "title": "white house state ballroom",
-    "usedAt": "2026-05-05T14:34:21.397Z"
-  },
-  {
-    "key": "nasdaq-composite",
-    "title": "nasdaq composite",
     "usedAt": "2026-05-05T14:34:21.397Z"
   }
 ]
