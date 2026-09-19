@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-09-19T07:31:38.806Z
+Generated: 2026-09-19T16:02:58.595Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 154
+
+## Morgan Freeman Ole Miss: Confirmed Details and What Comes Next
+- Slug: `morgan-freeman-ole-miss`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: ContextWire editorial graphic
+- Current image: assets/generated/contextwire-trending-editorial.png
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Car Accident Lawyer: Latest Public Details Explained
 - Slug: `car-accident-lawyer`
@@ -1228,12 +1236,4 @@ Total issues: 154
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## What Is July 1st: Key Facts and Background
-- Slug: `what-is-july-1st`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
