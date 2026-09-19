@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-09-18T16:42:31.856Z
+Generated: 2026-09-19T07:31:38.806Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 153
+Total issues: 154
+
+## Car Accident Lawyer: Latest Public Details Explained
+- Slug: `car-accident-lawyer`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: ContextWire editorial graphic
+- Current image: assets/generated/contextwire-civic-analysis.png
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Iranians Rally: Confirmed Details and What Comes Next
 - Slug: `iranians-rally`
