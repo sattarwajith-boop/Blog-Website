@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-09-21T08:11:27.187Z
+Generated: 2026-09-21T18:18:26.729Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 154
+
+## Bryson Dechambeau: What Happened and Key Details
+- Slug: `bryson-dechambeau`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Upcoming Events: Source-Checked Reader Guide
 - Slug: `upcoming-events`
@@ -1224,14 +1232,6 @@ Total issues: 154
 
 ## Kelsey Rowing: What Happened and Key Details
 - Slug: `kelsey-rowing`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Mission Impossible: What Happened and Key Details
-- Slug: `mission-impossible`
 - Topic type: product
 - Issue: generic image for specific topic
 - Current credit: Unsplash
