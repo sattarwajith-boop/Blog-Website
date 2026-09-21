@@ -1,5 +1,41 @@
 [
   {
+    "id": "510c962627a4a6eb",
+    "slug": "upcoming-events",
+    "title": "Upcoming Events: Source-Checked Reader Guide",
+    "trend": "upcoming events",
+    "category": "Trends",
+    "excerpt": "Upcoming Events is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Upcoming Events related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Upcoming",
+      "Events"
+    ],
+    "quality": {
+      "wordCount": 544,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/upcoming-events.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-21T08:11:26.415Z",
+    "url": "https://contextwire.online/posts/upcoming-events.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "9dcf36a5d46c34e9",
     "slug": "saints-vs-ravens",
     "title": "Saints vs Ravens: What Readers Should Know Now",
@@ -5727,42 +5763,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-03T06:16:56.277Z",
     "url": "https://contextwire.online/posts/mission-impossible.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "b2800e7dc091c570",
-    "slug": "amanda-anisimova",
-    "title": "Amanda Anisimova: What Readers Should Know Now",
-    "trend": "amanda anisimova",
-    "category": "Trends",
-    "excerpt": "Amanda Anisimova is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-trending-editorial.png",
-      "alt": "Amanda Anisimova related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "tags": [
-      "Trends",
-      "Amanda",
-      "Anisimova"
-    ],
-    "quality": {
-      "wordCount": 592,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/amanda-anisimova.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-02T14:57:29.289Z",
-    "url": "https://contextwire.online/posts/amanda-anisimova.html",
     "readingTime": "4 min"
   }
 ]
