@@ -1,5 +1,41 @@
 [
   {
+    "id": "045ae08951e8b5c8",
+    "slug": "rays-vs-yankees",
+    "title": "Rays vs Yankees: Source-Checked Reader Guide",
+    "trend": "rays vs yankees",
+    "category": "Trends",
+    "excerpt": "Rays vs Yankees is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Rays vs Yankees related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Rays",
+      "Yankees"
+    ],
+    "quality": {
+      "wordCount": 591,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/rays-vs-yankees.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-22T17:16:06.362Z",
+    "url": "https://contextwire.online/posts/rays-vs-yankees.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "629cde94f045c41b",
     "slug": "dollar-general",
     "title": "Dollar General: Latest Public Details Explained",
@@ -5724,44 +5760,5 @@
     "publishedAt": "2026-07-04T14:12:41.228Z",
     "url": "https://contextwire.online/posts/lena-dunham-taylor-swift-wedding.html",
     "readingTime": "4 min"
-  },
-  {
-    "id": "d1dba5ca4ea59c3f",
-    "slug": "kelsey-rowing",
-    "title": "Kelsey Rowing: What Happened and Key Details",
-    "trend": "kelsey rowing",
-    "category": "Trends",
-    "excerpt": "Kelsey Rowing is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Kelsey Rowing related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Kelsey",
-      "Rowing"
-    ],
-    "quality": {
-      "wordCount": 405,
-      "score": 67,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": [
-        "below-500-words",
-        "thin-source-set"
-      ]
-    },
-    "ogImage": "assets/og/kelsey-rowing.svg",
-    "sourceCount": 1,
-    "publishedAt": "2026-07-04T06:00:53.613Z",
-    "url": "https://contextwire.online/posts/kelsey-rowing.html",
-    "readingTime": "3 min"
   }
 ]
