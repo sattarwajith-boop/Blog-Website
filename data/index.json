@@ -1,5 +1,41 @@
 [
   {
+    "id": "629cde94f045c41b",
+    "slug": "dollar-general",
+    "title": "Dollar General: Latest Public Details Explained",
+    "trend": "dollar general",
+    "category": "Trends",
+    "excerpt": "Dollar General is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Dollar General related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Dollar",
+      "General"
+    ],
+    "quality": {
+      "wordCount": 590,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/dollar-general.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-22T07:56:27.028Z",
+    "url": "https://contextwire.online/posts/dollar-general.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "844f3b412980e79b",
     "slug": "bryson-dechambeau",
     "title": "Bryson Dechambeau: What Happened and Key Details",
@@ -5727,42 +5763,5 @@
     "publishedAt": "2026-07-04T06:00:53.613Z",
     "url": "https://contextwire.online/posts/kelsey-rowing.html",
     "readingTime": "3 min"
-  },
-  {
-    "id": "af2b4fc5fee3d612",
-    "slug": "new-heights-prince-william",
-    "title": "New Heights Prince William: Source-Checked Reader Guide",
-    "trend": "new heights prince william",
-    "category": "Trends",
-    "excerpt": "A focused briefing on New Heights Prince William: what the headlines reveal, where the story stands, and what comes next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "New Heights Prince William related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Heights",
-      "Prince",
-      "William"
-    ],
-    "quality": {
-      "wordCount": 594,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/new-heights-prince-william.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-03T14:56:38.064Z",
-    "url": "https://contextwire.online/posts/new-heights-prince-william.html",
-    "readingTime": "4 min"
   }
 ]
