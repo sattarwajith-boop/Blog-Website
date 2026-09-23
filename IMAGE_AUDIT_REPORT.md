@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-09-22T17:16:07.550Z
+Generated: 2026-09-23T07:57:08.818Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 155
+
+## El Niño Weather Induced Mortality: Confirmed Details and What Comes Next
+- Slug: `el-ni-o-weather-induced-mortality`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Rays vs Yankees: Source-Checked Reader Guide
 - Slug: `rays-vs-yankees`
@@ -1236,12 +1244,4 @@ Total issues: 155
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Lena Dunham Taylor Swift Wedding: Latest Public Details Explained
-- Slug: `lena-dunham-taylor-swift-wedding`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.

@@ -1,5 +1,43 @@
 [
   {
+    "id": "a783de80024e7f6e",
+    "slug": "el-ni-o-weather-induced-mortality",
+    "title": "El Niño Weather Induced Mortality: Confirmed Details and What Comes Next",
+    "trend": "el niño weather induced mortality",
+    "category": "Trends",
+    "excerpt": "El Niño Weather Induced Mortality is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "El Niño Weather Induced Mortality related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Niño",
+      "Weather",
+      "Induced",
+      "Mortality"
+    ],
+    "quality": {
+      "wordCount": 587,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/el-ni-o-weather-induced-mortality.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-23T07:57:07.435Z",
+    "url": "https://contextwire.online/posts/el-ni-o-weather-induced-mortality.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "045ae08951e8b5c8",
     "slug": "rays-vs-yankees",
     "title": "Rays vs Yankees: Source-Checked Reader Guide",
@@ -5720,45 +5758,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-05T06:25:16.364Z",
     "url": "https://contextwire.online/posts/will-smith.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "ca4e2b38291fde6c",
-    "slug": "lena-dunham-taylor-swift-wedding",
-    "title": "Lena Dunham Taylor Swift Wedding: Latest Public Details Explained",
-    "trend": "lena dunham taylor swift wedding",
-    "category": "Trends",
-    "excerpt": "Lena Dunham Taylor Swift Wedding is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Lena Dunham Taylor Swift Wedding related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Lena",
-      "Dunham",
-      "Taylor",
-      "Swift",
-      "Wedding"
-    ],
-    "quality": {
-      "wordCount": 603,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/lena-dunham-taylor-swift-wedding.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-04T14:12:41.228Z",
-    "url": "https://contextwire.online/posts/lena-dunham-taylor-swift-wedding.html",
     "readingTime": "4 min"
   }
 ]
