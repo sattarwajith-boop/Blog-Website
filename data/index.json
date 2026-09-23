@@ -1,5 +1,40 @@
 [
   {
+    "id": "1d023ea495083ef7",
+    "slug": "dart",
+    "title": "Dart: Latest Public Details Explained",
+    "trend": "dart",
+    "category": "Trends",
+    "excerpt": "Dart is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Dart related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Dart"
+    ],
+    "quality": {
+      "wordCount": 555,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/dart.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-23T17:26:57.248Z",
+    "url": "https://contextwire.online/posts/dart.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "a783de80024e7f6e",
     "slug": "el-ni-o-weather-induced-mortality",
     "title": "El Niño Weather Induced Mortality: Confirmed Details and What Comes Next",
@@ -5722,42 +5757,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-05T14:19:48.034Z",
     "url": "https://contextwire.online/posts/trump-accounts.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "17abfed306f902b0",
-    "slug": "will-smith",
-    "title": "Will Smith: Key Facts and Background",
-    "trend": "will smith",
-    "category": "Trends",
-    "excerpt": "Will Smith is gaining attention in current trend data. Search interest is around 5000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Will Smith related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Will",
-      "Smith"
-    ],
-    "quality": {
-      "wordCount": 580,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/will-smith.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-05T06:25:16.364Z",
-    "url": "https://contextwire.online/posts/will-smith.html",
     "readingTime": "4 min"
   }
 ]

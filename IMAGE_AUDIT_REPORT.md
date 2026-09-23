@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-09-23T07:57:08.818Z
+Generated: 2026-09-23T17:26:58.684Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 155
+
+## Dart: Latest Public Details Explained
+- Slug: `dart`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: ContextWire editorial graphic
+- Current image: assets/generated/contextwire-trending-editorial.png
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## El Niño Weather Induced Mortality: Confirmed Details and What Comes Next
 - Slug: `el-ni-o-weather-induced-mortality`
@@ -1232,14 +1240,6 @@ Total issues: 155
 
 ## Trump Accounts: Key Facts and Background
 - Slug: `trump-accounts`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Will Smith: Key Facts and Background
-- Slug: `will-smith`
 - Topic type: product
 - Issue: generic image for specific topic
 - Current credit: Unsplash
