@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://contextwire.online/</loc><lastmod>2026-09-23</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://contextwire.online/archive.html</loc><lastmod>2026-09-23</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://contextwire.online/about.html</loc><lastmod>2026-09-23</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://contextwire.online/contact.html</loc><lastmod>2026-09-23</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://contextwire.online/author/contextwire-editorial-desk.html</loc><lastmod>2026-09-23</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://contextwire.online/corrections.html</loc><lastmod>2026-09-23</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://contextwire.online/privacy.html</loc><lastmod>2026-09-23</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://contextwire.online/terms.html</loc><lastmod>2026-09-23</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://contextwire.online/</loc><lastmod>2026-09-24</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://contextwire.online/archive.html</loc><lastmod>2026-09-24</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://contextwire.online/about.html</loc><lastmod>2026-09-24</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://contextwire.online/contact.html</loc><lastmod>2026-09-24</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://contextwire.online/author/contextwire-editorial-desk.html</loc><lastmod>2026-09-24</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://contextwire.online/corrections.html</loc><lastmod>2026-09-24</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://contextwire.online/privacy.html</loc><lastmod>2026-09-24</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://contextwire.online/terms.html</loc><lastmod>2026-09-24</lastmod><changefreq>daily</changefreq></url>
+  <url><loc>https://contextwire.online/posts/denis-shapovalov.html</loc><lastmod>2026-09-24</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://contextwire.online/posts/dart.html</loc><lastmod>2026-09-23</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://contextwire.online/posts/el-ni-o-weather-induced-mortality.html</loc><lastmod>2026-09-23</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://contextwire.online/posts/rays-vs-yankees.html</loc><lastmod>2026-09-22</lastmod><changefreq>daily</changefreq></url>
@@ -87,5 +88,4 @@
   <url><loc>https://contextwire.online/posts/halo-studios.html</loc><lastmod>2026-08-16</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://contextwire.online/posts/pat-mcafee.html</loc><lastmod>2026-08-16</lastmod><changefreq>daily</changefreq></url>
   <url><loc>https://contextwire.online/posts/panama-canal.html</loc><lastmod>2026-08-15</lastmod><changefreq>daily</changefreq></url>
-  <url><loc>https://contextwire.online/posts/las-vegas-weather.html</loc><lastmod>2026-08-15</lastmod><changefreq>daily</changefreq></url>
 </urlset>

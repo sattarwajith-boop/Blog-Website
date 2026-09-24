@@ -1,5 +1,41 @@
 [
   {
+    "id": "d50bd9664a8869b5",
+    "slug": "denis-shapovalov",
+    "title": "Denis Shapovalov: Key Facts and Background",
+    "trend": "denis shapovalov",
+    "category": "Trends",
+    "excerpt": "Denis Shapovalov is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Denis Shapovalov related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Denis",
+      "Shapovalov"
+    ],
+    "quality": {
+      "wordCount": 572,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/denis-shapovalov.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-24T07:47:51.483Z",
+    "url": "https://contextwire.online/posts/denis-shapovalov.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "1d023ea495083ef7",
     "slug": "dart",
     "title": "Dart: Latest Public Details Explained",
@@ -5721,42 +5757,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-06T06:54:17.603Z",
     "url": "https://contextwire.online/posts/jeremy-renner.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "ebc1abf0473bea04",
-    "slug": "trump-accounts",
-    "title": "Trump Accounts: Key Facts and Background",
-    "trend": "trump accounts",
-    "category": "Trends",
-    "excerpt": "Trump Accounts is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Trump Accounts related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Trump",
-      "Accounts"
-    ],
-    "quality": {
-      "wordCount": 564,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/trump-accounts.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-05T14:19:48.034Z",
-    "url": "https://contextwire.online/posts/trump-accounts.html",
     "readingTime": "4 min"
   }
 ]
