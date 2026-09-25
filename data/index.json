@@ -1,5 +1,40 @@
 [
   {
+    "id": "7a43c41461567675",
+    "slug": "dan-rather",
+    "title": "Dan Rather: What Readers Should Know Now",
+    "trend": "dan rather",
+    "category": "Trends",
+    "excerpt": "Dan Rather is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Dan Rather related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Rather"
+    ],
+    "quality": {
+      "wordCount": 548,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/dan-rather.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-25T08:09:59.210Z",
+    "url": "https://contextwire.online/posts/dan-rather.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "285c3ff5e84941d8",
     "slug": "how-to-watch-the-presidents-cup",
     "title": "How to Watch the Presidents Cup: Confirmed Details and What Comes Next",
@@ -5721,42 +5756,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-07T06:30:35.111Z",
     "url": "https://contextwire.online/posts/openai.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "3e4cec354dc027a7",
-    "slug": "michelle-buteau",
-    "title": "Michelle Buteau: What Happened and Key Details",
-    "trend": "michelle buteau",
-    "category": "Trends",
-    "excerpt": "Michelle Buteau is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Michelle Buteau related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Michelle",
-      "Buteau"
-    ],
-    "quality": {
-      "wordCount": 588,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/michelle-buteau.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-06T16:04:26.090Z",
-    "url": "https://contextwire.online/posts/michelle-buteau.html",
     "readingTime": "4 min"
   }
 ]
