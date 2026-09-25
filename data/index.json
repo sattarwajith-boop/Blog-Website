@@ -1,5 +1,42 @@
 [
   {
+    "id": "6ef66ef55c62b706",
+    "slug": "the-hunchback-soul-of-paris",
+    "title": "The Hunchback Soul of Paris: Latest Public Details Explained",
+    "trend": "the hunchback soul of paris",
+    "category": "Trends",
+    "excerpt": "The Hunchback Soul of Paris is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "The Hunchback Soul of Paris related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Hunchback",
+      "Soul",
+      "Paris"
+    ],
+    "quality": {
+      "wordCount": 598,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/the-hunchback-soul-of-paris.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-25T17:31:49.877Z",
+    "url": "https://contextwire.online/posts/the-hunchback-soul-of-paris.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "7a43c41461567675",
     "slug": "dan-rather",
     "title": "Dan Rather: What Readers Should Know Now",
@@ -5721,41 +5758,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-07T15:33:23.110Z",
     "url": "https://contextwire.online/posts/argentina-egipto.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "f1e80ac56c419bd5",
-    "slug": "openai",
-    "title": "Openai: What Readers Should Know Now",
-    "trend": "openai",
-    "category": "Trends",
-    "excerpt": "Openai is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Openai related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Openai"
-    ],
-    "quality": {
-      "wordCount": 563,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/openai.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-07T06:30:35.111Z",
-    "url": "https://contextwire.online/posts/openai.html",
     "readingTime": "4 min"
   }
 ]

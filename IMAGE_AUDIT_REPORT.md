@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-09-25T08:10:00.209Z
+Generated: 2026-09-25T17:31:51.274Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 155
+
+## The Hunchback Soul of Paris: Latest Public Details Explained
+- Slug: `the-hunchback-soul-of-paris`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Dan Rather: What Readers Should Know Now
 - Slug: `dan-rather`
@@ -1236,12 +1244,4 @@ Total issues: 155
 - Issue: generic image for specific topic
 - Current credit: ContextWire editorial graphic
 - Current image: assets/generated/contextwire-trending-editorial.png
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Openai: What Readers Should Know Now
-- Slug: `openai`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
