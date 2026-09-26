@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-09-25T17:31:51.274Z
+Generated: 2026-09-26T07:59:10.780Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 155
+
+## Dinner: What Readers Should Know Now
+- Slug: `dinner`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## The Hunchback Soul of Paris: Latest Public Details Explained
 - Slug: `the-hunchback-soul-of-paris`
@@ -1236,12 +1244,4 @@ Total issues: 155
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Argentina - Egipto: Confirmed Details and What Comes Next
-- Slug: `argentina-egipto`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: ContextWire editorial graphic
-- Current image: assets/generated/contextwire-trending-editorial.png
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.

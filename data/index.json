@@ -1,5 +1,40 @@
 [
   {
+    "id": "cc02767316054191",
+    "slug": "dinner",
+    "title": "Dinner: What Readers Should Know Now",
+    "trend": "dinner",
+    "category": "Trends",
+    "excerpt": "Dinner is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Dinner related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Dinner"
+    ],
+    "quality": {
+      "wordCount": 551,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/dinner.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-26T07:59:09.371Z",
+    "url": "https://contextwire.online/posts/dinner.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "6ef66ef55c62b706",
     "slug": "the-hunchback-soul-of-paris",
     "title": "The Hunchback Soul of Paris: Latest Public Details Explained",
@@ -5722,42 +5757,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-08T05:37:32.891Z",
     "url": "https://contextwire.online/posts/kospi.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "d5b71ced77e8a0b0",
-    "slug": "argentina-egipto",
-    "title": "Argentina - Egipto: Confirmed Details and What Comes Next",
-    "trend": "argentina - egipto",
-    "category": "Trends",
-    "excerpt": "Argentina - Egipto is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-trending-editorial.png",
-      "alt": "Argentina - Egipto related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "tags": [
-      "Trends",
-      "Argentina",
-      "Egipto"
-    ],
-    "quality": {
-      "wordCount": 585,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/argentina-egipto.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-07T15:33:23.110Z",
-    "url": "https://contextwire.online/posts/argentina-egipto.html",
     "readingTime": "4 min"
   }
 ]
