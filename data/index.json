@@ -1,5 +1,41 @@
 [
   {
+    "id": "f44a09a9c7dfc8d3",
+    "slug": "kirk-herbstreit",
+    "title": "Kirk Herbstreit: What Happened and Key Details",
+    "trend": "kirk herbstreit",
+    "category": "Trends",
+    "excerpt": "Kirk Herbstreit is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Kirk Herbstreit related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Kirk",
+      "Herbstreit"
+    ],
+    "quality": {
+      "wordCount": 568,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/kirk-herbstreit.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-26T16:44:34.615Z",
+    "url": "https://contextwire.online/posts/kirk-herbstreit.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "cc02767316054191",
     "slug": "dinner",
     "title": "Dinner: What Readers Should Know Now",
@@ -5722,41 +5758,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-08T14:59:07.146Z",
     "url": "https://contextwire.online/posts/arthur-fery.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "3e1ba166a01d95ae",
-    "slug": "kospi",
-    "title": "Kospi: Latest Public Details Explained",
-    "trend": "kospi",
-    "category": "Trends",
-    "excerpt": "Kospi is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Kospi related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Kospi"
-    ],
-    "quality": {
-      "wordCount": 573,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/kospi.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-08T05:37:32.891Z",
-    "url": "https://contextwire.online/posts/kospi.html",
     "readingTime": "4 min"
   }
 ]
