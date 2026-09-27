@@ -1,5 +1,40 @@
 [
   {
+    "id": "a3125d3d16b69340",
+    "slug": "nfl-today",
+    "title": "NFL Today: Latest Public Details Explained",
+    "trend": "nfl today",
+    "category": "Sports",
+    "excerpt": "NFL Today is gaining attention in current trend data. Search interest is around 5000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1566577739112-5180d4bf9390?auto=format&fit=crop&w=1400&q=82",
+      "alt": "NFL Today related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Sports",
+      "Today"
+    ],
+    "quality": {
+      "wordCount": 584,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/nfl-today.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-27T17:16:08.804Z",
+    "url": "https://contextwire.online/posts/nfl-today.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "6358f696b6f3205f",
     "slug": "mr-olympia-winners",
     "title": "Mr Olympia Winners: Latest Public Details Explained",
@@ -5722,42 +5757,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-10T06:27:32.926Z",
     "url": "https://contextwire.online/posts/elisha-ellison.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "877557af2e298f9e",
-    "slug": "mike-dewine",
-    "title": "Mike Dewine: Confirmed Details and What Comes Next",
-    "trend": "mike dewine",
-    "category": "Trends",
-    "excerpt": "Mike Dewine is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Mike Dewine related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Mike",
-      "Dewine"
-    ],
-    "quality": {
-      "wordCount": 588,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/mike-dewine.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-09T15:45:09.243Z",
-    "url": "https://contextwire.online/posts/mike-dewine.html",
     "readingTime": "4 min"
   }
 ]

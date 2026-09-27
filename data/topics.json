@@ -1,5 +1,10 @@
 [
   {
+    "key": "nfl-today",
+    "title": "nfl today",
+    "usedAt": "2026-09-27T17:16:08.828Z"
+  },
+  {
     "key": "mr-olympia-winners",
     "title": "mr olympia winners",
     "usedAt": "2026-09-27T08:32:16.766Z"
@@ -1593,10 +1598,5 @@
     "key": "edward-r-murrow",
     "title": "edward r murrow",
     "usedAt": "2026-05-10T14:04:37.855Z"
-  },
-  {
-    "key": "ufc-post-fight-press-conference",
-    "title": "ufc post fight press conference",
-    "usedAt": "2026-05-10T05:51:58.973Z"
   }
 ]
