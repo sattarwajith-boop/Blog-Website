@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-09-27T17:16:10.167Z
+Generated: 2026-09-28T08:56:27.038Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 155
+
+## Russia Ukraine: Key Facts and Background
+- Slug: `russia-ukraine`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## NFL Today: Latest Public Details Explained
 - Slug: `nfl-today`
@@ -1236,12 +1244,4 @@ Total issues: 155
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Elisha Ellison: Key Facts and Background
-- Slug: `elisha-ellison`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
