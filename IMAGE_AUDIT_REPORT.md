@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-09-29T09:00:35.147Z
+Generated: 2026-09-29T18:14:14.423Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 156
+
+## Czechia vs England: Latest Public Details Explained
+- Slug: `czechia-vs-england`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Muse AI: What Happened and Key Details
 - Slug: `muse-ai`
@@ -1240,14 +1248,6 @@ Total issues: 156
 
 ## New Girl: What Happened and Key Details
 - Slug: `new-girl`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Big: What Happened and Key Details
-- Slug: `big`
 - Topic type: product
 - Issue: generic image for specific topic
 - Current credit: Unsplash
