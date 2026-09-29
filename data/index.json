@@ -1,5 +1,40 @@
 [
   {
+    "id": "e3a67f8c07b07d79",
+    "slug": "muse-ai",
+    "title": "Muse AI: What Happened and Key Details",
+    "trend": "muse ai",
+    "category": "Technology",
+    "excerpt": "Muse AI is gaining attention in current trend data. Search interest is around 5000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Muse AI related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Technology",
+      "Muse"
+    ],
+    "quality": {
+      "wordCount": 560,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/muse-ai.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-29T09:00:33.789Z",
+    "url": "https://contextwire.online/posts/muse-ai.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "ce6fa985b8b23774",
     "slug": "warren-county-ky",
     "title": "Warren County Ky: Key Facts and Background",
@@ -5719,42 +5754,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-11T14:08:30.256Z",
     "url": "https://contextwire.online/posts/big.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "dff72070b1af6683",
-    "slug": "olivia-wilde",
-    "title": "Olivia Wilde: Key Facts and Background",
-    "trend": "olivia wilde",
-    "category": "Trends",
-    "excerpt": "Olivia Wilde is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Olivia Wilde related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Olivia",
-      "Wilde"
-    ],
-    "quality": {
-      "wordCount": 590,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/olivia-wilde.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-11T05:28:02.817Z",
-    "url": "https://contextwire.online/posts/olivia-wilde.html",
     "readingTime": "4 min"
   }
 ]

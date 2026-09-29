@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-09-28T19:49:29.186Z
+Generated: 2026-09-29T09:00:35.147Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 156
+
+## Muse AI: What Happened and Key Details
+- Slug: `muse-ai`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Warren County Ky: Key Facts and Background
 - Slug: `warren-county-ky`
@@ -1240,14 +1248,6 @@ Total issues: 156
 
 ## Big: What Happened and Key Details
 - Slug: `big`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Olivia Wilde: Key Facts and Background
-- Slug: `olivia-wilde`
 - Topic type: product
 - Issue: generic image for specific topic
 - Current credit: Unsplash
