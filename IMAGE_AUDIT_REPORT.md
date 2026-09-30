@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-09-29T18:14:14.423Z
+Generated: 2026-09-30T08:59:13.423Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 156
+
+## West Indies Cricket Team vs India National Cricket Team Match Scorecard:
+- Slug: `west-indies-cricket-team-vs-india-national-cricket-team-match-scorecard`
+- Topic type: sports-event
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use official league/team/event image, licensed photo, scoreboard/schedule screenshot, or original editorial graphic.
 
 ## Czechia vs England: Latest Public Details Explained
 - Slug: `czechia-vs-england`
@@ -1244,12 +1252,4 @@ Total issues: 156
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## New Girl: What Happened and Key Details
-- Slug: `new-girl`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
