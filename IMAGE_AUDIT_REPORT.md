@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-09-30T08:59:13.423Z
+Generated: 2026-09-30T18:07:04.849Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 156
+
+## Phillies - Braves: Source-Checked Reader Guide
+- Slug: `phillies-braves`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## West Indies Cricket Team vs India National Cricket Team Match Scorecard:
 - Slug: `west-indies-cricket-team-vs-india-national-cricket-team-match-scorecard`
@@ -1240,14 +1248,6 @@ Total issues: 156
 
 ## Sam Neill: Confirmed Details and What Comes Next
 - Slug: `sam-neill`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Wimbledon Today: Latest Public Details Explained
-- Slug: `wimbledon-today`
 - Topic type: product
 - Issue: generic image for specific topic
 - Current credit: Unsplash

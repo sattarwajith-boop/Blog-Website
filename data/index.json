@@ -1,5 +1,41 @@
 [
   {
+    "id": "825186488e6e08f8",
+    "slug": "phillies-braves",
+    "title": "Phillies - Braves: Source-Checked Reader Guide",
+    "trend": "phillies - braves",
+    "category": "Trends",
+    "excerpt": "Phillies - Braves is gaining attention in current trend data. Search interest is around 10000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Phillies - Braves related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Phillies",
+      "Braves"
+    ],
+    "quality": {
+      "wordCount": 601,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/phillies-braves.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-09-30T18:07:03.494Z",
+    "url": "https://contextwire.online/posts/phillies-braves.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "c96f1384d0fe4ed0",
     "slug": "west-indies-cricket-team-vs-india-national-cricket-team-match-scorecard",
     "title": "West Indies Cricket Team vs India National Cricket Team Match Scorecard:",
@@ -5725,42 +5761,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-13T05:54:09.255Z",
     "url": "https://contextwire.online/posts/sam-neill.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "bd21ae7bed92b284",
-    "slug": "wimbledon-today",
-    "title": "Wimbledon Today: Latest Public Details Explained",
-    "trend": "wimbledon today",
-    "category": "Trends",
-    "excerpt": "Wimbledon Today is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Wimbledon Today related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Wimbledon",
-      "Today"
-    ],
-    "quality": {
-      "wordCount": 572,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/wimbledon-today.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-12T14:11:34.425Z",
-    "url": "https://contextwire.online/posts/wimbledon-today.html",
     "readingTime": "4 min"
   }
 ]
