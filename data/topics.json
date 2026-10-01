@@ -1,5 +1,10 @@
 [
   {
+    "key": "baseball-scores",
+    "title": "baseball scores",
+    "usedAt": "2026-10-01T09:24:28.973Z"
+  },
+  {
     "key": "phillies-braves",
     "title": "phillies - braves",
     "usedAt": "2026-09-30T18:07:03.516Z"
@@ -1592,11 +1597,6 @@
   {
     "key": "nba-playoffs-bracket",
     "title": "nba playoffs bracket",
-    "usedAt": "2026-05-12T05:54:26.200Z"
-  },
-  {
-    "key": "warriors",
-    "title": "warriors",
     "usedAt": "2026-05-12T05:54:26.200Z"
   }
 ]

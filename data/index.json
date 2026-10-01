@@ -1,5 +1,41 @@
 [
   {
+    "id": "9616b2f01634bc24",
+    "slug": "baseball-scores",
+    "title": "Baseball Scores: What Readers Should Know Now",
+    "trend": "baseball scores",
+    "category": "Sports",
+    "excerpt": "Baseball Scores is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1508344928928-7165b67de128?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Baseball Scores related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Sports",
+      "Baseball",
+      "Scores"
+    ],
+    "quality": {
+      "wordCount": 562,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/baseball-scores.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-10-01T09:24:28.951Z",
+    "url": "https://contextwire.online/posts/baseball-scores.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "825186488e6e08f8",
     "slug": "phillies-braves",
     "title": "Phillies - Braves: Source-Checked Reader Guide",
@@ -5726,41 +5762,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-13T15:33:20.755Z",
     "url": "https://contextwire.online/posts/lilli-tagger.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "439527f8b9666532",
-    "slug": "sam-neill",
-    "title": "Sam Neill: Confirmed Details and What Comes Next",
-    "trend": "sam neill",
-    "category": "Trends",
-    "excerpt": "Sam Neill is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Sam Neill related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Neill"
-    ],
-    "quality": {
-      "wordCount": 536,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/sam-neill.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-13T05:54:09.255Z",
-    "url": "https://contextwire.online/posts/sam-neill.html",
     "readingTime": "4 min"
   }
 ]
