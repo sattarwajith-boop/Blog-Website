@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-10-01T09:24:30.504Z
+Generated: 2026-10-01T18:33:56.197Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 156
+
+## The Oval Office: What Happened and Key Details
+- Slug: `the-oval-office`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Baseball Scores: What Readers Should Know Now
 - Slug: `baseball-scores`
@@ -1244,12 +1252,4 @@ Total issues: 156
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Lilli Tagger: Key Facts and Background
-- Slug: `lilli-tagger`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.

@@ -1,5 +1,41 @@
 [
   {
+    "id": "900fb59e8619fa1d",
+    "slug": "the-oval-office",
+    "title": "The Oval Office: What Happened and Key Details",
+    "trend": "the oval office",
+    "category": "Trends",
+    "excerpt": "The Oval Office is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "The Oval Office related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Oval",
+      "Office"
+    ],
+    "quality": {
+      "wordCount": 571,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/the-oval-office.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-10-01T18:33:54.931Z",
+    "url": "https://contextwire.online/posts/the-oval-office.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "9616b2f01634bc24",
     "slug": "baseball-scores",
     "title": "Baseball Scores: What Readers Should Know Now",
@@ -5726,42 +5762,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-14T05:15:45.572Z",
     "url": "https://contextwire.online/posts/taylor-swift-new-album.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "85fb7e9c0b902837",
-    "slug": "lilli-tagger",
-    "title": "Lilli Tagger: Key Facts and Background",
-    "trend": "lilli tagger",
-    "category": "Trends",
-    "excerpt": "Lilli Tagger is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Lilli Tagger related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Lilli",
-      "Tagger"
-    ],
-    "quality": {
-      "wordCount": 574,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/lilli-tagger.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-13T15:33:20.755Z",
-    "url": "https://contextwire.online/posts/lilli-tagger.html",
     "readingTime": "4 min"
   }
 ]
