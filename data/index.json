@@ -1,5 +1,41 @@
 [
   {
+    "id": "d53b5a2448515d3f",
+    "slug": "bruce-willis",
+    "title": "Bruce Willis: Key Facts and Background",
+    "trend": "bruce willis",
+    "category": "Trends",
+    "excerpt": "Bruce Willis is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Bruce Willis related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Bruce",
+      "Willis"
+    ],
+    "quality": {
+      "wordCount": 602,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/bruce-willis.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-10-02T18:01:16.746Z",
+    "url": "https://contextwire.online/posts/bruce-willis.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "03c3c1ee6e1ec461",
     "slug": "houston-weather",
     "title": "Houston Weather: What Readers Should Know Now",
@@ -5726,41 +5762,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-15T05:16:47.236Z",
     "url": "https://contextwire.online/posts/molly-shannon.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "572d3339c79978c9",
-    "slug": "illinois",
-    "title": "Illinois: Key Facts and Background",
-    "trend": "illinois",
-    "category": "Trends",
-    "excerpt": "Illinois is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Illinois related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Illinois"
-    ],
-    "quality": {
-      "wordCount": 599,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/illinois.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-14T14:27:15.480Z",
-    "url": "https://contextwire.online/posts/illinois.html",
     "readingTime": "4 min"
   }
 ]
