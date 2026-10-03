@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-10-03T08:32:34.225Z
+Generated: 2026-10-03T16:42:09.936Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 156
+
+## Bill Belichick Girlfriend: Key Facts and Background
+- Slug: `bill-belichick-girlfriend`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Apple Tv: What Readers Should Know Now
 - Slug: `apple-tv`
@@ -1240,14 +1248,6 @@ Total issues: 156
 
 ## Britney Spears: What Readers Should Know Now
 - Slug: `britney-spears`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Zimbabwe vs Bangladesh: Confirmed Details and What Comes Next
-- Slug: `zimbabwe-vs-bangladesh`
 - Topic type: product
 - Issue: generic image for specific topic
 - Current credit: Unsplash
