@@ -1,5 +1,41 @@
 [
   {
+    "id": "2108df413b614872",
+    "slug": "terry-mclaurin",
+    "title": "Terry Mclaurin: Confirmed Details and What Comes Next",
+    "trend": "terry mclaurin",
+    "category": "Trends",
+    "excerpt": "Terry Mclaurin is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Terry Mclaurin related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Terry",
+      "Mclaurin"
+    ],
+    "quality": {
+      "wordCount": 558,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/terry-mclaurin.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-10-04T08:45:12.806Z",
+    "url": "https://contextwire.online/posts/terry-mclaurin.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "19a4d2aa6ac359f6",
     "slug": "bill-belichick-girlfriend",
     "title": "Bill Belichick Girlfriend: Key Facts and Background",
@@ -5726,42 +5762,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-16T14:36:01.826Z",
     "url": "https://contextwire.online/posts/fox-fall-sunday-schedule.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "79ce8a464ea0218b",
-    "slug": "britney-spears",
-    "title": "Britney Spears: What Readers Should Know Now",
-    "trend": "britney spears",
-    "category": "Trends",
-    "excerpt": "Britney Spears is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Britney Spears related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Britney",
-      "Spears"
-    ],
-    "quality": {
-      "wordCount": 600,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/britney-spears.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-16T05:26:57.288Z",
-    "url": "https://contextwire.online/posts/britney-spears.html",
     "readingTime": "4 min"
   }
 ]
