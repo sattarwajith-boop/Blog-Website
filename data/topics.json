@@ -1,5 +1,10 @@
 [
   {
+    "key": "nobel-prize",
+    "title": "nobel prize 2026",
+    "usedAt": "2026-10-05T09:35:13.446Z"
+  },
+  {
     "key": "tyson-bagent",
     "title": "tyson bagent",
     "usedAt": "2026-10-04T17:01:09.457Z"
@@ -1592,11 +1597,6 @@
   {
     "key": "medicare",
     "title": "medicare",
-    "usedAt": "2026-05-13T19:27:55.089Z"
-  },
-  {
-    "key": "adley-rutschman",
-    "title": "adley rutschman",
     "usedAt": "2026-05-13T19:27:55.089Z"
   }
 ]
