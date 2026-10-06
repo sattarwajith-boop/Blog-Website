@@ -1,5 +1,40 @@
 [
   {
+    "id": "7ffdbfb241c8a2d8",
+    "slug": "cbs-news",
+    "title": "Cbs News: Latest Public Details Explained",
+    "trend": "cbs news",
+    "category": "Trends",
+    "excerpt": "Cbs News is gaining attention in current trend data. Search interest is around 1000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Cbs News related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "News"
+    ],
+    "quality": {
+      "wordCount": 614,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/cbs-news.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-10-06T18:36:04.499Z",
+    "url": "https://contextwire.online/posts/cbs-news.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "079795dded8c9a91",
     "slug": "why-did-i-get-90-from-social-security",
     "title": "Why Did I Get $90 From Social Security: Latest Public Details Explained",
@@ -5730,40 +5765,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-18T14:06:05.676Z",
     "url": "https://contextwire.online/posts/francesco-molinari.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "126002263a1a7985",
-    "slug": "post",
-    "title": "손흥민: What Happened and Key Details",
-    "trend": "손흥민",
-    "category": "Trends",
-    "excerpt": "손흥민 is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "손흥민 related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends"
-    ],
-    "quality": {
-      "wordCount": 563,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/post.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-18T05:11:07.500Z",
-    "url": "https://contextwire.online/posts/post.html",
     "readingTime": "4 min"
   }
 ]
