@@ -1,10 +1,10 @@
 # ContextWire image audit report
 
-Generated: 2026-10-05T09:35:14.955Z
+Generated: 2026-10-06T09:23:32.284Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
-Total issues: 156
+Total issues: 155
 
 ## Nobel Prize 2026: Latest Public Details Explained
 - Slug: `nobel-prize-2026`
@@ -1240,14 +1240,6 @@ Total issues: 156
 
 ## 손흥민: What Happened and Key Details
 - Slug: `post`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Fidelity: What Happened and Key Details
-- Slug: `fidelity`
 - Topic type: product
 - Issue: generic image for specific topic
 - Current credit: Unsplash
