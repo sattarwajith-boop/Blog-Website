@@ -1,5 +1,39 @@
 [
   {
+    "id": "0de5a107e6e8d501",
+    "slug": "xrp",
+    "title": "Xrp: Source-Checked Reader Guide",
+    "trend": "xrp",
+    "category": "Trends",
+    "excerpt": "Xrp is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Xrp related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends"
+    ],
+    "quality": {
+      "wordCount": 559,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/xrp.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-10-07T09:13:05.548Z",
+    "url": "https://contextwire.online/posts/xrp.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "7ffdbfb241c8a2d8",
     "slug": "cbs-news",
     "title": "Cbs News: Latest Public Details Explained",
@@ -5729,42 +5763,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-19T05:37:46.513Z",
     "url": "https://contextwire.online/posts/mia-goth.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "fa8baa871b178710",
-    "slug": "francesco-molinari",
-    "title": "Francesco Molinari: Source-Checked Reader Guide",
-    "trend": "francesco molinari",
-    "category": "Trends",
-    "excerpt": "Francesco Molinari is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Francesco Molinari related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Francesco",
-      "Molinari"
-    ],
-    "quality": {
-      "wordCount": 564,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/francesco-molinari.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-18T14:06:05.676Z",
-    "url": "https://contextwire.online/posts/francesco-molinari.html",
     "readingTime": "4 min"
   }
 ]
