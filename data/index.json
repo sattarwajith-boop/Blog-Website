@@ -1,5 +1,41 @@
 [
   {
+    "id": "d935408531a5cbe9",
+    "slug": "tank-dell",
+    "title": "Tank Dell: What Readers Should Know Now",
+    "trend": "tank dell",
+    "category": "Trends",
+    "excerpt": "Tank Dell is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Tank Dell related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Tank",
+      "Dell"
+    ],
+    "quality": {
+      "wordCount": 558,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/tank-dell.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-10-07T19:04:10.300Z",
+    "url": "https://contextwire.online/posts/tank-dell.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "0de5a107e6e8d501",
     "slug": "xrp",
     "title": "Xrp: Source-Checked Reader Guide",
@@ -5729,40 +5765,5 @@
     "publishedAt": "2026-07-19T14:09:36.047Z",
     "url": "https://contextwire.online/posts/george-russell.html",
     "readingTime": "3 min"
-  },
-  {
-    "id": "eaf436cc86912c8d",
-    "slug": "mia-goth",
-    "title": "Mia Goth: Key Facts and Background",
-    "trend": "mia goth",
-    "category": "Trends",
-    "excerpt": "Mia Goth is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Mia Goth related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Goth"
-    ],
-    "quality": {
-      "wordCount": 572,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/mia-goth.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-19T05:37:46.513Z",
-    "url": "https://contextwire.online/posts/mia-goth.html",
-    "readingTime": "4 min"
   }
 ]
