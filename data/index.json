@@ -1,5 +1,41 @@
 [
   {
+    "id": "25e86a0aa41cac33",
+    "slug": "samsung-galaxy",
+    "title": "Samsung Galaxy: Source-Checked Reader Guide",
+    "trend": "samsung galaxy",
+    "category": "Trends",
+    "excerpt": "Samsung Galaxy is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Samsung Galaxy related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Samsung",
+      "Galaxy"
+    ],
+    "quality": {
+      "wordCount": 584,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/samsung-galaxy.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-10-08T09:27:04.431Z",
+    "url": "https://contextwire.online/posts/samsung-galaxy.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "d935408531a5cbe9",
     "slug": "tank-dell",
     "title": "Tank Dell: What Readers Should Know Now",
@@ -5726,44 +5762,5 @@
     "publishedAt": "2026-07-20T05:56:18.839Z",
     "url": "https://contextwire.online/posts/chris-hemsworth.html",
     "readingTime": "4 min"
-  },
-  {
-    "id": "cc87768012db42b3",
-    "slug": "george-russell",
-    "title": "George Russell: What Readers Should Know Now",
-    "trend": "george russell",
-    "category": "Trends",
-    "excerpt": "George Russell is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
-      "alt": "George Russell related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "George",
-      "Russell"
-    ],
-    "quality": {
-      "wordCount": 405,
-      "score": 67,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": [
-        "below-500-words",
-        "thin-source-set"
-      ]
-    },
-    "ogImage": "assets/og/george-russell.svg",
-    "sourceCount": 1,
-    "publishedAt": "2026-07-19T14:09:36.047Z",
-    "url": "https://contextwire.online/posts/george-russell.html",
-    "readingTime": "3 min"
   }
 ]
