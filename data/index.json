@@ -1,5 +1,40 @@
 [
   {
+    "id": "a9e05ed9ca27d85f",
+    "slug": "sharks",
+    "title": "Sharks: Latest Public Details Explained",
+    "trend": "sharks",
+    "category": "Trends",
+    "excerpt": "Sharks is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Sharks related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Sharks"
+    ],
+    "quality": {
+      "wordCount": 557,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/sharks.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-10-09T09:36:11.887Z",
+    "url": "https://contextwire.online/posts/sharks.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "ecbe093b258fe1f9",
     "slug": "collision",
     "title": "Collision: What Readers Should Know Now",
@@ -5721,45 +5756,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-21T05:36:41.087Z",
     "url": "https://contextwire.online/posts/marcello-hernandez.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "59feb9be34980ddf",
-    "slug": "united-airlines-employee-passenger-confrontation",
-    "title": "United Airlines Employee Passenger Confrontation: Source-Checked Reader Guide",
-    "trend": "united airlines employee passenger confrontation",
-    "category": "Trends",
-    "excerpt": "A focused briefing on United Airlines Employee Passenger Confrontation: what the headlines reveal, where the story stands, and what comes next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "United Airlines Employee Passenger Confrontation related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "United",
-      "Airlines",
-      "Employee",
-      "Passenger",
-      "Confrontation"
-    ],
-    "quality": {
-      "wordCount": 621,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/united-airlines-employee-passenger-confrontation.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-20T14:54:42.219Z",
-    "url": "https://contextwire.online/posts/united-airlines-employee-passenger-confrontation.html",
     "readingTime": "4 min"
   }
 ]
