@@ -1,5 +1,41 @@
 [
   {
+    "id": "87f42706e08e512d",
+    "slug": "xavi-espart",
+    "title": "Xavi Espart: Confirmed Details and What Comes Next",
+    "trend": "xavi espart",
+    "category": "Trends",
+    "excerpt": "Xavi Espart is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Xavi Espart related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Xavi",
+      "Espart"
+    ],
+    "quality": {
+      "wordCount": 554,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/xavi-espart.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-10-10T17:27:31.245Z",
+    "url": "https://contextwire.online/posts/xavi-espart.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "7f8d8d8c220dc979",
     "slug": "ins",
     "title": "Ins: Confirmed Details and What Comes Next",
@@ -5717,42 +5753,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-22T14:36:58.503Z",
     "url": "https://contextwire.online/posts/nuno-borges.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "a721baa1ea1029c8",
-    "slug": "seth-meyers",
-    "title": "Seth Meyers: Source-Checked Reader Guide",
-    "trend": "seth meyers",
-    "category": "Culture",
-    "excerpt": "Seth Meyers is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Seth Meyers related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Culture",
-      "Seth",
-      "Meyers"
-    ],
-    "quality": {
-      "wordCount": 588,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/seth-meyers.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-22T05:35:26.861Z",
-    "url": "https://contextwire.online/posts/seth-meyers.html",
     "readingTime": "4 min"
   }
 ]
