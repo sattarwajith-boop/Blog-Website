@@ -1,5 +1,40 @@
 [
   {
+    "id": "1f79477a6caf937f",
+    "slug": "patriots",
+    "title": "Patriots: Key Facts and Background",
+    "trend": "patriots",
+    "category": "Trends",
+    "excerpt": "Patriots is gaining attention in current trend data. Search interest is around 50000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Patriots related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Patriots"
+    ],
+    "quality": {
+      "wordCount": 575,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/patriots.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-10-11T17:46:32.936Z",
+    "url": "https://contextwire.online/posts/patriots.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "23ff1d7a5a898f86",
     "slug": "braces",
     "title": "Braces: Key Facts and Background",
@@ -5716,42 +5751,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-23T14:52:42.449Z",
     "url": "https://contextwire.online/posts/martha-stewart.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "d303a59e3ab77f11",
-    "slug": "jana-nayagan",
-    "title": "Jana Nayagan: What Happened and Key Details",
-    "trend": "jana nayagan",
-    "category": "Trends",
-    "excerpt": "Jana Nayagan is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Jana Nayagan related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Jana",
-      "Nayagan"
-    ],
-    "quality": {
-      "wordCount": 590,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/jana-nayagan.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-23T05:40:18.065Z",
-    "url": "https://contextwire.online/posts/jana-nayagan.html",
     "readingTime": "4 min"
   }
 ]
