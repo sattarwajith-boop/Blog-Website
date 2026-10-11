@@ -1,5 +1,40 @@
 [
   {
+    "id": "23ff1d7a5a898f86",
+    "slug": "braces",
+    "title": "Braces: Key Facts and Background",
+    "trend": "braces",
+    "category": "Trends",
+    "excerpt": "Braces is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Braces related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Braces"
+    ],
+    "quality": {
+      "wordCount": 573,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/braces.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-10-11T09:17:08.629Z",
+    "url": "https://contextwire.online/posts/braces.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "87f42706e08e512d",
     "slug": "xavi-espart",
     "title": "Xavi Espart: Confirmed Details and What Comes Next",
@@ -5717,42 +5752,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-23T05:40:18.065Z",
     "url": "https://contextwire.online/posts/jana-nayagan.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "7894ed45e6988148",
-    "slug": "nuno-borges",
-    "title": "Nuno Borges: Latest Public Details Explained",
-    "trend": "nuno borges",
-    "category": "Trends",
-    "excerpt": "Nuno Borges is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Nuno Borges related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Nuno",
-      "Borges"
-    ],
-    "quality": {
-      "wordCount": 584,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/nuno-borges.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-22T14:36:58.503Z",
-    "url": "https://contextwire.online/posts/nuno-borges.html",
     "readingTime": "4 min"
   }
 ]
