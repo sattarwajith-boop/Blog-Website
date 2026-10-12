@@ -1,5 +1,42 @@
 [
   {
+    "id": "264afc8ff9f7a7c4",
+    "slug": "dow-jones-industrial-average",
+    "title": "Dow Jones Industrial Average: Latest Public Details Explained",
+    "trend": "dow jones industrial average",
+    "category": "Trends",
+    "excerpt": "Dow Jones Industrial Average is gaining attention in current trend data. Search interest is around 5000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Dow Jones Industrial Average related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Jones",
+      "Industrial",
+      "Average"
+    ],
+    "quality": {
+      "wordCount": 604,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/dow-jones-industrial-average.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-10-12T21:23:49.216Z",
+    "url": "https://contextwire.online/posts/dow-jones-industrial-average.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "aae10807cce61195",
     "slug": "mayor-of-kingstown-season-5",
     "title": "Mayor of Kingstown Season 5: Source-Checked Reader Guide",
@@ -5716,42 +5753,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-24T14:23:46.527Z",
     "url": "https://contextwire.online/posts/jordan-rodgers.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "bd8afc0962472d85",
-    "slug": "kennewick-fire",
-    "title": "Kennewick Fire: Source-Checked Reader Guide",
-    "trend": "kennewick fire",
-    "category": "Trends",
-    "excerpt": "Kennewick Fire is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Kennewick Fire related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Kennewick",
-      "Fire"
-    ],
-    "quality": {
-      "wordCount": 567,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/kennewick-fire.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-24T05:36:33.092Z",
-    "url": "https://contextwire.online/posts/kennewick-fire.html",
     "readingTime": "4 min"
   }
 ]
