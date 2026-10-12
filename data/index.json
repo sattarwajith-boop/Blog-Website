@@ -1,5 +1,42 @@
 [
   {
+    "id": "aae10807cce61195",
+    "slug": "mayor-of-kingstown-season-5",
+    "title": "Mayor of Kingstown Season 5: Source-Checked Reader Guide",
+    "trend": "mayor of kingstown season 5",
+    "category": "Trends",
+    "excerpt": "A focused briefing on Mayor of Kingstown Season 5: what the headlines reveal, where the story stands, and what comes next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Mayor of Kingstown Season 5 related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Mayor",
+      "Kingstown",
+      "Season"
+    ],
+    "quality": {
+      "wordCount": 605,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/mayor-of-kingstown-season-5.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-10-12T09:43:46.700Z",
+    "url": "https://contextwire.online/posts/mayor-of-kingstown-season-5.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "1f79477a6caf937f",
     "slug": "patriots",
     "title": "Patriots: Key Facts and Background",
@@ -5715,42 +5752,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-24T05:36:33.092Z",
     "url": "https://contextwire.online/posts/kennewick-fire.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "4b234c819b8922ca",
-    "slug": "martha-stewart",
-    "title": "Martha Stewart: What Happened and Key Details",
-    "trend": "martha stewart",
-    "category": "Trends",
-    "excerpt": "Martha Stewart is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Martha Stewart related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Martha",
-      "Stewart"
-    ],
-    "quality": {
-      "wordCount": 598,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/martha-stewart.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-23T14:52:42.449Z",
-    "url": "https://contextwire.online/posts/martha-stewart.html",
     "readingTime": "4 min"
   }
 ]
