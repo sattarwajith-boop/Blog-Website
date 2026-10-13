@@ -1,5 +1,42 @@
 [
   {
+    "id": "53427ab3112e21ae",
+    "slug": "rocket-launch-today",
+    "title": "Rocket Launch Today: Confirmed Details and What Comes Next",
+    "trend": "rocket launch today",
+    "category": "Trends",
+    "excerpt": "Rocket Launch Today is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Rocket Launch Today related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Rocket",
+      "Launch",
+      "Today"
+    ],
+    "quality": {
+      "wordCount": 587,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/rocket-launch-today.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-10-13T09:43:25.964Z",
+    "url": "https://contextwire.online/posts/rocket-launch-today.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "264afc8ff9f7a7c4",
     "slug": "dow-jones-industrial-average",
     "title": "Dow Jones Industrial Average: Latest Public Details Explained",
@@ -5717,42 +5754,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-25T05:30:41.794Z",
     "url": "https://contextwire.online/posts/giants-game-today.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "f25d433c09b6c500",
-    "slug": "jordan-rodgers",
-    "title": "Jordan Rodgers: Source-Checked Reader Guide",
-    "trend": "jordan rodgers",
-    "category": "Trends",
-    "excerpt": "Jordan Rodgers is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Jordan Rodgers related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Jordan",
-      "Rodgers"
-    ],
-    "quality": {
-      "wordCount": 586,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/jordan-rodgers.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-24T14:23:46.527Z",
-    "url": "https://contextwire.online/posts/jordan-rodgers.html",
     "readingTime": "4 min"
   }
 ]
