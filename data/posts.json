@@ -1,5 +1,94 @@
 [
   {
+    "id": "08a7cea09e34393d",
+    "slug": "dazn",
+    "title": "Dazn: What Readers Should Know Now",
+    "trend": "dazn",
+    "category": "Trends",
+    "excerpt": "Dazn is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Dazn related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "content": [
+      "What happened: Dazn is drawing fresh reader attention in the trends category. Google Trends reported search interest around 500+. The available source headlines point readers toward one practical task: understand the specific update, separate confirmed details from repetition, and decide whether the story affects schedules, money, public understanding, entertainment plans, sport results, or technology decisions.",
+      "Key details: The strongest details currently available from the source set are: Search interest was reported around 500+. DAZN reported: How to watch Galatasaray vs. Barcelona in the US tonight. DAZN reported: Home. DAZN reported: Dubois and Wardley make the same promise ahead of world title rematch. DAZN reported: Premier League power rankings: Brighton knocking on the door after latest victory. DAZN reported: How to watch Manchester City vs. PSG in the US. These points are intentionally limited to what the source headlines and trend data support. If a detail is not visible in the source set, this article does not treat it as confirmed.",
+      "Background: The source context for Dazn includes DAZN: How to watch Galatasaray vs. Barcelona in the US tonight; DAZN: Home; DAZN: Dubois and Wardley make the same promise ahead of world title rematch; DAZN: Premier League power rankings: Brighton knocking on the door after latest victory; DAZN: How to watch Manchester City vs. PSG in the US. That mix is useful because it shows which parts of the topic are being repeated publicly and which parts may still need a primary source, official page, direct statement, fixture page, filing, venue notice, product note, or updated report before readers rely on it.",
+      "Why it matters: Readers usually search for a topic like Dazn because they need a usable answer, not a pile of repeated headlines. For trends coverage, that means the article should clarify the latest public signal, identify the responsible organizations or people when the sources name them, and avoid stretching a thin source set into false certainty.",
+      "What's confirmed: The confirmed material is the public trend signal and the linked source headlines shown below. For Dazn, prioritize recent updates and named public records over repeated summaries. When the source set contains dates, names, scores, prices, venues, companies, or official organizations, those details should be checked against the newest linked source before a reader acts on them.",
+      "Reader takeaway: The useful reading is narrow and practical. Start with the newest source, compare whether other sources repeat the same fact independently, and give extra weight to official pages or named organizations. If the topic affects money, tickets, health, legal risk, travel, public reputation, product decisions, or sports results, wait for stronger confirmation before acting.",
+      "What to watch: The next useful update will be a clearer source with direct evidence, a correction, an official statement, a schedule or price page, a box score, a filing, a status page, or a new report that confirms the key detail independently. If later sources add concrete facts, this page should be updated rather than padded with speculation.",
+      "Bottom line: Dazn is worth reading about because the topic is visible and readers are looking for a clear answer. The safest takeaway is to use the source links, focus on confirmed details, and avoid treating repeated headlines as stronger evidence than they really are."
+    ],
+    "sources": [
+      {
+        "title": "How to watch Galatasaray vs. Barcelona in the US tonight",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOajNCajRXQnFweTkxbWVuX1YwcFhrQ0QxcG5UWlY4RnhOOG1PeVlsM1N3bTFRd1Q5bWRScUJKX3d2dnQzM2RVT2dvZ3VZd0ExZEtrRXdxUV8xMGp3RldkcldTdVpLQmUyV2JKVjVHSVd3NWc0NGVLZ0EwWmx3VU5lQzZOYkYtQ08ydFkzbmtseXY2WnRLdTJMSWNXZFNtZkxuYWZxc0g0aXRFcVU?oc=5",
+        "publishedAt": "Tue, 13 Oct 2026 15:53:23 GMT"
+      },
+      {
+        "title": "Home",
+        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNc1h1bTJuWm1ENnlETUdQZzZHT1M2WE5NWHpNbWZyM3lSRHpwU3lJd1JDX1Bza09vaFlZc3gxM0oyVy1EOUFuNm4zdmxEN0Rhd2t1UlRUZGk0NGUwOW5kd2ptdE0yaUpiU29UdUpGQnNhbDYxUWNHZ2Q0SERqZGUwREF0R0xMME5mRUtzSE1kaXRLU1pPVkE1OExXZzZJVVE?oc=5",
+        "publishedAt": "Tue, 13 Oct 2026 18:08:58 GMT"
+      },
+      {
+        "title": "Dubois and Wardley make the same promise ahead of world title rematch",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPb3ZQUEJYdURjcXdMV3F2dVdHSFdEb2U4RkNDTkVNLVVtTFZGd2tJbTBJd0YxWE9nb0xiazBPVkItWWdPdW43NEdZWjcwVDdBc240aFhvOEtkX0hTZlM0QjM3ZkVOcEdVYjdPZ0ZMTFo1UGRJSHdZUXkwbld3U1JoOVlUY09vanQ4Q0swZFNsWld5SmZJSU1iS09NWXVRMnVScXJLTzVzSTJTaURTU09JQ0ZadnA2Q001dHRfWHlWSmtObnc?oc=5",
+        "publishedAt": "Tue, 13 Oct 2026 16:00:00 GMT"
+      },
+      {
+        "title": "Premier League power rankings: Brighton knocking on the door after latest victory",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQc2twTG1ldkNKQVFSa3Zka21Yd3NHX29iYThHQ2RWVHl6Sm1iUVd5TFdjbWZ2YkhCVWhrR2ExaTZyWE53WGJyVnV1UzVhaWtfZHhzU3BqOXU2Mmt4eDNfeGltZW5OWklHWEc5MHhsbjFUTnVGUlVkUjljZlFSNWdjZmRZc19BWlUxekFyQ3k1S2xZQ2YzZHJ5Z1NzSU5HS3AxRk5uNWxveW5Oa2RYLVhsUEI1YjJ2OUtCN0hnclNfQkV1NHktX3FXT3ZR?oc=5",
+        "publishedAt": "Tue, 13 Oct 2026 18:33:27 GMT"
+      },
+      {
+        "title": "How to watch Manchester City vs. PSG in the US",
+        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTjhNUFREZ2hINXV4UGwxa3RFT0Z6aHJSZmhqUjQ2c2NrN25mRmRQQzY4VXFjcVBuOGF0cWdLU2U1WGp0ODk2MUVjUmZYV1hDTW5TdzlIdmNlQVlIZUNfY1JSTTBEN01RY1B6SExURE00OTYtV3VSLVlEdURlYllRYTVNdmQxbmc5ZlRyN09CTy1pRE90V1RJS1ZMUU5HS2xHNGtsUzJ4Yjk?oc=5",
+        "publishedAt": "Tue, 13 Oct 2026 16:39:34 GMT"
+      }
+    ],
+    "author": {
+      "name": "ContextWire Editorial Desk",
+      "title": "Source-checking desk",
+      "url": "https://contextwire.online/author/contextwire-editorial-desk.html",
+      "bio": "The ContextWire Editorial Desk prepares source-checked briefings with emphasis on clear facts, cautious language, and reader-useful context."
+    },
+    "updatedAt": "2026-10-13T19:31:24.134Z",
+    "keyFacts": [
+      "Search interest was reported around 500+.",
+      "DAZN reported: How to watch Galatasaray vs. Barcelona in the US tonight.",
+      "DAZN reported: Home.",
+      "DAZN reported: Dubois and Wardley make the same promise ahead of world title rematch.",
+      "DAZN reported: Premier League power rankings: Brighton knocking on the door after latest victory.",
+      "DAZN reported: How to watch Manchester City vs. PSG in the US."
+    ],
+    "publishedAt": "2026-10-13T19:31:24.134Z",
+    "productionMethod": "editorial-workflow",
+    "tags": [
+      "Trends",
+      "Dazn"
+    ],
+    "ogImage": "assets/og/dazn.svg",
+    "quality": {
+      "wordCount": 537,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "humanReview": {
+      "status": "editorial-review-required",
+      "note": "ContextWire briefing prepared with visible source notes, reader-focused sections, and verification prompts. Final factual approval should be completed before promotion or monetization review."
+    }
+  },
+  {
     "id": "53427ab3112e21ae",
     "slug": "rocket-launch-today",
     "title": "Rocket Launch Today: Confirmed Details and What Comes Next",
@@ -14241,97 +14330,6 @@
     "ogImage": "assets/og/jason-sudeikis.svg",
     "quality": {
       "wordCount": 624,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "humanReview": {
-      "status": "editorial-review-required",
-      "note": "ContextWire briefing prepared with visible source notes, reader-focused sections, and verification prompts. Final factual approval should be completed before promotion or monetization review."
-    }
-  },
-  {
-    "id": "08f8663386337a84",
-    "slug": "giants-game-today",
-    "title": "Giants Game Today: Latest Public Details Explained",
-    "trend": "giants game today",
-    "category": "Sports",
-    "excerpt": "Giants Game Today is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-sports-arena.png",
-      "alt": "Giants Game Today related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "content": [
-      "What happened: Giants Game Today is drawing fresh reader attention in the sports category. Google Trends reported search interest around 500+. The available source headlines point readers toward one practical task: understand the specific update, separate confirmed details from repetition, and decide whether the story affects schedules, money, public understanding, entertainment plans, sport results, or technology decisions.",
-      "Key details: The strongest details currently available from the source set are: Search interest was reported around 500+. MajorWager reported: Angels vs Giants match player stats | 2026 Friday, July 24th. Mshale reported: No. 616 - Big Bussi Energy Giants Game Today (Y5hD7FKlf6). Mshale reported: 2026 WCWS National Semifinal Texas Tech Vs Alabama College Softball Game Leylah Fernandez (5eHqJNi1dl). Mshale reported: Gerardo Capaldo: Tambourine Etude #1 Elliot Page (lYOyawHdd0). Mshale reported: Ajay Mitchell On Hartenstein And Team's Mentality In Thunder Win⏐Post Game Media⏐November 7, 2025 Gwyneth Paltrow (s0kIj8thke). These points are intentionally limited to what the source headlines and trend data support. If a detail is not visible in the source set, this article does not treat it as confirmed.",
-      "Background: The source context for Giants Game Today includes MajorWager: Angels vs Giants match player stats | 2026 Friday, July 24th; Mshale: No. 616 - Big Bussi Energy Giants Game Today (Y5hD7FKlf6); Mshale: 2026 WCWS National Semifinal Texas Tech Vs Alabama College Softball Game Leylah Fernandez (5eHqJNi1dl); Mshale: Gerardo Capaldo: Tambourine Etude #1 Elliot Page (lYOyawHdd0); Mshale: Ajay Mitchell On Hartenstein And Team's Mentality In Thunder Win⏐Post Game Media⏐November 7, 2025 Gwyneth Paltrow (s0kIj8thke). That mix is useful because it shows which parts of the topic are being repeated publicly and which parts may still need a primary source, official page, direct statement, fixture page, filing, venue notice, product note, or updated report before readers rely on it.",
-      "Why it matters: Readers usually search for a topic like Giants Game Today because they need a usable answer, not a pile of repeated headlines. For sports coverage, that means the article should clarify the latest public signal, identify the responsible organizations or people when the sources name them, and avoid stretching a thin source set into false certainty.",
-      "What's confirmed: The confirmed material is the public trend signal and the linked source headlines shown below. For sports topics, verify scores, schedules, injuries, and standings through official league or team channels. When the source set contains dates, names, scores, prices, venues, companies, or official organizations, those details should be checked against the newest linked source before a reader acts on them.",
-      "Reader takeaway: The useful reading is narrow and practical. Start with the newest source, compare whether other sources repeat the same fact independently, and give extra weight to official pages or named organizations. If the topic affects money, tickets, health, legal risk, travel, public reputation, product decisions, or sports results, wait for stronger confirmation before acting.",
-      "What to watch: The next useful update will be a clearer source with direct evidence, a correction, an official statement, a schedule or price page, a box score, a filing, a status page, or a new report that confirms the key detail independently. If later sources add concrete facts, this page should be updated rather than padded with speculation.",
-      "Bottom line: Giants Game Today is worth reading about because the topic is visible and readers are looking for a clear answer. The safest takeaway is to use the source links, focus on confirmed details, and avoid treating repeated headlines as stronger evidence than they really are."
-    ],
-    "sources": [
-      {
-        "title": "Angels vs Giants match player stats | 2026 Friday, July 24th",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMnBuV3JNQnk3NHlybW1pVGtPa3I4WEpGa2VQSnl0bGtPMTN5VFVfWVNLSGJPdk03cWNXMUtnRWEwaFpqVF9pcmdUYXhlTUxpckRwc1RodWNUMngyYWV0eVNUQUxZQ1h4R1dFbVFZMkI3MDRUaDJpNlpILTRJNmZsNA?oc=5",
-        "publishedAt": "Fri, 24 Jul 2026 10:23:20 GMT"
-      },
-      {
-        "title": "No. 616 - Big Bussi Energy Giants Game Today (Y5hD7FKlf6)",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JcXlpTTM0Q2JyS1pGTFdrUmhYRXllOFpIZG9TQjBXMjJPUWt3bUsyQ3JlVlhQd1N2c3VabnRCYmRTX1R5NmZZbW1PR0ZHTUsyeWFVZl9Pem84MGM?oc=5",
-        "publishedAt": "Thu, 23 Jul 2026 23:17:53 GMT"
-      },
-      {
-        "title": "2026 WCWS National Semifinal Texas Tech Vs Alabama College Softball Game Leylah Fernandez (5eHqJNi1dl)",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85bkl0ZGVpcXJYT3dHNDhoUHExb2VRcFRpNGNNX3VBRVdyRk9UNmZiN19INTk4M2ZMYmhLdUpNUEZQem9NTDFGSDcza3B6dlg4bnFtMVRFdmNaV25zV2NpTQ?oc=5",
-        "publishedAt": "Fri, 24 Jul 2026 07:52:01 GMT"
-      },
-      {
-        "title": "Gerardo Capaldo: Tambourine Etude #1 Elliot Page (lYOyawHdd0)",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9WZ001VU5vaDJNWWE3LWFSdC1fQzdtMmxkbk9lZGVqcFFYOTV4T1lKcTZYRmR6aVRJOE96eW5IN2llcU9wb3pjMXl5bXBLMnRWcl9scUZndU5DbDdsc0sxQg?oc=5",
-        "publishedAt": "Fri, 24 Jul 2026 02:39:43 GMT"
-      },
-      {
-        "title": "Ajay Mitchell On Hartenstein And Team's Mentality In Thunder Win⏐Post Game Media⏐November 7, 2025 Gwyneth Paltrow (s0kIj8thke)",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1NMUZ4SWJjRUF1UC1XR3pMdEJkRUFZMi1rRDM5TkhJOWg1cU9PaUdkT2FnSFhIR3MtLXVDU3preDdmOHhHN05Lb0w2WGZVZC1sRWxhVDU3d0lQLVpEalpQYg?oc=5",
-        "publishedAt": "Thu, 23 Jul 2026 05:41:45 GMT"
-      }
-    ],
-    "author": {
-      "name": "ContextWire Editorial Desk",
-      "title": "Source-checking desk",
-      "url": "https://contextwire.online/author/contextwire-editorial-desk.html",
-      "bio": "The ContextWire Editorial Desk prepares source-checked briefings with emphasis on clear facts, cautious language, and reader-useful context."
-    },
-    "updatedAt": "2026-07-25T05:30:41.794Z",
-    "keyFacts": [
-      "Search interest was reported around 500+.",
-      "MajorWager reported: Angels vs Giants match player stats | 2026 Friday, July 24th.",
-      "Mshale reported: No. 616 - Big Bussi Energy Giants Game Today (Y5hD7FKlf6).",
-      "Mshale reported: 2026 WCWS National Semifinal Texas Tech Vs Alabama College Softball Game Leylah Fernandez (5eHqJNi1dl).",
-      "Mshale reported: Gerardo Capaldo: Tambourine Etude #1 Elliot Page (lYOyawHdd0).",
-      "Mshale reported: Ajay Mitchell On Hartenstein And Team's Mentality In Thunder Win⏐Post Game Media⏐November 7, 2025 Gwyneth Paltrow (s0kIj8thke)."
-    ],
-    "publishedAt": "2026-07-25T05:30:41.794Z",
-    "productionMethod": "editorial-workflow",
-    "tags": [
-      "Sports",
-      "Giants",
-      "Game",
-      "Today"
-    ],
-    "ogImage": "assets/og/giants-game-today.svg",
-    "quality": {
-      "wordCount": 578,
       "score": 96,
       "sections": [
         "What happened:",

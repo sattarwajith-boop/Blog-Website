@@ -1,5 +1,40 @@
 [
   {
+    "id": "08a7cea09e34393d",
+    "slug": "dazn",
+    "title": "Dazn: What Readers Should Know Now",
+    "trend": "dazn",
+    "category": "Trends",
+    "excerpt": "Dazn is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Dazn related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Dazn"
+    ],
+    "quality": {
+      "wordCount": 537,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/dazn.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-10-13T19:31:24.134Z",
+    "url": "https://contextwire.online/posts/dazn.html",
+    "readingTime": "3 min"
+  },
+  {
     "id": "53427ab3112e21ae",
     "slug": "rocket-launch-today",
     "title": "Rocket Launch Today: Confirmed Details and What Comes Next",
@@ -5717,43 +5752,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-25T14:15:52.296Z",
     "url": "https://contextwire.online/posts/jason-sudeikis.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "08f8663386337a84",
-    "slug": "giants-game-today",
-    "title": "Giants Game Today: Latest Public Details Explained",
-    "trend": "giants game today",
-    "category": "Sports",
-    "excerpt": "Giants Game Today is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-sports-arena.png",
-      "alt": "Giants Game Today related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "tags": [
-      "Sports",
-      "Giants",
-      "Game",
-      "Today"
-    ],
-    "quality": {
-      "wordCount": 578,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/giants-game-today.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-25T05:30:41.794Z",
-    "url": "https://contextwire.online/posts/giants-game-today.html",
     "readingTime": "4 min"
   }
 ]
