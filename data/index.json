@@ -1,5 +1,40 @@
 [
   {
+    "id": "34436956916f5f87",
+    "slug": "fotmob",
+    "title": "Fotmob: Key Facts and Background",
+    "trend": "fotmob",
+    "category": "Trends",
+    "excerpt": "Fotmob is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Fotmob related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Fotmob"
+    ],
+    "quality": {
+      "wordCount": 539,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/fotmob.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-10-14T17:35:38.563Z",
+    "url": "https://contextwire.online/posts/fotmob.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "a35c833c6001763f",
     "slug": "wta-wuhan",
     "title": "Wta Wuhan: What Happened and Key Details",
@@ -5716,41 +5751,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-26T14:12:25.220Z",
     "url": "https://contextwire.online/posts/peter-lassally.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "1585b35aaa3dde9a",
-    "slug": "son-heung-min",
-    "title": "Son Heung-min: Confirmed Details and What Comes Next",
-    "trend": "son heung-min",
-    "category": "Trends",
-    "excerpt": "Son Heung-min is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Son Heung-min related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Heung-min"
-    ],
-    "quality": {
-      "wordCount": 618,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/son-heung-min.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-26T05:46:39.503Z",
-    "url": "https://contextwire.online/posts/son-heung-min.html",
     "readingTime": "4 min"
   }
 ]
