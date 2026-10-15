@@ -1,5 +1,10 @@
 [
   {
+    "key": "jalen-hurts",
+    "title": "jalen hurts",
+    "usedAt": "2026-10-15T17:20:24.977Z"
+  },
+  {
     "key": "fitness",
     "title": "fitness",
     "usedAt": "2026-10-15T07:42:48.986Z"
@@ -1592,11 +1597,6 @@
   {
     "key": "weather-chicago",
     "title": "weather chicago",
-    "usedAt": "2026-05-18T16:05:40.668Z"
-  },
-  {
-    "key": "lanterns",
-    "title": "lanterns",
     "usedAt": "2026-05-18T16:05:40.668Z"
   }
 ]

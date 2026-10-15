@@ -1,5 +1,41 @@
 [
   {
+    "id": "f8aa9fedef5cb735",
+    "slug": "jalen-hurts",
+    "title": "Jalen Hurts: What Happened and Key Details",
+    "trend": "jalen hurts",
+    "category": "Trends",
+    "excerpt": "Jalen Hurts is gaining attention in current trend data. Search interest is around 20000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Jalen Hurts related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Jalen",
+      "Hurts"
+    ],
+    "quality": {
+      "wordCount": 570,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/jalen-hurts.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-10-15T17:20:24.961Z",
+    "url": "https://contextwire.online/posts/jalen-hurts.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "89f4fad6fad83b4d",
     "slug": "fitness",
     "title": "Fitness: Source-Checked Reader Guide",
@@ -5714,42 +5750,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-27T15:29:45.097Z",
     "url": "https://contextwire.online/posts/cook-islands.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "80dfff390153a3e1",
-    "slug": "rebecca-ferguson",
-    "title": "Rebecca Ferguson: What Happened and Key Details",
-    "trend": "rebecca ferguson",
-    "category": "Trends",
-    "excerpt": "Rebecca Ferguson is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Rebecca Ferguson related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Rebecca",
-      "Ferguson"
-    ],
-    "quality": {
-      "wordCount": 574,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/rebecca-ferguson.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-27T06:05:39.076Z",
-    "url": "https://contextwire.online/posts/rebecca-ferguson.html",
     "readingTime": "4 min"
   }
 ]
