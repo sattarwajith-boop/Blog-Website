@@ -1,5 +1,40 @@
 [
   {
+    "id": "89f4fad6fad83b4d",
+    "slug": "fitness",
+    "title": "Fitness: Source-Checked Reader Guide",
+    "trend": "fitness",
+    "category": "Trends",
+    "excerpt": "Fitness is gaining attention in current trend data. Search interest is around 2000+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Fitness related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Fitness"
+    ],
+    "quality": {
+      "wordCount": 573,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/fitness.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-10-15T07:42:48.963Z",
+    "url": "https://contextwire.online/posts/fitness.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "34436956916f5f87",
     "slug": "fotmob",
     "title": "Fotmob: Key Facts and Background",
@@ -5715,42 +5750,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-27T06:05:39.076Z",
     "url": "https://contextwire.online/posts/rebecca-ferguson.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "b3dc4680ac118525",
-    "slug": "peter-lassally",
-    "title": "Peter Lassally: Source-Checked Reader Guide",
-    "trend": "peter lassally",
-    "category": "Trends",
-    "excerpt": "Peter Lassally is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Peter Lassally related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Peter",
-      "Lassally"
-    ],
-    "quality": {
-      "wordCount": 554,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/peter-lassally.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-26T14:12:25.220Z",
-    "url": "https://contextwire.online/posts/peter-lassally.html",
     "readingTime": "4 min"
   }
 ]

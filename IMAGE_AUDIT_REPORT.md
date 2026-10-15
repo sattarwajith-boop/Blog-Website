@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-10-14T17:35:39.955Z
+Generated: 2026-10-15T07:42:50.358Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 156
+
+## Fitness: Source-Checked Reader Guide
+- Slug: `fitness`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Fotmob: Key Facts and Background
 - Slug: `fotmob`
@@ -1240,14 +1248,6 @@ Total issues: 156
 
 ## Rebecca Ferguson: What Happened and Key Details
 - Slug: `rebecca-ferguson`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Peter Lassally: Source-Checked Reader Guide
-- Slug: `peter-lassally`
 - Topic type: product
 - Issue: generic image for specific topic
 - Current credit: Unsplash
