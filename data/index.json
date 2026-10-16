@@ -1,5 +1,42 @@
 [
   {
+    "id": "d0d55fe3ffe13812",
+    "slug": "artificial-intelligence-news",
+    "title": "Artificial Intelligence News: Confirmed Details and What Comes Next",
+    "trend": "artificial intelligence news",
+    "category": "Trends",
+    "excerpt": "Artificial Intelligence News is gaining attention in current trend data. Search interest is around 100+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Artificial Intelligence News related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Artificial",
+      "Intelligence",
+      "News"
+    ],
+    "quality": {
+      "wordCount": 573,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/artificial-intelligence-news.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-10-16T07:29:57.190Z",
+    "url": "https://contextwire.online/posts/artificial-intelligence-news.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "f8aa9fedef5cb735",
     "slug": "jalen-hurts",
     "title": "Jalen Hurts: What Happened and Key Details",
@@ -5714,42 +5751,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-28T05:33:02.008Z",
     "url": "https://contextwire.online/posts/gala.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "b22b1a4a402b3b86",
-    "slug": "cook-islands",
-    "title": "Cook Islands: Confirmed Details and What Comes Next",
-    "trend": "cook islands",
-    "category": "Trends",
-    "excerpt": "Cook Islands is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Cook Islands related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Cook",
-      "Islands"
-    ],
-    "quality": {
-      "wordCount": 566,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/cook-islands.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-27T15:29:45.097Z",
-    "url": "https://contextwire.online/posts/cook-islands.html",
     "readingTime": "4 min"
   }
 ]

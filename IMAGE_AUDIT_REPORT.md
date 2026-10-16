@@ -1,10 +1,18 @@
 # ContextWire image audit report
 
-Generated: 2026-10-15T17:20:25.800Z
+Generated: 2026-10-16T07:29:58.193Z
 
 This report flags posts where a specific topic may still be using a generic image or missing source metadata.
 
 Total issues: 156
+
+## Artificial Intelligence News: Confirmed Details and What Comes Next
+- Slug: `artificial-intelligence-news`
+- Topic type: product
+- Issue: generic image for specific topic
+- Current credit: Unsplash
+- Current image: https://images.unsplash.com/photo-1504711434969-e33886168f5c?auto=format&fit=crop&w=1400&q=82
+- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
 
 ## Jalen Hurts: What Happened and Key Details
 - Slug: `jalen-hurts`
@@ -1244,12 +1252,4 @@ Total issues: 156
 - Issue: generic image for specific topic
 - Current credit: Unsplash
 - Current image: https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82
-- Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
-
-## Cook Islands: Confirmed Details and What Comes Next
-- Slug: `cook-islands`
-- Topic type: product
-- Issue: generic image for specific topic
-- Current credit: Unsplash
-- Current image: https://images.unsplash.com/photo-1495020689067-958852a7765e?auto=format&fit=crop&w=1400&q=82
 - Recommended fix: Use an official product image, original photo, product screenshot, or company media-kit image. Add credit and sourceUrl.
