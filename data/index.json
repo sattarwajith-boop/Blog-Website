@@ -1,5 +1,41 @@
 [
   {
+    "id": "cddb259b9a3ffa03",
+    "slug": "ryan-smith",
+    "title": "Ryan Smith: What Happened and Key Details",
+    "trend": "ryan smith",
+    "category": "Trends",
+    "excerpt": "Ryan Smith is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
+      "alt": "Ryan Smith related editorial image",
+      "credit": "Unsplash"
+    },
+    "tags": [
+      "Trends",
+      "Ryan",
+      "Smith"
+    ],
+    "quality": {
+      "wordCount": 584,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/ryan-smith.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-10-16T16:56:00.761Z",
+    "url": "https://contextwire.online/posts/ryan-smith.html",
+    "readingTime": "4 min"
+  },
+  {
     "id": "d0d55fe3ffe13812",
     "slug": "artificial-intelligence-news",
     "title": "Artificial Intelligence News: Confirmed Details and What Comes Next",
@@ -5716,41 +5752,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-28T15:03:45.237Z",
     "url": "https://contextwire.online/posts/lindsey-graham-family.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "ac4fb9a5abda03fb",
-    "slug": "gala",
-    "title": "Gala: What Happened and Key Details",
-    "trend": "gala",
-    "category": "Trends",
-    "excerpt": "Gala is gaining attention in current trend data. Search interest is around 200+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1400&q=82",
-      "alt": "Gala related editorial image",
-      "credit": "Unsplash"
-    },
-    "tags": [
-      "Trends",
-      "Gala"
-    ],
-    "quality": {
-      "wordCount": 555,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/gala.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-28T05:33:02.008Z",
-    "url": "https://contextwire.online/posts/gala.html",
     "readingTime": "4 min"
   }
 ]
