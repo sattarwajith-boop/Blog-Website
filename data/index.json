@@ -1,5 +1,40 @@
 [
   {
+    "id": "162c898297b80a97",
+    "slug": "invincible",
+    "title": "Invincible: What Readers Should Know Now",
+    "trend": "invincible",
+    "category": "Trends",
+    "excerpt": "Invincible is gaining attention in current trend data. Search interest is around 100+. This briefing summarizes what happened, key source details, and what readers should watch next.",
+    "image": {
+      "url": "assets/generated/contextwire-trending-editorial.png",
+      "alt": "Invincible related editorial image",
+      "credit": "ContextWire editorial graphic"
+    },
+    "tags": [
+      "Trends",
+      "Invincible"
+    ],
+    "quality": {
+      "wordCount": 529,
+      "score": 96,
+      "sections": [
+        "What happened:",
+        "Key details:",
+        "Background:",
+        "Why it matters:",
+        "What's confirmed:",
+        "What to watch:"
+      ],
+      "warnings": []
+    },
+    "ogImage": "assets/og/invincible.svg",
+    "sourceCount": 5,
+    "publishedAt": "2026-10-17T07:10:43.164Z",
+    "url": "https://contextwire.online/posts/invincible.html",
+    "readingTime": "3 min"
+  },
+  {
     "id": "cddb259b9a3ffa03",
     "slug": "ryan-smith",
     "title": "Ryan Smith: What Happened and Key Details",
@@ -5715,43 +5750,6 @@
     "sourceCount": 5,
     "publishedAt": "2026-07-29T05:37:49.230Z",
     "url": "https://contextwire.online/posts/arthur-gea.html",
-    "readingTime": "4 min"
-  },
-  {
-    "id": "0f6b47f71e4ea7f8",
-    "slug": "lindsey-graham-family",
-    "title": "Lindsey Graham Family: Confirmed Details and What Comes Next",
-    "trend": "lindsey graham family",
-    "category": "Trends",
-    "excerpt": "Lindsey Graham Family is gaining attention in current trend data. Search interest is around 500+. This briefing summarizes what happened, key source details, and what readers should watch next.",
-    "image": {
-      "url": "assets/generated/contextwire-trending-editorial.png",
-      "alt": "Lindsey Graham Family related editorial image",
-      "credit": "ContextWire editorial graphic"
-    },
-    "tags": [
-      "Trends",
-      "Lindsey",
-      "Graham",
-      "Family"
-    ],
-    "quality": {
-      "wordCount": 649,
-      "score": 96,
-      "sections": [
-        "What happened:",
-        "Key details:",
-        "Background:",
-        "Why it matters:",
-        "What's confirmed:",
-        "What to watch:"
-      ],
-      "warnings": []
-    },
-    "ogImage": "assets/og/lindsey-graham-family.svg",
-    "sourceCount": 5,
-    "publishedAt": "2026-07-28T15:03:45.237Z",
-    "url": "https://contextwire.online/posts/lindsey-graham-family.html",
     "readingTime": "4 min"
   }
 ]
